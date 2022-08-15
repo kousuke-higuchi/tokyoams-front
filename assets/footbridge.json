@@ -1,0 +1,602 @@
+[
+  {
+    "code": "10220140",
+    "name": "明治橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19750100,
+    "latitude": 354645.03,
+    "longitude": 139143.34,
+    "routeName": "奥多摩青梅"
+  },
+  {
+    "code": "10220150",
+    "name": "六万橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": -1,
+    "latitude": 354716.86,
+    "longitude": 1391637.95,
+    "routeName": "新宿青梅"
+  },
+  {
+    "code": "10220160",
+    "name": "金山人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 20060100,
+    "latitude": 354810.11,
+    "longitude": 1391146.37,
+    "routeName": "奥多摩青梅"
+  },
+  {
+    "code": "10230020",
+    "name": "青梅四小前歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19690100,
+    "latitude": 354738.25,
+    "longitude": 1391613.1,
+    "routeName": "青梅飯能"
+  },
+  {
+    "code": "10230030",
+    "name": "河辺歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720300,
+    "latitude": 354652.43,
+    "longitude": 1391712.97,
+    "routeName": "立川青梅"
+  },
+  {
+    "code": "10230040",
+    "name": "河辺町九丁目歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720800,
+    "latitude": 354701.75,
+    "longitude": 139181.62,
+    "routeName": "成木河辺"
+  },
+  {
+    "code": "10230050",
+    "name": "千ヶ瀬歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720300,
+    "latitude": 354711.21,
+    "longitude": 1391611.97,
+    "routeName": "新宿青梅"
+  },
+  {
+    "code": "10230060",
+    "name": "友田小学校前歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19970500,
+    "latitude": 354624.16,
+    "longitude": 139171.87,
+    "routeName": null
+  },
+  {
+    "code": "10230070",
+    "name": "長淵歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 20000300,
+    "latitude": 354647.0,
+    "longitude": 1391613.8,
+    "routeName": null
+  },
+  {
+    "code": "10230080",
+    "name": "野上歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720300,
+    "latitude": 354717.96,
+    "longitude": 1391722.41,
+    "routeName": "新宿青梅"
+  },
+  {
+    "code": "10230090",
+    "name": "梅郷歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19841000,
+    "latitude": 354711.45,
+    "longitude": 1391326.11,
+    "routeName": "奥多摩青梅"
+  },
+  {
+    "code": "10230100",
+    "name": "東青梅三丁目歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720200,
+    "latitude": 354718.88,
+    "longitude": 1391641.8,
+    "routeName": "新宿青梅"
+  },
+  {
+    "code": "10320010",
+    "name": "鯉川橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19730100,
+    "latitude": 354453.81,
+    "longitude": 1391723.97,
+    "routeName": null
+  },
+  {
+    "code": "10320050",
+    "name": "東秋留橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19390300,
+    "latitude": 354305.14,
+    "longitude": 1391755.14,
+    "routeName": "楢原あきる野"
+  },
+  {
+    "code": "10320060",
+    "name": "加藤塚人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19770300,
+    "latitude": 354608.02,
+    "longitude": 1392049.83,
+    "routeName": "瑞穂あきる野八王子"
+  },
+  {
+    "code": "10330010",
+    "name": "牛浜歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19681200,
+    "latitude": 354400.96,
+    "longitude": 1392012.6,
+    "routeName": "杉並あきる野"
+  },
+  {
+    "code": "10330020",
+    "name": "小川歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19750300,
+    "latitude": 354317.28,
+    "longitude": 139193.01,
+    "routeName": "瑞穂あきる野八王子"
+  },
+  {
+    "code": "10330030",
+    "name": "熊川南歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19680300,
+    "latitude": 354256.04,
+    "longitude": 139205.81,
+    "routeName": "立川青梅"
+  },
+  {
+    "code": "10330040",
+    "name": "熊野橋歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19700300,
+    "latitude": 354408.4,
+    "longitude": 1391934.23,
+    "routeName": "立川青梅"
+  },
+  {
+    "code": "10330050",
+    "name": "狭山神社前歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19700100,
+    "latitude": 354632.96,
+    "longitude": 139212.88,
+    "routeName": "瑞穂あきる野八王子"
+  },
+  {
+    "code": "10330060",
+    "name": "志茂歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19690300,
+    "latitude": 354404.48,
+    "longitude": 1391945.11,
+    "routeName": "立川青梅"
+  },
+  {
+    "code": "10330070",
+    "name": "二宮上の原歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19690300,
+    "latitude": 354343.34,
+    "longitude": 1391838.98,
+    "routeName": "杉並あきる野"
+  },
+  {
+    "code": "10330090",
+    "name": "羽村加美歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19671200,
+    "latitude": 354554.34,
+    "longitude": 139181.26,
+    "routeName": "立川青梅"
+  },
+  {
+    "code": "10330100",
+    "name": "羽村せき歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 3,
+    "conpletionYear": 19690300,
+    "latitude": 354517.09,
+    "longitude": 1391914.66,
+    "routeName": "立川青梅"
+  },
+  {
+    "code": "10330110",
+    "name": "福生加美歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19680300,
+    "latitude": 354433.44,
+    "longitude": 1391913.32,
+    "routeName": "立川青梅"
+  },
+  {
+    "code": "10330120",
+    "name": "福生七小前歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19880300,
+    "latitude": 354353.27,
+    "longitude": 1391940.45,
+    "routeName": "杉並あきる野"
+  },
+  {
+    "code": "10330130",
+    "name": "本町歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19700300,
+    "latitude": 354523.79,
+    "longitude": 1391850.09,
+    "routeName": "羽村瑞穂"
+  },
+  {
+    "code": "10110050",
+    "name": "大丹波1号橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": -1,
+    "latitude": 354957.12,
+    "longitude": 139100.53,
+    "routeName": "上成木川井線"
+  },
+  {
+    "code": "10110060",
+    "name": "大丹波2号橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": -1,
+    "latitude": 354957.22,
+    "longitude": 139101.81,
+    "routeName": "上成木川井線"
+  },
+  {
+    "code": "10110420",
+    "name": "無名7号橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": -1,
+    "latitude": 354956.0,
+    "longitude": 139958.22,
+    "routeName": "上成木川井線"
+  },
+  {
+    "code": "10110440",
+    "name": "無名8号橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": -1,
+    "latitude": 354956.91,
+    "longitude": 139959.33,
+    "routeName": "上成木川井線"
+  },
+  {
+    "code": "10120010",
+    "name": "神塚橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19830300,
+    "latitude": 354847.88,
+    "longitude": 139954.29,
+    "routeName": null
+  },
+  {
+    "code": "10120020",
+    "name": "日向人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19970000,
+    "latitude": 354810.88,
+    "longitude": 139614.16,
+    "routeName": null
+  },
+  {
+    "code": "10210730",
+    "name": "成木1号橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720300,
+    "latitude": 355012.53,
+    "longitude": 1391112.99,
+    "routeName": "上成木川井"
+  },
+  {
+    "code": "10210740",
+    "name": "成木2号橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 3,
+    "conpletionYear": 19720300,
+    "latitude": 355011.9,
+    "longitude": 1391111.75,
+    "routeName": "上成木川井"
+  },
+  {
+    "code": "10210750",
+    "name": "成木3号橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720300,
+    "latitude": 355007.9,
+    "longitude": 1391113.14,
+    "routeName": "上成木川井"
+  },
+  {
+    "code": "10210960",
+    "name": "無名橋(御岳山)",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": -1,
+    "latitude": 354707.99,
+    "longitude": 1390900.73,
+    "routeName": "奥多摩あきる野"
+  },
+  {
+    "code": "10220010",
+    "name": "永盛橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19740300,
+    "latitude": 354750.37,
+    "longitude": 1391323.07,
+    "routeName": null
+  },
+  {
+    "code": "10220030",
+    "name": "落合橋(上流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19820300,
+    "latitude": 354924.2,
+    "longitude": 1391455.18,
+    "routeName": "下畑軍畑"
+  },
+  {
+    "code": "10220040",
+    "name": "落合橋(下流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19820300,
+    "latitude": 354923.98,
+    "longitude": 1391455.3,
+    "routeName": "下畑軍畑"
+  },
+  {
+    "code": "10220060",
+    "name": "霞橋(上流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19820300,
+    "latitude": 354747.47,
+    "longitude": 1391722.35,
+    "routeName": "成木河辺"
+  },
+  {
+    "code": "10220070",
+    "name": "霞橋(下流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19820300,
+    "latitude": 354747.97,
+    "longitude": 1391722.7,
+    "routeName": "成木河辺"
+  },
+  {
+    "code": "10220090",
+    "name": "岨端沢橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19750500,
+    "latitude": 354812.07,
+    "longitude": 1391155.19,
+    "routeName": "奥多摩青梅"
+  },
+  {
+    "code": "10220100",
+    "name": "高指橋(上流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19820200,
+    "latitude": 354839.84,
+    "longitude": 1391532.47,
+    "routeName": "青梅秩父"
+  },
+  {
+    "code": "10220110",
+    "name": "高指橋(下流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19820200,
+    "latitude": 354840.01,
+    "longitude": 1391532.74,
+    "routeName": "青梅秩父"
+  },
+  {
+    "code": "10220120",
+    "name": "寺下橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19790300,
+    "latitude": 354905.42,
+    "longitude": 1391628.04,
+    "routeName": "成木河辺"
+  },
+  {
+    "code": "10220130",
+    "name": "檜沢橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19720300,
+    "latitude": 354757.24,
+    "longitude": 1391032.23,
+    "routeName": "奥多摩青梅"
+  },
+  {
+    "code": "10330140",
+    "name": "南二宮歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19710300,
+    "latitude": 354324.8,
+    "longitude": 139197.67,
+    "routeName": "瑞穂あきる野八王子"
+  },
+  {
+    "code": "10330150",
+    "name": "武蔵野歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19690300,
+    "latitude": 354543.37,
+    "longitude": 1392019.23,
+    "routeName": "瑞穂あきる野八王子"
+  },
+  {
+    "code": "10420010",
+    "name": "新坂本橋(上流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19730300,
+    "latitude": 354507.45,
+    "longitude": 1391428.11,
+    "routeName": "青梅五日市"
+  },
+  {
+    "code": "10420020",
+    "name": "新坂本橋(下流)人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 2,
+    "conpletionYear": 19730300,
+    "latitude": 354507.25,
+    "longitude": 1391428.33,
+    "routeName": "青梅五日市"
+  },
+  {
+    "code": "10420030",
+    "name": "万澤橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": -1,
+    "latitude": 354358.36,
+    "longitude": 1391058.18,
+    "routeName": "十里木御嶽停車場"
+  },
+  {
+    "code": "10510020",
+    "name": "稲荷橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19710100,
+    "latitude": 354536.5,
+    "longitude": 139415.53,
+    "routeName": "水根本宿"
+  },
+  {
+    "code": "10510030",
+    "name": "上野橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": -1,
+    "latitude": 354431.99,
+    "longitude": 139438.71,
+    "routeName": "水根本宿"
+  },
+  {
+    "code": "10510120",
+    "name": "上沢橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": -1,
+    "latitude": 354538.51,
+    "longitude": 1390401.01,
+    "routeName": "水根本宿"
+  },
+  {
+    "code": "10510200",
+    "name": "猿江橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19710100,
+    "latitude": 354530.73,
+    "longitude": 139418.62,
+    "routeName": "水根本宿"
+  },
+  {
+    "code": "10510270",
+    "name": "菅野橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19710100,
+    "latitude": 354540.51,
+    "longitude": 139410.59,
+    "routeName": "水根本宿"
+  },
+  {
+    "code": "10520010",
+    "name": "北秋川橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": 1,
+    "conpletionYear": 19921200,
+    "latitude": 354348.66,
+    "longitude": 139837.5,
+    "routeName": "水根本宿"
+  },
+  {
+    "code": "10420050",
+    "name": "昭和橋人道橋",
+    "office": "西多摩建設事務所",
+    "soundness": null,
+    "conpletionYear": null,
+    "latitude": null,
+    "longitude": null,
+    "routeName": null
+  },
+  {
+    "code": "10420040",
+    "name": "たき坂歩道橋",
+    "office": "西多摩建設事務所",
+    "soundness": null,
+    "conpletionYear": null,
+    "latitude": null,
+    "longitude": null,
+    "routeName": null
+  }
+]
