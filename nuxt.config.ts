@@ -15,7 +15,8 @@ export default defineNuxtConfig({
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/tokyo-ams/favicon.ico' }
             ]    
-        }
+        },
+        cdnURL:'/tokyoams-front/'
     },
     css: [
         "vuetify/lib/styles/main.sass",
