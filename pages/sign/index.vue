@@ -131,10 +131,10 @@ export default defineComponent({
       center: [35.79112, 139.27753],
       signs: signJson,
       //ドロップダウンリストの項目
-      routenameDropdownItems:['国道14号','国道16号','国道114号','国道256号'],
-      officeDropdownItems: ['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
-      areaDropdownItems:['奥多摩出張所','檜原工区','あきる野工区','福生工区','青梅工区'],
-      municipalityItems:['檜原村','奥多摩町','日の出町','青梅市','福生市','あきる野市'],
+      routenameDropdownItems:['（特４１６）古川橋二子玉川線','（一１３９）真光寺長津田線','（一１３７）上麻生連光寺線','（一１１１）大田神奈川線'],
+			officeDropdownItems:['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
+			areaDropdownItems:['奥多摩出張所','檜原工区','あきる野工区','福生工区','青梅工区'],
+			municipalityItems:['檜原村','奥多摩町','日の出町','青梅市','福生市','あきる野市'],
       //一覧のカラム
       columns:[
 				{

@@ -1,0 +1,34 @@
+[
+    {
+        "degree": 9,
+        "periodFrom": 20171025,
+        "periodTo": 20171025,
+        "contractor": "日本データサービス（株）",
+        "totalScore": "C",
+        "countryScore": "Ⅲ"
+    },
+    {
+        "degree": 8,
+        "periodFrom": 20171215,
+        "periodTo": 20171215,
+        "contractor": "中央コンサルタンツ株式会社",
+        "totalScore": "C",
+        "countryScore": "Ⅲ"
+    },
+    {
+        "degree": 7,
+        "periodFrom": 20020925,
+        "periodTo": 20221015,
+        "contractor": "中央コンサルタンツ株式会社",
+        "totalScore": "C",
+        "countryScore": "Ⅲ"
+    },
+    {
+        "degree": 6,
+        "periodFrom": 19971104,
+        "periodTo": 19971114,
+        "contractor": "中央コンサルタンツ株式会社",
+        "totalScore": "C",
+        "countryScore": "Ⅲ"
+    }
+]

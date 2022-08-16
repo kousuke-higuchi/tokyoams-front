@@ -110,7 +110,7 @@
       </v-window>
     </v-card-text>
 
-    <bridge-search-condition-dialog v-model:isOpen="showFind" />
+    <footbridge-search-condition-dialog v-model:isOpen="showFind" />
 
   </v-card>
 </template>
@@ -150,28 +150,31 @@ export default defineComponent({
          },
         },
         {
-          label: '健全度',
-          field: 'soundness',
+          label: '工区',
+          field: 'area',
           sortable: false,
           filterOptions: {
         	  enabled: true,
-            placeholder: '-選択-',
-            filterDropdownItems: ['Ⅰ','Ⅱ','Ⅲ'],
+            placeholder: '工区入力',
          },
         },
-        //TODO:誤った取り方。本来はdateInputFormatはyyyyMMddとすべきだが、例)19590100等
-        //月日に00が含まれる場合、年を取得できなかった。
         {
-          label: '竣工年',
-          field: 'conpletionYear',
-          type: 'date',
-          dateInputFormat:'yyyyHHmm',
-          dateOutputFormat: 'yyyy',
+          label: '路線名',
+          field: 'routeName',
           sortable: false,
           filterOptions: {
         	  enabled: true,
-            placeholder: '日時入力',
-          },
+            placeholder: '路線名入力',
+         },
+        },
+        {
+          label: '区市町村名',
+          field: 'place',
+          sortable: false,
+          filterOptions: {
+        	  enabled: true,
+            placeholder: '区市町村名入力',
+         },
         },
         {
           label: '台帳出力',
@@ -252,7 +255,7 @@ export default defineComponent({
     clickMarker(m) {
       console.info('clickMaker', m);
       /* TODO: 詳細画面遷移のとき、橋IDを詳細画面に渡す必要あり */
-      window.location.href = '/tobeImplement'; 
+      navigateTo('/footbridge/ledger1');
     },
     clickFAdvancedSearch(){
       console.debug('clickFAdvancedSearch');

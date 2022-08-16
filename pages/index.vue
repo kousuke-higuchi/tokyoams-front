@@ -104,7 +104,7 @@
       facilityCards: [
         { title: '橋梁', src: 'assets/img/facility_bridge.jpg', url: '/bridge'},
         { title: '歩道橋', src: 'assets/img/facility_pedest.jpg', url: '/footbridge'},
-        { title: 'トンネル', src: 'assets/img/facility_tunnel.jpg', url: '/'},
+        { title: 'トンネル', src: 'assets/img/facility_tunnel.jpg', url: '/tunnel'},
         { title: '舗装', src: 'assets/img/facility_pave.jpg', url: '/pavement'},
         ],
       groupedFacirityCards:[{
@@ -137,7 +137,8 @@
         {title: '更新依頼処理'},
       ], 
        childfeatureCards:[
-        [{ownertitle: '施設新規登録',title: '新規施設を登録する場合', url: '/'},],
+        [{ownertitle: '施設新規登録',title: '道路資産管理システム', url: '/'},
+         {ownertitle: '施設新規登録',title: '新規施設を登録する場合', url: '/'},],
         [{ownertitle: '発注情報登録',title: '発注登録サイト', url: '/'},],
         [{ownertitle: '更新依頼処理',title: '更新依頼の処理', url: '/'},],
        ],

@@ -7,7 +7,9 @@
       <v-col md="9" cols="12">
         <v-card elevation="3">
           <v-card-title>
-            <v-row class="justify-start mt-1 ml-3">補修履歴</v-row>
+            <v-row class="justify-start mt-1 ml-3">補修履歴 - 
+              <div class="ml-2">鎌倉橋</div>
+            </v-row>
             <v-row class="justify-end mt-1 mr-3">
               <v-btn v-on:click="clickCreate()"
                 color= "primary"
@@ -71,17 +73,6 @@
             <v-col cols="12" sm="3" class="mt-2">登録日</v-col>
             <v-col cols="12" sm="9">
               <Datepicker v-model="dialogDate" locale="jp" :enableTimePicker="false" :format="formatDate" :clearable="false" />                      
-            </v-col>
-            <v-col cols="12" sm="3" class="mt-2">設備名</v-col>
-            <v-col cols="12" sm="9">
-              <v-textarea
-              v-model="dialogFaciliy"
-              label="設備名を入力してください"
-              rows="1"
-              auto-grow
-              density="compact"
-              hide-details="false"
-              ></v-textarea>
             </v-col>
             <v-col cols="12" sm="3" class="mt-2">工事名</v-col>
             <v-col cols="12" sm="9">
@@ -208,8 +199,6 @@ export default defineComponent({
       // 一覧の列情報
       columns: [
         {
-        //TODO:誤った取り方。本来はdateInputFormatはyyyyMMddとすべきだが、例)19590100等
-        //月日に00が含まれる場合、年を取得できなかった。
           label: '年月',
           field: 'createDate',
           type: 'date',
@@ -220,15 +209,6 @@ export default defineComponent({
           filterOptions: {
         	  enabled: true,
             placeholder: '年月入力',
-          },
-        },
-        {
-          label: '施設名',
-          field: 'bridgename',
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '施設名入力',
           },
         },
         {

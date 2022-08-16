@@ -1,602 +1,1016 @@
 [
   {
+    "id": 504,
     "code": "10220140",
     "name": "明治橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19750100,
+    "area": "青梅工区",
+    "placestart": "青梅市和田町一丁目7",
+    "placeend": "青梅市畑中三丁目960",
     "latitude": 354645.03,
     "longitude": 139143.34,
-    "routeName": "奥多摩青梅"
+    "routeName": "奥多摩青梅",
+    "wgsCoordinate": {
+      "latitude": 35.77917500000001,
+      "longitude": 14.528705555555554
+    },
+    "place": "青梅市和田町一丁目7 ➔ 青梅市畑中三丁目960"
   },
   {
+    "id": 505,
     "code": "10220150",
     "name": "六万橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": -1,
+    "area": "青梅工区",
+    "placestart": "青梅市東青梅三丁目24",
+    "placeend": "青梅市東青梅三丁目9",
     "latitude": 354716.86,
     "longitude": 1391637.95,
-    "routeName": "新宿青梅"
+    "routeName": "新宿青梅",
+    "wgsCoordinate": {
+      "latitude": 35.788016666666664,
+      "longitude": 139.27720833333333
+    },
+    "place": "青梅市東青梅三丁目24 ➔ 青梅市東青梅三丁目9"
   },
   {
+    "id": 506,
     "code": "10220160",
     "name": "金山人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 20060100,
+    "area": "青梅工区",
+    "placestart": "青梅市柚木町3丁目",
+    "placeend": "青梅市柚木町3丁目",
     "latitude": 354810.11,
     "longitude": 1391146.37,
-    "routeName": "奥多摩青梅"
+    "routeName": "奥多摩青梅",
+    "wgsCoordinate": {
+      "latitude": 35.802808333333324,
+      "longitude": 139.19621388888893
+    },
+    "place": "青梅市柚木町3丁目 ➔ 青梅市柚木町3丁目"
   },
   {
+    "id": 507,
     "code": "10230020",
     "name": "青梅四小前歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19690100,
+    "area": "青梅工区",
+    "placestart": "青梅市勝沼二丁目284",
+    "placeend": "青梅市東青梅六丁目1-4",
     "latitude": 354738.25,
     "longitude": 1391613.1,
-    "routeName": "青梅飯能"
+    "routeName": "青梅飯能",
+    "wgsCoordinate": {
+      "latitude": 35.79395833333333,
+      "longitude": 139.27030555555558
+    },
+    "place": "青梅市勝沼二丁目284 ➔ 青梅市東青梅六丁目1-4"
   },
   {
+    "id": 508,
     "code": "10230030",
     "name": "河辺歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720300,
+    "area": "青梅工区",
+    "placestart": "青梅市河辺町四丁目20",
+    "placeend": "青梅市河辺町五丁目18",
     "latitude": 354652.43,
     "longitude": 1391712.97,
-    "routeName": "立川青梅"
+    "routeName": "立川青梅",
+    "wgsCoordinate": {
+      "latitude": 35.78123055555555,
+      "longitude": 139.2869361111111
+    },
+    "place": "青梅市河辺町四丁目20 ➔ 青梅市河辺町五丁目18"
   },
   {
+    "id": 509,
     "code": "10230040",
     "name": "河辺町九丁目歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720800,
+    "area": "青梅工区",
+    "placestart": "青梅市河辺町九丁目5-5",
+    "placeend": "青梅市河辺町七丁目5-6",
     "latitude": 354701.75,
     "longitude": 139181.62,
-    "routeName": "成木河辺"
+    "routeName": "成木河辺",
+    "wgsCoordinate": {
+      "latitude": 35.78381944444444,
+      "longitude": 14.539338888888887
+    },
+    "place": "青梅市河辺町九丁目5-5 ➔ 青梅市河辺町七丁目5-6"
   },
   {
+    "id": 510,
     "code": "10230050",
     "name": "千ヶ瀬歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720300,
+    "area": "青梅工区",
+    "placestart": "青梅市千ヶ瀬四丁目325",
+    "placeend": "青梅市千ヶ瀬四丁目326",
     "latitude": 354711.21,
     "longitude": 1391611.97,
-    "routeName": "新宿青梅"
+    "routeName": "新宿青梅",
+    "wgsCoordinate": {
+      "latitude": 35.78644722222223,
+      "longitude": 139.26999166666667
+    },
+    "place": "青梅市千ヶ瀬四丁目325 ➔ 青梅市千ヶ瀬四丁目326"
   },
   {
+    "id": 511,
     "code": "10230060",
     "name": "友田小学校前歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19970500,
+    "area": "青梅工区",
+    "placestart": "青梅市友田町五丁目367-4",
+    "placeend": "青梅市友田町五丁目348",
     "latitude": 354624.16,
     "longitude": 139171.87,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": {
+      "latitude": 35.77337777777777,
+      "longitude": 14.536630555555554
+    },
+    "place": "青梅市友田町五丁目367-4 ➔ 青梅市友田町五丁目348"
   },
   {
+    "id": 512,
     "code": "10230070",
     "name": "長淵歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 20000300,
+    "area": "青梅工区",
+    "placestart": "青梅市長淵四丁目1380",
+    "placeend": "青梅市長淵四丁目437",
     "latitude": 354647.0,
     "longitude": 1391613.8,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": {
+      "latitude": 35.77972222222222,
+      "longitude": 139.27050000000003
+    },
+    "place": "青梅市長淵四丁目1380 ➔ 青梅市長淵四丁目437"
   },
   {
+    "id": 513,
     "code": "10230080",
     "name": "野上歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720300,
+    "area": "青梅工区",
+    "placestart": "青梅市野上町四丁目749",
+    "placeend": "青梅市野上町三丁目2-25",
     "latitude": 354717.96,
     "longitude": 1391722.41,
-    "routeName": "新宿青梅"
+    "routeName": "新宿青梅",
+    "wgsCoordinate": {
+      "latitude": 35.78832222222223,
+      "longitude": 139.2895583333333
+    },
+    "place": "青梅市野上町四丁目749 ➔ 青梅市野上町三丁目2-25"
   },
   {
+    "id": 514,
     "code": "10230090",
     "name": "梅郷歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19841000,
+    "area": "青梅工区",
+    "placestart": "青梅市梅郷四丁目749",
+    "placeend": "青梅市梅郷四丁目745",
     "latitude": 354711.45,
     "longitude": 1391326.11,
-    "routeName": "奥多摩青梅"
+    "routeName": "奥多摩青梅",
+    "wgsCoordinate": {
+      "latitude": 35.78651388888889,
+      "longitude": 139.22391944444448
+    },
+    "place": "青梅市梅郷四丁目749 ➔ 青梅市梅郷四丁目745"
   },
   {
+    "id": 515,
     "code": "10230100",
     "name": "東青梅三丁目歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720200,
+    "area": "青梅工区",
+    "placestart": "青梅市東青梅三丁目24-6",
+    "placeend": "青梅市東青梅三丁目23-10",
     "latitude": 354718.88,
     "longitude": 1391641.8,
-    "routeName": "新宿青梅"
+    "routeName": "新宿青梅",
+    "wgsCoordinate": {
+      "latitude": 35.788577777777775,
+      "longitude": 139.27827777777782
+    },
+    "place": "青梅市東青梅三丁目24-6 ➔ 青梅市東青梅三丁目23-10"
   },
   {
+    "id": 516,
     "code": "10320010",
     "name": "鯉川橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19730100,
+    "area": "福生工区",
+    "placestart": "あきる野市菅生800",
+    "placeend": "あきる野市菅生860",
     "latitude": 354453.81,
     "longitude": 1391723.97,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": {
+      "latitude": 35.74828055555555,
+      "longitude": 139.28999166666665
+    },
+    "place": "あきる野市菅生800 ➔ あきる野市菅生860"
   },
   {
+    "id": 517,
     "code": "10320050",
     "name": "東秋留橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19390300,
+    "area": "福生工区",
+    "placestart": "あきる野市雨間7076",
+    "placeend": "あきる野市雨間7076",
     "latitude": 354305.14,
     "longitude": 1391755.14,
-    "routeName": "楢原あきる野"
+    "routeName": "楢原あきる野",
+    "wgsCoordinate": {
+      "latitude": 35.71809444444445,
+      "longitude": 139.29864999999998
+    },
+    "place": "あきる野市雨間7076 ➔ あきる野市雨間7076"
   },
   {
+    "id": 518,
     "code": "10320060",
     "name": "加藤塚人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19770300,
+    "area": "福生工区",
+    "placestart": "西多摩郡瑞穂町箱根ヶ崎322",
+    "placeend": "西多摩郡瑞穂町箱根ヶ崎322",
     "latitude": 354608.02,
     "longitude": 1392049.83,
-    "routeName": "瑞穂あきる野八王子"
+    "routeName": "瑞穂あきる野八王子",
+    "wgsCoordinate": {
+      "latitude": 35.76889444444445,
+      "longitude": 139.34717500000002
+    },
+    "place": "西多摩郡瑞穂町箱根ヶ崎322 ➔ 西多摩郡瑞穂町箱根ヶ崎322"
   },
   {
+    "id": 519,
     "code": "10330010",
     "name": "牛浜歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19681200,
+    "area": "福生工区",
+    "placestart": "福生市熊川857",
+    "placeend": "福生市牛浜163",
     "latitude": 354400.96,
     "longitude": 1392012.6,
-    "routeName": "杉並あきる野"
+    "routeName": "杉並あきる野",
+    "wgsCoordinate": {
+      "latitude": 35.73360000000001,
+      "longitude": 139.33683333333337
+    },
+    "place": "福生市熊川857 ➔ 福生市牛浜163"
   },
   {
+    "id": 520,
     "code": "10330020",
     "name": "小川歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19750300,
+    "area": "福生工区",
+    "placestart": "あきる野市小川松繁791",
+    "placeend": "あきる野市小川松繁799",
     "latitude": 354317.28,
     "longitude": 139193.01,
-    "routeName": "瑞穂あきる野八王子"
+    "routeName": "瑞穂あきる野八王子",
+    "wgsCoordinate": {
+      "latitude": 35.72146666666668,
+      "longitude": 14.542502777777779
+    },
+    "place": "あきる野市小川松繁791 ➔ あきる野市小川松繁799"
   },
   {
+    "id": 521,
     "code": "10330030",
     "name": "熊川南歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19680300,
+    "area": "福生工区",
+    "placestart": "福生市熊川154",
+    "placeend": "福生市熊川152",
     "latitude": 354256.04,
     "longitude": 139205.81,
-    "routeName": "立川青梅"
+    "routeName": "立川青梅",
+    "wgsCoordinate": {
+      "latitude": 35.71556666666666,
+      "longitude": 14.534947222222222
+    },
+    "place": "福生市熊川154 ➔ 福生市熊川152"
   },
   {
+    "id": 522,
     "code": "10330040",
     "name": "熊野橋歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19700300,
+    "area": "福生工区",
+    "placestart": "福生市福生442",
+    "placeend": "福生市志茂232",
     "latitude": 354408.4,
     "longitude": 1391934.23,
-    "routeName": "立川青梅"
+    "routeName": "立川青梅",
+    "wgsCoordinate": {
+      "latitude": 35.735666666666674,
+      "longitude": 139.32617499999998
+    },
+    "place": "福生市福生442 ➔ 福生市志茂232"
   },
   {
+    "id": 523,
     "code": "10330050",
     "name": "狭山神社前歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19700100,
+    "area": "福生工区",
+    "placestart": "瑞穂町箱根ヶ崎31",
+    "placeend": "瑞穂町箱根ヶ崎48",
     "latitude": 354632.96,
     "longitude": 139212.88,
-    "routeName": "瑞穂あきる野八王子"
+    "routeName": "瑞穂あきる野八王子",
+    "wgsCoordinate": {
+      "latitude": 35.775822222222224,
+      "longitude": 14.536911111111113
+    },
+    "place": "瑞穂町箱根ヶ崎31 ➔ 瑞穂町箱根ヶ崎48"
   },
   {
+    "id": 524,
     "code": "10330060",
     "name": "志茂歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19690300,
+    "area": "福生工区",
+    "placestart": "福生市志茂11",
+    "placeend": "福生市志茂58",
     "latitude": 354404.48,
     "longitude": 1391945.11,
-    "routeName": "立川青梅"
+    "routeName": "立川青梅",
+    "wgsCoordinate": {
+      "latitude": 35.73457777777777,
+      "longitude": 139.32919722222223
+    },
+    "place": "福生市志茂11 ➔ 福生市志茂58"
   },
   {
+    "id": 525,
     "code": "10330070",
     "name": "二宮上の原歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19690300,
+    "area": "福生工区",
+    "placestart": "あきる野市二宮森腰1082",
+    "placeend": "あきる野市二宮上の原1015",
     "latitude": 354343.34,
     "longitude": 1391838.98,
-    "routeName": "杉並あきる野"
+    "routeName": "杉並あきる野",
+    "wgsCoordinate": {
+      "latitude": 35.728705555555564,
+      "longitude": 139.31082777777777
+    },
+    "place": "あきる野市二宮森腰1082 ➔ あきる野市二宮上の原1015"
   },
   {
+    "id": 526,
     "code": "10330090",
     "name": "羽村加美歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19671200,
+    "area": "福生工区",
+    "placestart": "羽村市羽加美四丁目2",
+    "placeend": "羽村市羽加美三丁目9",
     "latitude": 354554.34,
     "longitude": 139181.26,
-    "routeName": "立川青梅"
+    "routeName": "立川青梅",
+    "wgsCoordinate": {
+      "latitude": 35.76509444444445,
+      "longitude": 14.53923888888889
+    },
+    "place": "羽村市羽加美四丁目2 ➔ 羽村市羽加美三丁目9"
   },
   {
+    "id": 527,
     "code": "10330100",
     "name": "羽村せき歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 3,
-    "conpletionYear": 19690300,
+    "area": "福生工区",
+    "placestart": "羽村市羽東三丁目地内",
+    "placeend": "羽村市羽東三丁目18",
     "latitude": 354517.09,
     "longitude": 1391914.66,
-    "routeName": "立川青梅"
+    "routeName": "立川青梅",
+    "wgsCoordinate": {
+      "latitude": 35.75474722222223,
+      "longitude": 139.32073888888885
+    },
+    "place": "羽村市羽東三丁目地内 ➔ 羽村市羽東三丁目18"
   },
   {
+    "id": 528,
     "code": "10330110",
     "name": "福生加美歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19680300,
+    "area": "福生工区",
+    "placestart": "福生市福生奈賀1178",
+    "placeend": "福生市福生加美1180",
     "latitude": 354433.44,
     "longitude": 1391913.32,
-    "routeName": "立川青梅"
+    "routeName": "立川青梅",
+    "wgsCoordinate": {
+      "latitude": 35.742622222222224,
+      "longitude": 139.32036666666667
+    },
+    "place": "福生市福生奈賀1178 ➔ 福生市福生加美1180"
   },
   {
+    "id": 529,
     "code": "10330120",
     "name": "福生七小前歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19880300,
+    "area": "福生工区",
+    "placestart": "福生市南田園三丁目18-5",
+    "placeend": "福生市北田園一丁目1-1",
     "latitude": 354353.27,
     "longitude": 1391940.45,
-    "routeName": "杉並あきる野"
+    "routeName": "杉並あきる野",
+    "wgsCoordinate": {
+      "latitude": 35.7314638888889,
+      "longitude": 139.32790277777775
+    },
+    "place": "福生市南田園三丁目18-5 ➔ 福生市北田園一丁目1-1"
   },
   {
+    "id": 530,
     "code": "10330130",
     "name": "本町歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19700300,
+    "area": "福生工区",
+    "placestart": "羽村市羽東二丁目13",
+    "placeend": "羽村市羽東二丁目15",
     "latitude": 354523.79,
     "longitude": 1391850.09,
-    "routeName": "羽村瑞穂"
+    "routeName": "羽村瑞穂",
+    "wgsCoordinate": {
+      "latitude": 35.756608333333325,
+      "longitude": 139.31391388888892
+    },
+    "place": "羽村市羽東二丁目13 ➔ 羽村市羽東二丁目15"
   },
   {
+    "id": 484,
     "code": "10110050",
     "name": "大丹波1号橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": -1,
+    "area": "奥多摩工区",
+    "placestart": "奥多摩町大丹波",
+    "placeend": "奥多摩町大丹波",
     "latitude": 354957.12,
     "longitude": 139100.53,
-    "routeName": "上成木川井線"
+    "routeName": "上成木川井線",
+    "wgsCoordinate": {
+      "latitude": 35.83253333333334,
+      "longitude": 14.516813888888887
+    },
+    "place": "奥多摩町大丹波 ➔ 奥多摩町大丹波"
   },
   {
+    "id": 485,
     "code": "10110060",
     "name": "大丹波2号橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": -1,
+    "area": "奥多摩工区",
+    "placestart": "奥多摩町大丹波",
+    "placeend": "奥多摩町大丹波",
     "latitude": 354957.22,
     "longitude": 139101.81,
-    "routeName": "上成木川井線"
+    "routeName": "上成木川井線",
+    "wgsCoordinate": {
+      "latitude": 35.832561111111104,
+      "longitude": 14.517169444444443
+    },
+    "place": "奥多摩町大丹波 ➔ 奥多摩町大丹波"
   },
   {
+    "id": 486,
     "code": "10110420",
     "name": "無名7号橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": -1,
+    "area": "奥多摩工区",
+    "placestart": "奥多摩町大丹波",
+    "placeend": "奥多摩町大丹波",
     "latitude": 354956.0,
     "longitude": 139958.22,
-    "routeName": "上成木川井線"
+    "routeName": "上成木川井線",
+    "wgsCoordinate": {
+      "latitude": 35.83222222222223,
+      "longitude": 14.666172222222222
+    },
+    "place": "奥多摩町大丹波 ➔ 奥多摩町大丹波"
   },
   {
+    "id": 487,
     "code": "10110440",
     "name": "無名8号橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": -1,
+    "area": "奥多摩工区",
+    "placestart": "奥多摩町大丹波",
+    "placeend": "奥多摩町大丹波",
     "latitude": 354956.91,
     "longitude": 139959.33,
-    "routeName": "上成木川井線"
+    "routeName": "上成木川井線",
+    "wgsCoordinate": {
+      "latitude": 35.832474999999995,
+      "longitude": 14.666480555555552
+    },
+    "place": "奥多摩町大丹波 ➔ 奥多摩町大丹波"
   },
   {
+    "id": 488,
     "code": "10120010",
     "name": "神塚橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19830300,
+    "area": "奥多摩工区",
+    "placestart": "奥多摩町川井254",
+    "placeend": "奥多摩町川井156",
     "latitude": 354847.88,
     "longitude": 139954.29,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": {
+      "latitude": 35.8133,
+      "longitude": 14.665080555555559
+    },
+    "place": "奥多摩町川井254 ➔ 奥多摩町川井156"
   },
   {
+    "id": 489,
     "code": "10120020",
     "name": "日向人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19970000,
+    "area": "奥多摩工区",
+    "placestart": "西多摩郡奥多摩町氷川119",
+    "placeend": "西多摩郡奥多摩町氷川109",
     "latitude": 354810.88,
     "longitude": 139614.16,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": {
+      "latitude": 35.80302222222222,
+      "longitude": 14.603933333333334
+    },
+    "place": "西多摩郡奥多摩町氷川119 ➔ 西多摩郡奥多摩町氷川109"
   },
   {
+    "id": 490,
     "code": "10210730",
     "name": "成木1号橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720300,
+    "area": "青梅工区",
+    "placestart": "青梅市成木7",
+    "placeend": "青梅市成木7",
     "latitude": 355012.53,
     "longitude": 1391112.99,
-    "routeName": "上成木川井"
+    "routeName": "上成木川井",
+    "wgsCoordinate": {
+      "latitude": 35.8368138888889,
+      "longitude": 139.18694166666666
+    },
+    "place": "青梅市成木7 ➔ 青梅市成木7"
   },
   {
+    "id": 491,
     "code": "10210740",
     "name": "成木2号橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 3,
-    "conpletionYear": 19720300,
+    "area": "青梅工区",
+    "placestart": "青梅市成木7",
+    "placeend": "青梅市成木7",
     "latitude": 355011.9,
     "longitude": 1391111.75,
-    "routeName": "上成木川井"
+    "routeName": "上成木川井",
+    "wgsCoordinate": {
+      "latitude": 35.8366388888889,
+      "longitude": 139.18659722222222
+    },
+    "place": "青梅市成木7 ➔ 青梅市成木7"
   },
   {
+    "id": 492,
     "code": "10210750",
     "name": "成木3号橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720300,
+    "area": "青梅工区",
+    "placestart": "青梅市成木7",
+    "placeend": "青梅市成木7",
     "latitude": 355007.9,
     "longitude": 1391113.14,
-    "routeName": "上成木川井"
+    "routeName": "上成木川井",
+    "wgsCoordinate": {
+      "latitude": 35.835527777777784,
+      "longitude": 139.1869833333333
+    },
+    "place": "青梅市成木7 ➔ 青梅市成木7"
   },
   {
+    "id": 493,
     "code": "10210960",
     "name": "無名橋(御岳山)",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": -1,
+    "area": "青梅工区",
+    "placestart": "青梅市御岳地内",
+    "placeend": "青梅市御岳地内",
     "latitude": 354707.99,
     "longitude": 1390900.73,
-    "routeName": "奥多摩あきる野"
+    "routeName": "奥多摩あきる野",
+    "wgsCoordinate": {
+      "latitude": 35.785552777777774,
+      "longitude": 139.15020277777776
+    },
+    "place": "青梅市御岳地内 ➔ 青梅市御岳地内"
   },
   {
+    "id": 494,
     "code": "10220010",
     "name": "永盛橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19740300,
+    "area": "青梅工区",
+    "placestart": "青梅市二俣尾一丁目311",
+    "placeend": "青梅市二俣尾一丁目648",
     "latitude": 354750.37,
     "longitude": 1391323.07,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": {
+      "latitude": 35.797324999999994,
+      "longitude": 139.22307500000002
+    },
+    "place": "青梅市二俣尾一丁目311 ➔ 青梅市二俣尾一丁目648"
   },
   {
+    "id": 495,
     "code": "10220030",
     "name": "落合橋(上流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19820300,
+    "area": "青梅工区",
+    "placestart": "青梅市成木四丁目636",
+    "placeend": "青梅市成木五丁目1495",
     "latitude": 354924.2,
     "longitude": 1391455.18,
-    "routeName": "下畑軍畑"
+    "routeName": "下畑軍畑",
+    "wgsCoordinate": {
+      "latitude": 35.82338888888889,
+      "longitude": 139.2486611111111
+    },
+    "place": "青梅市成木四丁目636 ➔ 青梅市成木五丁目1495"
   },
   {
+    "id": 496,
     "code": "10220040",
     "name": "落合橋(下流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19820300,
+    "area": "青梅工区",
+    "placestart": "青梅市成木四丁目636",
+    "placeend": "青梅市成木五丁目1495",
     "latitude": 354923.98,
     "longitude": 1391455.3,
-    "routeName": "下畑軍畑"
+    "routeName": "下畑軍畑",
+    "wgsCoordinate": {
+      "latitude": 35.82332777777778,
+      "longitude": 139.24869444444445
+    },
+    "place": "青梅市成木四丁目636 ➔ 青梅市成木五丁目1495"
   },
   {
+    "id": 497,
     "code": "10220060",
     "name": "霞橋(上流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19820300,
+    "area": "青梅工区",
+    "placestart": "青梅市野上町一丁目206",
+    "placeend": "青梅市野上町一丁目361",
     "latitude": 354747.47,
     "longitude": 1391722.35,
-    "routeName": "成木河辺"
+    "routeName": "成木河辺",
+    "wgsCoordinate": {
+      "latitude": 35.796519444444435,
+      "longitude": 139.28954166666668
+    },
+    "place": "青梅市野上町一丁目206 ➔ 青梅市野上町一丁目361"
   },
   {
+    "id": 498,
     "code": "10220070",
     "name": "霞橋(下流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19820300,
+    "area": "青梅工区",
+    "placestart": "青梅市大門一丁目361",
+    "placeend": "青梅市大門二丁目358",
     "latitude": 354747.97,
     "longitude": 1391722.7,
-    "routeName": "成木河辺"
+    "routeName": "成木河辺",
+    "wgsCoordinate": {
+      "latitude": 35.796658333333326,
+      "longitude": 139.28963888888887
+    },
+    "place": "青梅市大門一丁目361 ➔ 青梅市大門二丁目358"
   },
   {
+    "id": 499,
     "code": "10220090",
     "name": "岨端沢橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19750500,
+    "area": "青梅工区",
+    "placestart": "青梅市柚木町三丁目753",
+    "placeend": "青梅市柚木町三丁目753",
     "latitude": 354812.07,
     "longitude": 1391155.19,
-    "routeName": "奥多摩青梅"
+    "routeName": "奥多摩青梅",
+    "wgsCoordinate": {
+      "latitude": 35.803352777777775,
+      "longitude": 139.1986638888889
+    },
+    "place": "青梅市柚木町三丁目753 ➔ 青梅市柚木町三丁目753"
   },
   {
+    "id": 500,
     "code": "10220100",
     "name": "高指橋(上流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19820200,
+    "area": "青梅工区",
+    "placestart": "青梅市黒沢二丁目",
+    "placeend": "青梅市黒沢二丁目",
     "latitude": 354839.84,
     "longitude": 1391532.47,
-    "routeName": "青梅秩父"
+    "routeName": "青梅秩父",
+    "wgsCoordinate": {
+      "latitude": 35.81106666666667,
+      "longitude": 139.25901944444445
+    },
+    "place": "青梅市黒沢二丁目 ➔ 青梅市黒沢二丁目"
   },
   {
+    "id": 501,
     "code": "10220110",
     "name": "高指橋(下流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19820200,
+    "area": "青梅工区",
+    "placestart": "青梅市黒沢二丁目",
+    "placeend": "青梅市黒沢二丁目",
     "latitude": 354840.01,
     "longitude": 1391532.74,
-    "routeName": "青梅秩父"
+    "routeName": "青梅秩父",
+    "wgsCoordinate": {
+      "latitude": 35.81111388888889,
+      "longitude": 139.25909444444443
+    },
+    "place": "青梅市黒沢二丁目 ➔ 青梅市黒沢二丁目"
   },
   {
+    "id": 502,
     "code": "10220120",
     "name": "寺下橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19790300,
+    "area": "青梅工区",
+    "placestart": "青梅市小曽木三丁目1873",
+    "placeend": "青梅市小曽木三丁目1651",
     "latitude": 354905.42,
     "longitude": 1391628.04,
-    "routeName": "成木河辺"
+    "routeName": "成木河辺",
+    "wgsCoordinate": {
+      "latitude": 35.81817222222222,
+      "longitude": 139.2744555555556
+    },
+    "place": "青梅市小曽木三丁目1873 ➔ 青梅市小曽木三丁目1651"
   },
   {
+    "id": 503,
     "code": "10220130",
     "name": "檜沢橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19720300,
+    "area": "青梅工区",
+    "placestart": "青梅市御岳二丁目",
+    "placeend": "青梅市御岳二丁目",
     "latitude": 354757.24,
     "longitude": 1391032.23,
-    "routeName": "奥多摩青梅"
+    "routeName": "奥多摩青梅",
+    "wgsCoordinate": {
+      "latitude": 35.799233333333326,
+      "longitude": 139.17561944444444
+    },
+    "place": "青梅市御岳二丁目 ➔ 青梅市御岳二丁目"
   },
   {
+    "id": 531,
     "code": "10330140",
     "name": "南二宮歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19710300,
+    "area": "福生工区",
+    "placestart": "あきる野市二宮稲荷耕地1495",
+    "placeend": "あきる野市二宮稲荷耕地1393",
     "latitude": 354324.8,
     "longitude": 139197.67,
-    "routeName": "瑞穂あきる野八王子"
+    "routeName": "瑞穂あきる野八王子",
+    "wgsCoordinate": {
+      "latitude": 35.723555555555556,
+      "longitude": 14.543797222222224
+    },
+    "place": "あきる野市二宮稲荷耕地1495 ➔ あきる野市二宮稲荷耕地1393"
   },
   {
+    "id": 532,
     "code": "10330150",
     "name": "武蔵野歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19690300,
+    "area": "福生工区",
+    "placestart": "瑞穂町石畑武蔵野677",
+    "placeend": "瑞穂町石畑武蔵野669",
     "latitude": 354543.37,
     "longitude": 1392019.23,
-    "routeName": "瑞穂あきる野八王子"
+    "routeName": "瑞穂あきる野八王子",
+    "wgsCoordinate": {
+      "latitude": 35.76204722222222,
+      "longitude": 139.338675
+    },
+    "place": "瑞穂町石畑武蔵野677 ➔ 瑞穂町石畑武蔵野669"
   },
   {
+    "id": 533,
     "code": "10420010",
     "name": "新坂本橋(上流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19730300,
+    "area": "あきる野工区",
+    "placestart": "日の出町大久野坂本7158",
+    "placeend": "日の出町大久野北野6935",
     "latitude": 354507.45,
     "longitude": 1391428.11,
-    "routeName": "青梅五日市"
+    "routeName": "青梅五日市",
+    "wgsCoordinate": {
+      "latitude": 35.752069444444444,
+      "longitude": 139.2411416666667
+    },
+    "place": "日の出町大久野坂本7158 ➔ 日の出町大久野北野6935"
   },
   {
+    "id": 534,
     "code": "10420020",
     "name": "新坂本橋(下流)人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 2,
-    "conpletionYear": 19730300,
+    "area": "あきる野工区",
+    "placestart": "日の出町大久野坂本7158",
+    "placeend": "日の出町大久野北野6935",
     "latitude": 354507.25,
     "longitude": 1391428.33,
-    "routeName": "青梅五日市"
+    "routeName": "青梅五日市",
+    "wgsCoordinate": {
+      "latitude": 35.75201388888889,
+      "longitude": 139.24120277777777
+    },
+    "place": "日の出町大久野坂本7158 ➔ 日の出町大久野北野6935"
   },
   {
+    "id": 535,
     "code": "10420030",
     "name": "万澤橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": -1,
+    "area": "あきる野工区",
+    "placestart": "あきる野市乙津",
+    "placeend": "あきる野市乙津",
     "latitude": 354358.36,
     "longitude": 1391058.18,
-    "routeName": "十里木御嶽停車場"
+    "routeName": "十里木御嶽停車場",
+    "wgsCoordinate": {
+      "latitude": 35.73287777777777,
+      "longitude": 139.18282777777776
+    },
+    "place": "あきる野市乙津 ➔ あきる野市乙津"
   },
   {
+    "id": 536,
     "code": "10510020",
     "name": "稲荷橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19710100,
+    "area": "檜原工区",
+    "placestart": "檜原村倉掛猿江",
+    "placeend": "檜原村倉掛猿江",
     "latitude": 354536.5,
     "longitude": 139415.53,
-    "routeName": "水根本宿"
+    "routeName": "水根本宿",
+    "wgsCoordinate": {
+      "latitude": 35.76013888888889,
+      "longitude": 14.570980555555556
+    },
+    "place": "檜原村倉掛猿江 ➔ 檜原村倉掛猿江"
   },
   {
+    "id": 537,
     "code": "10510030",
     "name": "上野橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": -1,
+    "area": "檜原工区",
+    "placestart": "檜原村藤原",
+    "placeend": "檜原村藤原",
     "latitude": 354431.99,
     "longitude": 139438.71,
-    "routeName": "水根本宿"
+    "routeName": "水根本宿",
+    "wgsCoordinate": {
+      "latitude": 35.742219444444444,
+      "longitude": 14.577419444444441
+    },
+    "place": "檜原村藤原 ➔ 檜原村藤原"
   },
   {
+    "id": 538,
     "code": "10510120",
     "name": "上沢橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": -1,
+    "area": "檜原工区",
+    "placestart": "檜原村倉掛猿江",
+    "placeend": "檜原村倉掛猿江",
     "latitude": 354538.51,
     "longitude": 1390401.01,
-    "routeName": "水根本宿"
+    "routeName": "水根本宿",
+    "wgsCoordinate": {
+      "latitude": 35.76069722222223,
+      "longitude": 139.0669472222222
+    },
+    "place": "檜原村倉掛猿江 ➔ 檜原村倉掛猿江"
   },
   {
+    "id": 539,
     "code": "10510200",
     "name": "猿江橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19710100,
+    "area": "檜原工区",
+    "placestart": "檜原村倉掛猿江",
+    "placeend": "檜原村倉掛猿江",
     "latitude": 354530.73,
     "longitude": 139418.62,
-    "routeName": "水根本宿"
+    "routeName": "水根本宿",
+    "wgsCoordinate": {
+      "latitude": 35.758536111111106,
+      "longitude": 14.571838888888887
+    },
+    "place": "檜原村倉掛猿江 ➔ 檜原村倉掛猿江"
   },
   {
+    "id": 540,
     "code": "10510270",
     "name": "菅野橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19710100,
+    "area": "檜原工区",
+    "placestart": "檜原村倉掛猿江",
+    "placeend": "檜原村倉掛猿江",
     "latitude": 354540.51,
     "longitude": 139410.59,
-    "routeName": "水根本宿"
+    "routeName": "水根本宿",
+    "wgsCoordinate": {
+      "latitude": 35.76125277777778,
+      "longitude": 14.569608333333331
+    },
+    "place": "檜原村倉掛猿江 ➔ 檜原村倉掛猿江"
   },
   {
+    "id": 541,
     "code": "10520010",
     "name": "北秋川橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": 1,
-    "conpletionYear": 19921200,
+    "area": "檜原工区",
+    "placestart": "檜原村本宿",
+    "placeend": "檜原村本宿",
     "latitude": 354348.66,
     "longitude": 139837.5,
-    "routeName": "水根本宿"
+    "routeName": "水根本宿",
+    "wgsCoordinate": {
+      "latitude": 35.73018333333333,
+      "longitude": 14.643749999999999
+    },
+    "place": "檜原村本宿 ➔ 檜原村本宿"
   },
   {
+    "id": 699,
     "code": "10420050",
     "name": "昭和橋人道橋",
     "office": "西多摩建設事務所",
-    "soundness": null,
-    "conpletionYear": null,
+    "area": "あきる野工区",
+    "placestart": null,
+    "placeend": null,
     "latitude": null,
     "longitude": null,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": null,
+    "place": null
   },
   {
+    "id": 698,
     "code": "10420040",
     "name": "たき坂歩道橋",
     "office": "西多摩建設事務所",
-    "soundness": null,
-    "conpletionYear": null,
+    "area": "あきる野工区",
+    "placestart": null,
+    "placeend": null,
     "latitude": null,
     "longitude": null,
-    "routeName": null
+    "routeName": null,
+    "wgsCoordinate": null,
+    "place": null
   }
 ]

@@ -33,7 +33,7 @@
             children: [
               { title: '橋梁' , props:{ to:"/bridge" }},
               { title: '歩道橋', props:{ to: '/footbridge'}},
-              { title: 'トンネル', props:{ to: '/tobeImplement'}},
+              { title: 'トンネル', props:{ to: '/tunnel'}},
               { title: '舗装', props:{ to: '/pavement'}},
               { title: '道路施設', 
                 children:[
@@ -61,6 +61,7 @@
             children: [
               { title: '施設新規登録',  
                 children:[
+                { title: '道路資産管理システム', props:{ to: '/tobeImplement' }},
                 { title: '道路附属物の場合', props:{ to: '/tobeImplement' }},
                 ],
               },

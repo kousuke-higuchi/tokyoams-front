@@ -129,7 +129,7 @@ export default defineComponent({
         { title: '高欄図', props:{ to:"/bridge/handrail" } },
       ],
       buttons02: [
-        { title: '様式2', props:{ to: '/tobeImplement' }},
+        { title: '様式2', props:{ to: '/bridge/form2' }},
         { title: '様式3', props:{ to: '/tobeImplement' } },
         { title: '様式4-1(3回分)', props:{ to: '/tobeImplement' } },
         { title: '様式4-2(3回分)', props:{ to: '/tobeImplement' } },

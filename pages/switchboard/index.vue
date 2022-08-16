@@ -169,7 +169,7 @@ export default defineComponent({
 						filterDropdownItems:[],
 					}
 				},
-				{
+        {
 					label:'路線名',
 					field:'routename',
 					sortable:false,
@@ -179,7 +179,7 @@ export default defineComponent({
 						filterDropdownItems: [],
 					}
 				},
-				{
+        {
           label:'区市町村名',
           field:'municipalityname',
           sortable:false,

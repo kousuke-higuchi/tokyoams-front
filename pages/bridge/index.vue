@@ -84,7 +84,7 @@
                 <v-card>
                   <v-container>
                     <vue-good-table
-                    :columns="columnsOverly"
+                    :columns="columnsOverlay"
                     :rows="rows"
                     @row-click="clickMarkerListRow"
                     >
@@ -150,28 +150,31 @@ export default defineComponent({
          },
         },
         {
-          label: '健全度',
-          field: 'soundness',
+          label: '工区',
+          field: 'area',
           sortable: false,
           filterOptions: {
         	  enabled: true,
-            placeholder: '-選択-',
-            filterDropdownItems: ['Ⅰ','Ⅱ','Ⅲ'],
+            placeholder: '工区入力',
          },
         },
-        //TODO:誤った取り方。本来はdateInputFormatはyyyyMMddとすべきだが、例)19590100等
-        //月日に00が含まれる場合、年を取得できなかった。
         {
-          label: '竣工年',
-          field: 'conpletion_year',
-          type: 'date',
-          dateInputFormat:'yyyy-MM-dd',
-          dateOutputFormat: 'yyyy',
+          label: '路線名',
+          field: 'route_name',
           sortable: false,
           filterOptions: {
         	  enabled: true,
-            placeholder: '日時入力',
-          },
+            placeholder: '路線名入力',
+         },
+        },
+        {
+          label: '区市町村名',
+          field: 'addressName',
+          sortable: false,
+          filterOptions: {
+        	  enabled: true,
+            placeholder: '区市町村名入力',
+         },
         },
         {
           label: '台帳出力',
@@ -193,7 +196,7 @@ export default defineComponent({
         },
       ],
       // 施設一覧の列情報
-      columnsOverly: [
+      columnsOverlay: [
         {
           label: '施設番号',
           field: 'code',
@@ -232,7 +235,7 @@ export default defineComponent({
       return modified
     };
     this.columns = this.columns.map(map2OfficeDropDown);
-    this.columnsOverly = this.columnsOverly.map(map2OfficeDropDown);
+    this.columnsOverlay = this.columnsOverlay.map(map2OfficeDropDown);
     this.rows = bridgesJson;
   },
   computed: {

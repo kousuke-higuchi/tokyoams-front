@@ -1,5 +1,4 @@
 import { defineNuxtConfig } from 'nuxt'
-import { Static } from 'nuxt/dist/app/compat/capi'
 
 
 
@@ -12,18 +11,15 @@ export default defineNuxtConfig({
       base: '/tokyoams-front/'
     },
     publicRuntimeConfig: {
-        // TODO: .vueファイルや他の.tsファイルに環境変数を展開する場合はここに追記します
+        // TODO: .vueファイル�?他�?�.tsファイルに環�?変数を展開する場合�?�ここに追記しま�?
         // apiURL: process.env.VITE_API_BASE_URL,
     },
     app: {
         head: {
-            title: '道路施設管理システム',
             link: [
-                { rel: 'icon', type: 'image/x-icon', href: '/tokyo-ams/favicon.ico' }
+                { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
             ]    
-        },
-       // baseURL: '/tokyoams-front'
-        //cdnURL:'https://kousuke-higuchi.github.io/tokyoams-front/',
+        }
     },
     css: [
         "vuetify/lib/styles/main.sass",
@@ -47,5 +43,5 @@ export default defineNuxtConfig({
                   }
             }
         }
-    },
+    }
 })

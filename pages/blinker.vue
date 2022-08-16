@@ -72,198 +72,79 @@
               >
                 検索条件
               </v-btn>
-              <v-btn class="ml-2" v-on:click="clickShowTables()"
-                color="primary"
+              <v-menu
+                v-model="showMarkerList"
+                :close-on-content-click="false"
+                location="bottom end"
               >
-                施設一覧
-              </v-btn>
+								<template v-slot:activator="{ props }">
+									<v-btn
+										class="ml-2"
+										color="primary"
+										v-bind="props"
+									>
+										施設一覧
+									</v-btn>
+								</template>
+
+								<v-card>
+									<v-container>
+										<vue-good-table
+										:columns="columnsOverlay"
+										:rows="rowsOverlay"
+										@row-click="clickMarkerListRow"
+										>
+										</vue-good-table>
+									</v-container>
+								</v-card>
+							</v-menu>
 						</v-row>
 					</v-container>
+
+					<!--地図-->
 					<v-card style="height:78vh; width: 94vw">
-						<!--地図-->
 						<ams-map
 							:zoom="zoom"
 							:center="center"
 							:markers="blinkers"
 							marker-title="id"
 							@click-marker="clickMarker"/>
-						<!--検索画面-->
-						<v-dialog v-model="showFind" presistent max-width="400px">
-							<v-card>
-								<v-toolbar dark color="primary">
-                  <v-toolbar-title>施設詳細検索</v-toolbar-title>
-                </v-toolbar>
-								<v-card-text>
-                    <v-row>
-                      <v-col cols="12">
-                        <v-text-field label="施設名称" v-model="findFacilityName" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="12" md="5">
-                        トンネル延長
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="から" v-model="findStartTunnel" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="まで" v-model="findEndTunnel" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="12" md="5">
-                        竣工年度
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="から" v-model="findStartBoneYear" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="まで" v-model="findEndBoneYear" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="12" md="5">
-                        点検年度
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="から" v-model="findStartCheckYear" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="まで" v-model="findEndCheckYear" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="12" md="5">
-                        最新点検年度
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="から" v-model="findStartNewerCheckYear" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12" sm="6" md="3">
-                        <v-text-field label="まで" v-model="findEndNewerCheckYear" density="compact" hide-details="false" variant="underlined"></v-text-field>
-                      </v-col>
-                      <v-col cols="12">
-                        <v-autocomplete
-                          v-model="findFacilityType"
-                          :items="['Facility001', 'Facility002', 'Facility003']"
-                          outlined
-                          dense
-                          chips
-                          small-chips
-                          label="施設種別"
-                          multiple="true"
-                          hide-details="false" 
-                          clearable
-                        ></v-autocomplete>
-                      </v-col>
-                      <v-col cols="12">
-                        <v-autocomplete
-                          v-model="findHealt"
-                          label="健全性 国様式 Ⅰ～Ⅲ"
-                          :items="['Ⅰ','Ⅱ','Ⅲ']"
-                          outlined
-                          dense
-                          chips
-                          small-chips
-                          multiple
-                          hide-details="false" 
-                          clearable
-                        ></v-autocomplete>
-                      </v-col>
-                      <v-col cols="12">
-                        <v-autocomplete
-                          v-model="findCombinedUse"
-                          label="併用状況"
-                          :items="['都管理','事業中','廃止','移管','その他']"
-                          outlined
-                          dense
-                          chips
-                          small-chips
-                          multiple
-                          hide-details="false" 
-                        ></v-autocomplete>
-                      </v-col>
-                    </v-row>
-                </v-card-text>
-								<v-card-actions>
-									<v-spacer></v-spacer>
-										<v-row justify="start">
-											<v-btn
-											color="blue darken-1"
-											text
-											>
-												条件クリア
-											</v-btn>
-										</v-row>
-										<v-btn
-                    	color="blue darken-1"
-                    	text
-                    	@click="showFind = false"
-                  	>
-                   		検索
-                  	</v-btn>
-                  	<v-btn
-                    	color="blue darken-1"
-                    	text
-                    	@click="showFind = false"
-                  	>
-                   		キャンセル
-                 		</v-btn>
-								</v-card-actions>
-							</v-card>
-						</v-dialog>
-						<!--施設一覧-->
-						<v-overlay v-model="showTable" contained width="400px" class="justify-end">
-							<v-card>
-								<v-container>
-								<vue-good-table
-								:columns="columnsOverlay"
-								:rows="rowsOverlay"
-								max-height = "687.17px"
-								:fixed-header = "true"
-								>
-									<template #table-row="props">
-										{{props.formattedRow[props.column.field]}}
-									</template>
-								</vue-good-table>
-								</v-container>
-							</v-card>
-						</v-overlay>
 					</v-card>
 				</v-window-item>
     	</v-window>
     </v-card-text>
+
+		<blinker-search-condition-dialog v-model:isOpen="showFind"/>
+
   </v-card>
 </template>
 
 <script type="ts">
 import blinkerJson from "../assets/blinker.json"
-import AmsMap from "../components/AmsMap.vue";
 
 export default defineComponent({
-  components: { AmsMap },
 	data(){
 		return{
+			showMarkerList: false,
 			tab: 'map',
 			zoom:15,
 			center: [35.79112,139.27753],
 			blinkers:blinkerJson,
 			//ドロップダウンリストの項目
-			routenameDropdownItem:['国道14号','国道16号','国道114号','国道256号'],
-			officeDropdownItem:['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
-			areaDropdownItem:['奥多摩出張所','檜原工区','あきる野工区','福生工区','青梅工区'],
+			routenameDropdownItems:['（特４１６）古川橋二子玉川線','（一１３９）真光寺長津田線','（一１３７）上麻生連光寺線','（一１１１）大田神奈川線'],
+			officeDropdownItems:['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
+			areaDropdownItems:['奥多摩出張所','檜原工区','あきる野工区','福生工区','青梅工区'],
+			municipalityItems:['檜原村','奥多摩町','日の出町','青梅市','福生市','あきる野市'],
 			//一覧のカラム
 			columns:[
 				{
-		  label:'管理番号',
+					label:'管理番号',
           field:'id',
           sortable: false,
           filterOptions: {
-          enabled: true,
+        	  enabled: true,
             placeholder: '管理番号入力',
           },
-				},
-				{
-					label:'路線名',
-					field:'routename',
-					sortable:false,
-					filterOptions:{
-						enabled:true,
-						placeholder:'-選択-',
-						filterDropdownItems: [],
-					}
 				},
 				{
 					label:'事務所',
@@ -285,6 +166,26 @@ export default defineComponent({
 						filterDropdownItems:[],
 					}
 				},
+        {
+					label:'路線名',
+					field:'routename',
+					sortable:false,
+					filterOptions:{
+						enabled:true,
+						placeholder:'-選択-',
+						filterDropdownItems: [],
+					}
+				},
+        {
+          label:'区市町村名',
+          field:'municipalityname',
+          sortable:false,
+          filterOptions:{
+            enabled:true,
+            placeholder:'-選択-',
+            filterDropdownItems: [],
+          }
+        },
 				{
 					label:'台帳出力',
 					field:'outLedgerBtn',
@@ -332,13 +233,16 @@ export default defineComponent({
 		const map2DropDown = (c)=>{
 			let modified = c;
 			if(modified.field == 'routename'){
-				modified.filterOptions.filterDropdownItems = this.routenameDropdownItem
+				modified.filterOptions.filterDropdownItems = this.routenameDropdownItems
 			}
 			else if(modified.field == 'officename'){
-				modified.filterOptions.filterDropdownItems = this.officeDropdownItem
+				modified.filterOptions.filterDropdownItems = this.officeDropdownItems
 			}
 			else if(modified.field == 'areaname'){
-				modified.filterOptions.filterDropdownItems = this.areaDropdownItem
+				modified.filterOptions.filterDropdownItems = this.areaDropdownItems
+			}
+			else if(modified.field == 'municipalityname'){
+				modified.filterOptions.filterDropdownItems = this.municipalityItems
 			}
 			return modified
 		};
@@ -367,6 +271,7 @@ export default defineComponent({
 		},
 		clickFAdvancedSearch(){
 			console.debug('clickFAdvancedSearch');
+			this.showFind = !this.showFind;
 		},
 		clickOutputCSV(){
 			console.debug('clickOutputCSV');
@@ -377,6 +282,10 @@ export default defineComponent({
 		clickDelete(){
 			console.debug('clickDelete');
 		},
+		clickMarkerListRow(e) {
+      const blinker = e.row;
+      console.debug('clickMarkerList',blinker);
+    }
 	}
 });
 </script>
