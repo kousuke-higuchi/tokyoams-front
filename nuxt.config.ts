@@ -8,6 +8,9 @@ import { Static } from 'nuxt/dist/app/compat/capi'
 export default defineNuxtConfig({
     ssr: false,
     target:'static',
+    router: {
+      base: '/tokyoams-front/'
+    },
     publicRuntimeConfig: {
         // TODO: .vueファイルや他の.tsファイルに環境変数を展開する場合はここに追記します
         // apiURL: process.env.VITE_API_BASE_URL,
