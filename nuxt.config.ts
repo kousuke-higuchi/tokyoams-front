@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     ssr: false,
     target:'static',
     router: {
-      base: '/tokyoams-front/'
+      base: '/'
     },
     publicRuntimeConfig: {
         // TODO: .vueファイルや他の.tsファイルに環境変数を展開する場合はここに追記します
