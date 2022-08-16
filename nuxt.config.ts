@@ -42,11 +42,4 @@ export default defineNuxtConfig({
             }
         }
     },
-    generate: {
-      dir: 'docs'
-    },
-    target: 'static',
-    router: {
-      base: '/tokyoams-front/'
-    },
 })
