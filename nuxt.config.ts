@@ -23,7 +23,7 @@ export default defineNuxtConfig({
             ]    
         },
        // baseURL: '/tokyoams-front'
-        cdnURL:'https://kousuke-higuchi.github.io/tokyoams-front/',
+        //cdnURL:'https://kousuke-higuchi.github.io/tokyoams-front/',
     },
     css: [
         "vuetify/lib/styles/main.sass",
