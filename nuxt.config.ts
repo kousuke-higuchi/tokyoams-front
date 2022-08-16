@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
+import { Static } from 'nuxt/dist/app/compat/capi'
 
 
 
@@ -6,6 +7,7 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     ssr: false,
+    target:'static',
     publicRuntimeConfig: {
         // TODO: .vueファイルや他の.tsファイルに環境変数を展開する場合はここに追記します
         // apiURL: process.env.VITE_API_BASE_URL,
