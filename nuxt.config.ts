@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
+            title: '道路施設管理システム',
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/tokyo-ams/favicon.ico' }
             ]    
