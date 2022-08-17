@@ -1,1 +1,0 @@
-import{_ as e,o as r,g as t}from"./entry-8689a7bc.mjs";const c={};function n(o,a){return r(),t("h2",null,"\u672A\u5B9F\u88C5\u6A5F\u80FD\u3067\u3059\u3002")}var s=e(c,[["render",n]]);export{s as default};
