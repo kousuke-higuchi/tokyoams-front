@@ -27,7 +27,8 @@ export default defineNuxtConfig({
         'mdi/css/materialdesignicons.min.css', // mdi font
     ],
     build: {
-        transpile: ["vuetify"]
+        transpile: ["vuetify"],
+        publicPath:'/static/',
     },
     vite: {
         define: {
