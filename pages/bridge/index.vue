@@ -92,6 +92,28 @@
                   </v-container>
                 </v-card>
               </v-menu>
+
+
+              <fieldset style="position: relative;top: -5px; left: 5px; ">
+              <legend>地図操作</legend>
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
+                color="primary"
+              >
+                移動
+              </v-btn>
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
+                color="primary"
+              >
+                確定
+              </v-btn>
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
+                color="primary"
+              >
+                元に戻す
+              </v-btn>
+            </fieldset>
+
+
             </v-row>
           </v-container>
 
