@@ -17,7 +17,7 @@
               >
                 詳細検索
               </v-btn>
-              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()" 
                 color="primary"
               >
                 CSV出力
@@ -62,7 +62,7 @@
           <v-container>
             <v-row justify="end">
               <v-btn v-on:click="clickFind()"
-                color= "primary"
+                color= "primary"  style="position: relative;top: 15px; left: 5px;"
               >
                 検索条件
               </v-btn>
@@ -75,11 +75,12 @@
                   <v-btn
                     class="ml-2"
                     color="primary"
-                    v-bind="props"
+                    v-bind="props"  style="position: relative;top: 15px; "
                   >
                     施設一覧
                   </v-btn>
                 </template>
+
 
                 <v-card>
                   <v-container>
@@ -92,6 +93,26 @@
                   </v-container>
                 </v-card>
               </v-menu>
+
+              <fieldset style="position: relative;top: -5px; left: 5px; ">
+              <legend>地図操作</legend>
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
+                color="primary"
+              >
+                移動
+              </v-btn>
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
+                color="primary"
+              >
+                確定
+              </v-btn>
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
+                color="primary"
+              >
+                元に戻す
+              </v-btn>
+            </fieldset>
+
             </v-row>
           </v-container>
 
