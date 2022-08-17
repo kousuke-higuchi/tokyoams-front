@@ -4,13 +4,10 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "preview": "nuxt preview"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "nuxt": "3.0.0-rc.4",
-    "push-dir": "^0.4.1"
+    "nuxt": "3.0.0-rc.4"
   },
   "dependencies": {
     "@mdi/font": "^6.9.96",

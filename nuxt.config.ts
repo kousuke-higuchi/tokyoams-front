@@ -5,9 +5,17 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+    ssr: false,
     publicRuntimeConfig: {
         // TODO: .vueファイルや他の.tsファイルに環境変数を展開する場合はここに追記します
         // apiURL: process.env.VITE_API_BASE_URL,
+    },
+    app: {
+        head: {
+            link: [
+                { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            ]    
+        }
     },
     css: [
         "vuetify/lib/styles/main.sass",
