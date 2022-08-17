@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         // apiURL: process.env.VITE_API_BASE_URL,
     },
     app: {
-        cdnURL: '/tokyoams-front/',
+        //cdnURL: '/tokyoams-front/',
         head: {
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
