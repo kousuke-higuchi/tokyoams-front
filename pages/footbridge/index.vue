@@ -22,21 +22,6 @@
               >
                 CSV出力
               </v-btn>
-              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
-                color="primary"
-              >
-                移動
-              </v-btn>
-              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
-                color="primary"
-              >
-                確定
-              </v-btn>
-              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
-                color="primary"
-              >
-                元に戻す
-              </v-btn>
             </v-row>
           </v-container>
             <div>

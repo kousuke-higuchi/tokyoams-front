@@ -1,4 +1,4 @@
-import { TOKEN_HEADER_NAME, User } from '~~/types/types';
+import { TOKEN_HEADER_NAME, User } from '~~/types';
 import http from './http-client';
 
 class AuthService {

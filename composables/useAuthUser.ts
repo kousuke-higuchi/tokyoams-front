@@ -1,5 +1,5 @@
 import { Ref } from "nuxt/dist/app/compat/capi";
-import { User } from "~~/types/types";
+import { User } from "~~/types";
 
 type AuthState = {
   isLogin:boolean;

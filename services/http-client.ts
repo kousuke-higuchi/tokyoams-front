@@ -1,5 +1,5 @@
 import axios, { AxiosInstance } from "axios";
-import { TOKEN_HEADER_NAME } from "~~/types/types";
+import { TOKEN_HEADER_NAME } from "~~/types";
 
 const apiClient: AxiosInstance = axios.create({
   // リクエストヘッダ
