@@ -42,7 +42,7 @@
                       :href="item.url"
                       :title="item.title"
                       :img-src="item.src"
-                      :explain="test"
+                      :explain="item.explain"
                     />
                   </v-col>
                   <v-col  v-if="i==0"></v-col>
@@ -71,8 +71,12 @@
               <v-card 
               class="childfeature titleCenter"
               :href="childfeatureCard.url">
-                <p style="padding:0px 10px">{{childfeatureCard.title}}</p>
+                  <div>
+                    <p style="padding:0px 10px">{{childfeatureCard.title}}</p>
+                  </div>           
               </v-card>
+                    <p style="font-size: xx-small; color: darkred;">{{childfeatureCard.explain}}</p>
+              
               </v-container>
             </v-card>
       </v-container>
@@ -112,7 +116,7 @@
           title: "道路施設",
           items:
           [
-            {title: '共同溝', src:'assets/img/facility_facility1.jpg',url: '/'},
+            {title: '共同溝', src:'assets/img/facility_facility1.jpg',url: '/', explain:'共同溝のデータを表示します。'},
             {title: '擁壁',src:'assets/img/facility_facility2.jpg',url: '/'},
             {title: '掘割道路',src:'assets/img/facility_facility3.jpg',url: '/'},
             {title: '組立歩道',src:'assets/img/facility_facility4.jpg',url: '/'},
@@ -134,11 +138,11 @@
       ],
       featureCards:[
         {title: '施設新規登録'},
-        {title: '発注情報登録'},
+        {title: '委託データ登録'},
       ], 
        childfeatureCards:[
-        [{ownertitle: '施設新規登録',title: '施設新規登録フォーム', url: '/'},],
-        [{ownertitle: '発注情報登録',title: '発注登録サイト', url: '/', explain:'業者が納品'},],
+        [{ownertitle: '施設新規登録',title: '施設新規登録フォーム', url: '/', explain:'システム用のデータを新規登録するための入力フォームを表示します。'},],
+        [{ownertitle: '委託データ登録',title: '委託データ登録サイト', url: '/', explain:'業者が作成するためのデータを作成、納品するためのシステムを起動します。'},],
        ],
       columns: [
       {
