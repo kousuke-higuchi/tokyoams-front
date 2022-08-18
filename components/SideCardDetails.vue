@@ -42,7 +42,7 @@
           :pagination-options="{
             enabled: true,
             mode: 'records',
-            perPage: 2,
+            perPage: 10,
             nextLabel: '次',
             prevLabel: '前',
             perPageDropdownEnabled: false,

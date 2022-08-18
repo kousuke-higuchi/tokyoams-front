@@ -62,7 +62,7 @@
           <v-container>
             <v-row justify="end">
               <v-btn v-on:click="clickFind()"
-                color= "primary"
+                color= "primary" style="position: relative;top: 15px; "
               >
                 検索条件
               </v-btn>
@@ -75,7 +75,7 @@
                   <v-btn
                     class="ml-2"
                     color="primary"
-                    v-bind="props"
+                    v-bind="props" style="position: relative;top: 15px; "
                   >
                     施設一覧
                   </v-btn>

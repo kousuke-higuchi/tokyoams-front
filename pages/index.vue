@@ -42,6 +42,7 @@
                       :href="item.url"
                       :title="item.title"
                       :img-src="item.src"
+                      :explain="test"
                     />
                   </v-col>
                   <v-col  v-if="i==0"></v-col>
@@ -134,13 +135,10 @@
       featureCards:[
         {title: '施設新規登録'},
         {title: '発注情報登録'},
-        {title: '更新依頼処理'},
       ], 
        childfeatureCards:[
-        [{ownertitle: '施設新規登録',title: '道路資産管理システム', url: '/'},
-         {ownertitle: '施設新規登録',title: '新規施設を登録する場合', url: '/'},],
-        [{ownertitle: '発注情報登録',title: '発注登録サイト', url: '/'},],
-        [{ownertitle: '更新依頼処理',title: '更新依頼の処理', url: '/'},],
+        [{ownertitle: '施設新規登録',title: '施設新規登録フォーム', url: '/'},],
+        [{ownertitle: '発注情報登録',title: '発注登録サイト', url: '/', explain:'業者が納品'},],
        ],
       columns: [
       {

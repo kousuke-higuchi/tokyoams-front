@@ -61,8 +61,7 @@
             children: [
               { title: '施設新規登録',  
                 children:[
-                { title: '道路資産管理システム', props:{ to: '/tobeImplement' }},
-                { title: '道路附属物の場合', props:{ to: '/tobeImplement' }},
+                { title: '施設新規登録フォーム', props:{ to: '/tobeImplement' }}
                 ],
               },
               { title: '発注情報登録', 
@@ -70,17 +69,6 @@
                 { title: '発注登録サイト', props:{ to: '/tobeImplement' }},
                 ],
               },
-              { title: '更新依頼処理', 
-                children:[
-                { title: '更新依頼の処理', props:{ to: '/tobeImplement' }},
-                ],
-              },
-            ],
-          },
-          {
-            title: '補修履歴', props:{ prependIcon: 'mdi-history'},  
-            children: [
-              { title: '登録',  props:{ to: '/tobeImplement' }},
             ],
           },
       ];

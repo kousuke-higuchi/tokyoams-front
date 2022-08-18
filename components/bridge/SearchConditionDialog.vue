@@ -10,7 +10,7 @@
                 <v-text-field label="施設名称" v-model="searchCond.facilityName" density="compact" :hide-details="false" variant="underlined"></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="6" md="5">
-                トンネル延長
+                橋長
                 </v-col>
                 <v-col cols="12" sm="6" md="3">
                 <v-text-field label="から" v-model="searchCond.tunnelFrom" density="compact" :hide-details="false" variant="underlined"></v-text-field>
