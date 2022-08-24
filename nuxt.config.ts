@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     css: [
         "vuetify/lib/styles/main.sass",
         'mdi/css/materialdesignicons.min.css', // mdi font
+        '@/assets/css/main.scss',
     ],
     build: {
         transpile: ["vuetify"]

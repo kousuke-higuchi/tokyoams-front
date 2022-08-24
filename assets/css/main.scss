@@ -1,0 +1,24 @@
+﻿/* NOTE: font-size 標準=medium の1段階下は、small　   */
+/* HACK: 画面下部ページャのサイズは変更していない */
+table.vgt-table,
+table.vgt-table input,
+table.vgt-table select
+{
+  font-size:small !important;
+}
+
+.ledger table {
+  border-collapse: collapse;
+  td,th {
+    font-size: xx-small !important;
+    border: 1px solid #dedede;
+    white-space: nowrap;
+  }
+  
+  input, select {
+    font-size: xx-small !important;  
+  }
+  th {
+    background-color: #eeeeee;
+  }
+}
