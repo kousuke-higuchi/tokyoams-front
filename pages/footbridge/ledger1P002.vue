@@ -9,7 +9,7 @@
           <div class="d-flex">
             <v-row>
               <v-col>
-                <v-card-text>別紙2 様式1様式2 <span class="alignRight">様式2</span><br>
+                <v-card-text>別紙2 様式1様式2 <span style="float:right;">様式2</span><br>
                   状況写真（損傷状況）<br>
                   ○部材単位の判定区分がⅡ、Ⅲ又はⅣの場合には、直接関連する不具合の写真を記載のこと。<br>
                   ○写真は、不具合の程度が分かるように添付すること。
@@ -22,12 +22,12 @@
               <v-card>
                 <v-card-text>
                   <v-row no-gutters>
-                    <v-col v-for="imgDetail in imgDetails" :key="imgDetail.img" class="detailCard" md="6" cols="12">
+                    <v-col v-for="imgDetail in imgDetails" :key="imgDetail.img" md="6" cols="12">
                       <v-card class="rounded-0" @click="setmap(imgDetail.damagemap)">
                         <v-table density="compact">
                           <tbody>
                             <tr>
-                              <td class="cell" align="center">{{ imgDetail.dmageTitle }}</td>
+                              <th class="text-center ledger-cell">{{ imgDetail.dmageTitle }}</th>
                             </tr>
                           </tbody>
                         </v-table>
@@ -94,18 +94,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.detailCard {
-  padding: 0;
-  border: 1px solid black;
-}
-
-.cell {
-  border: 0.5px solid black;
-}
-
-.alignRight {
-  float: right;
-}
-</style>

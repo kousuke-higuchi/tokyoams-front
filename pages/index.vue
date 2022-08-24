@@ -8,27 +8,31 @@
             <v-row>
               <!-- 単独アイコンの項目 -->
               <v-col v-for="facilitycard in facilityCards" :key="facilitycard.title" sm="3" cols="12">
-                <v-card class="btn btn--red btn--radius btn--cubic" :href='facilitycard.url' :title='facilitycard.title'
-                  append-icon="mdi-chevron-right" color=color-stop(37%, #e3eaed)>
+                <v-card class="facility">
+                  
+                  <v-card :title='facilitycard.title' class="facility-header"></v-card>
+                  <v-card class="text-subtitle-1 btn btn--red btn--radius btn--cubic btn--font" :href='facilitycard.url'
+                    :title='facilitycard.title' append-icon="mdi-chevron-right"  >
+                  </v-card>
                   <!-- <a href="" class="btn btn--red btn--radius btn--cubic">'facilitycard.title'<i class="fas fa-angle-right fa-position-right"></i></a> -->
                   <!-- <ribbon-box :title="facilitycard.title" /> -->
                   <!-- <v-container>
               <v-img class="cardimg" :src="facilitycard.src"></v-img>
-            </v-container> -->
+            </v-container>-->
                 </v-card>
               </v-col>
               <!-- グループ化された項目 -->
               <v-col v-for="(group, i) in groupedFacirityCards" :key="i" md="6" cols="12">
                 <v-card class="facility">
 
-                  <ribbon-box :title="group.title" />
-
+                  <!-- <ribbon-box :title="group.title" /> -->
+                  <v-card :title="group.title" class="facility-header"></v-card>
                   <v-container>
                     <v-row dense>
                       <template v-for="(item, i) in group.items" :key="i">
                         <v-col md="6" sm="6" cols="12">
-                          <v-card class="btn btn--red btn--radius btn--cubic" :href='item.url'
-                            :title='item.title' append-icon="mdi-chevron-right" color=color-stop(37%, #e3eaed)>
+                          <v-card class="btn btn--red btn--radius btn--cubic" :href='item.url' :title='item.title'
+                            append-icon="mdi-chevron-right">
                           </v-card>
                           <!-- <home-titled-card
                       :href="item.url"
@@ -52,7 +56,7 @@
           <p class="mainCardsTitle">各種機能</p>
           <v-container>
             <v-card class="feature" v-for="(featureCard, i) in featureCards" :key="i">
-              <ribbon-box :title="featureCard.title"></ribbon-box>
+              <!-- <ribbon-box :title="featureCard.title"></ribbon-box> -->
               <v-container v-for="childfeatureCard in childfeatureCards[i]" :key="childfeatureCard.title">
                 <v-card class="childfeature titleCenter" :href="childfeatureCard.url">
                   <div>
@@ -111,7 +115,7 @@ export default {
       items: [
         { title: '道路照明', src: '', url: '/streetlight' },
         { title: '配電盤', src: '', url: '/switchboard' },
-        { title: '障害物', src: '', url: '/blinker' },
+        { title: '障害物表示灯', src: '', url: '/blinker' },
         { title: '道路標識', src: '', url: '/sign' },
         { title: '道路反射鏡', src: '', url: '/mirror' },
       ],
@@ -126,8 +130,8 @@ export default {
     childfeatureCards: [
       [{ ownertitle: '施設新規登録', title: '施設新規登録フォーム', url: '/newRegist', explain: 'システム用のデータを新規登録するための入力フォームを表示します。' },],
       [{ ownertitle: '委託データ登録', title: '委託データ登録サイト', url: '/', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
-      [{ ownertitle: '損傷マップ', title: '損傷マップ', url: '/inspMap', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
-      [{ ownertitle: '橋梁損傷写真一覧出力', title: '委託データ登録サイト', url: '/', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
+      [{ ownertitle: '損傷マップ', title: '損傷マップ', url: '/inspMap', explain: '複数の施設種別のピンを同一の地図で表現します。' },],
+      [{ ownertitle: '橋梁損傷写真一覧出力', title: '橋梁損傷写真一覧出力', url: '/', explain: '橋梁の損傷写真の一覧を出力します。' },],
     ],
     columns: [
       {
@@ -179,7 +183,9 @@ export default {
 .facility {
   background: #17a2b8;
 }
-
+.facility-header {
+  background: #8dd1db;
+}
 /* .cardimg{
   max-height: 150px;
 } */
@@ -215,6 +221,9 @@ a.btn--red.btn--cubic:hover {
 
 a.btn--radius {
   border-radius: 100vh;
+}
+a.btn--font {
+  font-size: x-small;
 }
 
 .fa-position-right {

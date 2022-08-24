@@ -24,7 +24,7 @@
         line-height: 100%;
         width: 210px;
         padding: 0.475rem 0;
-        position: relative;
+        position: inherit;
         right: 0px;
         top: 30px;
         text-align: left;

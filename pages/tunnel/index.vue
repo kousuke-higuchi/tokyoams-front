@@ -20,7 +20,7 @@
               <v-btn class="ml-2" v-on:click="clickOutputCSV()"
                 color="primary"
               >
-                CSV出力
+                一覧出力
               </v-btn>
             </v-row>
           </v-container>
@@ -141,6 +141,7 @@ export default defineComponent({
         {
           label: '事務所',
           field: 'office',
+          width: '14em',          
           sortable: false,
           filterOptions: {
         	  enabled: true,
@@ -151,6 +152,7 @@ export default defineComponent({
         {
           label: '工区',
           field: '',
+          width: '10em',          
           sortable: false,
           filterOptions: {
         	  enabled: true,

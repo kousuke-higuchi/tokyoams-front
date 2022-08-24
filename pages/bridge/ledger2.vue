@@ -7,9 +7,7 @@
       <v-col md="9" cols="12">
         <v-card elevation="3">
           <v-card-title>
-            <v-row class="justify-start mt-1 ml-3">塗装経歴 - 
-              <div class="ml-2">鎌倉橋</div>
-            </v-row>
+            <v-row class="justify-start mt-1 ml-3">塗装経歴</v-row>
             <v-row class="justify-end mt-1 mr-3">
               <v-btn v-on:click="onCreateClick()"
                 color= "primary"

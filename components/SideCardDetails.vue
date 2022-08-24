@@ -1,6 +1,9 @@
 <template>
   <v-card height="820px"  elevation="3">
-    <v-card height="468px">
+    <v-card height="484px">
+      <v-card-title>
+        <v-row class="justify-start mt-1 ml-3 font-weight-bold" style="font-size:medium">橋梁名 : 鎌倉橋 01110010-0</v-row>
+      </v-card-title>
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
           <v-tab value="note">橋梁台帳</v-tab>
@@ -22,12 +25,13 @@
         </v-card-text>
       </v-container>
     </v-card>  
-    <v-card>
+    <v-card height="336px">
       <v-card-title>
-        <v-row class="justify-start mt-1 ml-1">台帳メモ一覧</v-row>
+        <v-row class="justify-start mt-1 ml-1"  style="font-size:medium!important">台帳メモ一覧</v-row>
         <v-row class="justify-end mt-1 mr-1">
-            <v-btn  v-on:click="clickNew()"
+            <v-btn  v-on:click="onNewClick()"
             color= "primary"
+            size="small"
             >
                 新規登録
             </v-btn>
@@ -39,6 +43,7 @@
           :columns="noteColumns"
           :rows="noteContents"
           style-class="vgt-table striped"
+
           :pagination-options="{
             enabled: true,
             mode: 'records',
@@ -47,6 +52,17 @@
             prevLabel: '前',
             perPageDropdownEnabled: false,
           }">
+            <template #table-row="props">
+              <span v-if="props.column.field == 'update'">
+                  <v-btn class="btn" color="primary" dark size="x-small" v-on:click="onUpdateClick(props.row)">更新</v-btn>
+              </span>
+              <span v-if="props.column.field == 'remove'">
+                  <v-btn class="btn" color="error" dark size="x-small" v-on:click="onRemoveClick(props.row)">削除</v-btn>
+              </span>
+              <span v-else>
+                {{props.formattedRow[props.column.field]}}
+              </span>
+            </template>
           </vue-good-table>
         </div>
       </v-card-text>
@@ -76,7 +92,7 @@
               登録日
             </v-col>
             <v-col cols="12" sm="9">
-              <Datepicker v-model="saveDateMemo" locale="jp" :enableTimePicker="false" :format="formatDate" :clearable="false" />                      
+              <Datepicker v-model="dialogDate" locale="jp" :enableTimePicker="false" :format="formatDate" :clearable="false" />                      
             </v-col>
             <v-col cols="12" sm="3" class="mt-2">
               メモ
@@ -88,14 +104,15 @@
               auto-grow
               density="compact"
               hide-details="false"
+               v-model="dialogMemo"
               ></v-textarea>
             </v-col>
           </v-row>
         </v-card-text>
         <v-divider></v-divider>
         <div class="d-flex">
-          <v-btn variant="outlined" class="mr-auto ma-3" @click="clickCloseBtn()">閉じる</v-btn>
-          <v-btn color="primary ma-3" class="ml-auto" @click="clickResistBtn()">登録</v-btn>
+          <v-btn variant="outlined" class="mr-auto ma-3" @click="onCloseClick()">閉じる</v-btn>
+          <v-btn color="primary ma-3" class="ml-auto" @click="onSaveClick()">登録</v-btn>
         </div>
       </v-card>
     </v-dialog>
@@ -115,8 +132,9 @@ export default defineComponent({
   data() {
     return {
       isOpen: false,
-      saveDateMemo: null,
       tabSide: 'note',      
+      dialogDate: null,
+      dialogMemo: null,
       buttons01:  [
         { title: '橋梁台帳(1)', props:{ to:"/bridge/ledger1" } },
         { title: '橋梁台帳(2)', props:{ to:"/bridge/ledger2" } },
@@ -143,16 +161,17 @@ export default defineComponent({
         { title: '道路端様式2P001', props:{ to: '/tobeImplement' } },
       ],
       noteColumns: [
-        { label: 'No', field: 'id', width: '80px', sortable: false,
-          filterOptions: { enabled: true, placeholder: 'No入力', },
+        {
+          label: '登録日', field: 'date', width: '8em', sortable: false, 
         },
         {
-          label: '登録日', field: 'date', width: '120px', sortable: false,
-          filterOptions: { enabled: true, placeholder: '日付入力', },
+          label: '内容', field: 'contents', sortable: false, 
         },
         {
-          label: '内容', field: 'contents', sortable: false, filterOptions: {
-            enabled: true, placeholder: '内容入力', },
+          label: '', field: 'update', sortable: false, 
+        },
+        {
+          label: '', field: 'remove', sortable: false, 
         },
       ],
       noteContents: [
@@ -164,25 +183,34 @@ export default defineComponent({
   },
   mounted: function() {
     console.log("mounted SideCardDetails : ", this.tabSide);
-    this.saveDateMemo = this.getDate();
+    this.dialogDate = this.getDate();
   },
   methods: {
-    clickNew() {
+    onNewClick() {
       console.info("新規登録を押下しました");
+      this.dialogDate = this.getDate();
       this.isOpen = true;
-      this.saveDateMemo = this.getDate();
+    },
+    onUpdateClick(row) {
+      console.info("onUpdateClick ", row);
+      this.dialogDate = row.date;
+      this.dialogMemo = row.contents;
+      this.isOpen = true;
+    },
+    onRemoveClick(row) {
+      console.info("onRemoveClick " + row);
+    },
+    onCloseClick(){
+      this.isOpen = false;
+      console.info("onCloseClick");
+    },
+    onSaveClick(){
+      this.isOpen = false;
+      console.info("clickResisterBtn");
     },
     getDate(){
       var today = new Date();
       return today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
-    },
-    clickCloseBtn(){
-      this.isOpen = false;
-      console.debug("clickCloseBtn");
-    },
-    clickResistBtn(){
-      this.isOpen = false;
-      console.debug("clickResisterBtn");
     },
     formatDate(args) {
       console.log(args);

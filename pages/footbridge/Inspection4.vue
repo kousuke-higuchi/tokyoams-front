@@ -39,7 +39,7 @@
                     <v-col
                       v-for="imgDetail in imgDetails"
                       :key="imgDetail.img"
-                      class="detailCard"
+                      
                       md="6"
                       cols="12"
                     >
@@ -49,22 +49,22 @@
                         <v-table density="compact">
                           <tbody>
                             <tr>
-                              <td class="cell">径間番号</td>
-                              <td class="cell bg-pink-lighten-5">{{imgDetail.trackNumber}}</td>
-                              <td class="cell">写真番号</td>
-                              <td class="cell bg-pink-lighten-5">{{imgDetail.imgNumber}}</td>
+                              <th class="ledger-cell">径間番号</th>
+                              <td class="ledger-cell bg-pink-lighten-5">{{imgDetail.trackNumber}}</td>
+                              <th class="ledger-cell">写真番号</th>
+                              <td class="ledger-cell bg-pink-lighten-5">{{imgDetail.imgNumber}}</td>
                             </tr>
                             <tr>
-                              <td class="cell">部材名</td>
-                              <td class="cell bg-pink-lighten-5">{{imgDetail.cmpName}}</td>
-                              <td class="cell">損傷の種類</td>
-                              <td class="cell bg-pink-lighten-5">{{imgDetail.damageType}}</td>
+                              <th class="ledger-cell">部材名</th>
+                              <td class="ledger-cell bg-pink-lighten-5">{{imgDetail.cmpName}}</td>
+                              <th class="ledger-cell">損傷の種類</th>
+                              <td class="ledger-cell bg-pink-lighten-5">{{imgDetail.damageType}}</td>
                             </tr>
                             <tr>
-                              <td class="cell">状況</td>
-                              <td class="cell bg-pink-lighten-5">{{imgDetail.situation}}</td>
-                              <td class="cell">判定</td>
-                              <td class="cell bg-pink-lighten-5">{{imgDetail.judgment}}</td>
+                              <th class="ledger-cell">状況</th>
+                              <td class="ledger-cell bg-pink-lighten-5">{{imgDetail.situation}}</td>
+                              <th class="ledger-cell">判定</th>
+                              <td class="ledger-cell bg-pink-lighten-5">{{imgDetail.judgment}}</td>
                             </tr>
                           </tbody>
                         </v-table>
@@ -162,13 +162,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.detailCard{
-  padding: 0;
-  border:1px solid black;
-}
-.cell{
-  border:0.5px solid black;
-}
-</style>

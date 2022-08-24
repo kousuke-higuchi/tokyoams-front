@@ -23,13 +23,13 @@
             <v-card-text>
               <v-container>
                 <v-row>
-                  <v-col class="cell" cols="9">
+                  <v-col class="ledger-cell" cols="9">
                     <v-card-text>
                     <v-img src="../../assets/img/dmg/fbg7view1.jpg"></v-img>
                     </v-card-text>
                   </v-col>
-                  <v-col cols="3" class="cell">
-                    <v-row class="cell">
+                  <v-col cols="3" class="ledger-cell">
+                    <v-row class="ledger-cell">
                       <v-col>
                         <v-card-text>
                         <v-img src="../../assets/img/dmg/fbg7view2.jpg" height="auto"></v-img>
@@ -38,7 +38,7 @@
                     </v-row>
                     <v-row>
                       <v-col>
-                        <v-card-text>1:2,500</v-card-text>
+                        <v-card-text class="text-center">1:2,500</v-card-text>
                       </v-col>
                     </v-row>
                   </v-col>
@@ -51,9 +51,3 @@
     </v-row>
   </div>
 </template>
-
-<style scoped>
-.cell {
-  border: 0.5px solid black;
-}
-</style>

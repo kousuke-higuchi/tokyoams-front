@@ -63,14 +63,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.detailCard {
-  padding: 0;
-  border: 1px solid black;
-}
-
-.cell {
-  border: 0.5px solid black;
-}
-</style>

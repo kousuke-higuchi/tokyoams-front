@@ -25,14 +25,15 @@
               <v-card>
                 <v-card-text>
                   <v-row no-gutters>
-                    <v-col v-for="imgDetail in imgDetails" :key="imgDetail.img" class="detailCard" md="6" cols="12">
+                    <v-col v-for="imgDetail in imgDetails" :key="imgDetail.img" md="6" cols="12">
                       <v-card class="rounded-0" @click="setmap(imgDetail.damagemap)">
                         <v-table density="compact">
                           <tbody>
                             <tr>
-                              <td class="cell" align = "center">{{ imgDetail.picTitle }}</td>
-                              <td v-if="imgDetail.imgNumber != 1" class="cell">
-                              <div align ="center">{{ imgDetail.number }}</div></td>
+                              <th class="text-center ledger-cell">{{ imgDetail.picTitle }}</th>
+                              <th v-if="imgDetail.imgNumber != 1" class="text-center ledger-cell">
+                              <div>{{ imgDetail.number }}</div>
+                              </th>
                             </tr>
                           </tbody>
                         </v-table>
@@ -97,14 +98,3 @@ export default defineComponent({
   },
 })
 </script>
-
-<style scoped>
-.detailCard {
-  padding: 0;
-  border: 1px solid black;
-}
-
-.cell {
-  border: 0.5px solid black;
-}
-</style>
