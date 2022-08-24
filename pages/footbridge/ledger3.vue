@@ -2,348 +2,393 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <fbg-side-card-details />
+        <FbgSideCardDetails />
       </v-col>
       <v-col md="9" cols="12">
-          <v-card elevation="3">
-            <v-card-title>
-              <v-row class="justify-start mt-1 ml-3">橋梁台帳  東京都</v-row>
-              <v-row class="justify-end mt-1 mr-3">鎌倉橋  No.01110010-0</v-row>
-            </v-card-title>
+        <v-card elevation="3">
+          <v-card-title>
+            <v-row class="justify-start mt-1 ml-3">青葉歩道橋 No.01130010</v-row>
+            <v-row class="justify-end mt-1 mr-3">様式-3</v-row>
+          </v-card-title>
           <v-card-text>
-          <v-row>
-          <v-col md="4" cols="12">
-            <v-card class="overflow-auto" elevation="4">
-              <v-card-title>
-                一般事項
-              </v-card-title>
-              <v-card-text>
-                <v-table density="compact">
-                  <thead>
-                    <tr>
-                      <th class="text-left">項目</th>
-                      <th class="text-left">内容</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="item in general" :key="item.name">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.name }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-              </v-card-text>
-            </v-card >
-          </v-col>
-          <v-col md="4" cols="12">
-            <v-card class="overflow-auto"  elevation="4">
-              <v-card-title>
-                上部構造
-              </v-card-title>
-              <v-card-text>
-                <v-table density="compact">
-                  <thead>
-                    <tr>
-                      <th class="text-center"></th>
-                      <th class="text-center">主径間</th>
-                      <th class="text-center">側径間</th>
-                      <th class="text-center">取付道路</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="item in upperStruct" :key="item.item">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.main }}</td>
-                      <td>{{ item.sub }}</td>
-                      <td>{{ item.road }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-                <v-divider></v-divider>
-                <v-table density="compact">
-                  <thead>
-                    <tr>
-                      <th class="text-center"></th>
-                      <th class="text-center">主径間構造</th>
-                      <th class="text-center">主径間材種</th>
-                      <th class="text-center">側径間構造</th>
-                      <th class="text-center">側径間材種</th>
-                      <th class="text-center">道路構造</th>
-                      <th class="text-center">道路材種</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="item in upperStructDetail" :key="item.item">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.mainStruct }}</td>
-                      <td>{{ item.mainMaterial }}</td>
-                      <td>{{ item.subStruct }}</td>
-                      <td>{{ item.subMaterial }}</td>
-                      <td>{{ item.roadStruct }}</td>
-                      <td>{{ item.roadMaterial }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-                <v-divider></v-divider>
-                <div class="text-center">主要材料</div>
-                <v-divider></v-divider>
-                <v-table density="compact">
-                  <thead>
-                    <tr>
-                      <th class="text-center">材料</th>
-                      <th class="text-center">橋梁部</th>
-                      <th class="text-center">取付道路部</th>
-                      <th class="text-center">合計</th>
-                      <th class="text-center">摘用</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="item in upperStructMaterial" :key="item.item">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.bridge }}</td>
-                      <td>{{ item.road }}</td>
-                      <td>{{ item.sum }}</td>
-                      <td>{{ item.note }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-                <v-divider></v-divider>
-                <v-table density="compact">
-                  <tbody>
-                    <tr v-for="item in upperNote" :key="item.name">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.name }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-              </v-card-text>
-            </v-card >
-          </v-col>
-          <v-col md="4" cols="12">
-            <v-card class="overflow-auto" elevation="4">
-              <v-card-title>
-                下部構造
-              </v-card-title>
-              <v-card-text>
-                <v-table density="compact">
-                  <thead>
-                    <tr>
-                      <th class="text-left"></th>
-                      <th class="text-left"></th>
-                      <th class="text-left">構造形式</th>
-                      <th class="text-left">材種</th>
-                      <th class="text-left">基礎到達層深さ</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="item in lowerStruct" :key="item.type">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.type }}</td>
-                      <td>{{ item.struct }}</td>
-                      <td>{{ item.material }}</td>
-                      <td>{{ item.basic }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-                <v-divider></v-divider>
-                <div class="text-center">一基当り上部工反力</div>
-                <v-divider></v-divider>
-                <v-table density="compact">
-                  <thead>
-                    <tr>
-                      <th class="text-left">基礎番号</th>
-                      <th class="text-left">常時 直</th>
-                      <th class="text-left">常時 平</th>
-                      <th class="text-left">地震 直</th>
-                      <th class="text-left">地震 平</th>
-                      <th class="text-left">摘要</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="item in lowerResilience" :key="item.no">
-                      <td>{{ item.no }}</td>
-                      <td>{{ item.vertical }}</td>
-                      <td>{{ item.horizon }}</td>
-                      <td>{{ item.vertical4Quake }}</td>
-                      <td>{{ item.horizon4Quake }}</td>
-                      <td>{{ item.note }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-                <v-divider></v-divider>
-                <div class="text-center">主要材料</div>
-                <v-divider></v-divider>
-                <v-table density="compact">
-                  <thead>
-                    <tr>
-                      <th class="text-center">材料</th>
-                      <th class="text-center">橋梁部</th>
-                      <th class="text-center">取付道路部</th>
-                      <th class="text-center">合計</th>
-                      <th class="text-center">摘用</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr v-for="item in lowerStructMaterial" :key="item.item">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.bridge }}</td>
-                      <td>{{ item.road }}</td>
-                      <td>{{ item.sum }}</td>
-                      <td>{{ item.note }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-                <v-divider></v-divider>
-                <v-table density="compact">
-                  <tbody>
-                    <tr v-for="item in upperNote" :key="item.name">
-                      <td>{{ item.item }}</td>
-                      <td>{{ item.name }}</td>
-                    </tr>
-                  </tbody>
-                </v-table>
-              </v-card-text>
-            </v-card >
-          </v-col>
-          </v-row>
+            <v-row no-gutters>
+              <v-col md="12" cols="12">
+                <div>
+                  <v-table density="compact">
+                    <thead>
+                      <tr>
+                        <th colspan="13" class="text-center" nowrap style="border: 1px solid #dedede;">設置状況調書</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
+                      <tr>
+                        <th class="text-center ledger-cell" nowrap>横断歩道橋の形状パターン</th>
+                        <th class="text-center ledger-cell" nowrap>設置個所</th>
+                        <th colspan="3" class="text-center ledger-cell" nowrap>単路部</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>路線・項目</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>車道幅員<br>（中央分離帯を除く）</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>自動車交通量</th>
+                        <th colspan="2" class="text-center ledger-cell" nowrap>中央分離帯</th>
+                        <th class="text-center ledger-cell" nowrap>中央分離帯柵</th>
+                        <th colspan="2" class="text-center ledger-cell" nowrap>中央分離帯柵設置要因</th>
+                      </tr>
+                      <tr>
+                        <td rowspan="5" nowrap class="ledger-cell">
+                          <img src="../../assets/img/dmg/fbg3view1.jpg">
+                        </td>
+                        <th nowrap class="ledger-cell">近接横断歩道離れ</th>
+                        <td nowrap class="ledger-cell">無し ｍ</td>
+                        <th nowrap class="ledger-cell">信号機の<br>有無</th>
+                        <td nowrap class="ledger-cell">無</td>
+                        <th nowrap class="ledger-cell">有・無</th>
+                        <th nowrap class="ledger-cell">幅</th>
+                        <th nowrap class="ledger-cell">有・無</th>
+                        <th nowrap class="ledger-cell">通学路</th>
+                        <td nowrap class="ledger-cell"></td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">次の近接横断歩道離れ</th>
+                        <td nowrap class="ledger-cell">無し ｍ</td>
+                        <th nowrap class="ledger-cell">信号機の<br>有無</th>
+                        <td nowrap class="ledger-cell">無</td>
+                        <th nowrap class="ledger-cell">主線路</th>
+                        <td nowrap class="ledger-cell">17.60ｍ</td>
+                        <td nowrap class="ledger-cell">（12時間）<br>26,252台</td>
+                        <td nowrap class="ledger-cell">有</td>
+                        <td nowrap class="ledger-cell">0.6ｍ</td>
+                        <td nowrap class="ledger-cell">無</td>
+                        <th nowrap class="ledger-cell">対車の安全</th>
+                        <td nowrap class="ledger-cell"></td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">歩道橋下の信号処理</th>
+                        <td colspan="3" nowrap class="text-center ledger-cell">無</td>
+                        <th nowrap class="ledger-cell">副線路</th>
+                        <td nowrap class="ledger-cell"> ｍ</td>
+                        <td nowrap class="ledger-cell"></td>
+                        <td nowrap class="ledger-cell"></td>
+                        <td nowrap class="ledger-cell"> ｍ</td>
+                        <td nowrap class="ledger-cell"></td>
+                        <th nowrap class="ledger-cell">その他</th>
+                        <td nowrap class="ledger-cell"></td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">歩道の残幅員<br>（有効幅員）</th>
+                        <td nowrap class="ledger-cell">最小 2.2ｍ</td>
+                        <td nowrap class="ledger-cell">2番目 2.4ｍ</td>
+                        <td nowrap class="ledger-cell">3番目 -ｍ</td>
+                        <th nowrap class="ledger-cell">次路線</th>
+                        <td nowrap class="ledger-cell"> ｍ</td>
+                        <td nowrap class="ledger-cell"></td>
+                        <td nowrap class="ledger-cell"></td>
+                        <td nowrap class="ledger-cell"> ｍ</td>
+                        <td nowrap class="ledger-cell"></td>
+                        <th nowrap class="ledger-cell">不明</th>
+                        <td nowrap class="ledger-cell">○</td>
+                      </tr>
+                      <tr>
+                        <th colspan="3" owrap class="ledger-cell">歩道橋下に歩道部に横断抑止柵が連続しているか</th>
+                        <td nowrap class="ledger-cell">有</td>
+                        <th colspan="2" nowrap class="ledger-cell">横断歩道橋下に歩道切下げがあるか</th>
+                        <td nowrap class="ledger-cell">無</td>
+                        <th nowrap class="ledger-cell">設置事業名</th>
+                        <td colspan="2" nowrap class="ledger-cell"></td>
+                        <th nowrap class="ledger-cell">陳情による<br>場合の相手</th>
+                        <td colspan="2" nowrap class="ledger-cell"></td>
+                      </tr>
+                    </tbody>
+                  </v-table>
+                  <v-table density="compact">
+                    <tbody>
+                      <tr>
+                        <th nowrap class="ledger-cell">都市計画街路各幅予定</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th nowrap class="ledger-cell">利用し易い昇降方式</th>
+                        <td nowrap class="ledger-cell">○</td>
+                        <th nowrap class="ledger-cell">横断する道路の視距が道路構造令以下</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th nowrap class="ledger-cell">立体交差の取り付け部</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th rowspan="2" nowrap class="ledger-cell">所轄警察署名</th>
+                        <td rowspan="2" nowrap class="ledger-cell">麹町警察署</td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">啓開道路・避難道路</th>
+                        <td nowrap class="ledger-cell">○</td>
+                        <th nowrap class="ledger-cell">利用し易い歩道橋線形</th>
+                        <td nowrap class="ledger-cell">○</td>
+                        <th nowrap class="ledger-cell">右左折車による横断者の事故多発</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th nowrap class="ledger-cell">踏切から200ｍ以内</th>
+                        <td nowrap class="ledger-cell">×</td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">再開発地域（内・隣接）</th>
+                        <td nowrap class="ledger-cell">隣接</td>
+                        <th nowrap class="ledger-cell">走行車両の視距を妨げない（階段、橋脚）</th>
+                        <td nowrap class="ledger-cell">○</td>
+                        <th nowrap class="ledger-cell">美又路または複雑な交差点で危険</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th nowrap class="ledger-cell">踏切内</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th rowspan="2" nowrap class="text-center ledger-cell">歩道橋がないとした場合<br>事故多発の可能性<br>（所轄警察の判断）</th>
+                        <td rowspan="2" nowrap class="text-center ledger-cell">有<br>（事故発生の可能性は否定できない）</td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">風致地区（内・隣接）</th>
+                        <td nowrap class="ledger-cell">隣接</td>
+                        <th nowrap class="ledger-cell">シンボルロード</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th nowrap class="ledger-cell">連続した高速走行が望ましい道路</th>
+                        <td nowrap class="ledger-cell">○</td>
+                        <th nowrap class="ledger-cell">特定経路に架かる歩道橋</th>
+                        <td nowrap class="ledger-cell">○</td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">沿道状況</th>
+                        <td colspan="3" nowrap class="ledger-cell">①人口集中地区（DID）</td>
+                        <th nowrap class="ledger-cell">高速道路出入口</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th colspan="2" nowrap class="ledger-cell">交通バリアフリー基本構想（H15.3）</th>
+                        <th rowspan="2" colspan="2" nowrap class="ledger-cell"></th>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">用途地域</th>
+                        <td colspan="3" nowrap class="ledger-cell">②商業系地域</td>
+                        <th nowrap class="ledger-cell">屋根付き歩道橋</th>
+                        <td nowrap class="ledger-cell">×</td>
+                        <th nowrap class="ledger-cell"></th>
+                        <td nowrap class="ledger-cell"></td>
+                      </tr>
+                    </tbody>
+                  </v-table>
+                  <v-table density="compact">
+                    <thead>
+                      <tr>
+                        <th colspan="8" class="text-center" nowrap style="border: 1px solid #dedede;">利用状況調書</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th nowrap class="ledger-cell">利用状況 調査年度</th>
+                        <td nowrap class="ledger-cell">2020</td>
+                        <td colspan="3" nowrap class="ledger-cell">
+                      <tr>
+                        <td nowrap>利用 2020年 12月 9日</td>
+                      </tr>
+                      <tr>
+                        <td nowrap>非利 年 月 日 調査会社 日本調査（株）</td>
+                      </tr>
+                      <tr>
+                        <td nowrap>歩道 2020年 12月 9日</td>
+                      </tr>
+                      </td>
+                      <th nowrap class="ledger-cell">通学路指定</th>
+                      <td nowrap class="ledger-cell">有</td>
+                      <th nowrap class="ledger-cell">通学路指定学校名</th>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">利用者数/１２時</th>
+                        <td nowrap class="ledger-cell">457人</td>
+                        <td rowspan="3" nowrap class="ledger-cell">
+                      <tr>
+                        <th class="text-center" nowrap>利用者数/１２時の内訳</th>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-left">・大人</td>
+                        <td nowrap class="text-right">431</td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-left">・高齢者</td>
+                        <td nowrap class="text-right">26</td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-left">・学童</td>
+                        <td nowrap class="text-right">0</td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-left">・身障者</td>
+                        <td nowrap class="text-right">0</td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-left">・自転車</td>
+                        <td nowrap class="text-right">0</td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-left">・乳母車</td>
+                        <td nowrap class="text-right">0</td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-center">計</td>
+                        <td nowrap class="text-right">457</td>
+                      </tr>
+                      </td>
+                      <th rowspan="2" colspan="2" class="text-left ledger-cell" nowrap>利用率</th>
+                      <th nowrap class="ledger-cell">通学路廃止の予定</th>
+                      <td nowrap class="ledger-cell">無</td>
+                      <th rowspan="2" nowrap class="ledger-cell">九段小学校</th>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">（ピーク時）</th>
+                        <td nowrap class="ledger-cell">112人</td>
+                        <th nowrap class="ledger-cell">学校の統配合<br>・学校の移転</th>
+                        <td nowrap class="ledger-cell">無</td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">非利用者数/１２時</th>
+                        <td nowrap class="ledger-cell">- 人</td>
+                        <td rowspan="2" nowrap class="ledger-cell">
+                      <tr>
+                        <th class="text-center" nowrap>方向</th>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-center">X1</td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-center"><br></td>
+                      </tr>
+                      <tr>
+                        <td nowrap class="text-center">X2</td>
+                      </tr>
+                      </td>
+                      <td rowspan="2" nowrap class="ledger-cell">
+                        <tr>
+                          <th class="text-center" nowrap>歩行者数</th>
+                        </tr>
+                        <tr>
+                          <td nowrap class="text-center">1,898人</td>
+                        </tr>
+                        <tr>
+                          <td nowrap class="text-center"><br></td>
+                        </tr>
+                        <tr>
+                          <td nowrap class="text-center">1,490人</td>
+                        </tr>
+                      </td>
+                      <td rowspan="2" colspan="4" nowrap class="ledger-cell">
+                        <tr>
+                          <td class="side-padding-cell text-center" nowrap></td>
+                          <th class="side-padding-cell text-center" nowrap>大人</th>
+                          <th class="side-padding-cell text-center" nowrap>高齢者</th>
+                          <th class="side-padding-cell text-center" nowrap>学童</th>
+                          <th class="side-padding-cell text-center" nowrap>身障者</th>
+                          <th class="side-padding-cell text-center" nowrap>自転車利用者</th>
+                          <th class="text-center" nowrap>乳母車</th>
+                        </tr>
+                        <tr>
+                          <td nowrap class="text-left"></td>
+                          <td nowrap class="text-left">1,621人</td>
+                          <td nowrap class="text-left">78人</td>
+                          <td nowrap class="text-left">9人</td>
+                          <td nowrap class="text-left">0人</td>
+                          <td nowrap class="text-left">187人</td>
+                          <td nowrap class="text-left">3人</td>
+                        </tr>
+                        <tr>
+                          <th nowrap class="text-left">内訳</th>
+                        </tr>
+                        <tr>
+                          <td nowrap class="text-left"></td>
+                          <td nowrap class="text-left">1,206人</td>
+                          <td nowrap class="text-left">33人</td>
+                          <td nowrap class="text-left">14人</td>
+                          <td nowrap class="text-left">1人</td>
+                          <td nowrap class="text-left">232人</td>
+                          <td nowrap class="text-left">4人</td>
+                        </tr>
+                      </td>
+                      </tr>
+                    </tbody>
+                  </v-table>
+                  <v-table density="compact">
+                    <thead>
+                      <tr>
+                        <th colspan="7" class="text-center" nowrap style="border: 1px solid #dedede;">周辺環境調書</th>
+                      </tr>
+                      <tr>
+                        <th colspan="2" class="text-center ledger-cell" nowrap>近隣の主な施設</th>
+                        <th colspan="2" class="text-center ledger-cell" nowrap>土地利用形態</th>
+                        <th colspan="3" class="text-center ledger-cell" nowrap>そのほか施設現況</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th nowrap class="ledger-cell">学校</th>
+                        <td nowrap class="ledger-cell">二松学舎大学、二松學舍大学附属高等学校□</td>
+                        <th nowrap class="ledger-cell">商店など</th>
+                        <td nowrap class="ledger-cell">日本生命三番町ビル、東京海上日勤ビル</td>
+                        <th nowrap class="ledger-cell">高欄高さ</th>
+                        <td colspan="2" nowrap class="ledger-cell">通路部： 1.18ｍ 階段部：1.3ｍ</td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">福祉施設</th>
+                        <td nowrap class="ledger-cell">九段坂病院</td>
+                        <th nowrap class="ledger-cell">住宅</th>
+                        <td nowrap class="ledger-cell">公務員三番町住宅</td>
+                        <th nowrap class="ledger-cell">手すり</th>
+                        <td class="ledger-cell">東京都福祉のまちづくり条例施設設備マニュアルに適合する設置の有無</td>
+                        <th nowrap class="ledger-cell">無</th>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell">歩行者の集散が多い施設</th>
+                        <td nowrap class="ledger-cell">靖國神社<br>九段坂公園、千鳥ヶ淵戦没者墓苑</td>
+                        <th nowrap class="ledger-cell">公共施設</th>
+                        <td nowrap class="ledger-cell">無し</td>
+                        <th class="ledger-cell">視覚障碍者誘導用ブロック</th>
+                        <td class="ledger-cell">東京都福祉のまちづくり条例施設設備マニュアルに適合する設置の有無</td>
+                        <th nowrap class="ledger-cell">無</th>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">その他</th>
+                        <td nowrap class="ledger-cell">宮内庁分室、宮内庁長官公邸、ｲﾀﾘｱ文化会館</td>
+                        <th nowrap class="ledger-cell">空地</th>
+                        <td nowrap class="ledger-cell">無し</td>
+                        <th class="ledger-cell">高力ボルト使用区分</th>
+                        <td colspan="2" nowrap class="ledger-cell">F9T</td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">撤去要望</th>
+                        <td nowrap class="ledger-cell">無</td>
+                        <th nowrap class="ledger-cell">撤去要望年月日</th>
+                        <td nowrap class="ledger-cell">-</td>
+                        <th nowrap class="ledger-cell">要望者</th>
+                        <td colspan="2" nowrap class="ledger-cell">-</td>
+                      </tr>
+                    </tbody>
+                  </v-table>
+                </div>
+              </v-col>
+            </v-row>
           </v-card-text>
-        </v-card >
+        </v-card>
       </v-col>
     </v-row>
   </div>
 </template>
 
 <script lang="ts">
-/* HACK: setup const tab = ref('note')で tabを'note'に初期化できなかった */
 export default defineComponent({
   data() {
     return {
-      general: [
-        { item: '橋名',     name: '鎌倉橋',    },
-        { item: 'フリガナ', name: 'カマクラバシ',   },
-        { item: '位置 自',  name: '千代田区 内神田 1丁目 地内', },
-        { item: '位置 至',  name: '千代田区 大手町 1丁目 地内', },
-        { item: '路線名',   name: '特例都道町有楽町線402号',    },
-        { item: '路線名 都市計画街路', name: '補助94号線', },
-        { item: '路線名 通常名',      name: '---',     },
-        { item: '橋下種類',      name: '河川  日本橋川',   },
-        { item: '橋格',       name: '1等橋',   },
-        { item: '(示方書)',      name: 'T15',   },
-        { item: '橋格',       name: '1等橋',   },
-        { item: '設計震度',       name: 'KH= 0 KV= 0',   },
-        { item: '橋長',       name: '30.175 ｍ',   },
-        { item: '総格員',       name: '22.98 ｍ',   },
-        { item: '有効格員 車道',       name: '16.6 ｍ',   },
-        { item: '有効格員 歩道',       name: '282.70 ｍ',   },
-        { item: '有効格員 合計',       name: '22 ｍ',   },
-        { item: '橋面積',       name: '693.4 ㎡',   },
-        { item: '地盤格',       name: '2849.0 ㎝',   },
-        { item: '平面線形',       name: '直 斜角 α = 90° 曲事半径 R= ∞ ｍ',   },
-        { item: '縦断勾配',       name: '橋梁部 1.67 %  取付部 3.33 %',   },
-        { item: '横断勾配',       name: '車道   2 %     歩道   2 %',   },
-        { item: '携定ケタ下桟高',       name: '不明 ｍ',   },
-        { item: '携定制限格',       name: '不明 ｍ',   },
-        { item: '携定ケタ下空間高',       name: '不明 ｍ',   },
-        { item: '中央ケタ下桟高',       name: 'AP 不明 ｍ',   },
-        { item: '最低ケタ下桟高',       name: 'AP 不明 ｍ',   },
-        { item: '最高水位',       name: 'AP 不明 ｍ',   },
-        { item: '最低川床高',       name: 'AP 不明 ｍ',   },
-        { item: '橋下路面高',       name: 'AP 不明 ｍ',   },
-        { item: '橋台敷 ',       name: '右岸上置側　 ㎥  左岸上置側　㎥',   },
-        { item: '橋台敷 ',       name: '右岸下置側　 ㎥  左岸下置側　㎥',   },
-        { item: '着工',           name: '1928 年  1 月',   },
-        { item: 'しゅん工',       name: '1929 年  3 月',   },
-        { item: '記事',       name: '(マイクロ) 有  (竣工図) 無  (計算書) 不明',   },
-        { item: '管理区分',       name: '都管理橋梁',   },
-      ],
-      upperStruct: [
-        { item: '延長',          main: '30.175 ｍ',  sub:' ｍ',     road:'右岸取付      ｍ ',  },
-        { item: '径間材',        main: '1径間',       sub:'径間', road:'   階段部    ｍ ',   },
-        { item: '(支間)',        main: '30.175',     sub:'',     road:'   盛土部    ｍ ',   },
-        { item: '',              main: '',           sub:'',     road:'   階段部    ｍ ',   },
-        { item: '',              main: '',           sub:'',     road:'左岸取付     ｍ ',   },
-        { item: '',              main: '',           sub:'',     road:'   階段部    ｍ ',   },
-        { item: '',              main: '',           sub:'',     road:'   盛土部    ｍ ',   },
-        { item: '',              main: '',           sub:'',     road:'   階段部    ｍ ',   },
-        { item: '路面位置',       main: '上部',       sub:'無',     road:'',                  },
-        { item: 'タワミ',         main: 'δd=  δe=  δe/1=', sub: 'δd=  δe=  δe/1= ',  road:'', },
-        { item: '構造形式',       main: 'SRC固定アーチ橋', sub: '', road:'',           },
-      ],
-      upperStructDetail: [
-        { item: '主桁(横)',   mainStruct: '主ケタ数 37本', mainMaterial: 'SRC',
-         subStruct: '主ケタ数   本', subMaterial: '', roadStruct: '主ケタ数   本', roadMaterial: '', },
-        { item: '主桁(横)',   mainStruct: 'ケタ高 1.372 ｍ', mainMaterial: '',
-         subStruct: 'ケタ高   ｍ', subMaterial: '',  roadStruct: 'ケタ高   ｍ', roadMaterial: '', },
-        { item: '主桁(横)',   mainStruct: '間隔   0.61 ｍ', mainMaterial: '',
-         subStruct: '間隔       ｍ', subMaterial: '', roadStruct: '間隔       ｍ', roadMaterial: '', },
-
-        { item: '床板横桁',   mainStruct: 'ケタ高 1.372 ｍ', mainMaterial: 'SRC',
-         subStruct: 'ケタ高   ｍ', subMaterial: '',  roadStruct: 'ケタ高   ｍ', roadMaterial: '', },
-        { item: '床板横桁',   mainStruct: '間隔 3.5 ｍ', mainMaterial: '',
-         subStruct: '間隔    ｍ', subMaterial: '', roadStruct: '間隔    ｍ', roadMaterial: '', },
-        { item: '床板縦桁',   mainStruct: 'ケタ高  ｍ', mainMaterial: 'SRC',
-         subStruct: 'ケタ高   ｍ', subMaterial: '',  roadStruct: 'ケタ高   ｍ', roadMaterial: '', },
-        { item: '床板縦桁',   mainStruct: '間隔  ｍ', mainMaterial: '',
-         subStruct: '間隔    ｍ', subMaterial: '', roadStruct: '間隔    ｍ', roadMaterial: '', },
-        { item: '床板車道',   mainStruct: 'ts ｍｍ', mainMaterial: '',
-         subStruct: 'ts ｍｍ', subMaterial: '',  roadStruct: 'ts ｍｍ', roadMaterial: '', },
-        { item: '床板歩道',   mainStruct: 'ts ｍｍ', mainMaterial: '',
-         subStruct: 'ts ｍｍ', subMaterial: '', roadStruct: 'ts ｍｍ', roadMaterial: '', },
-        { item: '舗装車道',   mainStruct: 'ts 50 ｍｍ', mainMaterial: 'アスファルト',
-         subStruct: 'ts ｍｍ', subMaterial: '',  roadStruct: 'ts ｍｍ', roadMaterial: '', },
-        { item: '舗装歩道',   mainStruct: 'ts 10 ｍｍ', mainMaterial: 'コンクリート',
-         subStruct: 'ts ｍｍ', subMaterial: '', roadStruct: 'ts ｍｍ', roadMaterial: '', },
-        { item: '仲縮車道',   mainStruct: '突合せ', mainMaterial: 'ゴム',
-         subStruct: '',       subMaterial: '',  roadStruct: '',       roadMaterial: '', },
-        { item: '仲縮歩道',   mainStruct: '', mainMaterial: '',
-         subStruct: '', subMaterial: '', roadStruct: '', roadMaterial: '', },
-        { item: '支承車道',   mainStruct: '', mainMaterial: '',
-         subStruct: '',       subMaterial: '',  roadStruct: '',       roadMaterial: '', },
-        { item: '支承歩道',   mainStruct: '', mainMaterial: '',
-         subStruct: '', subMaterial: '', roadStruct: '', roadMaterial: '', },
-      ],
-      upperStructMaterial: [
-        { item: '主鋼材',      bridge: '不明 t', road: 't', sum: 't', note: ''},
-        { item: '鉄筋',        bridge: 't', road: 't', sum: 't', note: ''},
-        { item: 'PC鋼材',      bridge: '不明 t', road: 't', sum: 't', note: ''},
-        { item: '高構材',      bridge: '不明 t', road: 't', sum: 't', note: '型式:石造'},
-        { item: 'コンクリート',bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: ''},
-        { item: 'アスコン',    bridge: '不明 t', road: 't', sum: 't', note: ''},
-        { item: '石材',       bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: ''},
-        { item: '木材',       bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: ''},
-        { item: '上部死荷重',  bridge: '不明 t ( 不明 t/㎥)', road: 't ( 不明 t/㎥)', sum: 's㎥', note: ''},
-      ],
-      upperNote: [
-        { item: '記事',     name: '不明',    },
-      ],
-      lowerStruct: [
-        { item: '橋台 (A1)(A2)', type: '筐体', struct: '重力式 10973 × 23012 ×9297', material: 'RC', basic: '' }, 
-        { item: '橋台 (A1)(A2)', type: '基礎', struct: '杭基礎(推定) Φ273 × 7270 × 9297', material: '木', basic: 'AP-砂塵' }, 
-      ],
-      lowerResilience: [
-        { no: 'A1',           vertical: 't',  horizon: 't', vertical4Quake: 't',  horizon4Quake: 't', note: '不明'  }, 
-        { no: 'A2',           vertical: 't',  horizon: 't', vertical4Quake: 't',  horizon4Quake: 't', note: '不明'  }, 
-        
-      ],
-      lowerStructMaterial: [
-        { item: '鋼抗',       bridge: '不明 t', road: 't', sum: 't', note: ''},
-        { item: 'RC抗',       bridge: '不明 本', road: '本', sum: '本', note: ''},
-        { item: 'PC抗',       bridge: '不明 本', road: '本', sum: '本', note: ''},
-        { item: '鋼材',       bridge: '不明 t', road: 't', sum: 't', note: ''},
-        { item: '鉄筋',       bridge: '不明 t', road: 't', sum: 't', note: ''},
-        { item: 'コンクリート',bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: ''},
-        { item: '石材',       bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: ''},
-        { item: '木材',       bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: ''},
-        { item: '搬入れ長',   bridge: '不明 ｍ', road: 'ｍ', sum: '0 ｍ', note: ''},
-      ],
     }
   },
-  mounted: function() {
-    console.log("mounted ledget1");
+  mounted: function () {
+    console.log("mounted ledger1");
   },
   methods: {
   },
 });
 </script>
-<style>
+
+<style scoped>
+.ledger-cell {
+  font-size: xx-small !important;
+  border: 1px solid #dedede;
+}
+
+.side-padding-cell {
+  font-size: xx-small !important;
+  padding-right: 45px;
+}
 </style>

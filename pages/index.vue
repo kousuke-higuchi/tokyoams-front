@@ -107,42 +107,46 @@
   export default {
     data: () => ({
       facilityCards: [
-        { title: '橋梁', src: 'assets/img/facility_bridge.jpg', url: '/bridge'},
-        { title: '歩道橋', src: 'assets/img/facility_pedest.jpg', url: '/footbridge'},
-        { title: 'トンネル', src: 'assets/img/facility_tunnel.jpg', url: '/tunnel'},
-        { title: '舗装', src: 'assets/img/facility_pave.jpg', url: '/pavement'},
+        { title: '橋梁', src: '', url: '/bridge'},
+        { title: '歩道橋', src: '', url: '/footbridge'},
+        { title: 'トンネル', src: '', url: '/tunnel'},
+        { title: '舗装', src: '', url: '/pavement'},
         ],
       groupedFacirityCards:[{
           title: "道路施設",
           items:
           [
-            {title: '共同溝', src:'assets/img/facility_facility1.jpg',url: '/', explain:'共同溝のデータを表示します。'},
-            {title: '擁壁',src:'assets/img/facility_facility2.jpg',url: '/'},
-            {title: '掘割道路',src:'assets/img/facility_facility3.jpg',url: '/'},
-            {title: '組立歩道',src:'assets/img/facility_facility4.jpg',url: '/'},
-            {title: '桟道',src:'assets/img/facility_facility5.jpg',url: '/'},
-            {title: '地下歩行者道',src:'assets/img/facility_facility6.jpg',url: '/'},
-            {title: 'ロックシェッド', src:'assets/img/facility_facility7.jpg',url: '/'},
+            {title: '共同溝', src:'',url: '/utilitytunnel'},
+            {title: '擁壁',src:'',url: '/'},
+            {title: '掘割道路',src:'',url: '/'},
+            {title: '組立歩道',src:'',url: '/'},
+            {title: '桟道',src:'',url: '/'},
+            {title: '地下歩行者道',src:'',url: '/undergroundWalkway'},
+            {title: 'ロックシェッド', src:'',url: '/'},
           ],
         },
         {
           title: "道路附属物",
           items: [
-            {title: '道路照明', src:'assets/img/facility_accessory1.jpg',url: '/streetlight'},
-            {title: '配電盤', src:'assets/img/facility_accessory2.jpg',url: '/switchboard'},
-            {title: '障害物', src:'assets/img/facility_accessory3.jpg',url: '/blinker'},
-            {title: '道路標識', src:'assets/img/facility_accessory4.jpg',url: '/sign'},
-            {title: '道路反射鏡', src:'assets/img/facility_accessory5.jpg',url: '/'},
+            {title: '道路照明', src:'',url: '/streetlight'},
+            {title: '配電盤', src:'',url: '/switchboard'},
+            {title: '障害物', src:'',url: '/blinker'},
+            {title: '道路標識', src:'',url: '/sign'},
+            {title: '道路反射鏡', src:'',url: '/mirror'},
           ],
         }
       ],
       featureCards:[
         {title: '施設新規登録'},
         {title: '委託データ登録'},
+        {title: '損傷マップ'},
+        {title: '橋梁損傷写真一覧出力'},
       ], 
        childfeatureCards:[
-        [{ownertitle: '施設新規登録',title: '施設新規登録フォーム', url: '/', explain:'システム用のデータを新規登録するための入力フォームを表示します。'},],
+        [{ownertitle: '施設新規登録',title: '施設新規登録フォーム', url: '/newRegist', explain:'システム用のデータを新規登録するための入力フォームを表示します。'},],
         [{ownertitle: '委託データ登録',title: '委託データ登録サイト', url: '/', explain:'業者が作成するためのデータを作成、納品するためのシステムを起動します。'},],
+        [{ownertitle: '損傷マップ',title: '損傷マップ', url: '/inspMap', explain:'業者が作成するためのデータを作成、納品するためのシステムを起動します。'},],
+        [{ownertitle: '橋梁損傷写真一覧出力',title: '委託データ登録サイト', url: '/', explain:'業者が作成するためのデータを作成、納品するためのシステムを起動します。'},],
        ],
       columns: [
       {

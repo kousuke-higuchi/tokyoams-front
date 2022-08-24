@@ -115,7 +115,7 @@
   </v-card>
 </template>
 
-<script type="ts">
+<script lang="ts">
 
 export default defineComponent({
   data() {

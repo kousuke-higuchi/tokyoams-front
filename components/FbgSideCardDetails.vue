@@ -1,6 +1,6 @@
 <template>
   <v-card height="820px"  elevation="3">
-    <v-card height="468px">
+    <v-card height="490">
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
           <v-tab value="note">歩道橋台帳</v-tab>
@@ -119,8 +119,10 @@ export default defineComponent({
       tabSide: 'note',      
       buttons01:  [
         { title: '様式1', props:{ to:"/footbridge/ledger1" } },
-        { title: '様式2', props:{ to:"/tobeImplement" } },
-        { title: '様式3', props:{ to:"/tobeImplement" } },
+        { title: '様式2-1', props:{ to:"/footbridge/ledger2_1" } },
+        { title: '様式2-2', props:{ to:"/footbridge/ledger2_2" } },
+        { title: '様式2-3', props:{ to:"/footbridge/ledger2_3" } },                
+        { title: '様式3', props:{ to:"/footbridge/ledger3" } },
         { title: '様式4', props:{ to:"/footbridge/ledger4" } },
         { title: '様式5', props:{ to:"/footbridge/ledger5" } },
         { title: '様式6', props:{ to:"/footbridge/ledger6" } },
@@ -128,14 +130,14 @@ export default defineComponent({
         { title: '様式8', props:{ to:"/footbridge/ledger8" } },
       ],
       buttons02: [
-        { title: '様式2定期点検表', props:{ to: '/tobeImplement' }},
+        { title: '様式2定期点検表', props:{ to: '/footbridge/Inspection2' }},
         { title: '様式3径間別定期点検表', props:{ to: '/tobeImplement' } },
         { title: '様式4(定期点検)', props:{ to: '/footbridge/Inspection4' } },
-        { title: '様式5損傷図', props:{ to: '/tobeImplement' } },
+        { title: '様式5損傷図', props:{ to: '/footbridge/Inspection5' } },
       ],
       buttons03: [
-        { title: '様式1P001', props:{ to: '/tobeImplement' } },
-        { title: '様式1P002', props:{ to: '/footbridge/ledget1P002' } },
+        { title: '様式1P001', props:{ to: '/footbridge/ledger1P001' } },
+        { title: '様式1P002', props:{ to: '/footbridge/ledger1P002' } },
       ],
       noteColumns: [
         { label: 'No', field: 'id', width: '80px', sortable: false,

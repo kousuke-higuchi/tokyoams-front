@@ -3,15 +3,21 @@
     v-model="zoomComputed"
     v-model:zoom="zoomComputed"
     :center="center"
-    :maxZoom="19"
+    :maxZoom="18"
     :minZoom="6"
     :zoomAnimation="true"
     >
+      <l-control-layers position="topright"></l-control-layers>
       <l-control-scale position="topright" :imperial="false" :metric="true"></l-control-scale>
       <l-tile-layer
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='© <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
-      ></l-tile-layer>
+      v-for="tileProvider in tileProviders"
+      :key="tileProvider.name"
+      :name="tileProvider.name"
+      :visible="tileProvider.visible"
+      :url="tileProvider.url"
+      :attribution="tileProvider.attribution"
+      layer-type="base"/>
+
       <template v-for="(m, i) in innerMarkers" :key="i">
       <!--TODO:座標返還はバックエンドで実装する-->
         <l-marker v-if="(m.latlon!=null)" 
@@ -98,7 +104,32 @@
                 _m.title = getTitle(m);
                 return _m
             });
-            return {onClickMarker, getTitle, getLatLon, zoomComputed, innerMarkers}
+
+            const tileProviders = [
+                {
+                name: '地理院地図',
+                visible: true,
+                url: 'https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png',
+                attribution:
+                    '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>',
+                },
+                {
+                name: '国土画像情報',
+                visible: false,
+                url: 'https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg',
+                attribution:
+                    '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a>',
+                },
+                {
+                name: 'OpenStreetMap',
+                visible: false,
+                attribution:
+                    '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+                url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                },
+            ];
+
+            return {onClickMarker, getTitle, getLatLon, zoomComputed, innerMarkers, tileProviders}
         }
     })
 </script>

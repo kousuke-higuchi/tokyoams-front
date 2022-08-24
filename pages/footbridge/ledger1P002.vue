@@ -9,10 +9,10 @@
           <div class="d-flex">
             <v-row>
               <v-col>
-                <v-card-text>別紙2 様式1様式2 <span class = "alignRight">様式2</span><br>
-                状況写真（損傷状況）<br>
-                ○部材単位の判定区分がⅡ、Ⅲ又はⅣの場合には、直接関連する不具合の写真を記載のこと。<br>
-                ○写真は、不具合の程度が分かるように添付すること。
+                <v-card-text>別紙2 様式1様式2 <span class="alignRight">様式2</span><br>
+                  状況写真（損傷状況）<br>
+                  ○部材単位の判定区分がⅡ、Ⅲ又はⅣの場合には、直接関連する不具合の写真を記載のこと。<br>
+                  ○写真は、不具合の程度が分かるように添付すること。
                 </v-card-text>
               </v-col>
             </v-row>
@@ -27,13 +27,13 @@
                         <v-table density="compact">
                           <tbody>
                             <tr>
-                              <td class="cell" align = "center">{{ imgDetail.dmageTitle }}</td>
+                              <td class="cell" align="center">{{ imgDetail.dmageTitle }}</td>
                             </tr>
                           </tbody>
                         </v-table>
-                        <v-card-text>{{imgDetail.picTitle}}</v-card-text>
+                        <v-card-text>{{ imgDetail.picTitle }}</v-card-text>
                         <v-card-text>
-                        <v-img :src="imgDetail.img"></v-img>
+                          <v-img :src="imgDetail.img"></v-img>
                         </v-card-text>
                       </v-card>
                     </v-col>
@@ -60,29 +60,29 @@ export default defineComponent({
           img: '../../assets/img/dmg/fbg1P002view1.jpg',
           damagemap: '../../assets/img/dmg/damagemap1.jpg',
           imgNumber: 1,
-          picTitle:'写真1',
-          dmageTitle:'下部構造（根巻きコンクリート）【判定区分：Ⅱ】',
+          picTitle: '写真1',
+          dmageTitle: '下部構造（根巻きコンクリート）【判定区分：Ⅱ】',
         },
         {
           img: '../../assets/img/dmg/fbg1P002view2.jpg',
           damagemap: '../../assets/img/dmg/damagemap2.jpg',
           imgNumber: 2,
-          picTitle:'写真2',
-          dmageTitle:'階段部（主桁）【判定区分：Ⅱ】',
+          picTitle: '写真2',
+          dmageTitle: '階段部（主桁）【判定区分：Ⅱ】',
         },
         {
           img: '../../assets/img/dmg/fbg1P002view3.jpg',
           damagemap: '../../assets/img/dmg/damagemap3.jpg',
           imgNumber: 3,
-          picTitle:'写真3',
-          dmageTitle:'階段部（主桁との接合部）【判定区分：Ⅱ】',
+          picTitle: '写真3',
+          dmageTitle: '階段部（主桁との接合部）【判定区分：Ⅱ】',
         },
         {
           img: '../../assets/img/dmg/fbg1P002view4.jpg',
           damagemap: '../../assets/img/dmg/damagemap4.jpg',
           imgNumber: 4,
-          picTitle:'写真4',
-          dmageTitle:'階段部（橋台）【判定区分：Ⅱ】',
+          picTitle: '写真4',
+          dmageTitle: '階段部（橋台）【判定区分：Ⅱ】',
         },
       ]
     }
@@ -106,6 +106,6 @@ export default defineComponent({
 }
 
 .alignRight {
-    float: right;
+  float: right;
 }
 </style>

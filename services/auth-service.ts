@@ -1,7 +1,10 @@
 import { TOKEN_HEADER_NAME, User } from '~~/types';
-import http from './http-client';
+import Service from './service';
 
-class AuthService {
+/**
+ * 認証系のAPIを提供します。
+ */
+class AuthService extends Service {
     /**
      * Webサーバでログイン認証を行います
      * @param userId ログインID 
@@ -12,7 +15,7 @@ class AuthService {
         params.append('username', userId);
         params.append('password', password);
 
-        var res = http.post<User>("/api/login", params)
+        var res = this.http.post<User>("/api/login", params)
         return res.then(( r )=>{
             let user = r.data;
             // ログイン成功->クライアントサイドで認証情報を保存する
@@ -42,7 +45,7 @@ class AuthService {
      */
     public logout() {
         // Webサーバにログアウトを要求
-        let ret = http.post("/api/logout") 
+        let ret = this.http.post("/api/logout") 
         return ret.then((res)=>{
              
         }).finally(()=>{

@@ -2,10 +2,17 @@
     <v-app-bar app flat height="30">
       <v-app-bar-nav-icon @click="() => { drawerComputed = !drawer }"></v-app-bar-nav-icon>
         <v-btn v-for="(link, i) in links" :key="i" text>
-            <v-icon>{{ link.icon }}</v-icon>
-            <NuxtLink :to="link.url" tag="div" class="text-decoration-none" style="color:black">
-              {{ link.name }}
-            </NuxtLink>
+            <v-icon>{{ link.icon }}</v-icon>                
+            <template v-if="link.newTab">
+                <a :href="link.url" class="text-decoration-none" style="color:black" target="ams_manual">
+                  {{ link.name }}
+                </a>
+            </template>
+            <template v-else>
+                <NuxtLink :to="link.url" tag="div" class="text-decoration-none" style="color:black">
+                  {{ link.name }}
+                </NuxtLink>
+            </template>
         </v-btn> 
       <v-btn class ="ml-auto" @click="onLogoutClick()">ログアウト</v-btn>
     </v-app-bar>
@@ -33,12 +40,16 @@
                 emit('update:drawer', value)
             },
             })
+
+            // 問合せ: メーラに自動入力する情報
+            let contactTo = "xxxx@jip-ts.co.jp"
+            let subject = "【AMS】お問い合わせ"
+            let body = "件名：%0D%0A問合せ内容：%0D%0A"
+
             const links = [
-                { name:'Home', icon:'mdi-home', url:'/' },
-                { name:'マニュアル', icon:'mdi-book', url:'/' },
-                { name:'関連ニュースヘッドライン',icon:'mdi-newspaper', url:'/' },
-                { name:'お知らせ管理', icon:'mdi-volume-high', url:'/' },
-                { name:'問い合わせはこちら', icon:'mdi-email', url:'/' },
+                { name:'Home', icon:'mdi-home', url:'/' , newTab: false},
+                { name:'マニュアル', icon:'mdi-book', url:'/assets/pdf/manual.pdf', newTab: true },
+                { name:'問い合わせはこちら', icon:'mdi-email', url:`mailto:${contactTo}?subject=${subject}&body=${body}`, newTab: false },
             ]
             return {
                 drawerComputed,
@@ -50,7 +61,7 @@
                 authService.logout().then(()=>{
                     navigateTo("/login")
                 })
-            }
+            },
         }
     })
     

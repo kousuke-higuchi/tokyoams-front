@@ -1,0 +1,22 @@
+[
+    {
+      "repairid": 1,
+      "parentid": 3776,
+      "kindid": 1,
+      "kindname": "ランプ取替工",
+      "constdate": 20200610,
+      "contractor": "(有)大平電気",
+      "note": null,
+      "createDate": "2020-06-10T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 2,
+      "parentid": 3776,
+      "kindid": 99,
+      "kindname": "その他",
+      "constdate": 20200610,
+      "contractor": "(有)大平電気",
+      "note": "標示シート取替",
+      "createDate": "2020-06-10T00:00:00.000+00:00"
+    }
+  ]

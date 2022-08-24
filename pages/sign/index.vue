@@ -119,7 +119,7 @@
   </v-card>
 </template>
 
-<script type="ts">
+<script lang="ts">
 import signJson from "@/assets/sign.json"
 
 export default defineComponent({
@@ -263,7 +263,7 @@ export default defineComponent({
 		},
 		clickMarker(m){
 			console.info('clickMarker',m);
-      navigateTo('../tobeImplement')
+     		navigateTo('/sign/ledger', m);
 		},
 		clickBatchFromatOutput(){
 			console.debug('clickBatchFromatOutput');

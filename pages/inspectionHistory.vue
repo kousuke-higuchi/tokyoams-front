@@ -37,7 +37,7 @@
   </div>
 </template>
 
-<script type="ts">
+<script lang="ts">
 import inspectionHistoryTableJson from "../assets/inspectionHistory.json"
 
 export default defineComponent({

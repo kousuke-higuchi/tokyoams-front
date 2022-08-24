@@ -1,0 +1,32 @@
+[
+    {
+      "repairid": 3,
+      "parentid": 5729,
+      "kindid": 12,
+      "kindname": "補修",
+      "constdate": 20200730,
+      "contractor": "（株）ミズホライン",
+      "note": "地図板交換",
+      "createDate": "2020-07-30T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 2,
+      "parentid": 5729,
+      "kindid": 12,
+      "kindname": "補修",
+      "constdate": 20140320,
+      "contractor": "梶原建設（株）",
+      "note": "建替え(A→E型）",
+      "createDate": "2014-03-20T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 1,
+      "parentid": 5729,
+      "kindid": 9,
+      "kindname": "新設",
+      "constdate": 19920331,
+      "contractor": null,
+      "note": "A型",
+      "createDate": "1992-03-31T00:00:00.000+00:00"
+    }
+  ]

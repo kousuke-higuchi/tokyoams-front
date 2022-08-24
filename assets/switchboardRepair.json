@@ -1,0 +1,32 @@
+[
+    {
+      "repairid": 1,
+      "parentid": 3195,
+      "kindid": 2,
+      "kindname": "自動点滅器取替工",
+      "constdate": 20210622,
+      "contractor": "(有)秋川電気工業所",
+      "note": "受光部のみ200V6A",
+      "createDate": "2021-06-22T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 2,
+      "parentid": 3195,
+      "kindid": 6,
+      "kindname": "取替工",
+      "constdate": 20210618,
+      "contractor": "(有)秋川電気工業所",
+      "note": "電磁接触器35A取替",
+      "createDate": "2021-06-18T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 3,
+      "parentid": 3195,
+      "kindid": 6,
+      "kindname": "取替工",
+      "constdate": 20210618,
+      "contractor": "(有)秋川電気工業所",
+      "note": "分電盤かぎ（A316-3）",
+      "createDate": "2021-06-18T00:00:00.000+00:00"
+    }
+  ]

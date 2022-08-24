@@ -28,3 +28,15 @@ export interface PaintingBridgeHistory {
     cost?: string;
     companyname?: string;
 }
+
+//施設詳細_附属物_補修履歴
+export class AttachRepair {
+    repairid: number;
+    parentid: number;
+    kindid?: number;
+    kindname?: string;
+    constdate?: number;
+    contractor?: string;
+    note?: string;
+    createDate?: Date;
+}

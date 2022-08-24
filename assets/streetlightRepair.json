@@ -1,0 +1,62 @@
+[
+    {
+      "repairid": 1,
+      "parentid": 105391,
+      "kindid": 1,
+      "kindname": "ランプ取替工",
+      "constdate": 20200928,
+      "contractor": "西川電設工業(株)",
+      "note": null,
+      "createDate": "2020-09-28T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 2,
+      "parentid": 105391,
+      "kindid": 2,
+      "kindname": "自動点滅器取替工",
+      "constdate": 20200928,
+      "contractor": "西川電設工業(株)",
+      "note": null,
+      "createDate": "2020-09-28T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 3,
+      "parentid": 105391,
+      "kindid": 3,
+      "kindname": "安定器取替工",
+      "constdate": 20200928,
+      "contractor": "西川電設工業(株)",
+      "note": null,
+      "createDate": "2020-09-28T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 4,
+      "parentid": 105391,
+      "kindid": 4,
+      "kindname": "照明器取替工",
+      "constdate": 20200928,
+      "contractor": "西川電設工業(株)",
+      "note": null,
+      "createDate": "2020-09-28T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 5,
+      "parentid": 105391,
+      "kindid": 5,
+      "kindname": "ポール内蔵ブレーカー取替工",
+      "constdate": 20200928,
+      "contractor": "西川電設工業(株)",
+      "note": null,
+      "createDate": "2020-09-28T00:00:00.000+00:00"
+    },
+    {
+      "repairid": 6,
+      "parentid": 105391,
+      "kindid": 99,
+      "kindname": "その他",
+      "constdate": 20200928,
+      "contractor": "西川電設工業(株)",
+      "note": null,
+      "createDate": "2020-09-28T00:00:00.000+00:00"
+    }
+  ]

@@ -126,8 +126,8 @@ export default defineComponent({
       zoom: 15,
       center: [35.79112, 139.27753],
       bridges: footbridgesJson,
-      officeDropdwonItem: ['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
-      routeDropdownItem:['一般都道十里木御岳停車場線201号','主要地方道青梅おきる野線31号','一般国道411号','一般都道川野上川乗線206号','主要地方道杉並あきる野線7号'],
+      officeDropdwonItem: ['全て','第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
+      routeDropdownItem:['全て','一般都道十里木御岳停車場線201号','主要地方道青梅おきる野線31号','一般国道411号','一般都道川野上川乗線206号','主要地方道杉並あきる野線7号'],
       // 一覧の列情報
       columns: [
         {
@@ -142,6 +142,7 @@ export default defineComponent({
         {
           label: '事務所',
           field: 'office',
+          width: '16em',
           sortable: false,
           filterOptions: {
         	  enabled: true,
@@ -152,6 +153,7 @@ export default defineComponent({
         {
           label: '工区',
           field: 'area',
+          width: '10em',
           sortable: false,
           filterOptions: {
         	  enabled: true,
@@ -169,7 +171,7 @@ export default defineComponent({
         },
         {
           label: '区市町村名',
-          field: 'place',
+          field: 'formattedCity',
           sortable: false,
           filterOptions: {
         	  enabled: true,

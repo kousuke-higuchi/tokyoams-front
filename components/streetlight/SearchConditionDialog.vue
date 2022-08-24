@@ -1,5 +1,5 @@
 <template>
-    <v-dialog v-model="isOpen" persistent max-width="400px">
+    <v-dialog v-model="isOpen" persistent max-width="480px">
         <v-card>
         <v-toolbar dark color="primary">
             <v-toolbar-title>施設詳細検索</v-toolbar-title>
@@ -86,32 +86,30 @@
                 </v-col>
             </v-row>
         </v-card-text>
-        <v-card-actions>
-            <v-spacer></v-spacer>
-            <v-row justify="start">
-            <v-btn 
-                color="blue darken-1"
-                text
-                @click="onClearClick"
-            >
-            条件クリア
-            </v-btn>
-            </v-row>
+        <div class="d-flex justify-space-around my-5">
             <v-btn
-            color="blue darken-1"
-            text
-            @click="onSearchClick"
+                class="bg-blue-darken-2"
+                variant="contained-flat"
+                @click="onSearchClick"
             >
             検索
             </v-btn>
             <v-btn
-            color="blue darken-1"
-            text
-            @click="onCancelClick"
+             color="blue darken-1"
+             variant="text"
+             @click="onClearClick"
+            >
+            条件クリア
+            </v-btn>
+            <v-btn
+                color="blue darken-1"
+                variant="text"
+                @click="onCancelClick"
             >
             キャンセル
             </v-btn>
-        </v-card-actions>
+        </div>
+
         </v-card>
     </v-dialog>
 </template>

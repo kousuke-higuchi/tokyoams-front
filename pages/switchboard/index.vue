@@ -120,7 +120,7 @@
   </v-card>
 </template>
 
-<script type="ts">
+<script lang="ts">
 import switchboardJson from "../../assets/switchboard.json"
 import AmsMap from "../../components/AmsMap.vue";
 
@@ -265,7 +265,7 @@ export default defineComponent({
 		},
 		clickMarker(m){
 			console.info('clickMarker',m);
-			navigateTo('../tobeImplement')
+     		navigateTo('/switchboard/ledger', m);
 		},
 		clickBatchFromatOutput(){
 			console.debug('clickBatchFromatOutput');

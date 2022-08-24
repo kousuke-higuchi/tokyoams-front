@@ -27,22 +27,22 @@
                     <tbody>
                       <tr>
                         <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
-                        <td nowrap class="ledger-cell">橋名</td>
+                        <th nowrap class="ledger-cell">橋名</th>
                         <td colspan="2" nowrap class="ledger-cell">鎌倉橋</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">フリガナ</td>
+                        <th nowrap class="ledger-cell">フリガナ</th>
                         <td nowrap class="ledger-cell">カマクラバシ</td>
                       </tr>
                       <tr>
-                        <td rowspan="2" nowrap class="ledger-cell">位置</td>
+                        <th rowspan="2" nowrap class="ledger-cell">位置</th>
                         <td nowrap class="ledger-cell">自: 千代田区 内神田 1丁目 地内</td>
                       </tr>
                       <tr>
                         <td nowrap class="ledger-cell">至: 千代田区 大手町 1丁目 地内</td>
                       </tr>
                       <tr>
-                        <td rowspan="3" nowrap class="ledger-cell">路線名</td>
+                        <th rowspan="3" nowrap class="ledger-cell">路線名</th>
                         <td nowrap class="ledger-cell">特例都道町有楽町線402号</td>
                       </tr>
                       <tr>
@@ -52,7 +52,7 @@
                         <td nowrap class="ledger-cell">通常名: ---</td>
                       </tr>
                       <tr>
-                        <td rowspan="6" nowrap class="ledger-cell">橋下種類</td>
+                        <th rowspan="6" nowrap class="ledger-cell">橋下種類</th>
                         <td nowrap class="ledger-cell">■ 河川 □ 道路 □ 鉄道 □ 公園 □ その他</td>
                       </tr>
                       <tr>
@@ -71,54 +71,54 @@
                         <td nowrap class="ledger-cell">その他：</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">橋格</td>
+                        <th nowrap class="ledger-cell">橋格</th>
                         <td class="text-center ledger-cell" nowrap>1等橋</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">(示方書)</td>
+                        <th nowrap class="ledger-cell">(示方書)</th>
                         <td nowrap class="ledger-cell">T15</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">設計震度</td>
+                        <th nowrap class="ledger-cell">設計震度</th>
                         <td nowrap class="ledger-cell">KH= 0 KV= 0</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">橋長</td>
+                        <th nowrap class="ledger-cell">橋長</th>
                         <td nowrap class="ledger-cell">30.175 ｍ</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">総格員</td>
+                        <th nowrap class="ledger-cell">総格員</th>
                         <td nowrap class="ledger-cell">22.98 ｍ</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">有効格員</td>
+                        <th nowrap class="ledger-cell">有効格員</th>
                         <td nowrap class="ledger-cell">車道: 16.6 ｍ 歩道: 282.70 ｍ 合計: 22 ｍ</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">橋面積</td>
+                        <th nowrap class="ledger-cell">橋面積</th>
                         <td nowrap class="ledger-cell">693.4 ㎡</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">地盤幅</td>
+                        <th nowrap class="ledger-cell">地盤幅</th>
                         <td nowrap class="ledger-cell">2849.0 ㎝</td>
                       </tr>
                       <tr>
-                        <td rowspan="2" nowrap class="ledger-cell">平面線形</td>
+                        <th rowspan="2" nowrap class="ledger-cell">平面線形</th>
                         <td nowrap class="ledger-cell">■ 直 □ 斜 □ 曲 □ 多角(多心曲)</td>
                       </tr>
                       <tr>
                         <td nowrap class="ledger-cell">斜角 α = 90° 曲事半径 R= ∞ ｍ</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">縦断勾配</td>
+                        <th nowrap class="ledger-cell">縦断勾配</th>
                         <td nowrap class="ledger-cell">橋梁部: 1.67 % 取付部: 3.33 %</td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">横断勾配</td>
+                        <th nowrap class="ledger-cell">横断勾配</th>
                         <td nowrap class="ledger-cell">車道: 2 % 歩道: 2 %</td>
                       </tr>
                       <tr>
-                        <td rowspan="3" nowrap class="ledger-cell">規定限界</td>
+                        <th rowspan="3" nowrap class="ledger-cell">規定限界</th>
                         <td nowrap class="ledger-cell">規定ケタ下端高: 不明 ｍ</td>
                       </tr>
                       <tr>
@@ -128,7 +128,7 @@
                         <td nowrap class="ledger-cell">規定ケタ下端空間高: 不明 ｍ</td>
                       </tr>
                       <tr>
-                        <td rowspan="5" nowrap class="ledger-cell">橋高</td>
+                        <th rowspan="5" nowrap class="ledger-cell">橋高</th>
                         <td nowrap class="ledger-cell">中央ケタ下端高: AP 不明 ｍ</td>
                       </tr>
                       <tr>
@@ -144,21 +144,21 @@
                         <td nowrap class="ledger-cell">橋下路面高: AP 不明 ｍ</td>
                       </tr>
                       <tr>
-                        <td rowspan="2" nowrap class="ledger-cell">橋台敷</td>
+                        <th rowspan="2" nowrap class="ledger-cell">橋台敷</th>
                         <td nowrap class="ledger-cell">右岸上流側: ㎡ 左岸上流側: ㎡</td>
                       </tr>
                       <tr>
                         <td nowrap class="ledger-cell">右岸下流側: ㎡ 左岸上流側: ㎡</td>
                       </tr>
                       <tr>
-                        <td rowspan="2" nowrap class="ledger-cell">施工年月</td>
+                        <th rowspan="2" nowrap class="ledger-cell">施工年月</th>
                         <td nowrap class="ledger-cell">着工: 1928 年 1 月</td>
                       </tr>
                       <tr>
                         <td nowrap class="ledger-cell">しゅん工: 1929 年 3 月</td>
                       </tr>
                       <tr>
-                        <td rowspan="3" nowrap class="ledger-cell">記事</td>
+                        <th rowspan="3" nowrap class="ledger-cell">記事</th>
                         <td nowrap class="ledger-cell">(マイクロ): ■ 有 □ 無 □ 不明 </td>
                       </tr>
                       <tr>
@@ -168,7 +168,7 @@
                         <td nowrap class="ledger-cell">(計算書): □ 有 □ 無 □ 不明 </td>
                       </tr>
                       <tr>
-                        <td rowspan="2" nowrap class="ledger-cell">管理区分</td>
+                        <th rowspan="2" nowrap class="ledger-cell">管理区分</th>
                         <td nowrap class="ledger-cell">都管理橋梁</td>
                       </tr>
                       <tr>
@@ -194,13 +194,13 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td nowrap class="ledger-cell">延長</td>
+                        <th nowrap class="ledger-cell">延長</th>
                         <td nowrap class="ledger-cell">30.175 ｍ</td>
                         <td nowrap class="ledger-cell"> ｍ</td>
                         <td nowrap class="ledger-cell">右岸取付: ｍ</td>
                       </tr>
                       <tr>
-                        <td rowspan="7" nowrap class="ledger-cell">径間材 (支間)</td>
+                        <th rowspan="7" nowrap class="ledger-cell">径間材 (支間)</th>
                         <td nowrap class="ledger-cell">1径間</td>
                         <td nowrap class="ledger-cell"> 径間</td>
                         <td nowrap class="ledger-cell">陸橋部: ｍ</td>
@@ -226,13 +226,13 @@
                         <td nowrap class="ledger-cell"> 階段部 ｍ </td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">路面位置</td>
+                        <th nowrap class="ledger-cell">路面位置</th>
                         <td nowrap class="ledger-cell">■ 上路 □ 中路 □ 下路</td>
                         <td nowrap class="ledger-cell">□ 上路 □ 中路 □ 下路</td>
                         <td nowrap class="ledger-cell"></td>
                       </tr>
                       <tr>
-                        <td rowspan="2" nowrap class="ledger-cell">タワミ</td>
+                        <th rowspan="2" nowrap class="ledger-cell">タワミ</th>
                         <td nowrap class="ledger-cell">δd= δe=</td>
                         <td nowrap class="ledger-cell">δd= δe=</td>
                         <td nowrap class="ledger-cell"></td>
@@ -243,7 +243,7 @@
                         <td nowrap class="ledger-cell"></td>
                       </tr>
                       <tr>
-                        <td rowspan="6" nowrap class="ledger-cell">構造形式</td>
+                        <th rowspan="6" nowrap class="ledger-cell">構造形式</th>
                         <td nowrap class="ledger-cell">SRC固定アーチ橋</td>
                         <td nowrap class="ledger-cell"></td>
                         <td nowrap class="ledger-cell"></td>
@@ -279,7 +279,7 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td rowspan="3" class="text-center ledger-cell" nowrap>主桁(横)</td>
+                        <th rowspan="3" class="text-center ledger-cell" nowrap>主桁(横)</th>
                         <td class="ledger-cell" nowrap>主ケタ数: 37本</td>
                         <td class="ledger-cell" nowrap>SRC</td>
                         <td class="ledger-cell" nowrap>主ケタ数: 本</td>
@@ -304,7 +304,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td rowspan="2" class="ledger-cell" nowrap>床板横桁</td>
+                        <th rowspan="2" class="ledger-cell" nowrap>床板横桁</th>
                         <td class="ledger-cell" nowrap>ケタ高: 1.372 ｍ</td>
                         <td class="ledger-cell" nowrap>SRC</td>
                         <td class="ledger-cell" nowrap>ケタ高: ｍ</td>
@@ -321,7 +321,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td rowspan="2" class="ledger-cell" nowrap>床板縦桁</td>
+                        <th rowspan="2" class="ledger-cell" nowrap>床板縦桁</th>
                         <td class="ledger-cell" nowrap>ケタ高: ｍ</td>
                         <td class="ledger-cell" nowrap>SRC</td>
                         <td class="ledger-cell" nowrap>ケタ高: ｍ</td>
@@ -338,7 +338,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>床板車道</td>
+                        <th class="ledger-cell" nowrap>床板車道</th>
                         <td class="ledger-cell" nowrap>ts ｍｍ</td>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap>ts ｍｍ</td>
@@ -347,7 +347,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>床板歩道</td>
+                        <th class="ledger-cell" nowrap>床板歩道</th>
                         <td class="ledger-cell" nowrap>ts ｍｍ</td>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap>ts ｍｍ</td>
@@ -356,7 +356,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>舗装車道</td>
+                        <th class="ledger-cell" nowrap>舗装車道</th>
                         <td class="ledger-cell" nowrap>ts 50 ｍｍ</td>
                         <td class="ledger-cell" nowrap>アスファルト</td>
                         <td class="ledger-cell" nowrap>ts ｍｍ</td>
@@ -365,7 +365,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>舗装歩道</td>
+                        <th class="ledger-cell" nowrap>舗装歩道</th>
                         <td class="ledger-cell" nowrap>ts 10 ｍｍ</td>
                         <td class="ledger-cell" nowrap>コンクリート</td>
                         <td class="ledger-cell" nowrap>ts ｍｍ</td>
@@ -374,7 +374,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>仲縮固定</td>
+                        <th class="ledger-cell" nowrap>仲縮固定</th>
                         <td class="ledger-cell" nowrap>突合せ</td>
                         <td class="ledger-cell" nowrap>ゴム</td>
                         <td class="ledger-cell" nowrap></td>
@@ -383,7 +383,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>仲縮可動</td>
+                        <th class="ledger-cell" nowrap>仲縮可動</th>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
@@ -392,7 +392,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>支承固定</td>
+                        <th class="ledger-cell" nowrap>支承固定</th>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
@@ -401,7 +401,7 @@
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="ledger-cell" nowrap>支承可動</td>
+                        <th class="ledger-cell" nowrap>支承可動</th>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
@@ -425,15 +425,71 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr v-for="item in upperStructMaterial" :key="item.item">
-                        <td nowrap class="ledger-cell">{{ item.item }}</td>
-                        <td nowrap class="ledger-cell">{{ item.bridge }}</td>
-                        <td nowrap class="ledger-cell">{{ item.road }}</td>
-                        <td nowrap class="ledger-cell">{{ item.sum }}</td>
-                        <td nowrap class="ledger-cell">{{ item.note }}</td>
+                      <tr>
+                        <th class="ledger-cell" nowrap>主鋼材</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">記事</td>
+                        <th class="ledger-cell" nowrap>鉄筋</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>PC鋼材</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>高構材</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>型式:石造</td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>コンクリート</th>
+                        <td class="ledger-cell" nowrap>不明 ㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>アスコン</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>石材</th>
+                        <td class="ledger-cell" nowrap>不明 ㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>木材</th>
+                        <td class="ledger-cell" nowrap>不明 ㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>上部死荷重</th>
+                        <td class="ledger-cell" nowrap>不明 t ( 不明 t/㎥)</td>
+                        <td class="ledger-cell" nowrap>t ( 不明 t/㎥)</td>
+                        <td class="ledger-cell" nowrap></td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">記事</th>
                         <td colspan="4" nowrap class="ledger-cell">不明</td>
                       </tr>
                       <tr>
@@ -459,146 +515,146 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>橋台</td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>筐体</td>
+                        <th class="text-center ledger-cell" nowrap>橋台</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>筐体</th>
                         <td class="ledger-cell" nowrap>形式: 重力式</td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap>RC</td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>(A1)</td>
+                        <th class="text-center ledger-cell" nowrap>(A1)</th>
                         <td class="ledger-cell" nowrap>形式寸法: 10973 × 23012 ×9297</td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>(A2)</td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>基礎</td>
+                        <th class="text-center ledger-cell" nowrap>(A2)</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>基礎</th>
                         <td class="ledger-cell" nowrap>形式: 抗基礎(推定)</td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap>木</td>
                         <td class="ledger-cell" nowrap>AP-</td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法: Φ273 × 7270 × 9297</td>
                         <td class="ledger-cell" nowrap>砂層</td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap></td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>筐体</td>
+                        <th class="text-center ledger-cell" nowrap></th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>筐体</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法: </td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>基礎</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>基礎</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap>AP-</td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法:</td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap></td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>筐体</td>
+                        <th class="text-center ledger-cell" nowrap></th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>筐体</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法: </td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>基礎</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>基礎</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap>AP-</td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法:</td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap></td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>筐体</td>
+                        <th class="text-center ledger-cell" nowrap></th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>筐体</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法: </td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>基礎</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>基礎</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap>AP-</td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法:</td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap></td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>筐体</td>
+                        <th class="text-center ledger-cell" nowrap></th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>筐体</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法: </td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>基礎</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>基礎</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap>AP-</td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法:</td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap></td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>筐体</td>
+                        <th class="text-center ledger-cell" nowrap></th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>筐体</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法: </td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
-                        <td rowspan="2" class="text-center ledger-cell" nowrap>基礎</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
+                        <th rowspan="2" class="text-center ledger-cell" nowrap>基礎</th>
                         <td class="ledger-cell" nowrap>形式: </td>
                         <td rowspan="2" class="text-center ledger-cell" nowrap></td>
                         <td class="ledger-cell" nowrap>AP-</td>
                       </tr>
                       <tr>
-                        <td class="text-center ledger-cell" nowrap>( )</td>
+                        <th class="text-center ledger-cell" nowrap>( )</th>
                         <td class="ledger-cell" nowrap>形式寸法:</td>
                         <td class="ledger-cell" nowrap></td>
                       </tr>
@@ -687,15 +743,71 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr v-for="item in lowerStructMaterial" :key="item.item">
-                        <td class="ledger-cell" nowrap>{{ item.item }}</td>
-                        <td class="ledger-cell" nowrap>{{ item.bridge }}</td>
-                        <td class="ledger-cell" nowrap>{{ item.road }}</td>
-                        <td class="ledger-cell" nowrap>{{ item.sum }}</td>
-                        <td class="ledger-cell" nowrap>{{ item.note }}</td>
+                      <tr>
+                        <th class="ledger-cell" nowrap>鋼抗</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap></td>
                       </tr>
                       <tr>
-                        <td nowrap class="ledger-cell">記事</td>
+                        <th class="ledger-cell" nowrap>RC抗</th>
+                        <td class="ledger-cell" nowrap>不明 本</td>
+                        <td class="ledger-cell" nowrap>本</td>
+                        <td class="ledger-cell" nowrap>本</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>PC抗</th>
+                        <td class="ledger-cell" nowrap>不明 本</td>
+                        <td class="ledger-cell" nowrap>本</td>
+                        <td class="ledger-cell" nowrap>本</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>鋼材</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>鉄筋</th>
+                        <td class="ledger-cell" nowrap>不明 t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap>t</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>コンクリート</th>
+                        <td class="ledger-cell" nowrap>不明 ㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>石材</th>
+                        <td class="ledger-cell" nowrap>不明 ㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>木材</th>
+                        <td class="ledger-cell" nowrap>不明 ㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap>㎥</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th class="ledger-cell" nowrap>搬入れ長</th>
+                        <td class="ledger-cell" nowrap>不明 ｍ</td>
+                        <td class="ledger-cell" nowrap>ｍ</td>
+                        <td class="ledger-cell" nowrap>0 ｍ</td>
+                        <td class="ledger-cell" nowrap></td>
+                      </tr>
+                      <tr>
+                        <th nowrap class="ledger-cell">記事</th>
                         <td colspan="4" nowrap class="ledger-cell">上方には首都高速都心環状線が横断方向に走っている</td>
                       </tr>
                     </tbody>
@@ -715,91 +827,6 @@
 export default defineComponent({
   data() {
     return {
-      upperStructDetail: [
-        {
-          item: '主桁(横)', mainStruct: '主ケタ数 37本', mainMaterial: 'SRC',
-          subStruct: '主ケタ数   本', subMaterial: '', roadStruct: '主ケタ数   本', roadMaterial: '',
-        },
-        {
-          item: '主桁(横)', mainStruct: 'ケタ高 1.372 ｍ', mainMaterial: '',
-          subStruct: 'ケタ高   ｍ', subMaterial: '', roadStruct: 'ケタ高   ｍ', roadMaterial: '',
-        },
-        {
-          item: '主桁(横)', mainStruct: '間隔   0.61 ｍ', mainMaterial: '',
-          subStruct: '間隔       ｍ', subMaterial: '', roadStruct: '間隔       ｍ', roadMaterial: '',
-        },
-
-        {
-          item: '床板横桁', mainStruct: 'ケタ高 1.372 ｍ', mainMaterial: 'SRC',
-          subStruct: 'ケタ高   ｍ', subMaterial: '', roadStruct: 'ケタ高   ｍ', roadMaterial: '',
-        },
-        {
-          item: '床板横桁', mainStruct: '間隔 3.5 ｍ', mainMaterial: '',
-          subStruct: '間隔    ｍ', subMaterial: '', roadStruct: '間隔    ｍ', roadMaterial: '',
-        },
-        {
-          item: '床板縦桁', mainStruct: 'ケタ高  ｍ', mainMaterial: 'SRC',
-          subStruct: 'ケタ高   ｍ', subMaterial: '', roadStruct: 'ケタ高   ｍ', roadMaterial: '',
-        },
-        {
-          item: '床板縦桁', mainStruct: '間隔  ｍ', mainMaterial: '',
-          subStruct: '間隔    ｍ', subMaterial: '', roadStruct: '間隔    ｍ', roadMaterial: '',
-        },
-        {
-          item: '床板車道', mainStruct: 'ts ｍｍ', mainMaterial: '',
-          subStruct: 'ts ｍｍ', subMaterial: '', roadStruct: 'ts ｍｍ', roadMaterial: '',
-        },
-        {
-          item: '床板歩道', mainStruct: 'ts ｍｍ', mainMaterial: '',
-          subStruct: 'ts ｍｍ', subMaterial: '', roadStruct: 'ts ｍｍ', roadMaterial: '',
-        },
-        {
-          item: '舗装車道', mainStruct: 'ts 50 ｍｍ', mainMaterial: 'アスファルト',
-          subStruct: 'ts ｍｍ', subMaterial: '', roadStruct: 'ts ｍｍ', roadMaterial: '',
-        },
-        {
-          item: '舗装歩道', mainStruct: 'ts 10 ｍｍ', mainMaterial: 'コンクリート',
-          subStruct: 'ts ｍｍ', subMaterial: '', roadStruct: 'ts ｍｍ', roadMaterial: '',
-        },
-        {
-          item: '仲縮車道', mainStruct: '突合せ', mainMaterial: 'ゴム',
-          subStruct: '', subMaterial: '', roadStruct: '', roadMaterial: '',
-        },
-        {
-          item: '仲縮歩道', mainStruct: '', mainMaterial: '',
-          subStruct: '', subMaterial: '', roadStruct: '', roadMaterial: '',
-        },
-        {
-          item: '支承車道', mainStruct: '', mainMaterial: '',
-          subStruct: '', subMaterial: '', roadStruct: '', roadMaterial: '',
-        },
-        {
-          item: '支承歩道', mainStruct: '', mainMaterial: '',
-          subStruct: '', subMaterial: '', roadStruct: '', roadMaterial: '',
-        },
-      ],
-      upperStructMaterial: [
-        { item: '主鋼材', bridge: '不明 t', road: 't', sum: 't', note: '' },
-        { item: '鉄筋', bridge: 't', road: 't', sum: 't', note: '' },
-        { item: 'PC鋼材', bridge: '不明 t', road: 't', sum: 't', note: '' },
-        { item: '高構材', bridge: '不明 t', road: 't', sum: 't', note: '型式:石造' },
-        { item: 'コンクリート', bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: '' },
-        { item: 'アスコン', bridge: '不明 t', road: 't', sum: 't', note: '' },
-        { item: '石材', bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: '' },
-        { item: '木材', bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: '' },
-        { item: '上部死荷重', bridge: '不明 t ( 不明 t/㎥)', road: 't ( 不明 t/㎥)', sum: 's㎥', note: '' },
-      ],
-      lowerStructMaterial: [
-        { item: '鋼抗', bridge: '不明 t', road: 't', sum: 't', note: '' },
-        { item: 'RC抗', bridge: '不明 本', road: '本', sum: '本', note: '' },
-        { item: 'PC抗', bridge: '不明 本', road: '本', sum: '本', note: '' },
-        { item: '鋼材', bridge: '不明 t', road: 't', sum: 't', note: '' },
-        { item: '鉄筋', bridge: '不明 t', road: 't', sum: 't', note: '' },
-        { item: 'コンクリート', bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: '' },
-        { item: '石材', bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: '' },
-        { item: '木材', bridge: '不明 ㎥', road: '㎥', sum: '㎥', note: '' },
-        { item: '搬入れ長', bridge: '不明 ｍ', road: 'ｍ', sum: '0 ｍ', note: '' },
-      ],
     }
   },
   mounted: function () {

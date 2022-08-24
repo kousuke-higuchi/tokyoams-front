@@ -14,8 +14,8 @@
     .ribbonBox{
         overflow: hidden;
         position: absolute;
-        right: 0;
-        top: 0;
+        left: 0;
+        top: -30px;
         width: 110px;
         height: 110px;
         z-index: 10;
@@ -23,13 +23,12 @@
     .ribbon {
         line-height: 100%;
         width: 210px;
-        padding: 0.375rem 0;
+        padding: 0.475rem 0;
         position: relative;
-        right: 35px;
+        right: 0px;
         top: 30px;
-        text-align: center;
+        text-align: left;
         text-transform: uppercase;
-        transform: rotate(45deg);
         color:white;
         background: #007bff;
         z-index: 1;

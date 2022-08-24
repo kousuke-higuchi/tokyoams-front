@@ -106,7 +106,7 @@
   </v-card>
 </template>
 
-<script type="ts">
+<script lang="ts">
 import pavementsJson from "@/assets/pavement.json"
 
 export default defineComponent({
@@ -228,6 +228,7 @@ export default defineComponent({
     },
     clickMarker(m) {
       console.info('clickMaker', m);
+      navigateTo('/pavement/ledger');
     },
     clickFAdvancedSearch(){
       console.debug('clickFAdvancedSearch');
@@ -242,6 +243,7 @@ export default defineComponent({
     clickMarkerListRow(e) {
       const pavement = e.row;
       console.debug('clickMarkerList',pavement);
+      navigateTo('/pavement/ledger');
     }
   },
 });

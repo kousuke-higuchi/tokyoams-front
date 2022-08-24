@@ -1,0 +1,23 @@
+[
+  {
+    "bridgeid": 2,
+    "spanno": 1,
+    "spanlen": 30.175,
+    "spanDiv": "本線",
+    "spanKind": "主径間",
+    "place":"",
+    "riverExit": 1,
+    "roadExit": 0,
+    "trainExist": 0,
+    "parkExist": 0,
+    "otherExist": 1,
+    "distanceFromWater": -3,
+    "roadway": 16.6,
+    "sidewalk": 5.4,
+    "total": 22,
+    "delta_d": 0,
+    "delta_e": 0,
+    "delta_el": null
+
+  }
+]

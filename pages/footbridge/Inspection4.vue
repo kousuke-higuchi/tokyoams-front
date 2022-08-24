@@ -17,7 +17,7 @@
             </v-btn>
           </div>
           <v-row no-gutters class="ma-1">
-            <v-col md="6" cols="12">
+            <v-col md="9" cols="12">
               <v-card>
                 <v-card-text>
                   <v-row no-gutters>
@@ -29,32 +29,6 @@
                         v-model="select.number"
                         :items="numbers"
                         item-title="select.number"
-                        variant="outlined"
-                        density="compact"
-                        hide-details="false"
-                      ></v-select>
-                    </v-col>
-                    <v-col md="2" cols="12" class="d-flex">
-                      <v-card-text>損傷名</v-card-text>
-                    </v-col>
-                    <v-col md="2" cols="12">
-                      <v-select
-                        v-model="select.damageName"
-                        :items="damageNames"
-                        item-title="select.damageName"
-                        variant="outlined"
-                        density="compact"
-                        hide-details="false"
-                      ></v-select>
-                    </v-col>
-                    <v-col md="2" cols="12" class="d-flex">
-                      <v-card-text>損傷ランク</v-card-text>
-                    </v-col>
-                    <v-col md="2" cols="12">
-                      <v-select
-                        v-model="select.damageRank"
-                        :items="damageRank"
-                        item-title="select.damageRank"
                         variant="outlined"
                         density="compact"
                         hide-details="false"
@@ -101,15 +75,6 @@
                 </v-card-text>
               </v-card>
             </v-col>
-            <v-col md="6" cols="12">
-              <v-card>
-                <v-card-title>
-                  損傷図
-                </v-card-title>
-                <v-img
-                  :src="dmgmap"></v-img>
-              </v-card>
-            </v-col>
           </v-row>
         </v-card>
       </v-col>
@@ -124,13 +89,11 @@ export default defineComponent({
   data() {
     return{
       dmgmap:'../../assets/img/dmg/damagemap1.jpg',
-      select: {number: 1, damageName: '腐食',damageRank: 'a'},
+      select: {number: 1},
       numbers: [1,2,3,4,5],
-      damageNames:['腐食','亀裂','ゆるみ','脱落','破断','塗装劣化','ひびわれ','剥離・鉄筋露出','遊離石灰','豆板・空洞','すりへり・浸食','抜け落ち','鋼板接着部の損傷','床版・ひびわれ','段差・コルゲーション','ポットホール','舗装ひびわれ','わだち掘れ','遊間の異常','変色・劣化','漏水・滞水','異常音','異常振動','異常たわみ','変形','土砂詰り・土砂滞り','沈下','移動・ずれ','傾斜','洗掘','欠損','その他','不明'],
-      damageRank:['a','b','c','d','e'],
       imgDetails:[
         {
-          img: '../../assets/img/dmg/brg1dmg1.jpg',
+          img: '../../assets/img/dmg/fbg4inspect1.jpg',
           damagemap:'../../assets/img/dmg/damagemap1.jpg',
           trackNumber: 1,
           cmpName: '橋名板（漢字）',
@@ -140,7 +103,7 @@ export default defineComponent({
           judgment: '-',
         },
         {
-          img: '../../assets/img/dmg/brg1dmg2.jpg',
+          img: '../../assets/img/dmg/fbg4inspect2.jpg',
           damagemap:'../../assets/img/dmg/damagemap2.jpg',
           trackNumber: 1,
           cmpName: '橋名板（かな）',
@@ -150,7 +113,7 @@ export default defineComponent({
           judgment: '-',
         },
         {
-          img: '../../assets/img/dmg/brg1dmg3.jpg',
+          img: '../../assets/img/dmg/fbg4inspect3.jpg',
           damagemap:'../../assets/img/dmg/damagemap3.jpg',
           trackNumber: 1,
           cmpName: '橋歴板',
@@ -160,7 +123,7 @@ export default defineComponent({
           judgment: '-',
         },
         {
-          img: '../../assets/img/dmg/brg1dmg4.jpg',
+          img: '../../assets/img/dmg/fbg4inspect4.jpg',
           damagemap:'../../assets/img/dmg/damagemap4.jpg',
           trackNumber: 1,
           cmpName: '橋歴板',
@@ -169,6 +132,26 @@ export default defineComponent({
           damageType: '(状況)',
           judgment: '-',
         },
+        {
+          img: '../../assets/img/dmg/fbg4inspect5.jpg',
+          damagemap:'../../assets/img/dmg/damagemap4.jpg',
+          trackNumber: 1,
+          cmpName: '下面',
+          situation: '-',
+          imgNumber: 5,
+          damageType: '(状況)',
+          judgment: '-',
+        },
+        {
+          img: '../../assets/img/dmg/fbg4inspect6.jpg',
+          damagemap:'../../assets/img/dmg/damagemap4.jpg',
+          trackNumber: 1,
+          cmpName: '主桁',
+          situation: '表面積_中',
+          imgNumber: 6,
+          damageType: '腐食',
+          judgment: 'b',
+        },                
       ]
     }
   },
