@@ -122,7 +122,7 @@ export default defineComponent({
   data() {
     return {
       showMarkerList: false,
-      tab: 'map',
+      tab: 'list',
       zoom: 15,
       center: [35.79112, 139.27753],
       bridges: footbridgesJson,

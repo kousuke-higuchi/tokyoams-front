@@ -10,7 +10,9 @@
                 <v-col cols="12" class="py-2">
                     <p>■表示する施設種別を選択してください。</p>
 
-                    <v-btn-toggle v-model="text" tile color="deep-purple accent-3" multiple>
+                    <v-btn-toggle v-model="select_kind" tile color="deep-purple accent-3" multiple>
+
+
                         <v-btn value="1">
                             <span class="hidden-sm-and-down">橋梁</span>
                         </v-btn>
@@ -61,11 +63,18 @@
                         </v-btn>
                     </v-btn-toggle>
                 </v-col>
+                <!-- <v-col
+                cols="12"
+                class="text-center"
+                >
+                Model: {{ select_kind }}
+                </v-col> -->
+
             </v-row>
             <v-row>
-                <v-col cols="12" class="py-2">
+                <v-col cols="4" class="py-2">
                     <p>■表示する路線を選択してください。</p>
-                    <v-combobox dense clearable :items="items"></v-combobox>
+                    <v-select clearable :items="items" v-model="select_route"></v-select>
                 </v-col>
             </v-row>
         </v-card>
@@ -79,6 +88,7 @@
               :markers="bridges"
               marker-title="bridge_name"
               @click-marker="clickMarker"
+              select-kind="select_kind"
               />
           </v-card>
 
@@ -104,6 +114,8 @@ export default {
             zoom: 15,
             center: [35.79112, 139.27753],
             bridges: bridgesJson,
+            select_kind:["1","2"],
+            select_route:'全て',
         }
     },
 }

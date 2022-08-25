@@ -49,6 +49,16 @@
                           Excel
                         </v-btn>
                     </span>
+                    <span v-else-if="props.column.field == 'Connect3dSystem'">
+                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
+                          3Dシステム
+                        </v-btn>
+                    </span>
+                    <span v-else-if="props.column.field == 'ConnectDocSystem'">
+                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
+                          成果品
+                        </v-btn>
+                    </span>
                     <span v-else-if="props.column.field == 'bridge_name'">
                       <nuxt-link to="/bridge/ledger1">{{props.formattedRow[props.column.field]}}</nuxt-link>
                     </span>
@@ -128,7 +138,7 @@ export default defineComponent({
   data() {
     return {
       showMarkerList: false,
-      tab: 'map',
+      tab: 'list',
       zoom: 15,
       center: [35.79112, 139.27753],
       bridges: bridgesJson,
@@ -197,8 +207,20 @@ export default defineComponent({
           sortable: false,
         },
         {
-          label: '国様式出力',
+          label: '国様式',
           field: 'OutNationalBtn',
+          filterable: false,
+          sortable: false,
+        },
+        {
+          label: '3Dシステム',
+          field: 'Connect3dSystem',
+          filterable: false,
+          sortable: false,
+        },
+        {
+          label: '成果品',
+          field: 'ConnectDocSystem',
           filterable: false,
           sortable: false,
         },

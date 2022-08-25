@@ -58,7 +58,7 @@
             </div>
         </v-window-item>
         <!-- 地図 tab --> 
-        <v-window-item value="map">
+        <v-window-item value='list'>
           <v-container>
             <v-row justify="end">
               <v-btn v-on:click="clickFind()"
