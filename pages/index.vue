@@ -129,7 +129,7 @@ export default {
     ],
     childfeatureCards: [
       [{ ownertitle: '施設新規登録', title: '施設新規登録フォーム', url: '/newRegist', explain: 'システム用のデータを新規登録するための入力フォームを表示します。' },],
-      [{ ownertitle: '委託データ登録', title: '委託データ登録サイト', url: '/', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
+      [{ ownertitle: '委託データ登録', title: '委託データ登録サイト', url: '/order', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
       [{ ownertitle: '損傷マップ', title: '損傷マップ', url: '/inspMap', explain: '複数の施設種別のピンを同一の地図で表現します。' },],
       [{ ownertitle: '橋梁損傷写真一覧出力', title: '橋梁損傷写真一覧出力', url: '/', explain: '橋梁の損傷写真の一覧を出力します。' },],
     ],

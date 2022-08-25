@@ -6,6 +6,7 @@
               <v-btn v-on:click="clickRegNewOrder()"
                 color= "primary"
                 size="small"
+                href="/order/regNewOrder"
               >
                 新規データ発行
               </v-btn>
@@ -104,8 +105,9 @@ export default{
                 },
                 {
                     label:'状態',
-                    field:'order_stated',
-                    sortable:false
+                    field:'state',
+                    sortable:false,
+                    tooltip:'発注待：業者がダウンロードしていない状態'
                 }
 
             ]

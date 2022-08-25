@@ -3,7 +3,7 @@
     <v-container class="d-flex align-center flex-column mt-5">
 
         <div class="w-50 ma-4" style="text-align:center">
-            <h1>東京都AMS</h1>
+            <h1>建設局　道路施設管理システム</h1>
         </div>
 
         <v-card
