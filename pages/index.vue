@@ -209,16 +209,16 @@ export default {
 
 
 a.btn--red.btn--cubic {
-  border-bottom: 5px solid #9f000c;
+  border-bottom: 5px solid #838383;
 }
 
 a.btn--red.btn--cubic:hover {
   margin-top: 3px;
-  border-bottom: 2px solid #e6a9ae;
+  border-bottom: 2px solid #eee7e8;
 }
 
 a.btn--radius {
-  border-radius: 100vh;
+  border-radius: 3vh;
 }
 a.btn--font {
   font-size: x-small;
