@@ -22,8 +22,9 @@
       <!--TODO:座標返還はバックエンドで実装する-->
         <l-marker v-if="(m.latlon!=null)" 
           :lat-lng="m.latlon">
+            <l-tooltip>{{m.title}}</l-tooltip>
             <l-popup>
-                <h2>{{m.title}}</h2>
+                <h2>{{m.title+" "+m.soundnessID}}</h2>
                 <v-list>
                     <v-list-item @click="onClickMarker(m)">
                         <v-list-item-title>詳細画面を表示する</v-list-item-title>
@@ -33,6 +34,22 @@
                     </v-list-item>
                 </v-list>
             </l-popup>
+        
+            <l-icon v-if="m.soundnessID === 1"
+                    icon-url="../assets/img/map/MainPin_1_1.png" >
+            </l-icon>
+            <l-icon v-else-if="m.soundnessID === 2"
+                    icon-url="../assets/img/map/MainPin_1_2.png" >
+            </l-icon>
+            <l-icon v-else-if="m.soundnessID === 3"
+                    icon-url="../assets/img/map/MainPin_1_3.png" >
+            </l-icon>
+            <l-icon v-else-if="m.soundnessID === 4"
+                    icon-url="../assets/img/map/MainPin_1_4.png" >
+            </l-icon>
+            <l-icon v-else-if="m.soundnessID === 5"
+                    icon-url="../assets/img/map/MainPin_1_5.png" >
+            </l-icon>
         </l-marker>
       </template>
     </l-map>
@@ -47,6 +64,8 @@
         LControlScale,
         LControlLayers,
         LPopup,
+        LTooltip,
+        LIcon,
     } from '@vue-leaflet/vue-leaflet'
     import "leaflet/dist/leaflet.css";
 
@@ -57,7 +76,17 @@
             LMarker,
             LControlScale,
             LControlLayers,
-            LPopup
+            LPopup,
+            LTooltip,
+            LIcon
+        },
+        computed: {
+            dynamicSize () {
+            return [this.iconSize, this.iconSize * 1.15];
+            },
+            dynamicAnchor () {
+            return [this.iconSize / 2, this.iconSize * 1.15];
+            }
         },
         props: {
             center: Array<number>,
@@ -66,6 +95,7 @@
             markerTitle: String,
             markerLat: { type:String, default:"latitude" },
             markerLon: { type:String, default:"longitude"},
+            soundnessID: Number,
         },
         emits: {
             'click-marker': (marker: any) => true,
@@ -98,10 +128,18 @@
                 return [Wgs.latitude, Wgs.longitude];
             };
 
+            const getSoundnessID  = (marker) => {
+                if(prop.soundnessID && marker?.hasOwnProperty(prop.soundnessID)) {
+                    return marker[prop.soundnessID]
+                }
+                return marker.soundnessID
+            };
+
             const innerMarkers = prop.markers.map((m)=>{
                 let _m:any = m;
                 _m.latlon = getLatLon(m);
                 _m.title = getTitle(m);
+                _m.soundnessID = getSoundnessID(m);
                 return _m
             });
 
@@ -129,7 +167,7 @@
                 },
             ];
 
-            return {onClickMarker, getTitle, getLatLon, zoomComputed, innerMarkers, tileProviders}
+            return {onClickMarker, getTitle, getLatLon,getSoundnessID, zoomComputed, innerMarkers, tileProviders}
         }
     })
 </script>

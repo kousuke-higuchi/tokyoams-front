@@ -107,7 +107,7 @@ export default{
                     label:'状態',
                     field:'state',
                     sortable:false,
-                    tooltip:'発注待：業者がダウンロードしていない状態'
+                    tooltip:'発注待：業者がダウンロードしていない状態\n発注済：業者が現在作成中の状態\n'
                 }
 
             ]

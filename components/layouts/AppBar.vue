@@ -42,8 +42,8 @@
             })
 
             // 問合せ: メーラに自動入力する情報
-            let contactTo = "xxxx@jip-ts.co.jp"
-            let subject = "【AMS】お問い合わせ"
+            let contactTo = "kousuke_higuchi@jip-ts.co.jp"
+            let subject = "【道路施設管理システム】お問い合わせ"
             let body = "件名：%0D%0A問合せ内容：%0D%0A"
 
             const links = [

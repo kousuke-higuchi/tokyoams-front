@@ -116,7 +116,7 @@ export default {
         { title: '道路照明', src: '', url: '/streetlight' },
         { title: '配電盤', src: '', url: '/switchboard' },
         { title: '障害物表示灯', src: '', url: '/blinker' },
-        { title: '道路標識', src: '', url: '/sign' },
+        { title: '道路標識', src: '', url: '/roadsign' },
         { title: '道路反射鏡', src: '', url: '/mirror' },
       ],
     }
@@ -124,14 +124,12 @@ export default {
     featureCards: [
       { title: '施設新規登録' },
       { title: '委託データ登録' },
-      { title: '損傷マップ' },
-      { title: '橋梁損傷写真一覧出力' },
+      { title: '業務支援機能' },
     ],
     childfeatureCards: [
       [{ ownertitle: '施設新規登録', title: '施設新規登録フォーム', url: '/newRegist', explain: 'システム用のデータを新規登録するための入力フォームを表示します。' },],
       [{ ownertitle: '委託データ登録', title: '委託データ登録サイト', url: '/order', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
-      [{ ownertitle: '損傷マップ', title: '損傷マップ', url: '/inspMap', explain: '複数の施設種別のピンを同一の地図で表現します。' },],
-      [{ ownertitle: '橋梁損傷写真一覧出力', title: '橋梁損傷写真一覧出力', url: '/', explain: '橋梁の損傷写真の一覧を出力します。' },],
+      [{ ownertitle: '業務支援機能', title: '業務支援機能', url: '/function', explain: '業務実施に有用な機能を表示します。' },],
     ],
     columns: [
       {
@@ -181,10 +179,10 @@ export default {
 }
 
 .facility {
-  background: #17a2b8;
+  background: #aedee6;
 }
 .facility-header {
-  background: #8dd1db;
+  background: #e2f1f3;
 }
 /* .cardimg{
   max-height: 150px;
