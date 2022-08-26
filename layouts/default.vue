@@ -43,7 +43,7 @@
                 { title: '組立歩道', props:{ to: '/tobeImplement' }},
                 { title: '桟道', props:{ to: '/tobeImplement' }},
                 { title: '地下歩道者道', props:{ to: '/undergroundWalkway' }},
-                { title: 'ロックシェッド', props:{ to: '/tobeImplement' }},
+                { title: 'ロックシェッド', props:{ to: '/rockshed' }},
                 ],
               },
               { title: '道路附属物',
@@ -51,7 +51,7 @@
                 { title: '道路照明', props:{ to: '/streetlight' }},
                 { title: '配電盤', props:{ to: '/switchboard' }},
                 { title: '障害物', props:{ to: '/blinker' }},
-                { title: '道路標識', props:{ to: '/sign' }},
+                { title: '道路標識', props:{ to: '/roadsign' }},
                 { title: '道路反射鏡', props:{ to: '/mirror' }},
                 ],
               },
@@ -61,12 +61,17 @@
             children: [
               { title: '施設新規登録',  
                 children:[
-                { title: '施設新規登録フォーム', props:{ to: '/tobeImplement' }}
+                { title: '施設新規登録フォーム', props:{ to: '/newRegist' }}
                 ],
               },
               { title: '発注情報登録', 
                 children:[
-                { title: '発注登録サイト', props:{ to: '/tobeImplement' }},
+                { title: '発注登録サイト', props:{ to: '/order' }},
+                ],
+              },
+              { title: '業務機能', 
+                children:[
+                { title: '業務機能', props:{ to: '/function' }},
                 ],
               },
             ],

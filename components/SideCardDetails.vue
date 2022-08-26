@@ -6,19 +6,19 @@
       </v-card-title>
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
-          <v-tab value="note">橋梁台帳</v-tab>
-          <v-tab value="check">点検調書</v-tab>
-          <v-tab value="nation">国様式</v-tab>
+          <v-tab value="ledger">橋梁台帳</v-tab>
+          <v-tab value="inspection">点検調書</v-tab>
+          <v-tab value="country">国様式</v-tab>
         </v-tabs>
         <v-card-text>
           <v-window v-model="tabSide">
-            <v-window-item value="note">
+            <v-window-item value="ledger">
               <v-list :items="buttons01" color="primary"></v-list>
             </v-window-item>
-            <v-window-item value="check">
+            <v-window-item value="inspection">
               <v-list :items="buttons02" color="primary"></v-list>
             </v-window-item>
-            <v-window-item value="nation">
+            <v-window-item value="country">
               <v-list :items="buttons03"></v-list>
             </v-window-item>
           </v-window>
@@ -103,7 +103,7 @@
               rows="1"
               auto-grow
               density="compact"
-              hide-details="false"
+              :hide-details="false"
                v-model="dialogMemo"
               ></v-textarea>
             </v-col>
@@ -121,14 +121,16 @@
 </template>
 
 <script lang="ts">
-import Datepicker from '@vuepic/vue-datepicker';
-import '@vuepic/vue-datepicker/dist/main.css'
-
-
 export default defineComponent({
-  components: {
-    Datepicker,
-  },        
+  /* NOTE: v-tabs v-model="selectTab" だと以下のエラーになるため、別変数とした
+      Uncaught (in promise) TypeError: 'set' on proxy: trap returned falsish for property 'selectTab
+  */
+  props: {
+    selectTab: { type: String, default: "ledger" },
+  },
+  setup(prop, context) {
+    console.log("setup ideCardDetails : ", prop.selectTab);
+  },
   data() {
     return {
       isOpen: false,
@@ -141,24 +143,24 @@ export default defineComponent({
         { title: '橋梁台帳(3)', props:{ to:"/bridge/ledger3" } },
         { title: '橋梁台帳(径間)', props:{ to:"/bridge/ledgerSpan" } },
         { title: '一般図', props:{ to:"/bridge/general" } },
-        { title: '径間別一般図', vprops:{ to:"/bridge/generalSpan" } },
+        { title: '径間別一般図', props:{ to:"/bridge/generalSpan" } },
         { title: '写真台帳', props:{ to:"/bridge/ledgerPicture" } },
         { title: '現地状況写真', props:{ to:"/bridge/picture" } },
         { title: '高欄図', props:{ to:"/bridge/handrail" } },
       ],
       buttons02: [
-        { title: '様式2', props:{ to: '/bridge/form2' }},
-        { title: '様式3', props:{ to: '/tobeImplement' } },
-        { title: '様式4-1(3回分)', props:{ to: '/tobeImplement' } },
-        { title: '様式4-2(3回分)', props:{ to: '/tobeImplement' } },
-        { title: '様式5', props:{ to: '/tobeImplement' } },
-        { title: '様式6', props:{ to: '/tobeImplement' } },
-        { title: '様式7', props:{ to: '/tobeImplement' } },
-        { title: '様式8', props:{ to: '/tobeImplement' } },
+        { title: '様式2', props: { to: '/bridge/inspection2' } },
+        { title: '様式3', props: { to: '/bridge/inspection3' } },
+        { title: '様式4-1(3回分)', props: { to: '/bridge/inspection41' } },
+        { title: '様式4-2(3回分)', props: { to: '/bridge/inspection42' } },
+        { title: '様式5', props: { to: '/bridge/inspection5' } },
+        { title: '様式6', props: { to: '/bridge/inspection6' } },
+        { title: '様式7', props: { to: '/bridge/inspection7' } },
+        { title: '様式8', props: { to: '/bridge/inspection8' } },
       ],
       buttons03: [
-        { title: '道路端様式1P001', props:{ to: '/tobeImplement' } },
-        { title: '道路端様式2P001', props:{ to: '/tobeImplement' } },
+        { title: '道路橋様式1P001', props:{ to: '/bridge/country1' } },
+        { title: '道路橋様式2P001', props:{ to: '/bridge/country2' } },
       ],
       noteColumns: [
         {
@@ -182,7 +184,8 @@ export default defineComponent({
     }
   },
   mounted: function() {
-    console.log("mounted SideCardDetails : ", this.tabSide);
+    this.tabSide = this.selectTab;
+    console.log("mounted SideCardDetails : ", this.tabSide, this.selectTab);
     this.dialogDate = this.getDate();
   },
   methods: {

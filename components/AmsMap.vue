@@ -1,4 +1,11 @@
 <template>
+
+<!-- <div>
+    <v-label>{{select_kind}}</v-label>
+</div>
+<div>
+    <v-label>{{select_route}}</v-label>
+</div> -->
     <l-map
     v-model="zoomComputed"
     v-model:zoom="zoomComputed"
@@ -19,12 +26,13 @@
       layer-type="base"/>
 
       <template v-for="(m, i) in innerMarkers" :key="i">
-      <!--TODO:座標返還はバックエンドで実装する-->
-        <l-marker v-if="(m.latlon!=null)" 
+        <l-marker v-if="(m.latlon!=null && (m.route_name == select_route || '全て' == select_route || '' == select_route))" 
           :lat-lng="m.latlon">
             <l-tooltip>{{m.title}}</l-tooltip>
             <l-popup>
-                <h2>{{m.title+" "+m.soundnessID}}</h2>
+                <h2>{{m.title}}</h2>
+                <h2>{{m.kind}}</h2>
+                <h2>{{m.route_name}}</h2>
                 <v-list>
                     <v-list-item @click="onClickMarker(m)">
                         <v-list-item-title>詳細画面を表示する</v-list-item-title>
@@ -53,6 +61,7 @@
         </l-marker>
       </template>
     </l-map>
+
 </template>
 
 <script lang="ts">
@@ -96,6 +105,10 @@
             markerLat: { type:String, default:"latitude" },
             markerLon: { type:String, default:"longitude"},
             soundnessID: Number,
+            route_name: String,
+            kind: {String,default:''},
+            select_kind: { type:Array, default:[]},
+            select_route: {String,default:''}
         },
         emits: {
             'click-marker': (marker: any) => true,
@@ -134,14 +147,30 @@
                 }
                 return marker.soundnessID
             };
-
+            const getKind  = (marker) => {
+                if(prop.kind && marker?.hasOwnProperty(prop.kind)) {
+                    return marker[prop.kind]
+                }
+                return marker.kind
+            };
+            const getRouteName  = (marker) => {
+                if(prop.route_name && marker?.hasOwnProperty(prop.route_name)) {
+                    return marker[prop.route_name]
+                }
+                return marker.route_name
+            };
             const innerMarkers = prop.markers.map((m)=>{
                 let _m:any = m;
                 _m.latlon = getLatLon(m);
                 _m.title = getTitle(m);
                 _m.soundnessID = getSoundnessID(m);
+                _m.kind = getKind(m);
+                _m.route_name = getRouteName(m);
                 return _m
             });
+
+            const select_kind = prop.select_kind;
+            const select_route = prop.select_route;
 
             const tileProviders = [
                 {
@@ -167,7 +196,7 @@
                 },
             ];
 
-            return {onClickMarker, getTitle, getLatLon,getSoundnessID, zoomComputed, innerMarkers, tileProviders}
+            return {onClickMarker, getTitle, getLatLon,getSoundnessID,getKind, getRouteName,zoomComputed, innerMarkers, tileProviders,select_kind,select_route }
         }
     })
 </script>
