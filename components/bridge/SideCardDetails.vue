@@ -2,7 +2,8 @@
 
  <v-expansion-panels v-model = "isExtend" multiple  v-bind:class=" (isExtend != null && isExtend.length == 1 && isExtend[0] == 0  ) ? 'panel_extend':'panel_nonextend'"> 
   <v-expansion-panel   @click="send">
- <v-expansion-panel-title>
+ <v-expansion-panel-title >
+  橋梁名 : 鎌倉橋 01110010-0
   </v-expansion-panel-title>
   <v-expansion-panel-text>
     
@@ -250,7 +251,7 @@ export default defineComponent({
 }
 
 .panel_nonextend {
-  width: 100%;
+  width: 300px;
 }
 
 </style>
