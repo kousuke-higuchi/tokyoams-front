@@ -50,12 +50,12 @@
                         </v-btn>
                     </span>
                     <span v-else-if="props.column.field == 'Connect3dSystem'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
+                        <v-btn class="btn" color="success" dark size="small" v-on:click="clickOutputNational()">
                           3Dシステム
                         </v-btn>
                     </span>
                     <span v-else-if="props.column.field == 'ConnectDocSystem'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
+                        <v-btn class="btn" color="success" dark size="small" v-on:click="clickOutputNational()">
                           成果品
                         </v-btn>
                     </span>

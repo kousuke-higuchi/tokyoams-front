@@ -1,10 +1,10 @@
 <template>
   <v-row>
-    <v-col v-bind:md="child_extend?3:1" cols="12">
+    <v-col v-bind:md="child_extend?3:0" cols="12">
     <!-- <p> {{ child_extend }}</p> -->
       <bridge-side-card-details @isExtend='child_extend = $event' />
     </v-col>
-    <v-col v-bind:md="child_extend?9:11" cols="12">
+    <v-col v-bind:md="child_extend?9:12" cols="12">
       <v-card elevation="3">
         <v-card-title>
           <v-row class="justify-start mt-1 ml-3">橋梁台帳 東京都
