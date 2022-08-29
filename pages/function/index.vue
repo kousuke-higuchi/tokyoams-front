@@ -29,11 +29,15 @@ export default {
     data: () => ({
         featureCards: [
             { title: '損傷マップ' },
+            { title: '路面性状MNIマップ' },
             { title: '橋梁損傷写真一覧' },
+            { title: '機能追加要望' },
         ],
         childfeatureCards: [
-            [{ ownertitle: '損傷マップ', title: '損傷マップ', url: '/function/inspMap', explain: '複数の施設種別を跨いで、施設の位置情報を表示できます。' },],
+            [{ ownertitle: '損傷マップ’（国）', title: '損傷マップ（国）', url: '/function/inspMap', explain: '国様式のある施設種別の位置情報を健全度ごとに色分けし地図上に表示します。' },],
+            [{ ownertitle: '路面性状MNIマップ', title: '路面性状MNIマップ', url: '/function/mniMap', explain: '路面性状のMNI情報を表示します。' },],
             [{ ownertitle: '橋梁損傷写真一覧', title: '橋梁損傷写真一覧', url: '/', explain: '橋梁の損傷写真の一覧表を出力します。' },],
+            [{ ownertitle: '機能追加要望', title: '機能追加要望', url: '/', explain: '機能追加の要望はこちらにご連絡ください。' },],
         ],
     }),
 }

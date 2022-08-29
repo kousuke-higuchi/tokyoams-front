@@ -1,6 +1,5 @@
 <template>
-    <div>
-    <h3>損傷マップ</h3>
+    <h2>損傷マップ</h2>
     <v-container fluid>
         <v-card>
             <v-card-title>
@@ -23,19 +22,59 @@
                         <v-btn value="3">
                             トンネル
                         </v-btn>
+                        <v-btn value="4">
+                            舗装
+                        </v-btn>
+                        <v-btn value="5">
+                            共同溝
+                        </v-btn>
+                        <v-btn value="6">
+                            擁壁
+                        </v-btn>
+                        <v-btn value="7">
+                            掘割道路
+                        </v-btn>
+                        <v-btn value="8">
+                            組立歩道
+                        </v-btn>
+                        <v-btn value="9">
+                            桟道
+                        </v-btn>
+                        <v-btn value="10">
+                            地下歩行者道
+                        </v-btn>
                         <v-btn value="11">
                             ロックシェッド
                         </v-btn>
                         <v-btn value="12">
+                            道路照明
+                        </v-btn>
+                        <v-btn value="13">
+                            障害物表示灯
+                        </v-btn>
+                        <v-btn value="14">
+                            配電盤
+                        </v-btn>
+                        <v-btn value="15">
                             道路標識
+                        </v-btn>
+                        <v-btn value="16">
+                            反射鏡
                         </v-btn>
                     </v-btn-toggle>
                 </v-col>
+                <!-- <v-col
+                cols="12"
+                class="text-center"
+                >
+                Model: {{ select_kind }}
+                </v-col> -->
+
             </v-row>
             <v-row>
                 <v-col cols="4" class="py-2">
                     <p>■表示する路線を選択してください。</p>
-                    <v-select clearable :items="items" v-model="select_route"></v-select>
+                    <v-select @change="selectRoute" clearable :items="items" v-model="select_route"></v-select>
                 </v-col>
             </v-row>
         </v-card>
@@ -44,43 +83,46 @@
           <!-- 地図 --> 
           <v-card style="height: 78vh; width: 94vw">
             <ams-map
+                :key="key"
               :zoom="zoom"
               :center="center"
               :markers="bridges"
               marker-title="bridge_name"
-              @click-marker="onClickMarker"
+              @click-marker="clickMarker"
               :select_kind="select_kind"
               :select_route="select_route"
               />
           </v-card>
         </v-row>
     </v-container>
-    </div>
 </template>
-<script lang="ts" setup>
+<script lang="ts">
 import bridgesJson from "@/assets/inspMap.json"
 
-const items = ref([
+export default {
+    data() {
+        return {
+            key:0,
+            select: ['Vuetify', 'Programming'],
+            items: [
                 '全て',
                 '一般都道奥多摩あきる野線184号',
                 '一般都道上成木川井線202号',
                 '一般都道日原鍾入洞線204号',
                 '一般都道奥多摩あきる野線184号',
                 '主要地方道青梅飯能線28号',
-            ]);
-const zoom = ref(15);
-const center = ref([35.79112, 139.27753]);
-const select_kind = ref(["1","2"]);
-const select_route = ref('主要地方道青梅飯能線28号');
-
-const bridges = computed(()=>{
-    if(!select_route.value || select_route.value == '全て') return bridgesJson;
-    let bridges = bridgesJson.filter((b)=> b.route_name == select_route.value);
-
-    return bridges;
-});
-
-const onClickMarker = ()=>{
-
-};
+            ],
+            zoom: 15,
+            center: [35.79112, 139.27753],
+            bridges: bridgesJson,
+            select_kind:["1","2"],
+            select_route:'主要地方道青梅飯能線28号',
+        }
+    },
+  methods: {
+    selectRoute() {
+      this.key = this.key ? 0 : 1;
+    }
+  }
+}
 </script>

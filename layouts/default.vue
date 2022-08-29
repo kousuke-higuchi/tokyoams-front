@@ -21,10 +21,13 @@
       </v-container>
     </v-main>
 
+    <toast v-model:isOpen="shownToast" :message="toastMessage" />
     <loading-overlay v-model:isOpen="isLoading" />
+
   </v-app>
 </template>
 <script lang="ts">
+import consolaGlobalInstance from 'consola';
 
   export default defineComponent({
     data() {
@@ -89,18 +92,30 @@
       }
       menuItems.forEach((m)=> {fillTitleRecurse(m)})
       
+      // 処理中...表示の初期設定
       const loadingState = useLoading()
       const isLoading = computed<boolean>({
         get: ()=> loadingState.state.value.isLoading,
         set: value => loadingState.setLoading(value)
       })
 
-
+      // トーストメッセージの初期設定
+      const toastState = useToast();
+      const toastMessage = computed<string>({
+        get: ()=> toastState.state.value.message,
+        set: value => toastState.showToast(value)
+      })
+      const shownToast = computed<boolean>({
+        get: ()=> toastState.state.value.shown,
+        set: value => toastState.setShown(value)
+      })
       return {
         drawer: false,
         openedItems: openedItems,
         menuItems,
         isLoading,
+        shownToast,
+        toastMessage,
       }
     },
     methods: {

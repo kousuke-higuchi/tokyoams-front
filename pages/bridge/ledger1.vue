@@ -1,12 +1,19 @@
 <template>
   <v-row>
-    <v-col md="3" cols="12">
-      <side-card-details />
+    <v-col v-bind:md="child_extend?3:1" cols="12">
+    <!-- <p> {{ child_extend }}</p> -->
+      <bridge-side-card-details @isExtend='child_extend = $event' />
     </v-col>
-    <v-col md="9" cols="12">
+    <v-col v-bind:md="child_extend?9:11" cols="12">
       <v-card elevation="3">
         <v-card-title>
-          <v-row class="justify-start mt-1 ml-3">橋梁台帳 東京都</v-row>
+          <v-row class="justify-start mt-1 ml-3">橋梁台帳 東京都
+            <!-- <p  style =" position: absolute; right: 10px;">
+              <v-btn v-on:click="clickDownloadLedger()" color="primary">
+                橋梁台帳
+              </v-btn>
+            </p> -->
+          </v-row>
         </v-card-title>
         <v-card-text>
           <v-row no-gutters>
@@ -115,7 +122,7 @@
                       <td>車道: 2 % 歩道: 2 %</td>
                     </tr>
                     <tr>
-                      <th>規定限界</th>
+                      <th rowspan="3">規定限界</th>
                       <td>規定ケタ下端高: 不明 ｍ</td>
                     </tr>
                     <tr>
@@ -823,12 +830,16 @@
 export default defineComponent({
   data() {
     return {
+      child_extend:Boolean,
     }
   },
   mounted: function () {
     console.log("mounted ledger1");
   },
   methods: {
+    clickDownloadLedger() {
+      console.debug('downloadLedger');
+    },
   },
 });
 </script>

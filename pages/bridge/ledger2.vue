@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <side-card-details />
+        <bridge-side-card-details />
       </v-col>
       <v-col md="9" cols="12">
         <v-card elevation="3">

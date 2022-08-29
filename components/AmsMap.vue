@@ -26,9 +26,8 @@
       layer-type="base"/>
 
       <template v-for="(m, i) in innerMarkers" :key="i">
-        <l-marker v-if="(m.latlon!=null && (m.route_name == select_route || '全て' == select_route || '' == select_route))" 
-          :lat-lng="m.latlon">
-            <l-tooltip>{{m.title}}</l-tooltip>
+        <l-marker v-if="(m.wgsCoordinate!=null)" 
+          :lat-lng="[m.wgsCoordinate.latitude, m.wgsCoordinate.longitude]">
             <l-popup>
                 <h2>{{m.title}}</h2>
                 <h2>{{m.kind}}</h2>
@@ -37,26 +36,13 @@
                     <v-list-item @click="onClickMarker(m)">
                         <v-list-item-title>詳細画面を表示する</v-list-item-title>
                     </v-list-item>
-                    <v-list-item :href="`https://www.google.com/maps?q=${m.latlon[0]},${m.latlon[1]}`" target="_blank" style="color:black;">
+                    <v-list-item :href="`https://www.google.com/maps?q=${m.wgsCoordinate.latitude},${m.wgsCoordinate.longitude}`" target="_blank" style="color:black;">
                         <v-list-item-title>Google Mapsで表示する <v-icon aria-hidden="true" size="x-small" icon="mdi-open-in-new" /></v-list-item-title>
                     </v-list-item>
                 </v-list>
             </l-popup>
         
-            <l-icon v-if="m.soundnessID === 1"
-                    icon-url="../assets/img/map/MainPin_1_1.png" >
-            </l-icon>
-            <l-icon v-else-if="m.soundnessID === 2"
-                    icon-url="../assets/img/map/MainPin_1_2.png" >
-            </l-icon>
-            <l-icon v-else-if="m.soundnessID === 3"
-                    icon-url="../assets/img/map/MainPin_1_3.png" >
-            </l-icon>
-            <l-icon v-else-if="m.soundnessID === 4"
-                    icon-url="../assets/img/map/MainPin_1_4.png" >
-            </l-icon>
-            <l-icon v-else-if="m.soundnessID === 5"
-                    icon-url="../assets/img/map/MainPin_1_5.png" >
+            <l-icon v-if="m.soundnessID>0 && m.soundnessID < 6" :icon-url="`../assets/img/map/MainPin_1_${m.soundnessID}.png`" >
             </l-icon>
         </l-marker>
       </template>
@@ -107,8 +93,6 @@
             soundnessID: Number,
             route_name: String,
             kind: {String,default:''},
-            select_kind: { type:Array, default:[]},
-            select_route: {String,default:''}
         },
         emits: {
             'click-marker': (marker: any) => true,
@@ -134,13 +118,6 @@
                 return marker.title
             };
 
-            const getLatLon = (marker) => {
-                let Wgs = marker.wgsCoordinate;
-                if(Wgs == null)
-                  return null;
-                return [Wgs.latitude, Wgs.longitude];
-            };
-
             const getSoundnessID  = (marker) => {
                 if(prop.soundnessID && marker?.hasOwnProperty(prop.soundnessID)) {
                     return marker[prop.soundnessID]
@@ -159,19 +136,16 @@
                 }
                 return marker.route_name
             };
-            const innerMarkers = prop.markers.map((m)=>{
-                let _m:any = m;
-                _m.latlon = getLatLon(m);
-                _m.title = getTitle(m);
-                _m.soundnessID = getSoundnessID(m);
-                _m.kind = getKind(m);
-                _m.route_name = getRouteName(m);
-                return _m
-            });
-
-            const select_kind = prop.select_kind;
-            const select_route = prop.select_route;
-
+            const innerMarkers = computed(()=>{
+                return prop.markers.map((m)=>{
+                    let _m:any = m;
+                    _m.title = getTitle(m);
+                    _m.soundnessID = getSoundnessID(m);
+                    _m.kind = getKind(m);
+                    _m.route_name = getRouteName(m);
+                    return _m
+                });
+            })
             const tileProviders = [
                 {
                 name: '地理院地図',
@@ -196,7 +170,7 @@
                 },
             ];
 
-            return {onClickMarker, getTitle, getLatLon,getSoundnessID,getKind, getRouteName,zoomComputed, innerMarkers, tileProviders,select_kind,select_route }
+            return {onClickMarker, getTitle, zoomComputed, innerMarkers, tileProviders}
         }
     })
 </script>

@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col md="3" cols="12">
-      <bridge-side-card-details />
+      <bridge-side-card-details selectTab="inspection" />
     </v-col>
     <v-col md="9" cols="12">
       <v-card elevation="3">
