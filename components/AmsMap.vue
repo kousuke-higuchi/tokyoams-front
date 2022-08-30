@@ -42,7 +42,7 @@
                 </v-list>
             </l-popup>
         
-            <l-icon v-if="m.soundnessID>0 && m.soundnessID < 6" :icon-url="`../assets/img/map/MainPin_1_${m.soundnessID}.png`" >
+            <l-icon v-if="m.soundnessID>0 && m.soundnessID < 6" :icon-url="`～/assets/img/map/MainPin_1_${m.soundnessID}.png`" >
             </l-icon>
         </l-marker>
       </template>
