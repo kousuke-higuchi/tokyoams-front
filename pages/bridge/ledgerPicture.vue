@@ -15,7 +15,7 @@
           <v-row no-gutters>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img :src="'../assets/img/dmg/bridgeDetail2_7_1.jpg'"></v-img>
+                <v-img :src="getImageUrl()"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -76,6 +76,9 @@ export default defineComponent({
     setmap(damagemap) {
       this.dmgmap = damagemap;
     },
+    getImageUrl(){
+      return new URL(`../../assets/img/dmg/bridgeDetail2_7_1.jpg`, import.meta.url).href
+    }
   },
   
 })
