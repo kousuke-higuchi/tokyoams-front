@@ -39,6 +39,7 @@ export default defineNuxtConfig({
                     changeOrigin: true,
                   }
             }
-        }
+        },
+        base:'/_nuxt/'
     }
 })
