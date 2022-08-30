@@ -113,7 +113,7 @@
                     </tr>
                   </tbody>
                 </v-table>
-                <v-img :src="picture.img"></v-img>
+                <v-img :src= getImageUrl(index)></v-img>
               </v-card>
             </v-col>
           </v-row>
@@ -193,9 +193,16 @@ export default defineComponent({
       this.isOpen = false;
       console.debug("clickResisterBtn");
     },
-    // getImageUrl(filepath){
-    //      return new URL(filepath, import.meta.url).href
-    // },
+    getImageUrl(index){
+      switch(index){
+         case 0: return new URL(`../../assets/img/dmg/bridgeDetail2_7_1.jpg`, import.meta.url).href; break;
+         case 1: return new URL(`../../assets/img/dmg/bridgeDetail2_7_2.jpg`, import.meta.url).href; break;
+         case 2: return new URL(`../../assets/img/dmg/bridgeDetail2_7_3.jpg`, import.meta.url).href; break;
+         case 3: return new URL(`../../assets/img/dmg/bridgeDetail2_7_4.jpg`, import.meta.url).href; break;
+         case 4: return new URL(`../../assets/img/dmg/bridgeDetail2_7_5.jpg`, import.meta.url).href; break;
+         case 5: return new URL(`../../assets/img/dmg/bridgeDetail2_7_6.jpg`, import.meta.url).href; break;
+      }
+    },
   },
 })
 </script>
