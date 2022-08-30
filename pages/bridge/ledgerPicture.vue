@@ -15,7 +15,7 @@
           <v-row no-gutters>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img :src="generateImgPath('../../assets/img/dmg/bridgeDetail2_7_1.jpg')"></v-img>
+                <v-img :src="'../../assets/img/dmg/bridgeDetail2_7_1.jpg'"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -30,7 +30,7 @@
             </v-col>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_7_2.jpg"></v-img>
+                <v-img :src="'../../assets/img/dmg/bridgeDetail2_7_2.jpg'"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -43,7 +43,7 @@
                 </v-table>
               </v-card>
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_7_4.jpg"></v-img>
+                <v-img :src="'../../assets/img/dmg/bridgeDetail2_7_4.jpg'"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -75,9 +75,6 @@ export default defineComponent({
   methods: {
     setmap(damagemap) {
       this.dmgmap = damagemap;
-    },
-    generateImgPath(fileName: string){
-      return new URL(`../assets/images/${fileName}.png`, import.meta.url).href
     },
   },
   
