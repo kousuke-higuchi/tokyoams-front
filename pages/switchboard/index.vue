@@ -121,13 +121,13 @@
 
 <script lang="ts" setup>
   import switchboardService from '~~/services/switchboard-service';
-  import { SwitchboardSummary } from '~~/types';
+  import { AtfSummary } from '~~/types';
 
   const showMarkerList = ref(false);
   const tab = ref('map');
   const zoom = ref(15);
   const center = ref([35.79112,139.27753]);
-  const switchboards = ref<[SwitchboardSummary]>();
+  const switchboards = ref<[AtfSummary]>();
   switchboards.value = await switchboardService.getList();
 
   const routenameDropdownItems = ref(['（特４１６）古川橋二子玉川線','（一１３９）真光寺長津田線','（一１３７）上麻生連光寺線','（一１１１）大田神奈川線']);

@@ -26,7 +26,8 @@
             }">
               <template #table-row="props">
                 <span v-if="props.column.field == 'facillityname'">
-                  <nuxt-link to="/utilitytunnel/ledger1">{{ props.formattedRow[props.column.field] }}</nuxt-link>
+                  <nuxt-link :to="`/utilitytunnel/${props.row.id}/ledger1`">{{  props.formattedRow[props.column.field]  }}
+                  </nuxt-link>
                 </span>
                 <span v-else-if="props.column.field == 'outLedgerBtn'">
                   <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutLedger()">
@@ -74,13 +75,13 @@
       </v-window>
     </v-card-text>
 
-    <utilitytunnel-search-condition-dialog v-model:isOpen="showFind" />
+    <roadfacility-search-condition-dialog v-model:isOpen="showFind" />
 
   </v-card>
 </template>
 
 <script lang="ts">
-import utilitytunnelJson from "../../assets/utilitytunnel.json";
+import utilitytunnelJson from "../../assets/roadfacility.json";
 
 export default defineComponent({
   data() {
@@ -222,7 +223,7 @@ export default defineComponent({
     },
     clickMarker(m) {
       console.info('clickMarker', m);
-      navigateTo('/utilitytunnel/ledger1')
+      navigateTo(`/utilitytunnel/${m.id}/ledger1`, m)
     }
   }
 })

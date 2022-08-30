@@ -102,12 +102,12 @@ export default {
       items:
         [
           { title: '共同溝', src: '', url: '/utilitytunnel' },
-          { title: '擁壁', src: '', url: '/' },
-          { title: '掘割道路', src: '', url: '/' },
-          { title: '組立歩道', src: '', url: '/' },
-          { title: '桟道', src: '', url: '/' },
-          { title: '地下歩行者道', src: '', url: '/undergroundWalkway' },
-          { title: 'ロックシェッド', src: '', url: '/' },
+          { title: '擁壁', src: '', url: '/rtnwall' },
+          { title: '掘割道路', src: '', url: '/ditchroad' },
+          { title: '組立歩道', src: '', url: '/assemblywalkway' },
+          { title: '桟道', src: '', url: '/plankroad' },
+          { title: '地下歩行者道', src: '', url: '/udgwalkway' },
+          { title: 'ロックシェッド', src: '', url: '/rockshed' },
         ],
     },
     {

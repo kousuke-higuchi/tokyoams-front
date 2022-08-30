@@ -2,6 +2,11 @@
   <div>
     <v-card height="820px" elevation="3">
       <v-card height="468px">
+        <v-card-title>
+          <v-row class="justify-start mt-1 ml-3 font-weight-bold" style="font-size:medium">
+            道路施設詳細　施設番号: 0001 <!--TODO:施設番号は仮値-->
+          </v-row>
+        </v-card-title>
         <v-container fluid>
           <v-tabs v-model="tabSide" color="primary">
             <v-tab value="note">台帳</v-tab>
@@ -95,33 +100,39 @@ export default defineComponent({
   components: {
     Datepicker,
   },
+  setup(){
+    const route = useRoute()
+    return{
+      route
+    }
+  },
   data() {
     return {
       isOpen: false,
       saveDateMemo: null,
       tabSide: 'note',
       buttons01: [
-        { title: '様式-T1', props: { to: "/undergroundWalkway/ledgerT1" } },
-        { title: '様式-T1-2', props: { to: "/undergroundWalkway/ledgerT1-2" } },
-        { title: '様式-T2', props: { to: "/undergroundWalkway/ledgerT2" } },
-        { title: '様式-T3', props: { to: "/undergroundWalkway/ledgerT3" } },
+        { title: '様式-T1', props: { to: `/udgwalkway/${this.$route.params.id}/ledgerT1` } },
+        { title: '様式-T1-2', props: { to: `/udgwalkway/${this.$route.params.id}/ledgerT1-2` } },
+        { title: '様式-T2', props: { to: `/udgwalkway/${this.$route.params.id}/ledgerT2` } },
+        { title: '様式-T3', props: { to: `/udgwalkway/${this.$route.params.id}/ledgerT3` } },
       ],
       buttons02: [
-        { title: '様式-T8', props: { to: '/undergroundWalkway/protocolT8' } },
-        { title: '様式-T9', props: { to: '/undergroundWalkway/protocolT9' } },
-        { title: '様式-T10', props: { to: '/undergroundWalkway/protocolT10' } },
-        { title: '様式-T11', props: { to: '/undergroundWalkway/protocolT11' } },
-        { title: '判定表', props: { to: '/undergroundWalkway/decision' } },
-        { title: '判定表(附属物)', props: { to: '/undergroundWalkway/appendageDecision' } },
+        { title: '様式-T8', props: { to: `/udgwalkway/${this.$route.params.id}/protocolT8` } },
+        { title: '様式-T9', props: { to: `/udgwalkway/${this.$route.params.id}/protocolT9` } },
+        { title: '様式-T10', props: { to: `/udgwalkway/${this.$route.params.id}/protocolT10` } },
+        { title: '様式-T11', props: { to: `/udgwalkway/${this.$route.params.id}/protocolT11` } },
+        { title: '判定表', props: { to: `/udgwalkway/${this.$route.params.id}/decision` } },
+        { title: '判定表(附属物)', props: { to: `/udgwalkway/${this.$route.params.id}/appendageDecision` } },
       ],
       buttons03: [
-        { title: '様式・国1', props: { to: '/undergroundWalkway/nation1' } },
-        { title: '様式・国2', props: { to: '/undergroundWalkway/nation2' } },
-        { title: '様式・国3', props: { to: '/undergroundWalkway/nation3' } },
-        { title: '様式・国4', props: { to: '/undergroundWalkway/nation4' } },
-        { title: '様式・国5A', props: { to: '/undergroundWalkway/nation5A' } },
-        { title: '様式・国5B', props: { to: '/undergroundWalkway/nation5B' } },
-        { title: '様式・国5C', props: { to: '/undergroundWalkway/nation5C' } },
+        { title: '様式・国1', props: { to: `/udgwalkway/${this.$route.params.id}/nation1` } },
+        { title: '様式・国2', props: { to: `/udgwalkway/${this.$route.params.id}/nation2` } },
+        { title: '様式・国3', props: { to: `/udgwalkway/${this.$route.params.id}/nation3` } },
+        { title: '様式・国4', props: { to: `/udgwalkway/${this.$route.params.id}/nation4` } },
+        { title: '様式・国5A', props: { to: `/udgwalkway/${this.$route.params.id}/nation5A` } },
+        { title: '様式・国5B', props: { to: `/udgwalkway/${this.$route.params.id}/nation5B` } },
+        { title: '様式・国5C', props: { to: `/udgwalkway/${this.$route.params.id}/nation5C` } },
       ],
       noteColumns: [
         {

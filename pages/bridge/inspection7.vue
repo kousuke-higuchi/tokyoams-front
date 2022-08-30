@@ -97,6 +97,7 @@
                   </tbody>
                 </v-table>
                 <!-- TODO: 入力エリアBackgroundをピンクに塗る -->
+                <!--2022-08-30樋口　ヒント入力を削除しました。-->
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -105,16 +106,14 @@
                         <v-textarea 
                         v-model=memo[index]
                         :placeholder=memo[index]
-                        rows="1"
+                        rows="2"
                         variant="plain"
-                        hint="メモを入力してください"
-                        persistent-hint
                         ></v-textarea>
                       </td>
                     </tr>
                   </tbody>
                 </v-table>
-                <v-img :src="picture.img"></v-img>
+                <v-img :src="getImageUrl(picture.img)"></v-img>
               </v-card>
             </v-col>
           </v-row>
@@ -193,6 +192,9 @@ export default defineComponent({
     onDialogSaveClick(){
       this.isOpen = false;
       console.debug("clickResisterBtn");
+    },
+    getImageUrl(filepath){
+         return new URL(filepath, import.meta.url).href
     },
   },
 })

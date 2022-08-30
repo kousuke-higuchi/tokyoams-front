@@ -1,6 +1,11 @@
 <template>
   <v-card height="820px" elevation="3">
     <v-card height="468px">
+      <v-card-title>
+        <v-row class="justify-start mt-1 ml-3 font-weight-bold" style="font-size:medium">
+          道路施設詳細　施設名: さんぷる施設 <!--TODO:施設名は仮値-->
+        </v-row>
+      </v-card-title>
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
           <v-tab value="note">台帳</v-tab>
@@ -94,34 +99,40 @@ export default defineComponent({
   components: {
     Datepicker,
   },
+  setup(){
+    const route = useRoute()
+    return{
+      route
+    }
+  },
   data() {
     return {
       isOpen: false,
       saveDateMemo: null,
       tabSide: 'note',
       buttons01: [
-        { title: 'その1', props: { to: "/rockshed/ledger1" } },
-        { title: 'その2', props: { to: "/rockshed/ledger2" } },
-        { title: 'その3', props: { to: "/rockshed/ledger3" } },
-        { title: 'その4', props: { to: "/rockshed/ledger4" } },
+        { title: 'その1', props: { to: `/rockshed/${this.$route.params.id}/ledger1` } },
+        { title: 'その2', props: { to: `/rockshed/${this.$route.params.id}/ledger2` } },
+        { title: 'その3', props: { to: `/rockshed/${this.$route.params.id}/ledger3` } },
+        { title: 'その4', props: { to: `/rockshed/${this.$route.params.id}/ledger4` } },
       ],
       buttons02: [
-        { title: 'その5', props: { to: '/rockshed/inspection5' } },
-        { title: 'その6', props: { to: '/rockshed/inspection6' } },
-        { title: 'その7', props: { to: '/rockshed/inspection7' } },
-        { title: 'その8', props: { to: '/rockshed/inspection8' } },
-        { title: 'その9', props: { to: '/rockshed/inspection9' } },
-        { title: 'その10', props: { to: '/rockshed/inspection10' } },
-        { title: 'その11', props: { to: '/rockshed/inspection11' } },
+        { title: 'その5', props: { to: `/rockshed/${this.$route.params.id}/inspection5` } },
+        { title: 'その6', props: { to: `/rockshed/${this.$route.params.id}/inspection6` } },
+        { title: 'その7', props: { to: `/rockshed/${this.$route.params.id}/inspection7` } },
+        { title: 'その8', props: { to: `/rockshed/${this.$route.params.id}/inspection8` } },
+        { title: 'その9', props: { to: `/rockshed/${this.$route.params.id}/inspection9` } },
+        { title: 'その10', props: { to: `/rockshed/${this.$route.params.id}/inspection10` } },
+        { title: 'その11', props: { to: `/rockshed/${this.$route.params.id}/inspection11` } },
       ],
       buttons03: [
-        { title: '様式・国1', props: { to: '/rockshed/nation1' } },
-        { title: '様式・国2', props: { to: '/rockshed/nation2' } },
-        { title: '様式・国3', props: { to: '/rockshed/nation3' } },
-        { title: '様式・国4', props: { to: '/rockshed/nation4' } },
-        { title: '様式・国5(A)', props: { to: '/rockshed/nation5A' } },
-        { title: '様式・国5(B)', props: { to: '/rockshed/nation5B' } },
-        { title: '様式・国5(C)', props: { to: '/rockshed/nation5C' } },
+        { title: '様式・国1', props: { to: `/rockshed/${this.$route.params.id}/nation1` } },
+        { title: '様式・国2', props: { to: `/rockshed/${this.$route.params.id}/nation2` } },
+        { title: '様式・国3', props: { to: `/rockshed/${this.$route.params.id}/nation3` } },
+        { title: '様式・国4', props: { to: `/rockshed/${this.$route.params.id}/nation4` } },
+        { title: '様式・国5(A)', props: { to: `/rockshed/${this.$route.params.id}/nation5A` } },
+        { title: '様式・国5(B)', props: { to: `/rockshed/${this.$route.params.id}/nation5B` } },
+        { title: '様式・国5(C)', props: { to: `/rockshed/${this.$route.params.id}/nation5C` } },
       ],
       noteColumns: [
         {

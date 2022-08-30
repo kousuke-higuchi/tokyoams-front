@@ -7,30 +7,30 @@
       <v-card elevation="3">
         <div class="d-flex">
           <v-card-title>
-            <div class="font-weight-bold">高覧図</div>
+            <div class="font-weight-bold">高欄図</div>
           </v-card-title>
         </div>
         <v-card-text>
           <v-row no-gutters>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_3_1.jpg"></v-img>
+                <v-img :src="getImageUrl('../../assets/img/dmg/bridgeDetail2_3_1.jpg')"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
                       <th class="cell" align="center" width="60">備考</th>
-                      <td colspan="4" class="cell">高覧図</td>
+                      <td colspan="4" class="cell">高欄図</td>
                     </tr>
                   </tbody>
                 </v-table>
               </v-card>
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_3_2.jpg"></v-img>
+                <v-img :src="getImageUrl('../../assets/img/dmg/bridgeDetail2_3_2.jpg')"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
                       <th class="cell" align="center" width="60">備考</th>
-                      <td colspan="4" class="cell">高覧図</td>
+                      <td colspan="4" class="cell">高欄図</td>
                     </tr>
                   </tbody>
                 </v-table>
@@ -54,6 +54,9 @@ export default defineComponent({
   methods: {
     setmap(damagemap) {
       this.dmgmap = damagemap;
+    },
+    getImageUrl(filepath){
+       return new URL(filepath, import.meta.url).href
     }
   },
 })

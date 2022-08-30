@@ -30,7 +30,7 @@
                     </tr>
                   </tbody>
                 </v-table>
-                <v-img :src="picture.img"></v-img>
+                <v-img :src=getImageUrl(picture.img)></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -89,6 +89,9 @@ export default defineComponent({
   methods: {
     setmap(damagemap) {
       this.dmgmap = damagemap;
+    },
+    getImageUrl(filepath){
+       return new URL(filepath, import.meta.url).href
     }
   },
 })

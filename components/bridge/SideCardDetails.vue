@@ -12,7 +12,6 @@
       
     <v-card height="484px">
       <v-card-title>
-        <v-row class="justify-start mt-1 ml-3 font-weight-bold" style="font-size:medium">橋梁名 : 鎌倉橋 01110010-0</v-row>
       </v-card-title>
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
@@ -169,10 +168,9 @@ export default defineComponent({
         { title: '高欄図', props:{ to:"/bridge/handrail" } },
       ],
       buttons02: [
-        { title: '様式2', props: { to: '/bridge/inspection2' } },
         { title: '様式3', props: { to: '/bridge/inspection3' } },
-        { title: '様式4-1(3回分)', props: { to: '/bridge/inspection41' } },
-        { title: '様式4-2(3回分)', props: { to: '/bridge/inspection42' } },
+        { title: '様式4-1', props: { to: '/bridge/inspection41' } },
+        { title: '様式4-2', props: { to: '/bridge/inspection42' } },
         { title: '様式5', props: { to: '/bridge/inspection5' } },
         { title: '様式6', props: { to: '/bridge/inspection6' } },
         { title: '様式7', props: { to: '/bridge/inspection7' } },

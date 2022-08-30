@@ -15,7 +15,7 @@
           </v-card-actions>
         </div>
         <v-card-text>
-          <v-img src="../../assets/img/dmg/bridgeDetail2_7_3.jpg"></v-img>
+          <v-img :src="getImageUrl('../../assets/img/dmg/bridgeDetail2_7_3.jpg')"></v-img>
         </v-card-text>
       </v-card>
     </v-col>
@@ -30,5 +30,11 @@ export default defineComponent({
       histItems: ['全て', '1', '2', '3'],
     }
   },
+  methods:{
+    
+    getImageUrl(filepath){
+         return new URL(filepath, import.meta.url).href
+    },
+  }
 })
 </script>

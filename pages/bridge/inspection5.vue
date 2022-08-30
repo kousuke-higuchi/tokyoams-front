@@ -11,9 +11,25 @@
           </v-card-title>
         </div>
         <v-card-text>
-          <v-img src="../../assets/img/dmg/bridgeDetail2_6_1.jpg"></v-img>
+          <v-img :src="getImageUrl('../../assets/img/dmg/bridgeDetail2_6_1.jpg')"></v-img>
         </v-card-text>
       </v-card>
     </v-col>
   </v-row>
 </template>
+
+<script lang="ts">
+  import { continueStatement } from "@babel/types";
+  
+  export default defineComponent({
+    data() {
+      return {
+      }
+    },
+    methods: {
+      getImageUrl(filepath){
+         return new URL(filepath, import.meta.url).href
+      }
+    },
+  })
+  </script>

@@ -9,28 +9,29 @@
       <v-window v-model="tab">
         <!-- 一覧 tab --> 
         <v-window-item value="list">
-          <v-container>
+          <v-col>
             <v-row justify="end">
               <v-btn v-on:click="clickFAdvancedSearch()"
                 color= "primary"
+                size="small"
               >
                 詳細検索
               </v-btn>
               <v-btn class="ml-2" v-on:click="clickOutputCSV()"
                 color="primary"
+                size="small"
               >
                 一覧出力
               </v-btn>
             </v-row>
-          </v-container>
-            <div>
+          </v-col>
+            <div class="mt-2">
                 <vue-good-table
                 :columns="columns"
                 :rows="pavements"
                 :pagination-options="{
                   enabled: true
-                }"
-                >
+                }">
                     <template #table-row="props">
                     <span v-if="props.column.field == 'OutLedgerBtn'">
                         <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputLedger()">
@@ -49,10 +50,11 @@
         </v-window-item>
         <!-- 地図 tab --> 
         <v-window-item value="map">
-          <v-container>
-            <v-row justify="end">
+          <v-col>
+            <v-row justify="end" class="mr-2">
               <v-btn v-on:click="clickFind()"
                 color= "primary"
+                size="small"
               >
                 検索条件
               </v-btn>
@@ -60,12 +62,14 @@
                 v-model="showMarkerList"
                 :close-on-content-click="false"
                 location="bottom end"
+                size="small"
               >
                 <template v-slot:activator="{ props }">
                   <v-btn
                     class="ml-2"
                     color="primary"
                     v-bind="props"
+                    size="small"
                   >
                     施設一覧
                   </v-btn>
@@ -83,7 +87,8 @@
                 </v-card>
               </v-menu>
             </v-row>
-          </v-container>
+          </v-col>
+
 
           <!-- 地図 --> 
           <v-card style="height: 78vh; width: 94vw">

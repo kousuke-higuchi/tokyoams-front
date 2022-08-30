@@ -1,5 +1,10 @@
 <template>
   <v-card height="820px" elevation="3">
+    <v-card-title>
+      <v-row class="justify-start mt-1 ml-3 font-weight-bold" style="font-size:medium">
+        道路施設詳細　施設番号: 0001 <!--TODO:施設番号は仮値-->
+      </v-row>
+    </v-card-title>
     <v-card height="468px">
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
@@ -26,27 +31,22 @@
       <v-card-title>
         <v-row class="justify-start mt-1 ml-1">台帳メモ一覧</v-row>
         <v-row class="justify-end mt-1 mr-1">
-            <v-btn  v-on:click="clickNew()"
-            color= "primary"
-            >
-                新規登録
-            </v-btn>
+          <v-btn v-on:click="clickNew()" color="primary">
+            新規登録
+          </v-btn>
         </v-row>
       </v-card-title>
       <v-card-text>
         <div>
-          <vue-good-table
-          :columns="noteColumns"
-          :rows="noteContents"
-          style-class="vgt-table striped"
-          :pagination-options="{
-            enabled: true,
-            mode: 'records',
-            perPage: 2,
-            nextLabel: '次',
-            prevLabel: '前',
-            perPageDropdownEnabled: false,
-          }">
+          <vue-good-table :columns="noteColumns" :rows="noteContents" style-class="vgt-table striped"
+            :pagination-options="{
+              enabled: true,
+              mode: 'records',
+              perPage: 2,
+              nextLabel: '次',
+              prevLabel: '前',
+              perPageDropdownEnabled: false,
+            }">
           </vue-good-table>
         </div>
       </v-card-text>
@@ -54,21 +54,14 @@
   </v-card>
   <!--台帳メモ登録画面-->
   <div>
-    <v-dialog
-      v-model="isOpen"
-      persistent
-      max-width="450px"
-    >
+    <v-dialog v-model="isOpen" persistent max-width="450px">
       <v-card>
         <v-toolbar dense>
           <v-toolbar-title>台帳メモの登録</v-toolbar-title>
           <v-spacer></v-spacer>
-            <v-btn
-              icon
-              @click="isOpen = false"
-            >
-              <v-icon>mdi-close</v-icon>
-            </v-btn>
+          <v-btn icon @click="isOpen = false">
+            <v-icon>mdi-close</v-icon>
+          </v-btn>
         </v-toolbar>
         <v-card-text>
           <v-row>
@@ -76,19 +69,14 @@
               登録日
             </v-col>
             <v-col cols="12" sm="9">
-              <Datepicker v-model="saveDateMemo" locale="jp" :enableTimePicker="false" :format="formatDate" :clearable="false" />                      
+              <Datepicker v-model="saveDateMemo" locale="jp" :enableTimePicker="false" :format="formatDate"
+                :clearable="false" />
             </v-col>
             <v-col cols="12" sm="3" class="mt-2">
               メモ
             </v-col>
             <v-col cols="12" sm="9">
-              <v-textarea
-              label="メモを入力してください"
-              rows="1"
-              auto-grow
-              density="compact"
-              hide-details="false"
-              ></v-textarea>
+              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" hide-details="false"></v-textarea>
             </v-col>
           </v-row>
         </v-card-text>
@@ -101,7 +89,7 @@
     </v-dialog>
   </div>
 
-  
+
 </template>
 
 <script lang="ts">
@@ -112,36 +100,41 @@ export default defineComponent({
   components: {
     Datepicker,
   },
-  data() {
+  setup(){
+    const route = useRoute()
     return{
+      route
+    }
+  },
+  data() {
+    return {
       isOpen: false,
       saveDateMemo: null,
       tabSide: 'ledger',
-      btnLedger:[
-        {title: '様式-1', props:{to:"/utilitytunnel/ledger1"}},
-        {title: '様式-1 補修調書', props:{to:"/utilitytunnel/ledger1Repair"}},
-        {title: '様式-1\'', props:{to:"/utilitytunnel/ledger1Dush"}},
-        {title: '様式-2', props:{to:"/utilitytunnel/ledger2"}},
-        {title: '様式-3', props:{to:"/utilitytunnel/ledger3"}},
+      btnLedger: [
+        { title: '様式-1', props: { to: `/utilitytunnel/${this.$route.params.id}/ledger1` } },
+        { title: '様式-1 補修調書', props: { to: `/utilitytunnel/${this.$route.params.id}/ledger1Repair` } },
+        { title: '様式-1\'', props: { to: `/utilitytunnel/${this.$route.params.id}/ledger1Dush` } },
+        { title: '様式-2', props: { to: `/utilitytunnel/${this.$route.params.id}/ledger2` } },
+        { title: '様式-3', props: { to: `/utilitytunnel/${this.$route.params.id}/ledger3` } },
       ],
-      btnProtocol:[
-        {title: '様式-7', props:{to:"/utilitytunnel/protocol7"}},
-        {title: '様式-8', props:{to:"/utilitytunnel/protocol8"}},
-        {title: '様式-9', props:{to:"/utilitytunnel/protocol9"}},
-        {title: '様式-10', props:{to:"/utilitytunnel/protocol10"}},
-        {title: '判定表', props:{to:"/utilitytunnel/decision"}},
-        {title: '判定表(附属物)', props:{to:"/utilitytunnel/appendageDecision"}},
+      btnProtocol: [
+        { title: '様式-8', props: { to: `/utilitytunnel/${this.$route.params.id}/protocol8` } },
+        { title: '様式-9', props: { to: `/utilitytunnel/${this.$route.params.id}/protocol9` } },
+        { title: '様式-10', props: { to: `/utilitytunnel/${this.$route.params.id}/protocol10` } },
+        { title: '判定表', props: { to: `/utilitytunnel/${this.$route.params.id}/decision` } },
+        { title: '判定表(附属物)', props: { to: `/utilitytunnel/${this.$route.params.id}/appendageDecision` } },
       ],
-      btnNation:[
-        {title: '様式・国1', props:{to:"/utilitytunnel/nation1"}},
-        {title: '様式・国2', props:{to:"/utilitytunnel/nation2"}},
-        {title: '様式・国3', props:{to:"/utilitytunnel/nation3"}},
-        {title: '様式・国4', props:{to:"/utilitytunnel/nation4"}},
-        {title: '様式・国5A', props:{to:"/utilitytunnel/nation5A"}},
-        {title: '様式・国5B', props:{to:"/utilitytunnel/nation5B"}},
-        {title: '様式・国5C', props:{to:"/utilitytunnel/nation5C"}},
+      btnNation: [
+        { title: '様式・国1', props: { to: `/utilitytunnel/${this.$route.params.id}/nation1` } },
+        { title: '様式・国2', props: { to: `/utilitytunnel/${this.$route.params.id}/nation2` } },
+        { title: '様式・国3', props: { to: `/utilitytunnel/${this.$route.params.id}/nation3` } },
+        { title: '様式・国4', props: { to: `/utilitytunnel/${this.$route.params.id}/nation4` } },
+        { title: '様式・国5A', props: { to: `/utilitytunnel/${this.$route.params.id}/nation5A` } },
+        { title: '様式・国5B', props: { to: `/utilitytunnel/${this.$route.params.id}/nation5B` } },
+        { title: '様式・国5C', props: { to: `/utilitytunnel/${this.$route.params.id}/nation5C` } },
       ],
-      noteColumns:[
+      noteColumns: [
         {
           label: 'No', field: 'id', width: '80px', sortable: false,
           filterOptions: { enabled: true, placeholder: 'No入力', },
@@ -152,17 +145,18 @@ export default defineComponent({
         },
         {
           label: '内容', field: 'contents', sortable: false, filterOptions: {
-            enabled: true, placeholder: '内容入力', },
+            enabled: true, placeholder: '内容入力',
+          },
         },
       ],
-      noteContents:[
-        { id: '1', date: '2022-07-05', contents: 'ボルトの交換を行った',   },
-        { id: '2', date: '2022-07-06', contents: 'ナットの交換を行った',   },
+      noteContents: [
+        { id: '1', date: '2022-07-05', contents: 'ボルトの交換を行った', },
+        { id: '2', date: '2022-07-06', contents: 'ナットの交換を行った', },
         { id: '3', date: '2022-07-07', contents: 'バネワッシャーの交換を行った', },
       ],
     }
   },
-  mounted: function() {
+  mounted: function () {
     console.log("mounted SideCardDetails : ", this.tabSide);
     this.saveDateMemo = this.getDate();
   },
@@ -172,22 +166,22 @@ export default defineComponent({
       this.isOpen = true;
       this.saveDateMemo = this.getDate();
     },
-    getDate(){
+    getDate() {
       var today = new Date();
       return today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
     },
-    clickCloseBtn(){
+    clickCloseBtn() {
       this.isOpen = false;
       console.debug("clickCloseBtn");
     },
-    clickResistBtn(){
+    clickResistBtn() {
       this.isOpen = false;
       console.debug("clickResisterBtn");
     },
     formatDate(args) {
       console.log(args);
       return `${args.getFullYear()}年${args.getMonth() + 1}月${args.getDate()}日`
-    },  
+    },
   },
 });
 

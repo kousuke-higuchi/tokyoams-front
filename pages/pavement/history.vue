@@ -5,135 +5,125 @@
     </v-col>
     <v-col md="9" cols="12">
       <v-card>
-        <v-card-text class="text-h4 text-center">舗装履歴台帳</v-card-text>
-        <div class="d-flex">
-          <v-card-text class="text-h6 border">事務所名</v-card-text>
-          <v-card-text class="text-h6 border">{{pavement.office}}</v-card-text>
-          <v-card-text class="text-h6 border">工区名</v-card-text>
-          <v-card-text class="text-h6 border">{{pavement.area}}</v-card-text>
-          <v-card-text class="text-h6 border">路線名</v-card-text>
-          <v-card-text class="text-h6 border">{{pavement.route}}</v-card-text>
-          <v-card-text class="text-h6 border">路線番号</v-card-text>
-          <v-card-text class="text-h6 border">{{pavement.routeNumber}}</v-card-text>
-          <v-card-text class="text-h6 border">地点標</v-card-text>
-          <v-card-text class="text-h6 border">{{pavement.waypoint}}km</v-card-text>
-          <v-card-text class="text-h6 border">支線番号</v-card-text>
-          <v-card-text class="text-h6 border">{{pavement.branch}}</v-card-text>
-        </div>
-        <v-card-content class="pa-0">
-          <v-card class="pa-0">
-            <v-card-text class="text-center">上り車線</v-card-text>
-            <v-table density="compact" class="border">
-              <thead>
-                <tr>
-                  <th rowspan="2" class="border"></th>
-                  <th colspan="5" class="text-center border">工事</th>
-                  <th colspan="13" class="text-center border">舗装構造</th>
-                </tr>
-                <tr>
-                  <th class="text-center border">履歴番号</th>
-                  <th class="text-center border"><p>自 地点標</p><p>至 地点標</p></th>
-                  <th class="text-center border">施工年度</th>
-                  <th class="text-center border">車線番号</th>
-                  <th class="text-center border">工事種別</th>
-                  <th class="text-center border">工法</th>
-                  <th class="text-center border">表層区分</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">総厚(cm)</th>
-                  <th class="text-center border">TA</th>
-                  <th class="text-center border">設計CBR</th>
-                  <th class="text-center border">センサス交通量区分</th>
-                  <th class="text-center border">備考</th>
-                </tr>
-              </thead>
+        <v-card-text class="text-h5 text-center">舗装履歴台帳</v-card-text>
+        <v-card-text>
+          <v-row no-gutters>
+            <!--道路構成-->
+            <v-table density="compact" class="ledger">
               <tbody>
+                <tr>
+                  <th colspan="3" class="text-center">事務所名</th>
+                  <td class="text-center">{{ pavement.office }}</td>
+                  <th class="text-center">工区名</th>
+                  <td colspan="2" class="text-center">{{ pavement.area }}</td>
+                  <th class="text-center">路線名</th>
+                  <td colspan="5" class="text-center">{{ pavement.route }}</td>
+                  <th class="text-center">路線番号</th>
+                  <td class="text-center">{{ pavement.routeNumber }}</td>
+                  <th colspan="2" class="text-center">地点標</th>
+                  <td class="text-center">{{ pavement.waypoint }}</td>
+                  <th class="text-center">支線番号</th>
+                  <td class="text-center">{{ pavement.branch }}</td>
+                </tr>
+                <tr>
+                  <th rowspan="7" class="text-center" style="writing-mode: vertical-rl;">上り車線</th>
+                  <th rowspan="2"></th>
+                  <th colspan="5" class="text-center">工事</th>
+                  <th colspan="13" class="text-center">舗装構造</th>
+                </tr>
+                <tr>
+                  <th class="text-center">履歴番号</th>
+                  <th class="text-center">自 地点標<br>至 地点標</th>
+                  <th class="text-center">施工年度</th>
+                  <th class="text-center">車線番号</th>
+                  <th class="text-center">工事種別</th>
+                  <th class="text-center">工法</th>
+                  <th class="text-center">表層区分</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">総厚<br>(cm)</th>
+                  <th class="text-center">TA</th>
+                  <th class="text-center">設計<br>CBR</th>
+                  <th class="text-center">センサス<br>交通量区分</th>
+                  <th class="text-center">備考</th>
+                </tr>
                 <tr v-for="item in uphillPaveItems" :key="item.id">
-                  <th class="border">舗装構成</th>
-                  <td class="border">{{item.id}}</td>
-                  <td class="border">{{item.waypoint.from[1]}} {{item.waypoint.from[2]}}<br/>{{item.waypoint.to[1]}} {{item.waypoint.to[2]}}</td>
-                  <td class="border">{{item.year}}</td>
-                  <td class="border">{{item.lane}}</td>
-                  <td class="border">{{item.constType}}</td>
-                  <td class="border">{{item.constMethod}}</td>
-                  <td class="border">{{item.surface}}</td>
-                  <td class="border">{{item.materialThick1}}</td>
-                  <td class="border">{{item.materialThick2}}</td>
-                  <td class="border">{{item.materialThick3}}</td>
-                  <td class="border">{{item.materialThick4}}</td>
-                  <td class="border">{{item.materialThick5}}</td>
-                  <td class="border">{{item.materialThick6}}</td>
-                  <td class="border">{{item.totalThick}}</td>
-                  <td class="border">{{item.TA}}</td>
-                  <td class="border">{{item.CBR}}</td>
-                  <td class="border">{{item.trafficDiv}}</td>
-                  <td class="border">{{item.note}}</td>
-                </tr>
-              </tbody>
-            </v-table>
-          </v-card>
-          <v-card class="pa-0">
-            <v-card-text class="text-center">下り車線</v-card-text>
-            <v-table density="compact" class="border">
-              <thead>
-                <tr>
-                  <th rowspan="2" class="border"></th>
-                  <th colspan="5" class="text-center border">工事</th>
-                  <th colspan="13" class="text-center border">舗装構造</th>
+                  <th v-if="item.id == 1" rowspan="5" class="text-center" style="writing-mode: vertical-rl;">舗装履歴</th>
+                  <td class="text-center">{{item.id}}</td>
+                  <td class="text-center">{{item.waypoint.from[1]}} {{item.waypoint.from[2]}}<br/>{{item.waypoint.to[1]}} {{item.waypoint.to[2]}}</td>
+                  <td class="text-center">{{item.year}}</td>
+                  <td class="text-center">{{item.lane}}</td>
+                  <td class="text-center">{{item.constType}}</td>
+                  <td class="text-center">{{item.constMethod}}</td>
+                  <td class="text-center">{{item.surface}}</td>
+                  <td class="text-center">{{item.materialThick1}}</td>
+                  <td class="text-center">{{item.materialThick2}}</td>
+                  <td class="text-center">{{item.materialThick3}}</td>
+                  <td class="text-center">{{item.materialThick4}}</td>
+                  <td class="text-center">{{item.materialThick5}}</td>
+                  <td class="text-center">{{item.materialThick6}}</td>
+                  <td class="text-center">{{item.totalThick}}</td>
+                  <td class="text-center">{{item.TA}}</td>
+                  <td class="text-center">{{item.CBR}}</td>
+                  <td class="text-center">{{item.trafficDiv}}</td>
+                  <td class="text-center">{{item.note}}</td>
                 </tr>
                 <tr>
-                  <th class="text-center border">履歴番号</th>
-                  <th class="text-center border"><p>自 地点標</p><p>至 地点標</p></th>
-                  <th class="text-center border">施工年度</th>
-                  <th class="text-center border">車線番号</th>
-                  <th class="text-center border">工事種別</th>
-                  <th class="text-center border">工法</th>
-                  <th class="text-center border">表層区分</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">材料厚さ(cm)</th>
-                  <th class="text-center border">総厚(cm)</th>
-                  <th class="text-center border">TA</th>
-                  <th class="text-center border">設計CBR</th>
-                  <th class="text-center border">センサス交通量区分</th>
-                  <th class="text-center border">備考</th>
+                  <th rowspan="7" class="text-center" style="writing-mode: vertical-rl;">下り車線</th>
+                  <th rowspan="2"></th>
+                  <th colspan="5" class="text-center">工事</th>
+                  <th colspan="13" class="text-center">舗装構造</th>
                 </tr>
-              </thead>
-              <tbody>
+                <tr>
+                  <th class="text-center">履歴番号</th>
+                  <th class="text-center">自 地点標<br>至 地点標</th>
+                  <th class="text-center">施工年度</th>
+                  <th class="text-center">車線番号</th>
+                  <th class="text-center">工事種別</th>
+                  <th class="text-center">工法</th>
+                  <th class="text-center">表層区分</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">材料厚さ<br>(cm)</th>
+                  <th class="text-center">総厚<br>(cm)</th>
+                  <th class="text-center">TA</th>
+                  <th class="text-center">設計<br>CBR</th>
+                  <th class="text-center">センサス<br>交通量区分</th>
+                  <th class="text-center">備考</th>
+                </tr>
                 <tr v-for="item in downhillPaveItems" :key="item.id">
-                  <th class="border">舗装構成</th>
-                  <td class="border">{{item.id}}</td>
-                  <td class="border">{{item.waypoint.from[1]}} {{item.waypoint.from[2]}}<br/>{{item.waypoint.to[1]}} {{item.waypoint.to[2]}}</td>
-                  <td class="border">{{item.year}}</td>
-                  <td class="border">{{item.lane}}</td>
-                  <td class="border">{{item.constType}}</td>
-                  <td class="border">{{item.constMethod}}</td>
-                  <td class="border">{{item.surface}}</td>
-                  <td class="border">{{item.materialThick1}}</td>
-                  <td class="border">{{item.materialThick2}}</td>
-                  <td class="border">{{item.materialThick3}}</td>
-                  <td class="border">{{item.materialThick4}}</td>
-                  <td class="border">{{item.materialThick5}}</td>
-                  <td class="border">{{item.materialThick6}}</td>
-                  <td class="border">{{item.totalThick}}</td>
-                  <td class="border">{{item.TA}}</td>
-                  <td class="border">{{item.CBR}}</td>
-                  <td class="border">{{item.trafficDiv}}</td>
-                  <td class="border">{{item.note}}</td>
+                  <th v-if="item.id == 1" rowspan="5" class="text-center" style="writing-mode: vertical-rl;">舗装履歴</th>
+                  <td class="text-center">{{item.id}}</td>
+                  <td class="text-center">{{item.waypoint.from[1]}} {{item.waypoint.from[2]}}<br/>{{item.waypoint.to[1]}} {{item.waypoint.to[2]}}</td>
+                  <td class="text-center">{{item.year}}</td>
+                  <td class="text-center">{{item.lane}}</td>
+                  <td class="text-center">{{item.constType}}</td>
+                  <td class="text-center">{{item.constMethod}}</td>
+                  <td class="text-center">{{item.surface}}</td>
+                  <td class="text-center">{{item.materialThick1}}</td>
+                  <td class="text-center">{{item.materialThick2}}</td>
+                  <td class="text-center">{{item.materialThick3}}</td>
+                  <td class="text-center">{{item.materialThick4}}</td>
+                  <td class="text-center">{{item.materialThick5}}</td>
+                  <td class="text-center">{{item.materialThick6}}</td>
+                  <td class="text-center">{{item.totalThick}}</td>
+                  <td class="text-center">{{item.TA}}</td>
+                  <td class="text-center">{{item.CBR}}</td>
+                  <td class="text-center">{{item.trafficDiv}}</td>
+                  <td class="text-center">{{item.note}}</td>
                 </tr>
               </tbody>
             </v-table>
-          </v-card>
-        </v-card-content>
+          </v-row>
+        </v-card-text>
       </v-card>
-      
     </v-col>
   </v-row>
 </template>

@@ -18,7 +18,7 @@
     </v-app-bar>
     <v-app-bar style="background-color:lightcyan"  height="54">
         <v-avatar color="white" size="40" style="border: 1px solid #dcdcdc;">
-          <img style="width:34px" src="@/assets/img/symbol_tokyo.svg"/>
+          <img style="width:34px" :src="getImageUrl('../assets/img/symbol_tokyo.svg')" />
         </v-avatar>
           <div class="ml-4"><h2>建設局 道路施設管理システム</h2></div>
           <v-row justify="end" class="mr-1">建設局道路管理部保全課 / 道路 守 </v-row>
@@ -61,6 +61,8 @@
                 authService.logout().then(()=>{
                     navigateTo("/login")
                 })
+            }, getImageUrl(filepath){
+                return new URL(filepath, import.meta.url).href
             },
         }
     })

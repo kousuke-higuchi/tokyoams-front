@@ -6,8 +6,8 @@ export const TOKEN_HEADER_NAME = 'X-AUTH-TOKEN'
 export class User {
     id: number
     username: string
-    usertypeid : number
-    name : string
+    usertypeid: number
+    name: string
     officeid: number
     sectionid: number
     address: string
@@ -47,6 +47,26 @@ export class AttachRepair {
     createDate?: Date;
 }
 
+//施設詳細_道路施設(共同溝など)_様式1-補修履歴(ledger1Repair)
+export class rfaRepair {
+    //TODO:DBのカラム判明次第、それに合わせた形に改修する
+    repairid: Number;
+    parentid: Number;
+    date?: Date;
+    note?: String;
+}
+
+//施設詳細_道路施設_様式・国1,2(nation1/nation2)
+export class rfaNation1And2{
+    facilityType:String;
+    nationStyle:String;
+}
+
+//施設詳細_道路施設(ロックシェッド)_その2,その5
+export class rockshedBlockImg{
+    blockId:Number;
+    imgfile:any;
+}
 /**
  * 地図座標
  */
@@ -56,9 +76,9 @@ export interface Coordinate {
 }
 
 /**
- * 配電盤一覧情報
+ * 付属物一覧情報
  */
-export interface SwitchboardSummary {
+export interface AtfSummary {
     id: number;
     formattedId: string;
     routename: string;
@@ -69,6 +89,7 @@ export interface SwitchboardSummary {
     longitude: number;
     wgsCoordinate: Coordinate
 }
+
 
 /**
  * 配電盤

@@ -39,3 +39,42 @@ table.vgt-table select
   right: 1.2em;
   bottom: 1.2em;
 }
+
+/*施設詳細_道路施設(roadfacility)*/
+/*TODO:違いはthタグのtext-align:centerと
+　.editcellのみであるので
+　.ledgerを継承したいができない。*/
+.rfaTable table{
+ td,th {
+  font-size: xx-small !important;
+  border: 1px solid #dedede;
+  white-space: nowrap;
+  }
+  th{
+    background-color: #eeeeee;
+    text-align: center !important;
+  }
+  .editcell{
+    background-color: white;
+    div{
+      font-size: xx-small !important;
+    }
+  }
+}
+.tbTitle {
+  div{
+    border-collapse: collapse;
+    border: 1px solid #dedede;
+    font-size: xx-small !important;
+    padding: 0.5%;
+  }
+  .title{
+    background-color: #eeeeee;
+  }
+}
+.rfaCardText{
+  div{
+    font-size: xx-small !important;
+    padding: 0%;
+  }
+}

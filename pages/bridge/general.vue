@@ -11,9 +11,25 @@
           </v-card-title>
         </div>
         <v-card-text>
-          <v-img src="../../assets/img/dmg/bridgeDetail2_6_1.jpg"></v-img>
+          <v-img :src="getImageUrl()"></v-img>
         </v-card-text>
       </v-card>
     </v-col>
   </v-row>
 </template>
+
+<script lang="ts">  
+  export default defineComponent({
+    data() {
+      return {        
+      }
+    },
+    methods: {
+      getImageUrl(){
+        return new URL(`../../assets/img/dmg/bridgeDetail2_6_1.jpg`, import.meta.url).href
+      }
+    },
+    
+  })
+  </script>
+  
