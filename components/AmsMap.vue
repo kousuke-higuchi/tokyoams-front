@@ -28,6 +28,7 @@
       <template v-for="(m, i) in innerMarkers" :key="i">
         <l-marker v-if="(m.wgsCoordinate!=null)" 
           :lat-lng="[m.wgsCoordinate.latitude, m.wgsCoordinate.longitude]">
+          <l-tooltip><h2>{{m.title}}</h2></l-tooltip>
             <l-popup>
                 <h2>{{m.title}}</h2>
                 <h2>{{m.kind}}</h2>
