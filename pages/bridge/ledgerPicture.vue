@@ -15,7 +15,7 @@
           <v-row no-gutters>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_7_1.jpg"></v-img>
+                <v-img :src="generateImgPath('../../assets/img/dmg/bridgeDetail2_7_1.jpg')"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -69,13 +69,18 @@ import { continueStatement } from "@babel/types";
 export default defineComponent({
   data() {
     return {
+      
     }
   },
   methods: {
     setmap(damagemap) {
       this.dmgmap = damagemap;
-    }
+    },
+    generateImgPath(fileName: string){
+      return new URL(`../assets/images/${fileName}.png`, import.meta.url).href
+    },
   },
+  
 })
 </script>
 

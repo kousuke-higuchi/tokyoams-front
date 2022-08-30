@@ -8,11 +8,6 @@
       <v-card elevation="3">
         <v-card-title>
           <v-row class="justify-start mt-1 ml-3">橋梁台帳 東京都
-            <!-- <p  style =" position: absolute; right: 10px;">
-              <v-btn v-on:click="clickDownloadLedger()" color="primary">
-                橋梁台帳
-              </v-btn>
-            </p> -->
           </v-row>
         </v-card-title>
         <v-card-text>
