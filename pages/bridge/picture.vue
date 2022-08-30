@@ -16,7 +16,7 @@
         </div>
         <v-card-text>
           <v-row no-gutters>
-            <v-col v-for="picture in pictures" :key="picture.img" md="6" cols="12">
+            <v-col v-for="(picture,i,) in pictures" :key="picture.img" md="6" cols="12">
               <v-card class="rounded-0">
                 <v-table density="compact">
                   <tbody>
@@ -30,7 +30,7 @@
                     </tr>
                   </tbody>
                 </v-table>
-                <v-img :src=picture.img></v-img>
+                <v-img :src= getImageUrl(i)></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -90,9 +90,16 @@ export default defineComponent({
     setmap(damagemap) {
       this.dmgmap = damagemap;
     },
-    // getImageUrl(filePath){
-    //    return new URL(filePath, import.meta.url).href
-    // }
+    getImageUrl(index){
+      switch (index){
+        case 0: return new URL(`../../assets/img/dmg/bridgeDetail2_7_1.jpg`, import.meta.url).href; break;
+        case 1: return new URL(`../../assets/img/dmg/bridgeDetail2_7_2.jpg`, import.meta.url).href; break;
+        case 2: return new URL(`../../assets/img/dmg/bridgeDetail2_7_3.jpg`, import.meta.url).href; break;
+        case 3: return new URL(`../../assets/img/dmg/bridgeDetail2_7_4.jpg`, import.meta.url).href; break;
+
+      }
+       
+    }
   },
 })
 </script>
