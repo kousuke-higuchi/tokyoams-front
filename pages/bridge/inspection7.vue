@@ -113,7 +113,7 @@
                     </tr>
                   </tbody>
                 </v-table>
-                <v-img :src="getImageUrl(picture.img)"></v-img>
+                <v-img :src="picture.img"></v-img>
               </v-card>
             </v-col>
           </v-row>
@@ -193,9 +193,9 @@ export default defineComponent({
       this.isOpen = false;
       console.debug("clickResisterBtn");
     },
-    getImageUrl(filepath){
-         return new URL(filepath, import.meta.url).href
-    },
+    // getImageUrl(filepath){
+    //      return new URL(filepath, import.meta.url).href
+    // },
   },
 })
 </script>

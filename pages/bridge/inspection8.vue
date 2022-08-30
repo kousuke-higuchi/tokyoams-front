@@ -15,7 +15,7 @@
           </v-card-actions>
         </div>
         <v-card-text>
-          <v-img :src="getImageUrl('../../assets/img/dmg/bridgeDetail2_7_3.jpg')"></v-img>
+          <v-img :src="getImageUrl()"></v-img>
         </v-card-text>
       </v-card>
     </v-col>
@@ -32,8 +32,8 @@ export default defineComponent({
   },
   methods:{
     
-    getImageUrl(filepath){
-         return new URL(filepath, import.meta.url).href
+    getImageUrl(){
+         return new URL(`../../assets/img/dmg/bridgeDetail2_7_3.jpg`, import.meta.url).href
     },
   }
 })

@@ -65,7 +65,6 @@
 
 <script lang="ts">
 import { continueStatement } from "@babel/types";
-
 export default defineComponent({
   data() {
     return {
@@ -95,7 +94,6 @@ export default defineComponent({
   padding: 0;
   border: 1px solid black;
 }
-
 .cell {
   border: 0.5px solid black;
 }

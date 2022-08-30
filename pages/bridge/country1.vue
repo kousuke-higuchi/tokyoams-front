@@ -156,7 +156,7 @@
                   <th>橋長（ｍ）</th>
                   <th>通路幅員（ｍ）</th>
                   <td rowspan="4" width="70%">
-                    <img class="mt-2" :src="getImageUrl('../../assets/img/dmg/bridgeDetail2_3_2.jpg')" height="120">
+                    <img class="mt-2" :src="getImageUrl()" height="120">
                   </td>
                 </tr>
                 <tr>
@@ -189,8 +189,8 @@
       }
     },
     methods: {
-      getImageUrl(filePath){
-        return new URL(filePath, import.meta.url).href
+      getImageUrl(){
+        return new URL(`../../assets/img/dmg/bridgeDetail2_3_2.jpg`, import.meta.url).href
       }
     },
     
