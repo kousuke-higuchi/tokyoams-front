@@ -87,7 +87,6 @@
               rows="1"
               auto-grow
               density="compact"
-              hide-details="false"
               ></v-textarea>
             </v-col>
           </v-row>

@@ -25,6 +25,8 @@
       :attribution="tileProvider.attribution"
       layer-type="base"/>
 
+
+
       <template v-for="(m, i) in innerMarkers" :key="i">
         <l-marker v-if="(m.wgsCoordinate!=null)" 
           :lat-lng="[m.wgsCoordinate.latitude, m.wgsCoordinate.longitude]">
@@ -61,10 +63,10 @@
         LControlLayers,
         LPopup,
         LTooltip,
-        LIcon,
+        LIcon
     } from '@vue-leaflet/vue-leaflet'
     import "leaflet/dist/leaflet.css";
-
+    
     export default defineComponent({
         components: {
             LMap,
@@ -74,7 +76,7 @@
             LControlLayers,
             LPopup,
             LTooltip,
-            LIcon
+            LIcon,
         },
         computed: {
             dynamicSize () {

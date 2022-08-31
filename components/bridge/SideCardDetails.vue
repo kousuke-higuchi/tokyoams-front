@@ -4,8 +4,7 @@
   <v-expansion-panel   @click="send">
  <v-expansion-panel-title >
   橋梁名 : 鎌倉橋 01110010-0
-  <v-btn  v-on:click="returnGrid()"
-            color= "primary" href='/bridge'
+  <v-btn  color= "primary" href='/bridge'
             >
                 一覧に戻る
             </v-btn>
@@ -173,6 +172,7 @@ export default defineComponent({
         { title: '高欄図', props:{ to:"/bridge/handrail" } },
       ],
       buttons02: [
+        { title: '様式2', props: { to: '/bridge/inspection2' } },
         { title: '様式3', props: { to: '/bridge/inspection3' } },
         { title: '様式4-1', props: { to: '/bridge/inspection41' } },
         { title: '様式4-2', props: { to: '/bridge/inspection42' } },
@@ -244,9 +244,6 @@ export default defineComponent({
     },  
     send(){
       this.$emit("isExtend", (this.isExtend != null && this.isExtend.length == 1 && this.isExtend[0] == 0  ))
-    },
-    returnGrid(){
-
     }
   },
 });
