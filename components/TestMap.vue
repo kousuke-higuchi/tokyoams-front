@@ -48,8 +48,8 @@
   
     data() {
       return {
-        zoom: 3,
-        center: [54, 28],
+        zoom: 10,
+        center: [36, 140],
         tileProviders: [
           {
             name: "Street",
@@ -101,9 +101,9 @@
           return Math.random() * (max - min) + min;
         }
         let markers = [];
-        for (let i = 0; i < 5000; i++) {
+        for (let i = 0; i < 15000; i++) {
           const marker = L.marker(
-            L.latLng(r(53.82477192, 53.92365592), r(27.5078027, 27.70640622))
+            L.latLng(r(35.62477192, 35.92365592), r(139.5078027, 139.70640622))
           );
           marker.bindPopup("Number " + i);
           markers.push(marker);
