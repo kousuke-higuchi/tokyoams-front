@@ -26,13 +26,13 @@
           :options="{ showCoverageOnHover: false, chunkedLoading: true }"
         >
           <l-marker :lat-lng="[35.62477192, 35.92365592]" />
-          <l-marker :lat-lng="[35.61477192, 35.92365592]" />
-          <l-marker :lat-lng="[35.60477192, 35.92365592]" />
-          <l-marker :lat-lng="[35.63477192, 35.92365592]" />
-          <l-marker :lat-lng="[35.64477192, 35.92365592]" />
-          <l-marker :lat-lng="[35.65477192, 35.92365592]" />
-          <l-marker :lat-lng="[35.66477192, 35.92365592]" />
-          <l-marker :lat-lng="[35.67477192, 35.92365592]" />
+          <l-marker :lat-lng="[35.62477192, 35.92365592]" />
+          <l-marker :lat-lng="[35.62477192, 35.92365592]" />
+          <l-marker :lat-lng="[35.62477192, 35.92365592]" />
+          <l-marker :lat-lng="[35.62477192, 35.92365592]" />
+          <l-marker :lat-lng="[35.62477192, 35.92365592]" />
+          <l-marker :lat-lng="[35.62477192, 35.92365592]" />
+          <l-marker :lat-lng="[35.62477192, 35.92365592]" />
         </marker-cluster>
         
       </template>
@@ -105,6 +105,28 @@
       },
     },
   
+    mounted() {
+      L.Map.addInitHook(function () {
+        const markerCluster = L.markerClusterGroup({
+          removeOutsideVisibleBounds: true,
+          chunkedLoading: true,
+        }).addTo(this);
+  
+        function r(min, max) {
+          return Math.random() * (max - min) + min;
+        }
+        let markers = [];
+        for (let i = 0; i < 0; i++) {
+          const marker = L.marker(
+            L.latLng(r(35.62477192, 35.92365592), r(139.5078027, 139.70640622))
+          );
+          marker.bindPopup("Number " + i);
+          markers.push(marker);
+        }
+  
+        markerCluster.addLayers(markers);
+      });
+    },
   };
   </script>
   
