@@ -7,12 +7,16 @@
     <v-label>{{select_route}}</v-label>
 </div> -->
     <l-map
+      ref="map"
     v-model="zoomComputed"
     v-model:zoom="zoomComputed"
     :center="center"
     :maxZoom="18"
     :minZoom="6"
-    :zoomAnimation="true"
+      :zoomAnimation="true"
+      :markerZoomAnimation="true"
+      :useGlobalLeaflet="true"
+	@ready="onLeafletReady"
     >
       <l-control-layers position="topright"></l-control-layers>
       <l-control-scale position="topright" :imperial="false" :metric="true"></l-control-scale>
@@ -26,8 +30,13 @@
       layer-type="base"/>
 
 
+        <marker-cluster
+          :options="{ showCoverageOnHover: false, chunkedLoading: true }"
+        >
 
       <template v-for="(m, i) in innerMarkers" :key="i">
+      
+               
         <l-marker v-if="(m.wgsCoordinate!=null)" 
           :lat-lng="[m.wgsCoordinate.latitude, m.wgsCoordinate.longitude]">
           <l-tooltip><h2>{{m.title}}</h2></l-tooltip>
@@ -48,7 +57,13 @@
             <l-icon v-if="m.soundnessID>0 && m.soundnessID < 6" :icon-url="`../assets/img/map/MainPin_1_${m.soundnessID}.png`" >
             </l-icon>
         </l-marker>
+        
+        
+        
       </template>
+      
+      </marker-cluster>
+      
     </l-map>
 
 </template>
@@ -65,7 +80,9 @@
         LTooltip,
         LIcon
     } from '@vue-leaflet/vue-leaflet'
-    import "leaflet/dist/leaflet.css";
+  import "leaflet/dist/leaflet.css"; 
+  import "leaflet.markercluster/dist/MarkerCluster.css";
+  import "leaflet.markercluster/dist/MarkerCluster.Default.css";
     
     export default defineComponent({
         components: {
@@ -96,11 +113,19 @@
             soundnessID: Number,
             route_name: String,
             kind: {String,default:''},
+            leafletReady: {Boolean,default:"false"},
         },
         emits: {
             'click-marker': (marker: any) => true,
             'update:zoom' : (value: number) => true,
         },
+         methods: {
+	      async onLeafletReady(map) {
+	        await this.$nextTick();
+	        this.leafletReady = true;
+	      },
+	    },
+        
         setup(prop, context) {
             const { zoom } = toRefs(prop)
             const zoomComputed = computed({
