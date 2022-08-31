@@ -49,6 +49,11 @@
                           Excel
                         </v-btn>
                     </span>
+                    <span v-else-if="props.column.field == 'OutNationalBtn'">
+                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
+                          Excel
+                        </v-btn>
+                    </span>
                     <span v-else-if="props.column.field == 'Connect3dSystem'">
                         <v-btn class="btn" color="success" dark size="small" v-on:click="clickOutputNational()">
                           3Dシステム
@@ -208,6 +213,12 @@ export default defineComponent({
         },
         {
           label: '国様式',
+          field: 'OutNationalBtn',
+          filterable: false,
+          sortable: false,
+        },
+        {
+          label: '耐震台帳',
           field: 'OutNationalBtn',
           filterable: false,
           sortable: false,

@@ -4,6 +4,11 @@
   <v-expansion-panel   @click="send">
  <v-expansion-panel-title >
   橋梁名 : 鎌倉橋 01110010-0
+  <v-btn  v-on:click="returnGrid()"
+            color= "primary" href='/bridge'
+            >
+                一覧に戻る
+            </v-btn>
   </v-expansion-panel-title>
   <v-expansion-panel-text>
     
@@ -239,6 +244,9 @@ export default defineComponent({
     },  
     send(){
       this.$emit("isExtend", (this.isExtend != null && this.isExtend.length == 1 && this.isExtend[0] == 0  ))
+    },
+    returnGrid(){
+
     }
   },
 });
@@ -249,7 +257,7 @@ export default defineComponent({
 }
 
 .panel_nonextend {
-  width: 300px;
+  width: 450px;
 }
 
 </style>
