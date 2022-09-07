@@ -1,15 +1,6 @@
 <template>
     <!-- <v-select v-model="selectedMap" :items="mapName" style="width: 500px;" label="地図を選択可能です。" >
 </v-select> -->
-    <v-radio-group v-model="selectedTile" mandatory row>
-        <div>地図を選択可能です。</div>
-        <!-- <v-radio v-for="item in tileProviders" :key="item.url"
-:label="item.name"
-:value = "item" > -->
-        <v-radio :label=tileProviders[0].name :value="tileProviders[0]"></v-radio>
-        <v-radio :label=tileProviders[1].name :value="tileProviders[1]"></v-radio>
-        <v-radio :label=tileProviders[2].name :value="tileProviders[2]"></v-radio>
-    </v-radio-group>
 
     <ol-map ref="mapObject" :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 100%"
         @moveend="onViewMoved">
@@ -65,13 +56,26 @@
         </ol-overlay>
 
     </ol-map>
+
+    <v-radio-group v-model="selectedTile" mandatory row>
+        <div>地図を選択可能です。</div>
+        <!-- <v-radio v-for="item in tileProviders" :key="item.url"
+:label="item.name"
+:value = "item" > -->
+        <v-radio :label=tileProviders[0].name :value="tileProviders[0]"></v-radio>
+        <v-radio :label=tileProviders[1].name :value="tileProviders[1]"></v-radio>
+        <v-radio :label=tileProviders[2].name :value="tileProviders[2]"></v-radio>
+    </v-radio-group>
+
+
 </template>
 
 <script lang="ts" setup>
+    
 import { title } from 'process';
 
-const markerIcon = 'assets/img/map/MainPin_1_1.png';
-const markerIcon2 = 'assets/img/map/MainPin_1_2.png';
+const markerIcon ='../assets/img/map/MainPin_1_1.png';
+const markerIcon2 = '../assets/img/map/MainPin_1_2.png';
 const projection = ref("EPSG:4326");
 const selectedMarker = ref();
 const selectedFacility = ref();
