@@ -74,8 +74,8 @@
     
 import { title } from 'process';
 
-const markerIcon =new URL('../assets/img/map/MainPin_1_1.png',import.meta.url).href;
-const markerIcon2 = new URL('../assets/img/map/MainPin_1_2.png',import.meta.url).href;
+const markerIcon ='../assets/img/map/MainPin_1_1.png';
+const markerIcon2 = '../assets/img/map/MainPin_1_2.png';
 const projection = ref("EPSG:4326");
 const selectedMarker = ref();
 const selectedFacility = ref();
