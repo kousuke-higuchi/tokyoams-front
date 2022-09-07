@@ -38,7 +38,7 @@
       </template>
     </l-map>
   </template>
-  <script>
+  <script >
   import * as L from "leaflet";
   import "leaflet.markercluster/dist/leaflet.markercluster.js";
   import "leaflet/dist/leaflet.css";
