@@ -59,7 +59,7 @@
         <ol-overlay v-if="selectedMarker!=null" :position="selectedMarker">
             <template v-slot="slotProps">
                 <div class="overlay-content">
-                    <h1>{{selectedFacility}}</h1>
+                    <!-- <h1>{{selectedFacility}}</h1> -->
                     <v-list>
                         <v-list-item @click="onClickMarker(selectedMarker)">
                             <v-list-item-title>詳細画面を表示する</v-list-item-title>

@@ -31,7 +31,7 @@
                 :columns="columns"
                 :rows="bridges"
                 :pagination-options="{
-                  enabled: true
+                  enabled: false
                 }">
                     <template #table-row="props">
                     <span v-if="props.column.field == 'OutLedgerBtn'">
