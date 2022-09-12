@@ -12,6 +12,9 @@
         <v-window-item value="list">
           <v-col>
             <v-row justify="end">
+              <v-label>
+                {{bridges.length}}件　
+              </v-label>
               <v-btn v-on:click="onAdvancedSearchClick()"
                 color= "primary"
                 size="small"
