@@ -1,11 +1,20 @@
 <template>
     <div>
-    <h3>損傷マップ</h3>
+    <h3>東京都　損傷マップ</h3>
     <v-container fluid>
         <v-card>
             <v-card-title>
             <v-row class="justify-start mt-1 ml-1"></v-row>
             </v-card-title>
+
+
+            <v-row>
+                <v-col cols="12" class="py-2">
+                    <a href="https://road-structures-map.mlit.go.jp/Map.aspx" target="_blank">損傷マップ（国）  </a>
+                                <v-icon aria-hidden="true" size="x-small" icon="mdi-open-in-new" />
+
+                    </v-col>
+</v-row>
 
             <v-row>
                 <v-col cols="12" class="py-2">
@@ -30,12 +39,6 @@
                             道路標識
                         </v-btn>
                     </v-btn-toggle>
-                </v-col>
-            </v-row>
-            <v-row>
-                <v-col cols="4" class="py-2">
-                    <p>■表示する路線を選択してください。</p>
-                    <v-select clearable :items="items" v-model="select_route"></v-select>
                 </v-col>
             </v-row>
         </v-card>

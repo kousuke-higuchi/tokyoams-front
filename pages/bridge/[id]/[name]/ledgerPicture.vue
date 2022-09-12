@@ -70,13 +70,13 @@ const photos = ref<BridgePhoto[]>([
     dataid: 2,
     item1: "正面写真(起点側)",
     takedate: new Date(2017, 10, 25),
-    url: "../../assets/img/dmg/leaderPicture2.jpg",
+    url: new URL("../../assets/img/dmg/leaderPicture2.jpg",import.meta.url).href,
   },
   {
     dataid: 4,
     item1: "正面写真(終点側)",
     takedate: new Date(2017, 10, 25),
-    url: "../../assets/img/dmg/leaderPicture3.jpg",
+    url: new URL("../../assets/img/dmg/leaderPicture3.jpg",import.meta.url).href,
   },
 ]);
 
