@@ -8,16 +8,16 @@
       </v-card-title>
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
-          <v-tab value="note">台帳</v-tab>
-          <v-tab value="check">点検調書</v-tab>
+          <v-tab value="ledger">台帳</v-tab>
+          <v-tab value="protocol">点検調書</v-tab>
           <v-tab value="nation">国様式</v-tab>
         </v-tabs>
         <v-card-text>
           <v-window v-model="tabSide">
-            <v-window-item value="note">
+            <v-window-item value="ledger">
               <v-list :items="buttons01" color="primary"></v-list>
             </v-window-item>
-            <v-window-item value="check">
+            <v-window-item value="protocol">
               <v-list :items="buttons02" color="primary"></v-list>
             </v-window-item>
             <v-window-item value="nation">
@@ -75,7 +75,7 @@
               メモ
             </v-col>
             <v-col cols="12" sm="9">
-              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" hide-details="false"></v-textarea>
+              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" :hide-details="false"></v-textarea>
             </v-col>
           </v-row>
         </v-card-text>
@@ -99,7 +99,11 @@ export default defineComponent({
   components: {
     Datepicker,
   },
-  setup(){
+  props: {
+    selectTab: { type: String, default: "ledger" },
+  },
+  setup(prop, context) {
+    console.log("setup ideCardDetails : ", prop.selectTab);
     const route = useRoute()
     return{
       route
@@ -157,6 +161,7 @@ export default defineComponent({
     }
   },
   mounted: function () {
+    this.tabSide = this.selectTab;
     console.log("mounted SideCardDetails : ", this.tabSide);
     this.saveDateMemo = this.getDate();
   },

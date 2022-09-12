@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <assemblywalkway-side-card-details />
+        <assemblywalkway-side-card-details select-tab="nation" />
       </v-col>
       <v-col md="9" cols="12">
         <roadfacility-nation1and2 :form-info="nation1Info"></roadfacility-nation1and2>
@@ -12,14 +12,14 @@
 </template>
 
 <script lang="ts">
-import { rfaNation1And2 } from '~~/types'
+import { RfaNation1And2 } from '~~/types'
 export default defineComponent({
   data() {
     return {
       nation1Info: {
         facilityType:'擁壁',
         nationStyle: '【様式-国1】'
-      } as rfaNation1And2,
+      } as RfaNation1And2,
       /*TODO:BEで取得したデータを保持
       <roadfacility-nation1and2>に値を渡す
       以下サンプルデータ*/

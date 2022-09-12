@@ -149,7 +149,7 @@
 </template>
 
 <script lang="ts" setup>
-    import { PaintingBridgeHistory } from "~~/types";
+    import { PaintingBridgeHistory } from "~~/types/bridge";
 
 
     interface Props {

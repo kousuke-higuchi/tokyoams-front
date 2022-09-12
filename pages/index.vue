@@ -73,7 +73,7 @@
     </v-row>
 
     <p class='recodeTableTitle'>履歴一覧</p>
-    <vue-good-table :columns="columns" :rows="rows">
+    <vue-good-table :columns="columns" :rows="histories">
       <template #table-row="props">
         <span v-if="props.column.field == 'details'">
           <nuxt-link to="/">
@@ -88,16 +88,16 @@
   </div>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    facilityCards: [
-      { title: '橋梁', src: '', url: '/bridge' },
-      { title: '歩道橋', src: '', url: '/footbridge' },
-      { title: 'トンネル', src: '', url: '/tunnel' },
-      { title: '舗装', src: '', url: '/pavement' },
-    ],
-    groupedFacirityCards: [{
+<script lang="ts" setup>
+
+  const facilityCards = [
+    { title: '橋梁', src: '', url: '/bridge' },
+    { title: '歩道橋', src: '', url: '/footbridge' },
+    { title: 'トンネル', src: '', url: '/tunnel' },
+    { title: '舗装', src: '', url: '/pavement' },
+  ];
+  const groupedFacirityCards = [
+    {
       title: "道路施設",
       items:
         [
@@ -120,48 +120,48 @@ export default {
         { title: '道路反射鏡', src: '', url: '/mirror' },
       ],
     }
-    ],
-    featureCards: [
-      { title: '施設新規登録' },
-      { title: '委託データ登録' },
-      { title: '業務支援機能' },
-    ],
-    childfeatureCards: [
-      [{ ownertitle: '施設新規登録', title: '施設新規登録フォーム', url: '/newRegist', explain: 'システム用のデータを新規登録するための入力フォームを表示します。' },],
-      [{ ownertitle: '委託データ登録', title: '委託データ登録サイト', url: '/order', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
-      [{ ownertitle: '業務支援機能', title: '業務支援機能', url: '/function', explain: '業務実施に有用な機能を表示します。' },],
-    ],
-    columns: [
-      {
-        label: '日時',
-        field: 'createdAt',
-        type: 'date',
-        dateInputFormat: 'yyyy-MM-dd',
-        dateOutputFormat: 'yyyy/MM/dd',
-      },
-      {
-        label: '施設種別',
-        field: 'facilityType',
-      },
-      {
-        label: '処理種別',
-        field: 'processingType',
-      },
-      {
-        label: '内容',
-        field: 'details',
-      },
-      {
-        label: '担当事務所',
-        field: 'office',
-      },
-    ],
-    rows: [
-      { createdAt: "2022-06-21", facilityType: '橋梁', processingType: '補修履歴登録', details: '〇〇施設の補修履歴が登録されました。', office: '第三建設事務所' },
-      { createdAt: "2022-06-22", facilityType: '歩道橋', processingType: '補修履歴登録', details: '〇〇委託の更新依頼が登録されています。処理を行ってください。', office: '第三建設事務所' },
-    ]
-  }),
-}
+  ];
+    
+  const featureCards = [
+    { title: '施設新規登録' },
+    { title: '委託データ登録' },
+    { title: '業務支援機能' },
+  ];
+  const childfeatureCards = [
+    [{ ownertitle: '施設新規登録', title: '施設新規登録フォーム', url: '/newRegist', explain: 'システム用のデータを新規登録するための入力フォームを表示します。' },],
+    [{ ownertitle: '委託データ登録', title: '委託データ登録サイト', url: '/order', explain: '業者が作成するためのデータを作成、納品するためのシステムを起動します。' },],
+    [{ ownertitle: '業務支援機能', title: '業務支援機能', url: '/function', explain: '業務実施に有用な機能を表示します。' },],
+  ];
+  const columns = [
+    {
+      label: '日時',
+      field: 'createdAt',
+      type: 'date',
+      dateInputFormat: 'yyyy-MM-dd',
+      dateOutputFormat: 'yyyy/MM/dd',
+    },
+    {
+      label: '施設種別',
+      field: 'facilityType',
+    },
+    {
+      label: '処理種別',
+      field: 'processingType',
+    },
+    {
+      label: '内容',
+      field: 'details',
+    },
+    {
+      label: '担当事務所',
+      field: 'office',
+    },
+  ];
+
+  const histories =  [
+    { createdAt: "2022-06-21", facilityType: '橋梁', processingType: '補修履歴登録', details: '〇〇施設の補修履歴が登録されました。', office: '第三建設事務所' },
+    { createdAt: "2022-06-22", facilityType: '歩道橋', processingType: '補修履歴登録', details: '〇〇委託の更新依頼が登録されています。処理を行ってください。', office: '第三建設事務所' },
+  ];
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 import Service from "./service";
 
-import blinkerJson from "~~/assets/blinker.json"
-import { BlinkerSummary } from "~~/types";
+import blinkerJson from "~~/assets/blinkerSummary.json"
+import { AtfSummary } from "~~/types";
 
 /**
  * 障害物表示灯系のAPIを提供します。
@@ -13,8 +13,8 @@ import { BlinkerSummary } from "~~/types";
      */
     public getList() {
        // TODO: WebAPIによる実装に変更すること
-       return new Promise<[BlinkerSummary]>((resolve)=>{
-          resolve(blinkerJson as [BlinkerSummary])
+       return new Promise<[AtfSummary]>((resolve)=>{
+          resolve(blinkerJson as [AtfSummary])
        }) 
     }
 }

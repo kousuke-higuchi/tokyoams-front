@@ -69,7 +69,7 @@
                   </v-btn>
                 </span>
 
-                <span v-else-if="props.column.field == 'formattedId'">
+                <span v-else-if="props.column.field == 'formattedid'">
                   <nuxt-link :to="`/blinker/${props.row.id}/ledger`">
                     {{ props.formattedRow[props.column.field] }}
                   </nuxt-link>
@@ -120,7 +120,7 @@
               :zoom="zoom"
               :center="center"
               :markers="blinkers"
-              marker-title="id"
+              marker-title="formattedid"
               @click-marker="onClickMarker"
             />
           </v-card>
@@ -174,12 +174,12 @@ const municipalityItems = ref([
 
 let _columns = [
   {
-    label: "管理番号",
-    field: "formattedId",
+    label: "施設番号",
+    field: "formattedid",
     sortable: false,
     filterOptions: {
       enabled: true,
-      placeholder: "管理番号入力",
+      placeholder: "施設番号入力",
     },
   },
   {
@@ -239,7 +239,7 @@ let _columns = [
 const _columnsOverlay = [
   {
     label: "施設番号",
-    field: "formattedId",
+    field: "formattedid",
     sortable: false,
     filterOptions: {
       enabled: true,

@@ -52,7 +52,7 @@
                                         削除
                                     </v-btn>
                                 </span>
-                                <span v-else-if="props.column.field == 'formattedId'">
+                                <span v-else-if="props.column.field == 'formattedid'">
                                     <nuxt-link :to="`/switchboard/${props.row.id}/ledger`">
                                         {{props.formattedRow[props.column.field]}}
                                     </nuxt-link>
@@ -106,7 +106,7 @@
             :zoom="zoom"
             :center="center"
             :markers="switchboards"
-            marker-title="formattedId"
+            marker-title="formattedid"
             @click-marker="onClickMarker"
             />
     </v-card>
@@ -127,8 +127,10 @@
   const tab = ref('map');
   const zoom = ref(15);
   const center = ref([35.79112,139.27753]);
-  const switchboards = ref<[AtfSummary]>();
-  switchboards.value = await switchboardService.getList();
+  const switchboards = ref<AtfSummary[]>();
+  switchboardService.getList().then((v) => {
+	switchboards.value = v;	
+  })
 
   const routenameDropdownItems = ref(['（特４１６）古川橋二子玉川線','（一１３９）真光寺長津田線','（一１３７）上麻生連光寺線','（一１１１）大田神奈川線']);
   const officeDropdownItems = ref(['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所']);
@@ -137,12 +139,12 @@
 
   let _columns = [
 		{
-			label:'管理番号',
-			field:'formattedId',
+			label:'施設番号',
+			field:'formattedid',
 			sortable: false,
 			filterOptions: {
 				enabled: true,
-				placeholder: '管理番号入力',
+				placeholder: '施設番号入力',
 			},
 		},
 		{
@@ -202,7 +204,7 @@
     const _columnsOverlay = [
                 {
                     label:'施設番号',
-					field:'formattedId',
+					field:'formattedid',
 					sortable: false,
 					filterOptions: {
 						enabled: true,

@@ -512,6 +512,39 @@
               </tr>
             </tbody>
           </v-table>
+          <v-table>
+            <thead>
+              <tr>
+                <th class="d-flex justify-space-between">
+                  <div style="width:10ex;"></div>
+                  <div class="align-self-center">補修調書</div>
+                  <v-btn v-on:click="onRegistBtnClick()" color="primary" size="small" class="align-self-center" style="width:10ex;">
+                    新規登録
+                  </v-btn>
+                </th>
+              </tr>
+              <tr>
+                <td class="pa-0">
+                  <vue-good-table :columns="columns" :rows="rfaRepairList" :pagination-options="{
+                    enabled: true
+                  }">
+                    <template #table-row="props">
+                      <span v-if="props.column.field == 'change'">
+                        <v-btn class="btn" color="primary" size="small" v-on:click="onUpdateBtnClick(props.row)">
+                          変更
+                        </v-btn>
+                      </span>
+                      <span v-if="props.column.field == 'delete'">
+                        <v-btn class="btn" color="error" size="small" v-on:click="onDeleteBtnClick()">
+                          削除
+                        </v-btn>
+                      </span>
+                    </template>
+                  </vue-good-table>
+                </td>
+              </tr>
+            </thead>
+          </v-table>
         </v-col>
       </v-row>
     </v-container>
@@ -519,10 +552,12 @@
 </template>
 
 <script lang="ts">
+import { RfaRepair } from "~~/types";
 
 export default defineComponent({
   props: {
-    title: String
+    title: String,
+    rfaRepairList: Array<RfaRepair>
     //TODO:jsonファイルを受け取る
   },
   data() {
@@ -670,8 +705,66 @@ export default defineComponent({
       ],
       //削除　ここまで
 
-      //TODO:JSON.parseでjsonファイルの値を取得する
+      //補修履歴テーブル
+      showDialog: false,
+      dialogTitle: null,
+      dialogDate: null,
+      dialogNote: null,
+      columns: [
+        {
+          label: '年月',
+          field: 'date',
+          sortable: false,
+        },
+        {
+          label: '記事',
+          field: 'note',
+          sortable: false,
+        },
+        {
+          label: ' ',
+          field: 'change',
+          sortable: false,
+        },
+        {
+          label: ' ',
+          field: 'delete',
+          sortable: false,
+        },
+      ],
     }
+  },
+  methods: {
+    onRegistBtnClick() {
+      console.debug('clickRegist');
+      this.dialogTitle = "新規登録"
+      this.showDialog = !this.showDialog;
+    },
+    onUpdateBtnClick(rowItem) {
+      console.debug('clickChange' + rowItem.date);
+      this.dialogTitle = "変更"
+      this.dialogDate = rowItem.date;
+      this.dialogNote = rowItem.note;
+      this.showDialog = !this.showDialog;
+    },
+    onDeleteBtnClick() {
+      console.debug('clickDelete');
+      //TODO:削除機能を実装する
+    },
+    onDlgRegistBtnClick() {
+      console.debug('登録ボタンが押下されました');
+      this.showDialog = !this.showDialog;
+      //TODO:登録機能を実装する
+      //TODO:更新機能を実装する
+      this.dialogDate = null;
+      this.dialogNote = null;
+    },
+    onDlgCancelBtnClick() {
+      console.debug('キャンセルボタンが押下されました');
+      this.showDialog = !this.showDialog;
+      this.dialogDate = null;
+      this.dialogNote = null;
+    },
   }
 })
 </script>

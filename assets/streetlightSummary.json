@@ -1,0 +1,4473 @@
+[
+  {
+    "id": 86637,
+    "adminnumber": "005",
+    "numberserial": "0282",
+    "formattedid": "005-0282",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.07,
+    "longitude": 1391552.53,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786408333333334,
+      "longitude": 139.26459166666666
+    }
+  },
+  {
+    "id": 86746,
+    "adminnumber": "005",
+    "numberserial": "0178",
+    "formattedid": "005-0178",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.28,
+    "longitude": 1391822.67,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78646666666667,
+      "longitude": 139.3062972222222
+    }
+  },
+  {
+    "id": 86747,
+    "adminnumber": "005",
+    "numberserial": "0189",
+    "formattedid": "005-0189",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354702.46,
+    "longitude": 1391822.28,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78401666666667,
+      "longitude": 139.3061888888889
+    }
+  },
+  {
+    "id": 86759,
+    "adminnumber": "005",
+    "numberserial": "0283",
+    "formattedid": "005-0283",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.41,
+    "longitude": 1391550.83,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78650277777777,
+      "longitude": 139.26411944444447
+    }
+  },
+  {
+    "id": 86760,
+    "adminnumber": "005",
+    "numberserial": "0284",
+    "formattedid": "005-0284",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.04,
+    "longitude": 1391550.38,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78639999999999,
+      "longitude": 139.26399444444442
+    }
+  },
+  {
+    "id": 86761,
+    "adminnumber": "005",
+    "numberserial": "0285",
+    "formattedid": "005-0285",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.24,
+    "longitude": 1391549.13,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78645555555555,
+      "longitude": 139.2636472222222
+    }
+  },
+  {
+    "id": 86762,
+    "adminnumber": "005",
+    "numberserial": "0286",
+    "formattedid": "005-0286",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.91,
+    "longitude": 1391548.34,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78636388888888,
+      "longitude": 139.2634277777778
+    }
+  },
+  {
+    "id": 86763,
+    "adminnumber": "005",
+    "numberserial": "0287",
+    "formattedid": "005-0287",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.15,
+    "longitude": 1391547.12,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78643055555556,
+      "longitude": 139.26308888888892
+    }
+  },
+  {
+    "id": 86764,
+    "adminnumber": "005",
+    "numberserial": "0288",
+    "formattedid": "005-0288",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.79,
+    "longitude": 1391546.17,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78633055555555,
+      "longitude": 139.262825
+    }
+  },
+  {
+    "id": 86765,
+    "adminnumber": "005",
+    "numberserial": "0289",
+    "formattedid": "005-0289",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.97,
+    "longitude": 1391544.88,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786380555555546,
+      "longitude": 139.26246666666663
+    }
+  },
+  {
+    "id": 86766,
+    "adminnumber": "005",
+    "numberserial": "0290",
+    "formattedid": "005-0290",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.67,
+    "longitude": 1391543.97,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78629722222222,
+      "longitude": 139.26221388888888
+    }
+  },
+  {
+    "id": 86767,
+    "adminnumber": "005",
+    "numberserial": "0291",
+    "formattedid": "005-0291",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.89,
+    "longitude": 1391542.43,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78635833333333,
+      "longitude": 139.2617861111111
+    }
+  },
+  {
+    "id": 86768,
+    "adminnumber": "005",
+    "numberserial": "0292",
+    "formattedid": "005-0292",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.51,
+    "longitude": 1391541.78,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786252777777776,
+      "longitude": 139.26160555555558
+    }
+  },
+  {
+    "id": 86769,
+    "adminnumber": "005",
+    "numberserial": "0293",
+    "formattedid": "005-0293",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.77,
+    "longitude": 1391540.61,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786325000000005,
+      "longitude": 139.26128055555557
+    }
+  },
+  {
+    "id": 86770,
+    "adminnumber": "005",
+    "numberserial": "0294",
+    "formattedid": "005-0294",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.44,
+    "longitude": 1391539.41,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786233333333335,
+      "longitude": 139.2609472222222
+    }
+  },
+  {
+    "id": 86771,
+    "adminnumber": "005",
+    "numberserial": "0295",
+    "formattedid": "005-0295",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.64,
+    "longitude": 1391537.87,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78628888888889,
+      "longitude": 139.26051944444447
+    }
+  },
+  {
+    "id": 86772,
+    "adminnumber": "005",
+    "numberserial": "0296",
+    "formattedid": "005-0296",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.34,
+    "longitude": 1391537.53,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78620555555556,
+      "longitude": 139.260425
+    }
+  },
+  {
+    "id": 86773,
+    "adminnumber": "005",
+    "numberserial": "0297",
+    "formattedid": "005-0297",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.55,
+    "longitude": 1391536.43,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78626388888888,
+      "longitude": 139.26011944444443
+    }
+  },
+  {
+    "id": 86774,
+    "adminnumber": "005",
+    "numberserial": "0298",
+    "formattedid": "005-0298",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.19,
+    "longitude": 1391535.53,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786163888888886,
+      "longitude": 139.25986944444446
+    }
+  },
+  {
+    "id": 86775,
+    "adminnumber": "005",
+    "numberserial": "0299",
+    "formattedid": "005-0299",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.43,
+    "longitude": 1391534.54,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786230555555555,
+      "longitude": 139.25959444444445
+    }
+  },
+  {
+    "id": 86776,
+    "adminnumber": "005",
+    "numberserial": "0300",
+    "formattedid": "005-0300",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.16,
+    "longitude": 1391533.33,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786155555555546,
+      "longitude": 139.25925833333335
+    }
+  },
+  {
+    "id": 86777,
+    "adminnumber": "005",
+    "numberserial": "0301",
+    "formattedid": "005-0301",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.51,
+    "longitude": 1391532.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786252777777776,
+      "longitude": 139.2590722222222
+    }
+  },
+  {
+    "id": 86778,
+    "adminnumber": "005",
+    "numberserial": "0302",
+    "formattedid": "005-0302",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.58,
+    "longitude": 1391531.21,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78627222222222,
+      "longitude": 139.25866944444442
+    }
+  },
+  {
+    "id": 86779,
+    "adminnumber": "005",
+    "numberserial": "0303",
+    "formattedid": "005-0303",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.14,
+    "longitude": 1391530.39,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78642777777778,
+      "longitude": 139.25844166666664
+    }
+  },
+  {
+    "id": 86780,
+    "adminnumber": "005",
+    "numberserial": "0304",
+    "formattedid": "005-0304",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.24,
+    "longitude": 1391529.23,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78645555555555,
+      "longitude": 139.25811944444445
+    }
+  },
+  {
+    "id": 86781,
+    "adminnumber": "005",
+    "numberserial": "0305",
+    "formattedid": "005-0305",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.78,
+    "longitude": 1391528.88,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78660555555556,
+      "longitude": 139.2580222222222
+    }
+  },
+  {
+    "id": 86782,
+    "adminnumber": "005",
+    "numberserial": "0306",
+    "formattedid": "005-0306",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.91,
+    "longitude": 1391528.16,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78664166666666,
+      "longitude": 139.2578222222222
+    }
+  },
+  {
+    "id": 86783,
+    "adminnumber": "005",
+    "numberserial": "0307",
+    "formattedid": "005-0307",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354712.42,
+    "longitude": 1391527.94,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786783333333325,
+      "longitude": 139.2577611111111
+    }
+  },
+  {
+    "id": 86784,
+    "adminnumber": "005",
+    "numberserial": "0308",
+    "formattedid": "005-0308",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.43,
+    "longitude": 1391526.05,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78706388888889,
+      "longitude": 139.25723611111113
+    }
+  },
+  {
+    "id": 86785,
+    "adminnumber": "005",
+    "numberserial": "0309",
+    "formattedid": "005-0309",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.94,
+    "longitude": 1391525.91,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78720555555555,
+      "longitude": 139.2571972222222
+    }
+  },
+  {
+    "id": 86786,
+    "adminnumber": "005",
+    "numberserial": "0310",
+    "formattedid": "005-0310",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.55,
+    "longitude": 1391524.57,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787375,
+      "longitude": 139.25682500000002
+    }
+  },
+  {
+    "id": 86787,
+    "adminnumber": "005",
+    "numberserial": "0311",
+    "formattedid": "005-0311",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.6,
+    "longitude": 1391523.35,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78766666666666,
+      "longitude": 139.25648611111114
+    }
+  },
+  {
+    "id": 86788,
+    "adminnumber": "005",
+    "numberserial": "0312",
+    "formattedid": "005-0312",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.65,
+    "longitude": 1391522.23,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78768055555556,
+      "longitude": 139.25617499999998
+    }
+  },
+  {
+    "id": 86789,
+    "adminnumber": "005",
+    "numberserial": "0313",
+    "formattedid": "005-0313",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.31,
+    "longitude": 1391520.39,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787863888888886,
+      "longitude": 139.25566388888885
+    }
+  },
+  {
+    "id": 86790,
+    "adminnumber": "005",
+    "numberserial": "0314",
+    "formattedid": "005-0314",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.22,
+    "longitude": 1391519.63,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78783888888888,
+      "longitude": 139.25545277777775
+    }
+  },
+  {
+    "id": 86791,
+    "adminnumber": "005",
+    "numberserial": "0315",
+    "formattedid": "005-0315",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.62,
+    "longitude": 1391518.71,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787949999999995,
+      "longitude": 139.25519722222222
+    }
+  },
+  {
+    "id": 86792,
+    "adminnumber": "005",
+    "numberserial": "0316",
+    "formattedid": "005-0316",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.54,
+    "longitude": 1391517.69,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78792777777777,
+      "longitude": 139.25491388888886
+    }
+  },
+  {
+    "id": 86794,
+    "adminnumber": "005",
+    "numberserial": "0267",
+    "formattedid": "005-0267",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.62,
+    "longitude": 1391620.63,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78628333333333,
+      "longitude": 139.2723972222222
+    }
+  },
+  {
+    "id": 86795,
+    "adminnumber": "005",
+    "numberserial": "0268",
+    "formattedid": "005-0268",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.99,
+    "longitude": 1391618.6,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786386111111106,
+      "longitude": 139.27183333333338
+    }
+  },
+  {
+    "id": 86796,
+    "adminnumber": "005",
+    "numberserial": "0269",
+    "formattedid": "005-0269",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.82,
+    "longitude": 1391616.31,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78633888888889,
+      "longitude": 139.27119722222224
+    }
+  },
+  {
+    "id": 86797,
+    "adminnumber": "005",
+    "numberserial": "0270",
+    "formattedid": "005-0270",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.17,
+    "longitude": 1391614.45,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78643611111111,
+      "longitude": 139.27068055555554
+    }
+  },
+  {
+    "id": 86798,
+    "adminnumber": "005",
+    "numberserial": "0271",
+    "formattedid": "005-0271",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.0,
+    "longitude": 1391613.04,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78638888888889,
+      "longitude": 139.2702888888889
+    }
+  },
+  {
+    "id": 86799,
+    "adminnumber": "005",
+    "numberserial": "0272",
+    "formattedid": "005-0272",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.34,
+    "longitude": 1391610.16,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78648333333334,
+      "longitude": 139.26948888888887
+    }
+  },
+  {
+    "id": 86800,
+    "adminnumber": "005",
+    "numberserial": "0273",
+    "formattedid": "005-0273",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.19,
+    "longitude": 1391607.69,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78644166666667,
+      "longitude": 139.26880277777778
+    }
+  },
+  {
+    "id": 86801,
+    "adminnumber": "005",
+    "numberserial": "0274",
+    "formattedid": "005-0274",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.53,
+    "longitude": 1391606.6,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78653611111112,
+      "longitude": 139.26850000000005
+    }
+  },
+  {
+    "id": 86802,
+    "adminnumber": "005",
+    "numberserial": "0275",
+    "formattedid": "005-0275",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.23,
+    "longitude": 1391604.11,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78645277777777,
+      "longitude": 139.26780833333336
+    }
+  },
+  {
+    "id": 86803,
+    "adminnumber": "005",
+    "numberserial": "0276",
+    "formattedid": "005-0276",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.49,
+    "longitude": 1391602.43,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786525,
+      "longitude": 139.26734166666665
+    }
+  },
+  {
+    "id": 86804,
+    "adminnumber": "005",
+    "numberserial": "0277",
+    "formattedid": "005-0277",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.23,
+    "longitude": 1391600.11,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78645277777777,
+      "longitude": 139.26669722222226
+    }
+  },
+  {
+    "id": 86805,
+    "adminnumber": "005",
+    "numberserial": "0278",
+    "formattedid": "005-0278",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.49,
+    "longitude": 1391558.55,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786525,
+      "longitude": 139.26626388888891
+    }
+  },
+  {
+    "id": 86806,
+    "adminnumber": "005",
+    "numberserial": "0279",
+    "formattedid": "005-0279",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.2,
+    "longitude": 1391557.35,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78644444444445,
+      "longitude": 139.26593055555557
+    }
+  },
+  {
+    "id": 86807,
+    "adminnumber": "005",
+    "numberserial": "0280",
+    "formattedid": "005-0280",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.47,
+    "longitude": 1391555.87,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78651944444444,
+      "longitude": 139.26551944444446
+    }
+  },
+  {
+    "id": 86808,
+    "adminnumber": "005",
+    "numberserial": "0281",
+    "formattedid": "005-0281",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.14,
+    "longitude": 1391554.02,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78642777777778,
+      "longitude": 139.26500555555555
+    }
+  },
+  {
+    "id": 86810,
+    "adminnumber": "005",
+    "numberserial": "2008",
+    "formattedid": "005-2008",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.38,
+    "longitude": 1391611.97,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78649444444444,
+      "longitude": 139.26999166666667
+    }
+  },
+  {
+    "id": 86811,
+    "adminnumber": "005",
+    "numberserial": "2009",
+    "formattedid": "005-2009",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.82,
+    "longitude": 1391611.94,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78633888888889,
+      "longitude": 139.26998333333333
+    }
+  },
+  {
+    "id": 86859,
+    "adminnumber": "005",
+    "numberserial": "0179",
+    "formattedid": "005-0179",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.93,
+    "longitude": 1391822.68,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78664722222222,
+      "longitude": 139.3063
+    }
+  },
+  {
+    "id": 86978,
+    "adminnumber": "005",
+    "numberserial": "0245",
+    "formattedid": "005-0245",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354719.1,
+    "longitude": 1391640.08,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78863888888888,
+      "longitude": 139.27780000000004
+    }
+  },
+  {
+    "id": 87015,
+    "adminnumber": "005",
+    "numberserial": "0229",
+    "formattedid": "005-0229",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354719.01,
+    "longitude": 1391712.58,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78861388888889,
+      "longitude": 139.2868277777778
+    }
+  },
+  {
+    "id": 87030,
+    "adminnumber": "005",
+    "numberserial": "0219",
+    "formattedid": "005-0219",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.81,
+    "longitude": 1391733.86,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78828055555555,
+      "longitude": 139.29273888888892
+    }
+  },
+  {
+    "id": 87392,
+    "adminnumber": "005",
+    "numberserial": "0224",
+    "formattedid": "005-0224",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.34,
+    "longitude": 1391723.53,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788427777777784,
+      "longitude": 139.28986944444446
+    }
+  },
+  {
+    "id": 87454,
+    "adminnumber": "005",
+    "numberserial": "3002",
+    "formattedid": "005-3002",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354608.67,
+    "longitude": 1392048.5,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.769074999999994,
+      "longitude": 139.34680555555556
+    }
+  },
+  {
+    "id": 87493,
+    "adminnumber": "005",
+    "numberserial": "0142",
+    "formattedid": "005-0142",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354659.31,
+    "longitude": 1391901.87,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.783141666666666,
+      "longitude": 139.31718611111114
+    }
+  },
+  {
+    "id": 87494,
+    "adminnumber": "005",
+    "numberserial": "0143",
+    "formattedid": "005-0143",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354659.73,
+    "longitude": 1391901.56,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78325833333333,
+      "longitude": 139.3171
+    }
+  },
+  {
+    "id": 87495,
+    "adminnumber": "005",
+    "numberserial": "0144",
+    "formattedid": "005-0144",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354659.82,
+    "longitude": 1391900.39,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78328333333334,
+      "longitude": 139.31677499999998
+    }
+  },
+  {
+    "id": 87496,
+    "adminnumber": "005",
+    "numberserial": "0145",
+    "formattedid": "005-0145",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354700.42,
+    "longitude": 1391859.49,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.783449999999995,
+      "longitude": 139.316525
+    }
+  },
+  {
+    "id": 87497,
+    "adminnumber": "005",
+    "numberserial": "0146",
+    "formattedid": "005-0146",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354700.42,
+    "longitude": 1391857.96,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.783449999999995,
+      "longitude": 139.3161
+    }
+  },
+  {
+    "id": 87498,
+    "adminnumber": "005",
+    "numberserial": "0147",
+    "formattedid": "005-0147",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354701.23,
+    "longitude": 1391856.88,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.783674999999995,
+      "longitude": 139.31579999999997
+    }
+  },
+  {
+    "id": 87499,
+    "adminnumber": "005",
+    "numberserial": "0148",
+    "formattedid": "005-0148",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354701.02,
+    "longitude": 1391855.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78361666666667,
+      "longitude": 139.3154611111111
+    }
+  },
+  {
+    "id": 87500,
+    "adminnumber": "005",
+    "numberserial": "0149",
+    "formattedid": "005-0149",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354702.13,
+    "longitude": 1391854.67,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.783924999999996,
+      "longitude": 139.3151861111111
+    }
+  },
+  {
+    "id": 87501,
+    "adminnumber": "005",
+    "numberserial": "0150",
+    "formattedid": "005-0150",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354701.62,
+    "longitude": 1391853.55,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78378333333333,
+      "longitude": 139.31487500000003
+    }
+  },
+  {
+    "id": 87502,
+    "adminnumber": "005",
+    "numberserial": "0151",
+    "formattedid": "005-0151",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354702.52,
+    "longitude": 1391852.96,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78403333333333,
+      "longitude": 139.3147111111111
+    }
+  },
+  {
+    "id": 87503,
+    "adminnumber": "005",
+    "numberserial": "0152",
+    "formattedid": "005-0152",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354702.31,
+    "longitude": 1391851.07,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.783975,
+      "longitude": 139.31418611111113
+    }
+  },
+  {
+    "id": 87504,
+    "adminnumber": "005",
+    "numberserial": "0153",
+    "formattedid": "005-0153",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354703.24,
+    "longitude": 1391850.08,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.784233333333326,
+      "longitude": 139.31391111111114
+    }
+  },
+  {
+    "id": 87505,
+    "adminnumber": "005",
+    "numberserial": "0154",
+    "formattedid": "005-0154",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354703.03,
+    "longitude": 1391848.47,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.784175000000005,
+      "longitude": 139.3134638888889
+    }
+  },
+  {
+    "id": 87506,
+    "adminnumber": "005",
+    "numberserial": "0155",
+    "formattedid": "005-0155",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354703.84,
+    "longitude": 1391847.79,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.784400000000005,
+      "longitude": 139.31327500000003
+    }
+  },
+  {
+    "id": 87507,
+    "adminnumber": "005",
+    "numberserial": "0156",
+    "formattedid": "005-0156",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354703.72,
+    "longitude": 1391846.17,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.784366666666656,
+      "longitude": 139.312825
+    }
+  },
+  {
+    "id": 87508,
+    "adminnumber": "005",
+    "numberserial": "0157",
+    "formattedid": "005-0157",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354704.22,
+    "longitude": 1391846.08,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78450555555555,
+      "longitude": 139.31280000000004
+    }
+  },
+  {
+    "id": 87509,
+    "adminnumber": "005",
+    "numberserial": "0158",
+    "formattedid": "005-0158",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354704.83,
+    "longitude": 1391844.19,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.784675,
+      "longitude": 139.312275
+    }
+  },
+  {
+    "id": 87510,
+    "adminnumber": "005",
+    "numberserial": "0159",
+    "formattedid": "005-0159",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354704.39,
+    "longitude": 1391843.3,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78455277777778,
+      "longitude": 139.3120277777778
+    }
+  },
+  {
+    "id": 87511,
+    "adminnumber": "005",
+    "numberserial": "0160",
+    "formattedid": "005-0160",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354704.31,
+    "longitude": 1391842.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.784530555555556,
+      "longitude": 139.31185
+    }
+  },
+  {
+    "id": 87512,
+    "adminnumber": "005",
+    "numberserial": "0161",
+    "formattedid": "005-0161",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354705.43,
+    "longitude": 1391841.85,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.784841666666665,
+      "longitude": 139.31162500000005
+    }
+  },
+  {
+    "id": 87513,
+    "adminnumber": "005",
+    "numberserial": "0162",
+    "formattedid": "005-0162",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354705.22,
+    "longitude": 1391840.05,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78478333333332,
+      "longitude": 139.31112500000003
+    }
+  },
+  {
+    "id": 87514,
+    "adminnumber": "005",
+    "numberserial": "0163",
+    "formattedid": "005-0163",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354706.12,
+    "longitude": 1391839.38,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78503333333333,
+      "longitude": 139.31093888888887
+    }
+  },
+  {
+    "id": 87515,
+    "adminnumber": "005",
+    "numberserial": "0164",
+    "formattedid": "005-0164",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354706.33,
+    "longitude": 1391837.26,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.785091666666666,
+      "longitude": 139.31035000000003
+    }
+  },
+  {
+    "id": 87516,
+    "adminnumber": "005",
+    "numberserial": "0165",
+    "formattedid": "005-0165",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354707.31,
+    "longitude": 1391836.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78536388888889,
+      "longitude": 139.31027500000002
+    }
+  },
+  {
+    "id": 87517,
+    "adminnumber": "005",
+    "numberserial": "0166",
+    "formattedid": "005-0166",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354707.31,
+    "longitude": 1391835.19,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78536388888889,
+      "longitude": 139.309775
+    }
+  },
+  {
+    "id": 87518,
+    "adminnumber": "005",
+    "numberserial": "0122",
+    "formattedid": "005-0122",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354653.31,
+    "longitude": 1391924.19,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.781475,
+      "longitude": 139.3233861111111
+    }
+  },
+  {
+    "id": 87519,
+    "adminnumber": "005",
+    "numberserial": "0123",
+    "formattedid": "005-0123",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354653.91,
+    "longitude": 1391923.97,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78164166666666,
+      "longitude": 139.32332499999998
+    }
+  },
+  {
+    "id": 87520,
+    "adminnumber": "005",
+    "numberserial": "0124",
+    "formattedid": "005-0124",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354653.91,
+    "longitude": 1391921.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78164166666666,
+      "longitude": 139.322775
+    }
+  },
+  {
+    "id": 87521,
+    "adminnumber": "005",
+    "numberserial": "0125",
+    "formattedid": "005-0125",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354654.42,
+    "longitude": 1391921.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78178333333333,
+      "longitude": 139.322775
+    }
+  },
+  {
+    "id": 87522,
+    "adminnumber": "005",
+    "numberserial": "0126",
+    "formattedid": "005-0126",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354654.51,
+    "longitude": 1391919.56,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78180833333334,
+      "longitude": 139.3221
+    }
+  },
+  {
+    "id": 87523,
+    "adminnumber": "005",
+    "numberserial": "0127",
+    "formattedid": "005-0127",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354655.11,
+    "longitude": 1391919.29,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.781974999999996,
+      "longitude": 139.322025
+    }
+  },
+  {
+    "id": 87524,
+    "adminnumber": "005",
+    "numberserial": "0128",
+    "formattedid": "005-0128",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354655.23,
+    "longitude": 1391917.26,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78200833333333,
+      "longitude": 139.32146111111112
+    }
+  },
+  {
+    "id": 87525,
+    "adminnumber": "005",
+    "numberserial": "0129",
+    "formattedid": "005-0129",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354656.01,
+    "longitude": 1391916.45,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.782225000000004,
+      "longitude": 139.3212361111111
+    }
+  },
+  {
+    "id": 87526,
+    "adminnumber": "005",
+    "numberserial": "0130",
+    "formattedid": "005-0130",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354655.83,
+    "longitude": 1391915.06,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.782175,
+      "longitude": 139.32085
+    }
+  },
+  {
+    "id": 87527,
+    "adminnumber": "005",
+    "numberserial": "0131",
+    "formattedid": "005-0131",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354656.61,
+    "longitude": 1391914.29,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78239166666666,
+      "longitude": 139.32063611111113
+    }
+  },
+  {
+    "id": 87528,
+    "adminnumber": "005",
+    "numberserial": "0132",
+    "formattedid": "005-0132",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354656.43,
+    "longitude": 1391912.76,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78234166666666,
+      "longitude": 139.32021111111112
+    }
+  },
+  {
+    "id": 87529,
+    "adminnumber": "005",
+    "numberserial": "0133",
+    "formattedid": "005-0133",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354657.12,
+    "longitude": 1391912.36,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78253333333333,
+      "longitude": 139.32010000000002
+    }
+  },
+  {
+    "id": 87530,
+    "adminnumber": "005",
+    "numberserial": "0134",
+    "formattedid": "005-0134",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354657.21,
+    "longitude": 1391909.97,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78255833333334,
+      "longitude": 139.3194361111111
+    }
+  },
+  {
+    "id": 87531,
+    "adminnumber": "005",
+    "numberserial": "0135",
+    "formattedid": "005-0135",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354657.93,
+    "longitude": 1391910.06,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.782758333333334,
+      "longitude": 139.3194611111111
+    }
+  },
+  {
+    "id": 87532,
+    "adminnumber": "005",
+    "numberserial": "0136",
+    "formattedid": "005-0136",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354657.72,
+    "longitude": 1391908.17,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78269999999999,
+      "longitude": 139.3189361111111
+    }
+  },
+  {
+    "id": 87533,
+    "adminnumber": "005",
+    "numberserial": "0137",
+    "formattedid": "005-0137",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354658.53,
+    "longitude": 1391907.59,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.782925000000006,
+      "longitude": 139.31877500000002
+    }
+  },
+  {
+    "id": 87534,
+    "adminnumber": "005",
+    "numberserial": "0138",
+    "formattedid": "005-0138",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354658.23,
+    "longitude": 1391905.65,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78284166666666,
+      "longitude": 139.31823611111108
+    }
+  },
+  {
+    "id": 87535,
+    "adminnumber": "005",
+    "numberserial": "0139",
+    "formattedid": "005-0139",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354659.13,
+    "longitude": 1391904.89,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.783091666666664,
+      "longitude": 139.31802499999998
+    }
+  },
+  {
+    "id": 87536,
+    "adminnumber": "005",
+    "numberserial": "0140",
+    "formattedid": "005-0140",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354658.62,
+    "longitude": 1391904.39,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78295,
+      "longitude": 139.31788611111108
+    }
+  },
+  {
+    "id": 87537,
+    "adminnumber": "005",
+    "numberserial": "0141",
+    "formattedid": "005-0141",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354659.52,
+    "longitude": 1391903.58,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.7832,
+      "longitude": 139.31766111111114
+    }
+  },
+  {
+    "id": 87538,
+    "adminnumber": "005",
+    "numberserial": "0167",
+    "formattedid": "005-0167",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354708.34,
+    "longitude": 1391832.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.785650000000004,
+      "longitude": 139.3091638888889
+    }
+  },
+  {
+    "id": 87539,
+    "adminnumber": "005",
+    "numberserial": "0168",
+    "formattedid": "005-0168",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354708.43,
+    "longitude": 1391834.38,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.785675,
+      "longitude": 139.30954999999997
+    }
+  },
+  {
+    "id": 87540,
+    "adminnumber": "005",
+    "numberserial": "0169",
+    "formattedid": "005-0169",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354708.73,
+    "longitude": 1391832.09,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78575833333333,
+      "longitude": 139.30891388888892
+    }
+  },
+  {
+    "id": 87541,
+    "adminnumber": "005",
+    "numberserial": "0170",
+    "formattedid": "005-0170",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354708.94,
+    "longitude": 1391832.27,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78581666666666,
+      "longitude": 139.3089638888889
+    }
+  },
+  {
+    "id": 87542,
+    "adminnumber": "005",
+    "numberserial": "0171",
+    "formattedid": "005-0171",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354709.41,
+    "longitude": 1391830.56,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78594722222221,
+      "longitude": 139.30848888888892
+    }
+  },
+  {
+    "id": 87543,
+    "adminnumber": "005",
+    "numberserial": "0172",
+    "formattedid": "005-0172",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354709.71,
+    "longitude": 1391830.69,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78603055555556,
+      "longitude": 139.308525
+    }
+  },
+  {
+    "id": 87544,
+    "adminnumber": "005",
+    "numberserial": "0173",
+    "formattedid": "005-0173",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.22,
+    "longitude": 1391828.08,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78617222222221,
+      "longitude": 139.30780000000004
+    }
+  },
+  {
+    "id": 87545,
+    "adminnumber": "005",
+    "numberserial": "0174",
+    "formattedid": "005-0174",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.61,
+    "longitude": 1391827.86,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78628055555555,
+      "longitude": 139.30773888888893
+    }
+  },
+  {
+    "id": 87546,
+    "adminnumber": "005",
+    "numberserial": "0175",
+    "formattedid": "005-0175",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.73,
+    "longitude": 1391825.88,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786313888888884,
+      "longitude": 139.30718888888887
+    }
+  },
+  {
+    "id": 87547,
+    "adminnumber": "005",
+    "numberserial": "0176",
+    "formattedid": "005-0176",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.13,
+    "longitude": 1391825.97,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786425,
+      "longitude": 139.3072138888889
+    }
+  },
+  {
+    "id": 87548,
+    "adminnumber": "005",
+    "numberserial": "0177",
+    "formattedid": "005-0177",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.13,
+    "longitude": 1391823.27,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786425,
+      "longitude": 139.3064638888889
+    }
+  },
+  {
+    "id": 87549,
+    "adminnumber": "005",
+    "numberserial": "0255",
+    "formattedid": "005-0255",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354712.41,
+    "longitude": 1391632.08,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786780555555545,
+      "longitude": 139.2755777777778
+    }
+  },
+  {
+    "id": 87550,
+    "adminnumber": "005",
+    "numberserial": "0256",
+    "formattedid": "005-0256",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354712.39,
+    "longitude": 1391632.06,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786775,
+      "longitude": 139.27557222222225
+    }
+  },
+  {
+    "id": 87551,
+    "adminnumber": "005",
+    "numberserial": "0257",
+    "formattedid": "005-0257",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354712.56,
+    "longitude": 1391631.32,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78682222222222,
+      "longitude": 139.27536666666668
+    }
+  },
+  {
+    "id": 87552,
+    "adminnumber": "005",
+    "numberserial": "0258",
+    "formattedid": "005-0258",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354712.55,
+    "longitude": 1391630.7,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78681944444444,
+      "longitude": 139.27519444444445
+    }
+  },
+  {
+    "id": 87553,
+    "adminnumber": "005",
+    "numberserial": "0259",
+    "formattedid": "005-0259",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.52,
+    "longitude": 1391630.21,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78653333333334,
+      "longitude": 139.27505833333333
+    }
+  },
+  {
+    "id": 87554,
+    "adminnumber": "005",
+    "numberserial": "0260",
+    "formattedid": "005-0260",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.41,
+    "longitude": 1391629.05,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78650277777777,
+      "longitude": 139.27473611111114
+    }
+  },
+  {
+    "id": 87555,
+    "adminnumber": "005",
+    "numberserial": "0261",
+    "formattedid": "005-0261",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.74,
+    "longitude": 1391627.53,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786316666666664,
+      "longitude": 139.2743138888889
+    }
+  },
+  {
+    "id": 87556,
+    "adminnumber": "005",
+    "numberserial": "0262",
+    "formattedid": "005-0262",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.01,
+    "longitude": 1391627.2,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78639166666667,
+      "longitude": 139.27422222222222
+    }
+  },
+  {
+    "id": 87557,
+    "adminnumber": "005",
+    "numberserial": "0264",
+    "formattedid": "005-0264",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.79,
+    "longitude": 1391624.89,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78633055555555,
+      "longitude": 139.27358055555555
+    }
+  },
+  {
+    "id": 87558,
+    "adminnumber": "005",
+    "numberserial": "0265",
+    "formattedid": "005-0265",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.48,
+    "longitude": 1391623.34,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786244444444435,
+      "longitude": 139.27315000000004
+    }
+  },
+  {
+    "id": 87559,
+    "adminnumber": "005",
+    "numberserial": "0266",
+    "formattedid": "005-0266",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.84,
+    "longitude": 1391622.12,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78634444444445,
+      "longitude": 139.27281111111117
+    }
+  },
+  {
+    "id": 87561,
+    "adminnumber": "005",
+    "numberserial": "0180",
+    "formattedid": "005-0180",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354711.93,
+    "longitude": 1391820.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78664722222222,
+      "longitude": 139.30573888888887
+    }
+  },
+  {
+    "id": 87562,
+    "adminnumber": "005",
+    "numberserial": "0181",
+    "formattedid": "005-0181",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354712.53,
+    "longitude": 1391819.89,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786813888888894,
+      "longitude": 139.305525
+    }
+  },
+  {
+    "id": 87563,
+    "adminnumber": "005",
+    "numberserial": "0182",
+    "formattedid": "005-0182",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354712.53,
+    "longitude": 1391817.96,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786813888888894,
+      "longitude": 139.3049888888889
+    }
+  },
+  {
+    "id": 87564,
+    "adminnumber": "005",
+    "numberserial": "0183",
+    "formattedid": "005-0183",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.01,
+    "longitude": 1391817.37,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786947222222224,
+      "longitude": 139.30482500000005
+    }
+  },
+  {
+    "id": 87565,
+    "adminnumber": "005",
+    "numberserial": "0184",
+    "formattedid": "005-0184",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.22,
+    "longitude": 1391815.26,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787005555555545,
+      "longitude": 139.3042388888889
+    }
+  },
+  {
+    "id": 87566,
+    "adminnumber": "005",
+    "numberserial": "0185",
+    "formattedid": "005-0185",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.73,
+    "longitude": 1391814.67,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78714722222222,
+      "longitude": 139.30407499999998
+    }
+  },
+  {
+    "id": 87567,
+    "adminnumber": "005",
+    "numberserial": "0186",
+    "formattedid": "005-0186",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.61,
+    "longitude": 1391813.46,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78711388888888,
+      "longitude": 139.3037388888889
+    }
+  },
+  {
+    "id": 87568,
+    "adminnumber": "005",
+    "numberserial": "0187",
+    "formattedid": "005-0187",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.21,
+    "longitude": 1391812.69,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78728055555556,
+      "longitude": 139.303525
+    }
+  },
+  {
+    "id": 87569,
+    "adminnumber": "005",
+    "numberserial": "0188",
+    "formattedid": "005-0188",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.21,
+    "longitude": 1391811.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78728055555556,
+      "longitude": 139.30323888888887
+    }
+  },
+  {
+    "id": 87570,
+    "adminnumber": "005",
+    "numberserial": "0253",
+    "formattedid": "005-0253",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.12,
+    "longitude": 1391633.88,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787255555555554,
+      "longitude": 139.27607777777777
+    }
+  },
+  {
+    "id": 87571,
+    "adminnumber": "005",
+    "numberserial": "0254",
+    "formattedid": "005-0254",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.43,
+    "longitude": 1391633.48,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78706388888889,
+      "longitude": 139.27596666666668
+    }
+  },
+  {
+    "id": 87572,
+    "adminnumber": "005",
+    "numberserial": "0476",
+    "formattedid": "005-0476",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.11,
+    "longitude": 1391633.35,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78697499999999,
+      "longitude": 139.2759305555556
+    }
+  },
+  {
+    "id": 87573,
+    "adminnumber": "005",
+    "numberserial": "0477",
+    "formattedid": "005-0477",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354713.17,
+    "longitude": 1391632.32,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78699166666666,
+      "longitude": 139.27564444444448
+    }
+  },
+  {
+    "id": 87576,
+    "adminnumber": "005",
+    "numberserial": "0191",
+    "formattedid": "005-0191",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.21,
+    "longitude": 1391808.37,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78728055555556,
+      "longitude": 139.30232500000005
+    }
+  },
+  {
+    "id": 87577,
+    "adminnumber": "005",
+    "numberserial": "0192",
+    "formattedid": "005-0192",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.93,
+    "longitude": 1391807.29,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787480555555554,
+      "longitude": 139.30202500000001
+    }
+  },
+  {
+    "id": 87578,
+    "adminnumber": "005",
+    "numberserial": "0193",
+    "formattedid": "005-0193",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.42,
+    "longitude": 1391805.49,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78733888888888,
+      "longitude": 139.301525
+    }
+  },
+  {
+    "id": 87579,
+    "adminnumber": "005",
+    "numberserial": "0194",
+    "formattedid": "005-0194",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.02,
+    "longitude": 1391805.49,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78750555555556,
+      "longitude": 139.301525
+    }
+  },
+  {
+    "id": 87580,
+    "adminnumber": "005",
+    "numberserial": "0195",
+    "formattedid": "005-0195",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.02,
+    "longitude": 1391804.59,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78750555555556,
+      "longitude": 139.30127500000003
+    }
+  },
+  {
+    "id": 87581,
+    "adminnumber": "005",
+    "numberserial": "0246",
+    "formattedid": "005-0246",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.74,
+    "longitude": 1391641.25,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78853888888889,
+      "longitude": 139.27812500000002
+    }
+  },
+  {
+    "id": 87582,
+    "adminnumber": "005",
+    "numberserial": "0247",
+    "formattedid": "005-0247",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.23,
+    "longitude": 1391640.09,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788397222222216,
+      "longitude": 139.27780277777782
+    }
+  },
+  {
+    "id": 87583,
+    "adminnumber": "005",
+    "numberserial": "0248",
+    "formattedid": "005-0248",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.21,
+    "longitude": 1391638.65,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788113888888894,
+      "longitude": 139.27740277777775
+    }
+  },
+  {
+    "id": 87584,
+    "adminnumber": "005",
+    "numberserial": "0249",
+    "formattedid": "005-0249",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.82,
+    "longitude": 1391637.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78800555555556,
+      "longitude": 139.27712777777776
+    }
+  },
+  {
+    "id": 87585,
+    "adminnumber": "005",
+    "numberserial": "0250",
+    "formattedid": "005-0250",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.01,
+    "longitude": 1391636.85,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78778055555556,
+      "longitude": 139.27690277777782
+    }
+  },
+  {
+    "id": 87586,
+    "adminnumber": "005",
+    "numberserial": "0251",
+    "formattedid": "005-0251",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.41,
+    "longitude": 1391635.86,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78761388888888,
+      "longitude": 139.27662777777783
+    }
+  },
+  {
+    "id": 87589,
+    "adminnumber": "005",
+    "numberserial": "0474",
+    "formattedid": "005-0474",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.93,
+    "longitude": 1391637.07,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78775833333333,
+      "longitude": 139.27696388888893
+    }
+  },
+  {
+    "id": 87590,
+    "adminnumber": "005",
+    "numberserial": "0475",
+    "formattedid": "005-0475",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.2,
+    "longitude": 1391636.59,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78783333333333,
+      "longitude": 139.2768305555556
+    }
+  },
+  {
+    "id": 87591,
+    "adminnumber": "005",
+    "numberserial": "0478",
+    "formattedid": "005-0478",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.95,
+    "longitude": 1391637.71,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788041666666665,
+      "longitude": 139.27714166666667
+    }
+  },
+  {
+    "id": 87592,
+    "adminnumber": "005",
+    "numberserial": "2006",
+    "formattedid": "005-2006",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.99,
+    "longitude": 1391637.82,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78805277777777,
+      "longitude": 139.27717222222225
+    }
+  },
+  {
+    "id": 87593,
+    "adminnumber": "005",
+    "numberserial": "2007",
+    "formattedid": "005-2007",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.03,
+    "longitude": 1391637.92,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78806388888889,
+      "longitude": 139.2772
+    }
+  },
+  {
+    "id": 87594,
+    "adminnumber": "005",
+    "numberserial": "0196",
+    "formattedid": "005-0196",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.51,
+    "longitude": 1391803.47,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78736388888889,
+      "longitude": 139.3009638888889
+    }
+  },
+  {
+    "id": 87595,
+    "adminnumber": "005",
+    "numberserial": "0197",
+    "formattedid": "005-0197",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.23,
+    "longitude": 1391802.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78756388888888,
+      "longitude": 139.30073888888887
+    }
+  },
+  {
+    "id": 87596,
+    "adminnumber": "005",
+    "numberserial": "0198",
+    "formattedid": "005-0198",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.63,
+    "longitude": 1391800.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787397222222225,
+      "longitude": 139.300275
+    }
+  },
+  {
+    "id": 87597,
+    "adminnumber": "005",
+    "numberserial": "0199",
+    "formattedid": "005-0199",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.53,
+    "longitude": 1391759.78,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787647222222226,
+      "longitude": 139.2999388888889
+    }
+  },
+  {
+    "id": 87598,
+    "adminnumber": "005",
+    "numberserial": "0200",
+    "formattedid": "005-0200",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.72,
+    "longitude": 1391758.07,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78742222222221,
+      "longitude": 139.2994638888889
+    }
+  },
+  {
+    "id": 87599,
+    "adminnumber": "005",
+    "numberserial": "0201",
+    "formattedid": "005-0201",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.71,
+    "longitude": 1391757.26,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78769722222223,
+      "longitude": 139.29923888888888
+    }
+  },
+  {
+    "id": 87600,
+    "adminnumber": "005",
+    "numberserial": "0203",
+    "formattedid": "005-0203",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.71,
+    "longitude": 1391754.56,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78769722222223,
+      "longitude": 139.2984888888889
+    }
+  },
+  {
+    "id": 87601,
+    "adminnumber": "005",
+    "numberserial": "0204",
+    "formattedid": "005-0204",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.62,
+    "longitude": 1391752.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78767222222222,
+      "longitude": 139.29805277777777
+    }
+  },
+  {
+    "id": 87602,
+    "adminnumber": "005",
+    "numberserial": "0205",
+    "formattedid": "005-0205",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.13,
+    "longitude": 1391753.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78781388888889,
+      "longitude": 139.29823888888887
+    }
+  },
+  {
+    "id": 87603,
+    "adminnumber": "005",
+    "numberserial": "0206",
+    "formattedid": "005-0206",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.83,
+    "longitude": 1391751.05,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787730555555555,
+      "longitude": 139.2975138888889
+    }
+  },
+  {
+    "id": 87604,
+    "adminnumber": "005",
+    "numberserial": "0207",
+    "formattedid": "005-0207",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.52,
+    "longitude": 1391749.47,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78792222222223,
+      "longitude": 139.29707499999998
+    }
+  },
+  {
+    "id": 87605,
+    "adminnumber": "005",
+    "numberserial": "0208",
+    "formattedid": "005-0208",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.43,
+    "longitude": 1391747.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78789722222222,
+      "longitude": 139.29666388888887
+    }
+  },
+  {
+    "id": 87606,
+    "adminnumber": "005",
+    "numberserial": "0209",
+    "formattedid": "005-0209",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.91,
+    "longitude": 1391746.68,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788030555555544,
+      "longitude": 139.29629999999997
+    }
+  },
+  {
+    "id": 87607,
+    "adminnumber": "005",
+    "numberserial": "0210",
+    "formattedid": "005-0210",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.52,
+    "longitude": 1391745.69,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78792222222223,
+      "longitude": 139.296025
+    }
+  },
+  {
+    "id": 87608,
+    "adminnumber": "005",
+    "numberserial": "0211",
+    "formattedid": "005-0211",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.12,
+    "longitude": 1391744.39,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788088888888886,
+      "longitude": 139.29566388888887
+    }
+  },
+  {
+    "id": 87609,
+    "adminnumber": "005",
+    "numberserial": "0212",
+    "formattedid": "005-0212",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.71,
+    "longitude": 1391743.37,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787975,
+      "longitude": 139.2953805555556
+    }
+  },
+  {
+    "id": 87610,
+    "adminnumber": "005",
+    "numberserial": "0213",
+    "formattedid": "005-0213",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.21,
+    "longitude": 1391743.09,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788113888888894,
+      "longitude": 139.2953027777778
+    }
+  },
+  {
+    "id": 87611,
+    "adminnumber": "005",
+    "numberserial": "0214",
+    "formattedid": "005-0214",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.61,
+    "longitude": 1391741.06,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.787947222222215,
+      "longitude": 139.2947388888889
+    }
+  },
+  {
+    "id": 87612,
+    "adminnumber": "005",
+    "numberserial": "0215",
+    "formattedid": "005-0215",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.82,
+    "longitude": 1391738.18,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78800555555556,
+      "longitude": 139.29393888888887
+    }
+  },
+  {
+    "id": 87613,
+    "adminnumber": "005",
+    "numberserial": "0216",
+    "formattedid": "005-0216",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.73,
+    "longitude": 1391736.56,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78798055555555,
+      "longitude": 139.2934888888889
+    }
+  },
+  {
+    "id": 87614,
+    "adminnumber": "005",
+    "numberserial": "0217",
+    "formattedid": "005-0217",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.91,
+    "longitude": 1391735.25,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788030555555544,
+      "longitude": 139.293125
+    }
+  },
+  {
+    "id": 87615,
+    "adminnumber": "005",
+    "numberserial": "0218",
+    "formattedid": "005-0218",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.63,
+    "longitude": 1391734.89,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78823055555556,
+      "longitude": 139.29302499999997
+    }
+  },
+  {
+    "id": 87616,
+    "adminnumber": "005",
+    "numberserial": "0407",
+    "formattedid": "005-0407",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.21,
+    "longitude": 1391741.96,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788113888888894,
+      "longitude": 139.29498888888887
+    }
+  },
+  {
+    "id": 87617,
+    "adminnumber": "005",
+    "numberserial": "0408",
+    "formattedid": "005-0408",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354716.91,
+    "longitude": 1391739.17,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788030555555544,
+      "longitude": 139.29421388888886
+    }
+  },
+  {
+    "id": 87618,
+    "adminnumber": "005",
+    "numberserial": "0409",
+    "formattedid": "005-0409",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.51,
+    "longitude": 1391737.37,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78819722222222,
+      "longitude": 139.29371388888893
+    }
+  },
+  {
+    "id": 87623,
+    "adminnumber": "005",
+    "numberserial": "0410",
+    "formattedid": "005-0410",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.93,
+    "longitude": 1391733.27,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78831388888889,
+      "longitude": 139.292575
+    }
+  },
+  {
+    "id": 87624,
+    "adminnumber": "005",
+    "numberserial": "0411",
+    "formattedid": "005-0411",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.93,
+    "longitude": 1391731.25,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78831388888889,
+      "longitude": 139.29201388888887
+    }
+  },
+  {
+    "id": 87626,
+    "adminnumber": "005",
+    "numberserial": "0414",
+    "formattedid": "005-0414",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.93,
+    "longitude": 1391723.69,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78831388888889,
+      "longitude": 139.28991388888886
+    }
+  },
+  {
+    "id": 87627,
+    "adminnumber": "005",
+    "numberserial": "0225",
+    "formattedid": "005-0225",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.02,
+    "longitude": 1391720.27,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788338888888894,
+      "longitude": 139.2889638888889
+    }
+  },
+  {
+    "id": 87628,
+    "adminnumber": "005",
+    "numberserial": "0226",
+    "formattedid": "005-0226",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.93,
+    "longitude": 1391717.57,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78831388888889,
+      "longitude": 139.28821388888892
+    }
+  },
+  {
+    "id": 87629,
+    "adminnumber": "005",
+    "numberserial": "0227",
+    "formattedid": "005-0227",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.17,
+    "longitude": 1391717.35,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78838055555555,
+      "longitude": 139.2881527777778
+    }
+  },
+  {
+    "id": 87630,
+    "adminnumber": "005",
+    "numberserial": "0228",
+    "formattedid": "005-0228",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.35,
+    "longitude": 1391714.59,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78843055555555,
+      "longitude": 139.28738611111115
+    }
+  },
+  {
+    "id": 87631,
+    "adminnumber": "005",
+    "numberserial": "0415",
+    "formattedid": "005-0415",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.93,
+    "longitude": 1391721.49,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78831388888889,
+      "longitude": 139.28930277777778
+    }
+  },
+  {
+    "id": 87632,
+    "adminnumber": "005",
+    "numberserial": "0416",
+    "formattedid": "005-0416",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.02,
+    "longitude": 1391718.79,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788338888888894,
+      "longitude": 139.2885527777778
+    }
+  },
+  {
+    "id": 87633,
+    "adminnumber": "005",
+    "numberserial": "0417",
+    "formattedid": "005-0417",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.32,
+    "longitude": 1391716.09,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78842222222222,
+      "longitude": 139.2878027777778
+    }
+  },
+  {
+    "id": 87634,
+    "adminnumber": "005",
+    "numberserial": "2002",
+    "formattedid": "005-2002",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354717.8,
+    "longitude": 1391722.42,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78827777777777,
+      "longitude": 139.28956111111108
+    }
+  },
+  {
+    "id": 87635,
+    "adminnumber": "005",
+    "numberserial": "2003",
+    "formattedid": "005-2003",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.33,
+    "longitude": 1391722.53,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788425000000004,
+      "longitude": 139.28959166666667
+    }
+  },
+  {
+    "id": 87636,
+    "adminnumber": "005",
+    "numberserial": "0230",
+    "formattedid": "005-0230",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.49,
+    "longitude": 1391711.74,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78846944444444,
+      "longitude": 139.28659444444443
+    }
+  },
+  {
+    "id": 87637,
+    "adminnumber": "005",
+    "numberserial": "0231",
+    "formattedid": "005-0231",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.41,
+    "longitude": 1391710.37,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78844722222221,
+      "longitude": 139.2862138888889
+    }
+  },
+  {
+    "id": 87638,
+    "adminnumber": "005",
+    "numberserial": "0232",
+    "formattedid": "005-0232",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.62,
+    "longitude": 1391706.77,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78850555555555,
+      "longitude": 139.2852138888889
+    }
+  },
+  {
+    "id": 87639,
+    "adminnumber": "005",
+    "numberserial": "0233",
+    "formattedid": "005-0233",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354719.59,
+    "longitude": 1391704.79,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78877500000001,
+      "longitude": 139.2846638888889
+    }
+  },
+  {
+    "id": 87640,
+    "adminnumber": "005",
+    "numberserial": "0418",
+    "formattedid": "005-0418",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.32,
+    "longitude": 1391709.47,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78842222222222,
+      "longitude": 139.2859638888889
+    }
+  },
+  {
+    "id": 87669,
+    "adminnumber": "005",
+    "numberserial": "0202",
+    "formattedid": "005-0202",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354715.41,
+    "longitude": 1391755.95,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78761388888888,
+      "longitude": 139.29887499999998
+    }
+  },
+  {
+    "id": 87764,
+    "adminnumber": "005",
+    "numberserial": "0120",
+    "formattedid": "005-0120",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354652.58,
+    "longitude": 1391926.43,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78127222222223,
+      "longitude": 139.32400833333332
+    }
+  },
+  {
+    "id": 87765,
+    "adminnumber": "005",
+    "numberserial": "0121",
+    "formattedid": "005-0121",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354653.22,
+    "longitude": 1391925.99,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78144999999999,
+      "longitude": 139.3238861111111
+    }
+  },
+  {
+    "id": 87810,
+    "adminnumber": "005",
+    "numberserial": "2004",
+    "formattedid": "005-2004",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.75,
+    "longitude": 1391641.72,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78854166666667,
+      "longitude": 139.27825555555557
+    }
+  },
+  {
+    "id": 87811,
+    "adminnumber": "005",
+    "numberserial": "2005",
+    "formattedid": "005-2005",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354719.38,
+    "longitude": 1391641.58,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788716666666666,
+      "longitude": 139.2782166666667
+    }
+  },
+  {
+    "id": 94497,
+    "adminnumber": "005",
+    "numberserial": "0545",
+    "formattedid": "005-0545",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.04,
+    "longitude": 1391455.52,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788344444444434,
+      "longitude": 139.24875555555556
+    }
+  },
+  {
+    "id": 94498,
+    "adminnumber": "005",
+    "numberserial": "0546",
+    "formattedid": "005-0546",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.06,
+    "longitude": 1391454.43,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788349999999994,
+      "longitude": 139.24845277777774
+    }
+  },
+  {
+    "id": 94499,
+    "adminnumber": "005",
+    "numberserial": "0547",
+    "formattedid": "005-0547",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.35,
+    "longitude": 1391454.61,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78843055555555,
+      "longitude": 139.2485027777778
+    }
+  },
+  {
+    "id": 94500,
+    "adminnumber": "005",
+    "numberserial": "0548",
+    "formattedid": "005-0548",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.35,
+    "longitude": 1391453.09,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78843055555555,
+      "longitude": 139.24808055555556
+    }
+  },
+  {
+    "id": 94501,
+    "adminnumber": "005",
+    "numberserial": "0550",
+    "formattedid": "005-0550",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.74,
+    "longitude": 1391451.12,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78853888888889,
+      "longitude": 139.24753333333337
+    }
+  },
+  {
+    "id": 94502,
+    "adminnumber": "005",
+    "numberserial": "0549",
+    "formattedid": "005-0549",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354718.7,
+    "longitude": 1391453.33,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78852777777778,
+      "longitude": 139.24814722222223
+    }
+  },
+  {
+    "id": 94503,
+    "adminnumber": "005",
+    "numberserial": "0551",
+    "formattedid": "005-0551",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354719.12,
+    "longitude": 1391451.26,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788644444444444,
+      "longitude": 139.2475722222222
+    }
+  },
+  {
+    "id": 94539,
+    "adminnumber": "005",
+    "numberserial": "0263",
+    "formattedid": "005-0263",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354710.53,
+    "longitude": 1391626.18,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786258333333336,
+      "longitude": 139.2739388888889
+    }
+  },
+  {
+    "id": 94540,
+    "adminnumber": "005",
+    "numberserial": "0190",
+    "formattedid": "005-0190",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": null,
+    "latitude": 354714.53,
+    "longitude": 1391809.72,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78736944444445,
+      "longitude": 139.30270000000002
+    }
+  },
+  {
+    "id": 141174,
+    "adminnumber": "005",
+    "numberserial": "0317",
+    "formattedid": "005-0317",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354710.9,
+    "longitude": 1391553.23,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78636111111111,
+      "longitude": 139.2647861111111
+    }
+  },
+  {
+    "id": 141175,
+    "adminnumber": "005",
+    "numberserial": "0318",
+    "formattedid": "005-0318",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354710.9,
+    "longitude": 1391554.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78636111111111,
+      "longitude": 139.2651833333333
+    }
+  },
+  {
+    "id": 141176,
+    "adminnumber": "005",
+    "numberserial": "0319",
+    "formattedid": "005-0319",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354713.38,
+    "longitude": 1391525.89,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78705,
+      "longitude": 139.25719166666664
+    }
+  },
+  {
+    "id": 141177,
+    "adminnumber": "005",
+    "numberserial": "0320",
+    "formattedid": "005-0320",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354716.48,
+    "longitude": 1391519.71,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78791111111111,
+      "longitude": 139.255475
+    }
+  },
+  {
+    "id": 141956,
+    "adminnumber": "005",
+    "numberserial": "0592",
+    "formattedid": "005-0592",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.98,
+    "longitude": 1391711.63,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78860555555555,
+      "longitude": 139.28656388888885
+    }
+  },
+  {
+    "id": 141957,
+    "adminnumber": "005",
+    "numberserial": "0557",
+    "formattedid": "005-0557",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.68,
+    "longitude": 1391711.56,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78852222222222,
+      "longitude": 139.28654444444444
+    }
+  },
+  {
+    "id": 141958,
+    "adminnumber": "005",
+    "numberserial": "0593",
+    "formattedid": "005-0593",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.08,
+    "longitude": 1391709.9,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78863333333334,
+      "longitude": 139.2860833333333
+    }
+  },
+  {
+    "id": 141959,
+    "adminnumber": "005",
+    "numberserial": "0558",
+    "formattedid": "005-0558",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.8,
+    "longitude": 1391709.79,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78855555555555,
+      "longitude": 139.2860527777778
+    }
+  },
+  {
+    "id": 141960,
+    "adminnumber": "005",
+    "numberserial": "0594",
+    "formattedid": "005-0594",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.17,
+    "longitude": 1391708.26,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78865833333332,
+      "longitude": 139.2856277777778
+    }
+  },
+  {
+    "id": 141961,
+    "adminnumber": "005",
+    "numberserial": "0559",
+    "formattedid": "005-0559",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.91,
+    "longitude": 1391708.3,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.7885861111111,
+      "longitude": 139.2856388888889
+    }
+  },
+  {
+    "id": 141962,
+    "adminnumber": "005",
+    "numberserial": "0595",
+    "formattedid": "005-0595",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.31,
+    "longitude": 1391706.52,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78869722222222,
+      "longitude": 139.28514444444446
+    }
+  },
+  {
+    "id": 141963,
+    "adminnumber": "005",
+    "numberserial": "0560",
+    "formattedid": "005-0560",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.02,
+    "longitude": 1391706.51,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78861666666667,
+      "longitude": 139.28514166666668
+    }
+  },
+  {
+    "id": 141964,
+    "adminnumber": "005",
+    "numberserial": "0596",
+    "formattedid": "005-0596",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.38,
+    "longitude": 1391705.53,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788716666666666,
+      "longitude": 139.28486944444444
+    }
+  },
+  {
+    "id": 141965,
+    "adminnumber": "005",
+    "numberserial": "0561",
+    "formattedid": "005-0561",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.08,
+    "longitude": 1391705.39,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78863333333334,
+      "longitude": 139.28483055555552
+    }
+  },
+  {
+    "id": 141966,
+    "adminnumber": "005",
+    "numberserial": "0597",
+    "formattedid": "005-0597",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.4,
+    "longitude": 1391704.74,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788722222222226,
+      "longitude": 139.28465
+    }
+  },
+  {
+    "id": 141967,
+    "adminnumber": "005",
+    "numberserial": "0520",
+    "formattedid": "005-0520",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.09,
+    "longitude": 1391703.89,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78863611111112,
+      "longitude": 139.28441388888885
+    }
+  },
+  {
+    "id": 141968,
+    "adminnumber": "005",
+    "numberserial": "0521",
+    "formattedid": "005-0521",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.52,
+    "longitude": 1391703.26,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78875555555556,
+      "longitude": 139.2842388888889
+    }
+  },
+  {
+    "id": 141969,
+    "adminnumber": "005",
+    "numberserial": "0522",
+    "formattedid": "005-0522",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.28,
+    "longitude": 1391702.69,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78868888888889,
+      "longitude": 139.28408055555553
+    }
+  },
+  {
+    "id": 141970,
+    "adminnumber": "005",
+    "numberserial": "0523",
+    "formattedid": "005-0523",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.62,
+    "longitude": 1391701.92,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78878333333333,
+      "longitude": 139.28386666666665
+    }
+  },
+  {
+    "id": 141971,
+    "adminnumber": "005",
+    "numberserial": "0524",
+    "formattedid": "005-0524",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.42,
+    "longitude": 1391701.13,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78872777777777,
+      "longitude": 139.28364722222219
+    }
+  },
+  {
+    "id": 141972,
+    "adminnumber": "005",
+    "numberserial": "0525",
+    "formattedid": "005-0525",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.48,
+    "longitude": 1391700.17,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78874444444444,
+      "longitude": 139.28338055555554
+    }
+  },
+  {
+    "id": 141973,
+    "adminnumber": "005",
+    "numberserial": "0526",
+    "formattedid": "005-0526",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.78,
+    "longitude": 1391659.85,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78882777777778,
+      "longitude": 139.2832916666667
+    }
+  },
+  {
+    "id": 141974,
+    "adminnumber": "005",
+    "numberserial": "0527",
+    "formattedid": "005-0527",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.52,
+    "longitude": 1391659.34,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78875555555556,
+      "longitude": 139.28315000000003
+    }
+  },
+  {
+    "id": 141975,
+    "adminnumber": "005",
+    "numberserial": "0528",
+    "formattedid": "005-0528",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.79,
+    "longitude": 1391659.02,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78883055555555,
+      "longitude": 139.28306111111112
+    }
+  },
+  {
+    "id": 141976,
+    "adminnumber": "005",
+    "numberserial": "0529",
+    "formattedid": "005-0529",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.61,
+    "longitude": 1391657.67,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78878055555555,
+      "longitude": 139.2826861111111
+    }
+  },
+  {
+    "id": 141977,
+    "adminnumber": "005",
+    "numberserial": "0530",
+    "formattedid": "005-0530",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.99,
+    "longitude": 1391657.43,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788886111111104,
+      "longitude": 139.28261944444444
+    }
+  },
+  {
+    "id": 141978,
+    "adminnumber": "005",
+    "numberserial": "0531",
+    "formattedid": "005-0531",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.94,
+    "longitude": 1391656.62,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788872222222224,
+      "longitude": 139.2823944444445
+    }
+  },
+  {
+    "id": 141979,
+    "adminnumber": "005",
+    "numberserial": "0532",
+    "formattedid": "005-0532",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.68,
+    "longitude": 1391656.23,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788799999999995,
+      "longitude": 139.28228611111112
+    }
+  },
+  {
+    "id": 141980,
+    "adminnumber": "005",
+    "numberserial": "0534",
+    "formattedid": "005-0534",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.71,
+    "longitude": 1391655.47,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788808333333336,
+      "longitude": 139.282075
+    }
+  },
+  {
+    "id": 141981,
+    "adminnumber": "005",
+    "numberserial": "0535",
+    "formattedid": "005-0535",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354720.04,
+    "longitude": 1391654.76,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78889999999999,
+      "longitude": 139.2818777777778
+    }
+  },
+  {
+    "id": 141982,
+    "adminnumber": "005",
+    "numberserial": "0536",
+    "formattedid": "005-0536",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.71,
+    "longitude": 1391654.58,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788808333333336,
+      "longitude": 139.2818277777778
+    }
+  },
+  {
+    "id": 141983,
+    "adminnumber": "005",
+    "numberserial": "0537",
+    "formattedid": "005-0537",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.95,
+    "longitude": 1391653.5,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788875000000004,
+      "longitude": 139.2815277777778
+    }
+  },
+  {
+    "id": 141984,
+    "adminnumber": "005",
+    "numberserial": "0538",
+    "formattedid": "005-0538",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.63,
+    "longitude": 1391652.85,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78878611111111,
+      "longitude": 139.28134722222225
+    }
+  },
+  {
+    "id": 141985,
+    "adminnumber": "005",
+    "numberserial": "0539",
+    "formattedid": "005-0539",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.85,
+    "longitude": 1391652.02,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788847222222216,
+      "longitude": 139.2811166666667
+    }
+  },
+  {
+    "id": 141986,
+    "adminnumber": "005",
+    "numberserial": "0540",
+    "formattedid": "005-0540",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.55,
+    "longitude": 1391651.74,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78876388888889,
+      "longitude": 139.2810388888889
+    }
+  },
+  {
+    "id": 141987,
+    "adminnumber": "005",
+    "numberserial": "0479",
+    "formattedid": "005-0479",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.46,
+    "longitude": 1391650.72,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78873888888889,
+      "longitude": 139.28075555555557
+    }
+  },
+  {
+    "id": 141988,
+    "adminnumber": "005",
+    "numberserial": "0480",
+    "formattedid": "005-0480",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.78,
+    "longitude": 1391650.71,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78882777777778,
+      "longitude": 139.2807527777778
+    }
+  },
+  {
+    "id": 141989,
+    "adminnumber": "005",
+    "numberserial": "0481",
+    "formattedid": "005-0481",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.42,
+    "longitude": 1391649.56,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78872777777777,
+      "longitude": 139.28043333333335
+    }
+  },
+  {
+    "id": 141990,
+    "adminnumber": "005",
+    "numberserial": "0482",
+    "formattedid": "005-0482",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.67,
+    "longitude": 1391649.66,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788797222222215,
+      "longitude": 139.2804611111111
+    }
+  },
+  {
+    "id": 141991,
+    "adminnumber": "005",
+    "numberserial": "0483",
+    "formattedid": "005-0483",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.33,
+    "longitude": 1391648.03,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78870277777778,
+      "longitude": 139.28000833333334
+    }
+  },
+  {
+    "id": 141992,
+    "adminnumber": "005",
+    "numberserial": "0484",
+    "formattedid": "005-0484",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.57,
+    "longitude": 1391647.4,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78876944444445,
+      "longitude": 139.27983333333333
+    }
+  },
+  {
+    "id": 141993,
+    "adminnumber": "005",
+    "numberserial": "0485",
+    "formattedid": "005-0485",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.22,
+    "longitude": 1391646.84,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78867222222221,
+      "longitude": 139.2796777777778
+    }
+  },
+  {
+    "id": 141994,
+    "adminnumber": "005",
+    "numberserial": "0486",
+    "formattedid": "005-0486",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.48,
+    "longitude": 1391646.11,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78874444444444,
+      "longitude": 139.27947500000005
+    }
+  },
+  {
+    "id": 141995,
+    "adminnumber": "005",
+    "numberserial": "0487",
+    "formattedid": "005-0487",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.2,
+    "longitude": 1391646.05,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78866666666667,
+      "longitude": 139.27945833333337
+    }
+  },
+  {
+    "id": 141996,
+    "adminnumber": "005",
+    "numberserial": "0488",
+    "formattedid": "005-0488",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.42,
+    "longitude": 1391645.0,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78872777777777,
+      "longitude": 139.27916666666667
+    }
+  },
+  {
+    "id": 141997,
+    "adminnumber": "005",
+    "numberserial": "0489",
+    "formattedid": "005-0489",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.06,
+    "longitude": 1391643.95,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788627777777776,
+      "longitude": 139.278875
+    }
+  },
+  {
+    "id": 141998,
+    "adminnumber": "005",
+    "numberserial": "0490",
+    "formattedid": "005-0490",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.35,
+    "longitude": 1391643.93,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.788708333333325,
+      "longitude": 139.27886944444444
+    }
+  },
+  {
+    "id": 141999,
+    "adminnumber": "005",
+    "numberserial": "0541",
+    "formattedid": "005-0541",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.96,
+    "longitude": 1391642.39,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.7886,
+      "longitude": 139.27844166666665
+    }
+  },
+  {
+    "id": 142000,
+    "adminnumber": "005",
+    "numberserial": "0542",
+    "formattedid": "005-0542",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.24,
+    "longitude": 1391642.33,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78867777777777,
+      "longitude": 139.27842500000003
+    }
+  },
+  {
+    "id": 142021,
+    "adminnumber": "005",
+    "numberserial": "0543",
+    "formattedid": "005-0543",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.13,
+    "longitude": 1391609.43,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.786425,
+      "longitude": 139.26928611111111
+    }
+  },
+  {
+    "id": 142022,
+    "adminnumber": "005",
+    "numberserial": "0544",
+    "formattedid": "005-0544",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.67,
+    "longitude": 1391553.72,
+    "lightnumber": "005",
+    "wgsCoordinate": {
+      "latitude": 35.78657499999999,
+      "longitude": 139.26492222222222
+    }
+  }
+]

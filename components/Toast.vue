@@ -2,6 +2,7 @@
     <v-snackbar
       v-model="isOpen"
       timeout="3000"
+      location="top center"
     >
       {{ message }}
 

@@ -34,10 +34,10 @@ export default class Service {
   protected http = apiClient;
 
   /**
-   * 指定したURLよりファイルをダウンロードします。
+   * 指定したURLよりファイルをダウンロードし、ファイルに保存します。
    * @param url ファイル取得先のURL。URLは画像やExcelファイルなど単一ファイルを取得できるものである必要があります。
    */
-  protected download(url:string) {
+  protected downloadToSave(url:string) {
     this.http.get(url, {
       responseType: 'blob'
     }).then((res)=>{
@@ -51,6 +51,33 @@ export default class Service {
       document.body.appendChild(link);
       link.click();
     });
+  }
+
+  /**
+   * ファイルをメモリ上にダウンロードします。
+   * @param url ファイル取得先のURL。
+   * @returns 取得済ファイルへのURL。
+   */
+   protected downloadToUrl(url:string) {
+    return this.http.get(url, {
+      responseType: 'blob'
+    }).then((res)=>{
+      // 取得したバイナリをローカルのURLにします。（バイナリはメモリにストアされます）
+      return window.URL.createObjectURL(res.data);
+    });
+  }
+
+  /**
+   * 画像ファイルをダウンロードします。
+   * @param url ファイル取得先のURL
+   * @param noimageUrl 取得できない場合の代替画像
+   * @returns 取得済ファイルへのURL。このURLより画像を参照することができます。
+   */
+  protected downloadImageToUrl(url:string, noimageUrl = "/assets/img/noimage.png") {
+    return this.downloadToUrl(url)
+      .catch((e)=>{
+        return noimageUrl
+      });
   }
 
   /**

@@ -40,11 +40,11 @@
 </template>
 
 <script lang="ts">
-import { rockshedBlockImg } from '~~/types';
+import { RockshedBlockImg } from '~~/types';
 
 export default defineComponent({
   props: {
-    blockImgs: Array<rockshedBlockImg>
+    blockImgs: Array<RockshedBlockImg>
   },
   data() {
     return {

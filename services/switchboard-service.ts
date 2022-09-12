@@ -1,7 +1,7 @@
 import Service from "./service";
 
-import switchboardJson from "~~/assets/switchboard.json"
-import { Switchboard, SwitchboardSummary } from "~~/types";
+import switchboardJson from "~~/assets/switchboardSummary.json"
+import { Switchboard, AtfSummary } from "~~/types";
 
 /**
  * 配電盤系のAPIを提供します。
@@ -13,8 +13,8 @@ import { Switchboard, SwitchboardSummary } from "~~/types";
      */
     public getList() {
        // TODO: WebAPIによる実装に変更すること
-       return new Promise<[SwitchboardSummary]>((resolve)=>{
-          resolve(switchboardJson as [SwitchboardSummary])
+       return new Promise<[AtfSummary]>((resolve)=>{
+          resolve(switchboardJson as [AtfSummary])
        }) 
     }
 

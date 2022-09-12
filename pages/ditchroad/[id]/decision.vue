@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <ditchroad-side-card-details />
+        <ditchroad-side-card-details select-tab="protocol" />
       </v-col>
       <v-col md="9" cols="12">
         <roadfacility-decision title="掘割道路"></roadfacility-decision>

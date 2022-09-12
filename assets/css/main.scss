@@ -15,8 +15,8 @@ table.vgt-table select
     white-space: nowrap;
   }
   
-  input, select {
-    font-size: xx-small !important;  
+  input, select, textarea {
+    font-size: xx-small !important;
   }
   th {
     background-color: #eeeeee;
@@ -38,6 +38,12 @@ table.vgt-table select
   position: fixed;
   right: 1.2em;
   bottom: 1.2em;
+}
+
+.atfTable table{
+ th{
+  text-align: center !important;
+ }
 }
 
 /*施設詳細_道路施設(roadfacility)*/
@@ -77,4 +83,15 @@ table.vgt-table select
     font-size: xx-small !important;
     padding: 0%;
   }
+}
+
+.noborder {
+  tr, td, th {
+    border: 0px none !important;
+    background-color: transparent !important;
+  }
+}
+
+.cell {
+  border: 1px solid #dedede;
 }

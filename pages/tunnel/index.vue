@@ -1,110 +1,79 @@
 <template>
-  
   <v-card>
     <v-tabs v-model="tab" color="primary">
       <v-tab value="list">一覧</v-tab>
       <v-tab value="map">地図</v-tab>
     </v-tabs>
-
     <v-card-text>
       <v-window v-model="tab">
-        <!-- 一覧 tab --> 
+        <!-- 一覧 tab -->
         <v-window-item value="list">
-          <v-container>
+          <v-col>
             <v-row justify="end">
-              <v-btn v-on:click="clickFAdvancedSearch()"
-                color= "primary"
-              >
+              <v-btn v-on:click="clickFAdvancedSearch()" color="primary" size="small">
                 詳細検索
               </v-btn>
-              <v-btn class="ml-2" v-on:click="clickOutputCSV()"
-                color="primary"
-              >
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()" color="primary" size="small">
                 一覧出力
               </v-btn>
             </v-row>
-          </v-container>
-            <div>
-                <vue-good-table
-                :columns="columns"
-                :rows="tunnels"
-                :pagination-options="{
-                  enabled: true
-                }">
-                    <template #table-row="props">
-                    <span v-if="props.column.field == 'OutLedgerBtn'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputLedger()">
-                          Excel
-                        </v-btn>
-                    </span>
-                    <span v-else-if="props.column.field == 'OutRecodeBtn'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputRecode()">
-                          Excel
-                        </v-btn>
-                    </span>
-                    <span v-else-if="props.column.field == 'OutNationalBtn'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
-                          Excel
-                        </v-btn>
-                    </span>
-                    <span v-else-if="props.column.field == 'bridge_name'">
-                      <nuxt-link to="/bridge/ledger1">{{props.formattedRow[props.column.field]}}</nuxt-link>
-                    </span>
-                    <span v-else>
-                        {{props.formattedRow[props.column.field]}}
-                    </span>
-                    </template>
-                </vue-good-table>
-            </div>
+          </v-col>
+          <div class="mt-2">
+            <vue-good-table :columns="columns" :rows="tunnels" :pagination-options="{
+              enabled: true
+            }">
+              <template #table-row="props">
+                <span v-if="props.column.field == 'OutLedgerBtn'">
+                  <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputLedger()">
+                    Excel
+                  </v-btn>
+                </span>
+                <span v-else-if="props.column.field == 'OutRecodeBtn'">
+                  <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputRecode()">
+                    Excel
+                  </v-btn>
+                </span>
+                <span v-else-if="props.column.field == 'OutNationalBtn'">
+                  <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
+                    Excel
+                  </v-btn>
+                </span>
+                <span v-else-if="props.column.field == 'name'">
+                  <nuxt-link to="/tunnel/ledgerA1">{{ props.formattedRow[props.column.field] }}</nuxt-link>
+                </span>
+                <span v-else>
+                  {{ props.formattedRow[props.column.field] }}
+                </span>
+              </template>
+            </vue-good-table>
+          </div>
         </v-window-item>
-        <!-- 地図 tab --> 
-        <v-window-item value='list'>
-          <v-container>
-            <v-row justify="end">
-              <v-btn v-on:click="clickFind()"
-                color= "primary"
-              >
+        <!-- 地図 tab -->
+        <v-window-item value="map">
+          <v-col>
+            <v-row justify="end" class="mr-2">
+              <v-btn v-on:click="clickFind()" color="primary" size="small">
                 検索条件
               </v-btn>
-              <v-menu
-                v-model="showMarkerList"
-                :close-on-content-click="false"
-                location="bottom end"
-              >
+              <v-menu v-model="showMarkerList" :close-on-content-click="false" location="bottom end" size="small">
                 <template v-slot:activator="{ props }">
-                  <v-btn
-                    class="ml-2"
-                    color="primary"
-                    v-bind="props"
-                  >
+                  <v-btn class="ml-2" color="primary" v-bind="props" size="small">
                     施設一覧
                   </v-btn>
                 </template>
 
                 <v-card>
                   <v-container>
-                    <vue-good-table
-                    :columns="columnsOverlay"
-                    :rows="rows"
-                    @row-click="clickMarkerListRow"
-                    >
+                    <vue-good-table :columns="columnsOverlay" :rows="rows" @row-click="clickMarkerListRow">
                     </vue-good-table>
                   </v-container>
                 </v-card>
               </v-menu>
             </v-row>
-          </v-container>
-
-
-          <!-- 地図 --> 
+          </v-col>
+          <!-- 地図 -->
           <v-card style="height: 78vh; width: 94vw">
-            <ams-map
-              :zoom="zoom"
-              :center="center"
-              :markers="tunnels"
-              marker-title="name"
-              @click-marker="clickMarker"
-              />
+            <ams-map :zoom="zoom" :center="center" :markers="tunnels" marker-title="name" @click-marker="clickMarker" />
           </v-card>
         </v-window-item>
       </v-window>
@@ -116,6 +85,7 @@
 </template>
 
 <script lang="ts">
+import tunnelsJson from "@/assets/tunnel.json"
 
 export default defineComponent({
   data() {
@@ -124,9 +94,9 @@ export default defineComponent({
       tab: 'list',
       zoom: 15,
       center: [35.79112, 139.27753],
-      tunnels: [],
-      officeDropdwonItem: ['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
-      routeDropdownItem:['一般都道十里木御岳停車場線201号','主要地方道青梅おきる野線31号','一般国道411号','一般都道川野上川乗線206号','主要地方道杉並あきる野線7号'],
+      tunnels: tunnelsJson,
+      officeDropdwonItem: ['第一建設事務所', '第二建設事務所', '第三建設事務所', '第四建設事務所', '西多摩建設事務所'],
+      routeDropdownItem: ['一般都道十里木御岳停車場線201号', '主要地方道青梅おきる野線31号', '一般国道411号', '一般都道川野上川乗線206号', '主要地方道杉並あきる野線7号'],
       // 一覧の列情報
       columns: [
         {
@@ -134,28 +104,28 @@ export default defineComponent({
           field: 'name',
           sortable: false,
           filterOptions: {
-        	  enabled: true,
+            enabled: true,
             placeholder: '施設名入力',
           },
         },
         {
           label: '事務所',
           field: 'office',
-          width: '14em',          
+          width: '14em',
           sortable: false,
           filterOptions: {
-        	  enabled: true,
+            enabled: true,
             placeholder: '-選択-',
             filterDropdownItems: [],
-         },
+          },
         },
         {
           label: '工区',
-          field: '',
-          width: '10em',          
+          field: 'area',
+          width: '10em',
           sortable: false,
           filterOptions: {
-        	  enabled: true,
+            enabled: true,
             placeholder: '工区入力',
           },
         },
@@ -164,17 +134,16 @@ export default defineComponent({
           field: 'route_name',
           sortable: false,
           filterOptions: {
-        	  enabled: true,
-            placeholder: '-選択-',
-            filterDropdownItems: [],
-         },
+            enabled: true,
+            placeholder: '路線名入力',
+          },
         },
         {
           label: '区市町村名',
-          field: '',
+          field: 'formattedCity',
           sortable: false,
           filterOptions: {
-        	  enabled: true,
+            enabled: true,
             placeholder: '区市町村名入力',
           },
         },
@@ -204,7 +173,7 @@ export default defineComponent({
           field: 'code',
           sortable: false,
           filterOptions: {
-        	  enabled: true,
+            enabled: true,
             placeholder: '施設名入力',
           },
         },
@@ -213,10 +182,10 @@ export default defineComponent({
           field: 'route_name',
           sortable: false,
           filterOptions: {
-        	  enabled: true,
+            enabled: true,
             placeholder: '--選択--',
             filterDropdownItems: [],
-         },
+          },
         },
       ],
       // 一覧のレコード
@@ -225,24 +194,25 @@ export default defineComponent({
       showTable: false,
     };
   },
-  mounted: function() {
-    const map2OfficeDropDown = (c)=>{
+  mounted: function () {
+    const map2OfficeDropDown = (c) => {
       let modified = c;
-      if(modified.field == 'office') {
+      if (modified.field == 'office') {
         modified.filterOptions.filterDropdownItems = this.officeDropdwonItem
       }
-      else if(modified.field == 'route_name'){
+      else if (modified.field == 'route_name') {
         modified.filterOptions.filterDropdownItems = this.routeDropdownItem
       }
       return modified
     };
     this.columns = this.columns.map(map2OfficeDropDown);
     this.columnsOverlay = this.columnsOverlay.map(map2OfficeDropDown);
+    this.rows = tunnelsJson;
   },
   computed: {
-      makeDateRangeText () {
-        return this.makedates.join(' ~ ')
-      },    
+    makeDateRangeText() {
+      return this.makedates.join(' ~ ')
+    },
   },
   methods: {
     clickFind() {
@@ -256,22 +226,22 @@ export default defineComponent({
     clickMarker(m) {
       console.info('clickMaker', m);
       /* TODO: 詳細画面遷移のとき、橋IDを詳細画面に渡す必要あり */
-      navigateTo('/bridge/ledger1');
+      navigateTo('/tunnel/ledgerA1');
     },
-    clickFAdvancedSearch(){
+    clickFAdvancedSearch() {
       console.debug('clickFAdvancedSearch');
       this.showFind = !this.showFind;
     },
-    clickOutputCSV(){
-      console.debug('clickOutputCSV'+this.rows);
+    clickOutputCSV() {
+      console.debug('clickOutputCSV' + this.rows);
     },
-    clickOutputLedger(){
+    clickOutputLedger() {
       console.debug('clickOutputLedger');
     },
-    clickOutputRecode(){
+    clickOutputRecode() {
       console.debug('clickOutputRecode');
     },
-    clickOutputNational(){
+    clickOutputNational() {
       console.debug('clickOutputNational');
     },
     clickMarkerListRow(e) {

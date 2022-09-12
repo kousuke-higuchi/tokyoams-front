@@ -12,7 +12,7 @@
         <v-window-item value="list">
           <v-col>
             <v-row justify="end">
-              <v-btn v-on:click="clickFAdvancedSearch()"
+              <v-btn v-on:click="onAdvancedSearchClick()"
                 color= "primary"
                 size="small"
               >
@@ -35,37 +35,32 @@
                 }">
                     <template #table-row="props">
                     <span v-if="props.column.field == 'OutLedgerBtn'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputLedger()">
+                        <v-btn class="btn" color="primary" dark size="small" v-on:click="onOutputLedgerClick()">
                           Excel
                         </v-btn>
                     </span>
                     <span v-else-if="props.column.field == 'OutRecodeBtn'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputRecode()">
+                        <v-btn class="btn" color="primary" dark size="small" v-on:click="onOutputRecodeClick()">
                           Excel
                         </v-btn>
                     </span>
                     <span v-else-if="props.column.field == 'OutNationalBtn'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
-                          Excel
-                        </v-btn>
-                    </span>
-                    <span v-else-if="props.column.field == 'OutNationalBtn'">
-                        <v-btn class="btn" color="primary" dark size="small" v-on:click="clickOutputNational()">
+                        <v-btn class="btn" color="primary" dark size="small" v-on:click="onOutputNationalClick()">
                           Excel
                         </v-btn>
                     </span>
                     <span v-else-if="props.column.field == 'Connect3dSystem'">
-                        <v-btn class="btn" color="success" dark size="small" v-on:click="clickOutputNational()">
+                        <v-btn class="btn" color="success" dark size="small" v-on:click="onOutputNationalClick()">
                           3Dシステム
                         </v-btn>
                     </span>
                     <span v-else-if="props.column.field == 'ConnectDocSystem'">
-                        <v-btn class="btn" color="success" dark size="small" v-on:click="clickOutputNational()">
+                        <v-btn class="btn" color="success" dark size="small" v-on:click="onOutputNationalClick()">
                           成果品
                         </v-btn>
                     </span>
                     <span v-else-if="props.column.field == 'bridge_name'">
-                      <nuxt-link to="/bridge/ledger1">{{props.formattedRow[props.column.field]}}</nuxt-link>
+                      <nuxt-link :to="`/bridge/${props.row.id}/${props.row.bridge_name} ${props.row.code}/ledger1`">{{props.formattedRow[props.column.field]}}</nuxt-link>
                     </span>
                     <span v-else>
                         {{props.formattedRow[props.column.field]}}
@@ -78,7 +73,7 @@
         <v-window-item value="map">
           <v-col>
             <v-row justify="end" class="mr-2">
-              <v-btn v-on:click="clickFind()"
+              <v-btn v-on:click="onAdvancedSearchClick()"
                 color= "primary"
                 size="small"
               >
@@ -106,7 +101,7 @@
                     <vue-good-table
                     :columns="columnsOverlay"
                     :rows="rows"
-                    @row-click="clickMarkerListRow"
+                    @row-click="onMarkerListRowClick"
                     >
                     </vue-good-table>
                   </v-container>
@@ -123,7 +118,7 @@
               :center="center"
               :markers="bridges"
               marker-title="bridge_name"
-              @click-marker="clickMarker"
+              @click-marker="onMarkerClick"
               />
           </v-card>
         </v-window-item>
@@ -138,15 +133,20 @@
 <script lang="ts">
 import bridgesJson from "@/assets/bridge.json"
 import bridgeService from "@/services/bridge-service"
+import { BridgeSummary } from "~~/types/bridge";
 
 export default defineComponent({
+  setup() {
+    const selectFacilityValue = ref('');
+    provide('selectFacility', selectFacilityValue);
+  },
   data() {
     return {
       showMarkerList: false,
       tab: 'list',
       zoom: 15,
       center: [35.79112, 139.27753],
-      bridges: bridgesJson,
+      bridges: [] as Array<BridgeSummary>,
       officeDropdwonItem: ['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
       routeDropdownItem:['一般都道十里木御岳停車場線201号','主要地方道青梅おきる野線31号','一般国道411号','一般都道川野上川乗線206号','主要地方道杉並あきる野線7号'],
       // 一覧の列情報
@@ -192,7 +192,7 @@ export default defineComponent({
         },
         {
           label: '区市町村名',
-          field: 'formattedCity',
+          field: 'formattedAddress',
           sortable: false,
           filterOptions: {
         	  enabled: true,
@@ -213,12 +213,6 @@ export default defineComponent({
         },
         {
           label: '国様式',
-          field: 'OutNationalBtn',
-          filterable: false,
-          sortable: false,
-        },
-        {
-          label: '耐震台帳',
           field: 'OutNationalBtn',
           filterable: false,
           sortable: false,
@@ -265,6 +259,20 @@ export default defineComponent({
     };
   },
   mounted: function() {
+
+    //TODO:モック終了後、ログイン状態の判定は削除。    
+    //TODO: 現在は、地図の中心を設定していない。officeid=10のuserでloginする
+    const authState = useAuthUser();
+    if (authState.state.value.isLogin) {
+      bridgeService.getList(authState.state.value.currentUser.officeid).then(s => {
+        this.bridges = s.data;
+        console.log(this.pavements);
+      })
+    }
+    else {
+      this.bridges = bridgesJson;
+    }
+
     const map2OfficeDropDown = (c)=>{
       let modified = c;
       if(modified.field == 'office') {
@@ -285,41 +293,32 @@ export default defineComponent({
       },    
   },
   methods: {
-    clickFind() {
-      console.debug('clickFind');
-      this.showFind = !this.showFind;
+    onMarkerClick(m) {
+      console.info('onMarkerClick', m);
+      navigateTo(`/bridge/${m.id}/${m.bridge_name + " " + m.code}/ledger1`);
     },
-    clickShowTables() {
-      console.debug('clickShowTables ' + this.showTable);
-      this.showTable = !this.showTable;
-    },
-    clickMarker(m) {
-      console.info('clickMaker', m);
-      /* TODO: 詳細画面遷移のとき、橋IDを詳細画面に渡す必要あり */
-      navigateTo('/bridge/ledger1');
-    },
-    clickFAdvancedSearch(){
-      console.debug('clickFAdvancedSearch');
+    onAdvancedSearchClick(){
+      console.debug('onAdvancedSearchClick');
       this.showFind = !this.showFind;
     },
     onExportButtonClick(){
       console.info('CSV出力ボタンをクリックしました');
       bridgeService.downloadExcelList();
     },
-    clickOutputLedger(){
-      console.debug('clickOutputLedger');
+    onOutputLedgerClick(){
+      console.debug('onOutputLedgerClick');
     },
-    clickOutputRecode(){
-      console.debug('clickOutputRecode');
+    onOutputRecodeClick(){
+      console.debug('onOutputRecodeClick');
     },
-    clickOutputNational(){
-      console.debug('clickOutputNational');
+    onOutputNationalClick(){
+      console.debug('onOutputNationalClick');
     },
-    clickMarkerListRow(e) {
+    onMarkerListRowClick(e) {
       const bridge = e.row;
-      // this.center = [bridge.latitude, bridge.longitude];
-      console.debug('clickMarkerList',bridge);
-    }
+      console.debug('onMarkerListRowClick',bridge);
+      this.moveLedger(bridge.id, bridge.bridge_name, bridge.code);
+    },
   },
 });
 </script>

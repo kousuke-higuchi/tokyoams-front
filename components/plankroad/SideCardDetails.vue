@@ -76,7 +76,7 @@
               メモ
             </v-col>
             <v-col cols="12" sm="9">
-              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" hide-details="false"></v-textarea>
+              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" :hide-details="false"></v-textarea>
             </v-col>
           </v-row>
         </v-card-text>
@@ -100,7 +100,11 @@ export default defineComponent({
   components: {
     Datepicker,
   },
-  setup(){
+  props: {
+    selectTab: { type: String, default: "ledger" },
+  },
+  setup(prop, context) {
+    console.log("setup ideCardDetails : ", prop.selectTab);
     const route = useRoute()
     return{
       route
@@ -112,27 +116,26 @@ export default defineComponent({
       saveDateMemo: null,
       tabSide: 'ledger',
       btnLedger: [
-        { title: '様式-1', props: { to: `/rockshed/${this.$route.params.id}/ledger1` } },
-        { title: '様式-1 補修調書', props: { to: `/rockshed/${this.$route.params.id}/ledger1Repair` } },
-        { title: '様式-1\'', props: { to: `/rockshed/${this.$route.params.id}/ledger1Dush` } },
-        { title: '様式-2', props: { to: `/rockshed/${this.$route.params.id}/ledger2` } },
-        { title: '様式-3', props: { to: `/rockshed/${this.$route.params.id}/ledger3` } },
+        { title: '様式-1', props: { to: `/plankroad/${this.$route.params.id}/ledger1` } },
+        { title: '様式-1\'', props: { to: `/plankroad/${this.$route.params.id}/ledger1Dush` } },
+        { title: '様式-2', props: { to: `/plankroad/${this.$route.params.id}/ledger2` } },
+        { title: '様式-3', props: { to: `/plankroad/${this.$route.params.id}/ledger3` } },
       ],
       btnProtocol: [
-        { title: '様式-8', props: { to: `/rockshed/${this.$route.params.id}/protocol8` } },
-        { title: '様式-9', props: { to: `/rockshed/${this.$route.params.id}/protocol9` } },
-        { title: '様式-10', props: { to: `/rockshed/${this.$route.params.id}/protocol10` } },
-        { title: '判定表', props: { to: `/rockshed/${this.$route.params.id}/decision` } },
-        { title: '判定表(附属物)', props: { to: `/rockshed/${this.$route.params.id}/appendageDecision` } },
+        { title: '様式-8', props: { to: `/plankroad/${this.$route.params.id}/protocol8` } },
+        { title: '様式-9', props: { to: `/plankroad/${this.$route.params.id}/protocol9` } },
+        { title: '様式-10', props: { to: `/plankroad/${this.$route.params.id}/protocol10` } },
+        { title: '判定表', props: { to: `/plankroad/${this.$route.params.id}/decision` } },
+        { title: '判定表(附属物)', props: { to: `/plankroad/${this.$route.params.id}/appendageDecision` } },
       ],
       btnNation: [
-        { title: '様式・国1', props: { to: `/rockshed/${this.$route.params.id}/nation1` } },
-        { title: '様式・国2', props: { to: `/rockshed/${this.$route.params.id}/nation2` } },
-        { title: '様式・国3', props: { to: `/rockshed/${this.$route.params.id}/nation3` } },
-        { title: '様式・国4', props: { to: `/rockshed/${this.$route.params.id}/nation4` } },
-        { title: '様式・国5A', props: { to: `/rockshed/${this.$route.params.id}/nation5A` } },
-        { title: '様式・国5B', props: { to: `/rockshed/${this.$route.params.id}/nation5B` } },
-        { title: '様式・国5C', props: { to: `/rockshed/${this.$route.params.id}/nation5C` } },
+        { title: '様式・国1', props: { to: `/plankroad/${this.$route.params.id}/nation1` } },
+        { title: '様式・国2', props: { to: `/plankroad/${this.$route.params.id}/nation2` } },
+        { title: '様式・国3', props: { to: `/plankroad/${this.$route.params.id}/nation3` } },
+        { title: '様式・国4', props: { to: `/plankroad/${this.$route.params.id}/nation4` } },
+        { title: '様式・国5A', props: { to: `/plankroad/${this.$route.params.id}/nation5A` } },
+        { title: '様式・国5B', props: { to: `/plankroad/${this.$route.params.id}/nation5B` } },
+        { title: '様式・国5C', props: { to: `/plankroad/${this.$route.params.id}/nation5C` } },
       ],
       noteColumns: [
         {
@@ -157,6 +160,7 @@ export default defineComponent({
     }
   },
   mounted: function () {
+    this.tabSide = this.selectTab;
     console.log("mounted SideCardDetails : ", this.tabSide);
     this.saveDateMemo = this.getDate();
   },

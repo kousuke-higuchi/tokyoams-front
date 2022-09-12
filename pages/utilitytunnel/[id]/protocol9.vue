@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <utilitytunnel-side-card-details />
+        <utilitytunnel-side-card-details select-tab="protocol" />
       </v-col>
       <v-col md="9" cols="12">
         <roadfacility-protocol9></roadfacility-protocol9>

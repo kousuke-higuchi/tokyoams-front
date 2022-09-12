@@ -1,0 +1,2955 @@
+[
+  {
+    "id": 3340,
+    "adminnumber": "308-411",
+    "numberserial": "6019",
+    "formattedid": "308-411-6019",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354736.73,
+    "longitude": 1390420.97,
+    "wgsCoordinate": {
+      "latitude": 35.7935361111111,
+      "longitude": 139.07249166666665
+    }
+  },
+  {
+    "id": 3341,
+    "adminnumber": "308-411",
+    "numberserial": "6020",
+    "formattedid": "308-411-6020",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354741.09,
+    "longitude": 1390409.66,
+    "wgsCoordinate": {
+      "latitude": 35.79474722222223,
+      "longitude": 139.06935
+    }
+  },
+  {
+    "id": 3342,
+    "adminnumber": "308-411",
+    "numberserial": "6021",
+    "formattedid": "308-411-6021",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354739.06,
+    "longitude": 1390333.8,
+    "wgsCoordinate": {
+      "latitude": 35.79418333333333,
+      "longitude": 139.05938888888892
+    }
+  },
+  {
+    "id": 3343,
+    "adminnumber": "308-411",
+    "numberserial": "6022",
+    "formattedid": "308-411-6022",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354734.94,
+    "longitude": 1390330.38,
+    "wgsCoordinate": {
+      "latitude": 35.79303888888889,
+      "longitude": 139.05843888888887
+    }
+  },
+  {
+    "id": 3344,
+    "adminnumber": "308-411",
+    "numberserial": "6023",
+    "formattedid": "308-411-6023",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354734.85,
+    "longitude": 1390330.01,
+    "wgsCoordinate": {
+      "latitude": 35.79301388888888,
+      "longitude": 139.05833611111112
+    }
+  },
+  {
+    "id": 3345,
+    "adminnumber": "308-411",
+    "numberserial": "6024",
+    "formattedid": "308-411-6024",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354736.19,
+    "longitude": 1390327.92,
+    "wgsCoordinate": {
+      "latitude": 35.79338611111111,
+      "longitude": 139.05775555555556
+    }
+  },
+  {
+    "id": 3346,
+    "adminnumber": "308-411",
+    "numberserial": "6025",
+    "formattedid": "308-411-6025",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354739.71,
+    "longitude": 1390326.28,
+    "wgsCoordinate": {
+      "latitude": 35.794363888888896,
+      "longitude": 139.05730000000003
+    }
+  },
+  {
+    "id": 3347,
+    "adminnumber": "308-411",
+    "numberserial": "6027",
+    "formattedid": "308-411-6027",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354709.99,
+    "longitude": 1390233.63,
+    "wgsCoordinate": {
+      "latitude": 35.78610833333333,
+      "longitude": 139.04267499999997
+    }
+  },
+  {
+    "id": 3348,
+    "adminnumber": "308-411",
+    "numberserial": "6029",
+    "formattedid": "308-411-6029",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354700.39,
+    "longitude": 1390237.97,
+    "wgsCoordinate": {
+      "latitude": 35.78344166666667,
+      "longitude": 139.04388055555555
+    }
+  },
+  {
+    "id": 3349,
+    "adminnumber": "308-411",
+    "numberserial": "6030",
+    "formattedid": "308-411-6030",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354642.03,
+    "longitude": 1390058.07,
+    "wgsCoordinate": {
+      "latitude": 35.77834166666668,
+      "longitude": 139.01613055555558
+    }
+  },
+  {
+    "id": 3350,
+    "adminnumber": "308-411",
+    "numberserial": "6033",
+    "formattedid": "308-411-6033",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354712.71,
+    "longitude": 1390233.79,
+    "wgsCoordinate": {
+      "latitude": 35.786863888888895,
+      "longitude": 139.04271944444446
+    }
+  },
+  {
+    "id": 3351,
+    "adminnumber": "308-411",
+    "numberserial": "6034",
+    "formattedid": "308-411-6034",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354712.2,
+    "longitude": 1390232.89,
+    "wgsCoordinate": {
+      "latitude": 35.786722222222224,
+      "longitude": 139.0424694444444
+    }
+  },
+  {
+    "id": 3352,
+    "adminnumber": "308-411",
+    "numberserial": "6036",
+    "formattedid": "308-411-6036",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354739.34,
+    "longitude": 1390248.61,
+    "wgsCoordinate": {
+      "latitude": 35.79426111111112,
+      "longitude": 139.04683611111113
+    }
+  },
+  {
+    "id": 3353,
+    "adminnumber": "307-3205",
+    "numberserial": "6003",
+    "formattedid": "307-3205-6003",
+    "routename": "（一２０５）水根本宿線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354408.21,
+    "longitude": 1390842.28,
+    "wgsCoordinate": {
+      "latitude": 35.73561388888889,
+      "longitude": 139.14507777777777
+    }
+  },
+  {
+    "id": 3354,
+    "adminnumber": "305-3184",
+    "numberserial": "6001",
+    "formattedid": "305-3184-6001",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354421.93,
+    "longitude": 1391653.83,
+    "wgsCoordinate": {
+      "latitude": 35.739425,
+      "longitude": 139.2816194444445
+    }
+  },
+  {
+    "id": 3355,
+    "adminnumber": "305-3184",
+    "numberserial": "6002",
+    "formattedid": "305-3184-6002",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354421.69,
+    "longitude": 1391702.04,
+    "wgsCoordinate": {
+      "latitude": 35.739358333333335,
+      "longitude": 139.28390000000002
+    }
+  },
+  {
+    "id": 3356,
+    "adminnumber": "305-3184",
+    "numberserial": "6003",
+    "formattedid": "305-3184-6003",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354421.68,
+    "longitude": 1391702.9,
+    "wgsCoordinate": {
+      "latitude": 35.739355555555555,
+      "longitude": 139.28413888888886
+    }
+  },
+  {
+    "id": 3357,
+    "adminnumber": "307-3205",
+    "numberserial": "6004",
+    "formattedid": "307-3205-6004",
+    "routename": "（一２０５）水根本宿線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354347.07,
+    "longitude": 1390836.8,
+    "wgsCoordinate": {
+      "latitude": 35.72974166666667,
+      "longitude": 139.14355555555557
+    }
+  },
+  {
+    "id": 3358,
+    "adminnumber": "307-3206",
+    "numberserial": "6009",
+    "formattedid": "307-3206-6009",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354405.59,
+    "longitude": 1390223.51,
+    "wgsCoordinate": {
+      "latitude": 35.734886111111116,
+      "longitude": 139.0398638888889
+    }
+  },
+  {
+    "id": 3359,
+    "adminnumber": "308-3206",
+    "numberserial": "6010",
+    "formattedid": "308-3206-6010",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354635.14,
+    "longitude": 1390034.37,
+    "wgsCoordinate": {
+      "latitude": 35.77642777777778,
+      "longitude": 139.00954722222227
+    }
+  },
+  {
+    "id": 3360,
+    "adminnumber": "308-411",
+    "numberserial": "6042",
+    "formattedid": "308-411-6042",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354644.23,
+    "longitude": 1390036.85,
+    "wgsCoordinate": {
+      "latitude": 35.778952777777775,
+      "longitude": 139.01023611111114
+    }
+  },
+  {
+    "id": 3361,
+    "adminnumber": "308-3184",
+    "numberserial": "6009",
+    "formattedid": "308-3184-6009",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354807.89,
+    "longitude": 1390634.65,
+    "wgsCoordinate": {
+      "latitude": 35.802191666666666,
+      "longitude": 139.10962499999997
+    }
+  },
+  {
+    "id": 3362,
+    "adminnumber": "307-3206",
+    "numberserial": "6012",
+    "formattedid": "307-3206-6012",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354347.21,
+    "longitude": 1390238.16,
+    "wgsCoordinate": {
+      "latitude": 35.729780555555564,
+      "longitude": 139.0439333333333
+    }
+  },
+  {
+    "id": 3363,
+    "adminnumber": "308-3206",
+    "numberserial": "6011",
+    "formattedid": "308-3206-6011",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354629.3,
+    "longitude": 1390051.58,
+    "wgsCoordinate": {
+      "latitude": 35.77480555555555,
+      "longitude": 139.0143277777778
+    }
+  },
+  {
+    "id": 3364,
+    "adminnumber": "308-3206",
+    "numberserial": "6013",
+    "formattedid": "308-3206-6013",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354619.55,
+    "longitude": 1390101.83,
+    "wgsCoordinate": {
+      "latitude": 35.77209722222222,
+      "longitude": 139.01717500000004
+    }
+  },
+  {
+    "id": 3365,
+    "adminnumber": "308-411",
+    "numberserial": "6043",
+    "formattedid": "308-411-6043",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354739.43,
+    "longitude": 1390248.98,
+    "wgsCoordinate": {
+      "latitude": 35.794286111111106,
+      "longitude": 139.0469388888889
+    }
+  },
+  {
+    "id": 3366,
+    "adminnumber": "308-411",
+    "numberserial": "6002",
+    "formattedid": "308-411-6002",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354819.97,
+    "longitude": 1390537.29,
+    "wgsCoordinate": {
+      "latitude": 35.80554722222221,
+      "longitude": 139.0936916666667
+    }
+  },
+  {
+    "id": 3367,
+    "adminnumber": "305-1031",
+    "numberserial": "B006",
+    "formattedid": "305-1031-B006",
+    "routename": "（主３１）青梅あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354523.06,
+    "longitude": 1391442.64,
+    "wgsCoordinate": {
+      "latitude": 35.75640555555555,
+      "longitude": 139.24517777777774
+    }
+  },
+  {
+    "id": 3368,
+    "adminnumber": "308-411",
+    "numberserial": "6040A",
+    "formattedid": "308-411-6040A",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354648.61,
+    "longitude": 1390058.13,
+    "wgsCoordinate": {
+      "latitude": 35.78016944444444,
+      "longitude": 139.0161472222222
+    }
+  },
+  {
+    "id": 3369,
+    "adminnumber": "308-411",
+    "numberserial": "6041",
+    "formattedid": "308-411-6041",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354829.9,
+    "longitude": 1390549.4,
+    "wgsCoordinate": {
+      "latitude": 35.808305555555556,
+      "longitude": 139.09705555555553
+    }
+  },
+  {
+    "id": 3370,
+    "adminnumber": "308-3206",
+    "numberserial": "6014",
+    "formattedid": "308-3206-6014",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354604.66,
+    "longitude": 1390107.54,
+    "wgsCoordinate": {
+      "latitude": 35.767961111111106,
+      "longitude": 139.01876111111113
+    }
+  },
+  {
+    "id": 3371,
+    "adminnumber": "303-1005",
+    "numberserial": "6001",
+    "formattedid": "303-1005-6001",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "瑞穂町",
+    "latitude": 354603.46,
+    "longitude": 1392058.35,
+    "wgsCoordinate": {
+      "latitude": 35.76762777777778,
+      "longitude": 139.3495416666667
+    }
+  },
+  {
+    "id": 3372,
+    "adminnumber": "303-1005",
+    "numberserial": "6002",
+    "formattedid": "303-1005-6002",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "瑞穂町",
+    "latitude": 354604.49,
+    "longitude": 1392055.74,
+    "wgsCoordinate": {
+      "latitude": 35.767913888888884,
+      "longitude": 139.34881666666666
+    }
+  },
+  {
+    "id": 3373,
+    "adminnumber": "303-1005",
+    "numberserial": "6003",
+    "formattedid": "303-1005-6003",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "瑞穂町",
+    "latitude": 354615.0,
+    "longitude": 1392036.57,
+    "wgsCoordinate": {
+      "latitude": 35.770833333333336,
+      "longitude": 139.3434916666667
+    }
+  },
+  {
+    "id": 3374,
+    "adminnumber": "303-1005",
+    "numberserial": "6004",
+    "formattedid": "303-1005-6004",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "瑞穂町",
+    "latitude": 354615.61,
+    "longitude": 1392035.83,
+    "wgsCoordinate": {
+      "latitude": 35.771002777777774,
+      "longitude": 139.34328611111115
+    }
+  },
+  {
+    "id": 3375,
+    "adminnumber": "228-1007",
+    "numberserial": "6003",
+    "formattedid": "228-1007-6003",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354311.67,
+    "longitude": 1391927.52,
+    "wgsCoordinate": {
+      "latitude": 35.71990833333333,
+      "longitude": 139.32431111111111
+    }
+  },
+  {
+    "id": 3376,
+    "adminnumber": "228-1007",
+    "numberserial": "6004",
+    "formattedid": "228-1007-6004",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354311.25,
+    "longitude": 1391924.71,
+    "wgsCoordinate": {
+      "latitude": 35.719791666666666,
+      "longitude": 139.32353055555555
+    }
+  },
+  {
+    "id": 3377,
+    "adminnumber": "228-1007",
+    "numberserial": "6006",
+    "formattedid": "228-1007-6006",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354343.81,
+    "longitude": 1391712.4,
+    "wgsCoordinate": {
+      "latitude": 35.728836111111114,
+      "longitude": 139.28677777777776
+    }
+  },
+  {
+    "id": 3378,
+    "adminnumber": "228-1007",
+    "numberserial": "6007",
+    "formattedid": "228-1007-6007",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354344.62,
+    "longitude": 1391712.4,
+    "wgsCoordinate": {
+      "latitude": 35.729061111111115,
+      "longitude": 139.28677777777776
+    }
+  },
+  {
+    "id": 3379,
+    "adminnumber": "227-1029",
+    "numberserial": "6004",
+    "formattedid": "227-1029-6004",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354510.68,
+    "longitude": 1391847.8,
+    "wgsCoordinate": {
+      "latitude": 35.752966666666666,
+      "longitude": 139.3132777777778
+    }
+  },
+  {
+    "id": 3380,
+    "adminnumber": "227-1029",
+    "numberserial": "6006",
+    "formattedid": "227-1029-6006",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354542.15,
+    "longitude": 1391809.53,
+    "wgsCoordinate": {
+      "latitude": 35.76170833333334,
+      "longitude": 139.30264722222225
+    }
+  },
+  {
+    "id": 3381,
+    "adminnumber": "227-1029",
+    "numberserial": "6008",
+    "formattedid": "227-1029-6008",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354537.99,
+    "longitude": 1391838.47,
+    "wgsCoordinate": {
+      "latitude": 35.760552777777775,
+      "longitude": 139.31068611111112
+    }
+  },
+  {
+    "id": 3382,
+    "adminnumber": "228-1033",
+    "numberserial": "6009",
+    "formattedid": "228-1033-6009",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354328.69,
+    "longitude": 1391007.44,
+    "wgsCoordinate": {
+      "latitude": 35.72463611111112,
+      "longitude": 139.1687333333333
+    }
+  },
+  {
+    "id": 3383,
+    "adminnumber": "228-1033",
+    "numberserial": "6011",
+    "formattedid": "228-1033-6011",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354329.61,
+    "longitude": 1391056.24,
+    "wgsCoordinate": {
+      "latitude": 35.724891666666664,
+      "longitude": 139.18228888888888
+    }
+  },
+  {
+    "id": 3384,
+    "adminnumber": "228-1033",
+    "numberserial": "6012",
+    "formattedid": "228-1033-6012",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354329.75,
+    "longitude": 1391056.42,
+    "wgsCoordinate": {
+      "latitude": 35.72493055555556,
+      "longitude": 139.18233888888886
+    }
+  },
+  {
+    "id": 3385,
+    "adminnumber": "228-1033",
+    "numberserial": "6013",
+    "formattedid": "228-1033-6013",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354333.54,
+    "longitude": 1391123.74,
+    "wgsCoordinate": {
+      "latitude": 35.72598333333333,
+      "longitude": 139.18992777777777
+    }
+  },
+  {
+    "id": 3386,
+    "adminnumber": "228-1033",
+    "numberserial": "6014",
+    "formattedid": "228-1033-6014",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354323.13,
+    "longitude": 1391024.45,
+    "wgsCoordinate": {
+      "latitude": 35.72309166666667,
+      "longitude": 139.17345833333331
+    }
+  },
+  {
+    "id": 3387,
+    "adminnumber": "228-1033",
+    "numberserial": "6015",
+    "formattedid": "228-1033-6015",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354323.01,
+    "longitude": 1391024.65,
+    "wgsCoordinate": {
+      "latitude": 35.72305833333334,
+      "longitude": 139.17351388888886
+    }
+  },
+  {
+    "id": 3388,
+    "adminnumber": "228-3165",
+    "numberserial": "6001",
+    "formattedid": "228-3165-6001",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354404.2,
+    "longitude": 1391706.02,
+    "wgsCoordinate": {
+      "latitude": 35.734500000000004,
+      "longitude": 139.28500555555556
+    }
+  },
+  {
+    "id": 3389,
+    "adminnumber": "228-3165",
+    "numberserial": "6002",
+    "formattedid": "228-3165-6002",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354418.31,
+    "longitude": 1391856.93,
+    "wgsCoordinate": {
+      "latitude": 35.738419444444446,
+      "longitude": 139.31581388888887
+    }
+  },
+  {
+    "id": 3390,
+    "adminnumber": "228-3176",
+    "numberserial": "6002",
+    "formattedid": "228-3176-6002",
+    "routename": "（一１７６）楢原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354303.11,
+    "longitude": 1391750.96,
+    "wgsCoordinate": {
+      "latitude": 35.717530555555555,
+      "longitude": 139.29748888888886
+    }
+  },
+  {
+    "id": 3391,
+    "adminnumber": "228-3176",
+    "numberserial": "6003",
+    "formattedid": "228-3176-6003",
+    "routename": "（一１７６）楢原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354303.29,
+    "longitude": 1391750.86,
+    "wgsCoordinate": {
+      "latitude": 35.71758055555555,
+      "longitude": 139.29746111111115
+    }
+  },
+  {
+    "id": 3392,
+    "adminnumber": "303-3179",
+    "numberserial": "6001",
+    "formattedid": "303-3179-6001",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "瑞穂町",
+    "latitude": 354729.42,
+    "longitude": 1392201.52,
+    "wgsCoordinate": {
+      "latitude": 35.79150555555555,
+      "longitude": 139.3670888888889
+    }
+  },
+  {
+    "id": 3393,
+    "adminnumber": "228-3201",
+    "numberserial": "6001",
+    "formattedid": "228-3201-6001",
+    "routename": "（一２０１）十里木御嶽停車場線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354357.64,
+    "longitude": 1391058.24,
+    "wgsCoordinate": {
+      "latitude": 35.73267777777778,
+      "longitude": 139.18284444444444
+    }
+  },
+  {
+    "id": 3394,
+    "adminnumber": "227-3249",
+    "numberserial": "6003",
+    "formattedid": "227-3249-6003",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354512.68,
+    "longitude": 1391945.19,
+    "wgsCoordinate": {
+      "latitude": 35.75352222222222,
+      "longitude": 139.32921944444442
+    }
+  },
+  {
+    "id": 3395,
+    "adminnumber": "227-3249",
+    "numberserial": "6004",
+    "formattedid": "227-3249-6004",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354513.73,
+    "longitude": 1391944.69,
+    "wgsCoordinate": {
+      "latitude": 35.753813888888885,
+      "longitude": 139.32908055555555
+    }
+  },
+  {
+    "id": 3396,
+    "adminnumber": "227-3249",
+    "numberserial": "6005",
+    "formattedid": "227-3249-6005",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354518.07,
+    "longitude": 1391941.61,
+    "wgsCoordinate": {
+      "latitude": 35.75501944444444,
+      "longitude": 139.32822500000003
+    }
+  },
+  {
+    "id": 3397,
+    "adminnumber": "227-3249",
+    "numberserial": "6006",
+    "formattedid": "227-3249-6006",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354518.98,
+    "longitude": 1391940.95,
+    "wgsCoordinate": {
+      "latitude": 35.75527222222222,
+      "longitude": 139.32804166666665
+    }
+  },
+  {
+    "id": 3398,
+    "adminnumber": "227-3249",
+    "numberserial": "6007",
+    "formattedid": "227-3249-6007",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354522.7,
+    "longitude": 1391938.09,
+    "wgsCoordinate": {
+      "latitude": 35.75630555555556,
+      "longitude": 139.32724722222224
+    }
+  },
+  {
+    "id": 3399,
+    "adminnumber": "227-3249",
+    "numberserial": "6008",
+    "formattedid": "227-3249-6008",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354523.53,
+    "longitude": 1391937.45,
+    "wgsCoordinate": {
+      "latitude": 35.75653611111112,
+      "longitude": 139.32706944444442
+    }
+  },
+  {
+    "id": 3400,
+    "adminnumber": "227-3249",
+    "numberserial": "6009",
+    "formattedid": "227-3249-6009",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354529.35,
+    "longitude": 1391932.99,
+    "wgsCoordinate": {
+      "latitude": 35.758152777777774,
+      "longitude": 139.32583055555554
+    }
+  },
+  {
+    "id": 3401,
+    "adminnumber": "227-3249",
+    "numberserial": "6010",
+    "formattedid": "227-3249-6010",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354530.21,
+    "longitude": 1391932.34,
+    "wgsCoordinate": {
+      "latitude": 35.758391666666675,
+      "longitude": 139.32565000000002
+    }
+  },
+  {
+    "id": 3402,
+    "adminnumber": "227-3249",
+    "numberserial": "6011",
+    "formattedid": "227-3249-6011",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354539.5,
+    "longitude": 1391925.22,
+    "wgsCoordinate": {
+      "latitude": 35.76097222222222,
+      "longitude": 139.3236722222222
+    }
+  },
+  {
+    "id": 3403,
+    "adminnumber": "227-3249",
+    "numberserial": "6012",
+    "formattedid": "227-3249-6012",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354540.5,
+    "longitude": 1391924.51,
+    "wgsCoordinate": {
+      "latitude": 35.76125,
+      "longitude": 139.323475
+    }
+  },
+  {
+    "id": 3404,
+    "adminnumber": "227-3249",
+    "numberserial": "6013",
+    "formattedid": "227-3249-6013",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354546.4,
+    "longitude": 1391919.98,
+    "wgsCoordinate": {
+      "latitude": 35.762888888888895,
+      "longitude": 139.32221666666666
+    }
+  },
+  {
+    "id": 3405,
+    "adminnumber": "227-3249",
+    "numberserial": "6014",
+    "formattedid": "227-3249-6014",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354547.36,
+    "longitude": 1391919.26,
+    "wgsCoordinate": {
+      "latitude": 35.76315555555555,
+      "longitude": 139.32201666666666
+    }
+  },
+  {
+    "id": 3406,
+    "adminnumber": "227-3249",
+    "numberserial": "6015",
+    "formattedid": "227-3249-6015",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354555.0,
+    "longitude": 1391913.42,
+    "wgsCoordinate": {
+      "latitude": 35.765277777777776,
+      "longitude": 139.32039444444442
+    }
+  },
+  {
+    "id": 3407,
+    "adminnumber": "227-3249",
+    "numberserial": "6016",
+    "formattedid": "227-3249-6016",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354554.04,
+    "longitude": 1391914.27,
+    "wgsCoordinate": {
+      "latitude": 35.76501111111111,
+      "longitude": 139.32063055555557
+    }
+  },
+  {
+    "id": 3408,
+    "adminnumber": "227-3249",
+    "numberserial": "6017",
+    "formattedid": "227-3249-6017",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354617.01,
+    "longitude": 1391856.65,
+    "wgsCoordinate": {
+      "latitude": 35.771391666666666,
+      "longitude": 139.3157361111111
+    }
+  },
+  {
+    "id": 3409,
+    "adminnumber": "227-3249",
+    "numberserial": "6018",
+    "formattedid": "227-3249-6018",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354617.81,
+    "longitude": 1391856.01,
+    "wgsCoordinate": {
+      "latitude": 35.771613888888886,
+      "longitude": 139.31555833333334
+    }
+  },
+  {
+    "id": 3410,
+    "adminnumber": "227-3249",
+    "numberserial": "6019",
+    "formattedid": "227-3249-6019",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354623.5,
+    "longitude": 1391851.72,
+    "wgsCoordinate": {
+      "latitude": 35.77319444444444,
+      "longitude": 139.31436666666667
+    }
+  },
+  {
+    "id": 3411,
+    "adminnumber": "227-3249",
+    "numberserial": "6020",
+    "formattedid": "227-3249-6020",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354624.45,
+    "longitude": 1391850.93,
+    "wgsCoordinate": {
+      "latitude": 35.77345833333334,
+      "longitude": 139.3141472222222
+    }
+  },
+  {
+    "id": 3412,
+    "adminnumber": "228-411",
+    "numberserial": "6001",
+    "formattedid": "228-411-6001",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354453.17,
+    "longitude": 1391723.73,
+    "wgsCoordinate": {
+      "latitude": 35.748102777777774,
+      "longitude": 139.28992499999998
+    }
+  },
+  {
+    "id": 3413,
+    "adminnumber": "228-411",
+    "numberserial": "6035",
+    "formattedid": "228-411-6035",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354254.66,
+    "longitude": 1391703.06,
+    "wgsCoordinate": {
+      "latitude": 35.71518333333333,
+      "longitude": 139.28418333333335
+    }
+  },
+  {
+    "id": 3414,
+    "adminnumber": "227-3249",
+    "numberserial": "6026",
+    "formattedid": "227-3249-6026",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354632.55,
+    "longitude": 1391816.59,
+    "wgsCoordinate": {
+      "latitude": 35.77570833333333,
+      "longitude": 139.30460833333336
+    }
+  },
+  {
+    "id": 3415,
+    "adminnumber": "227-3249",
+    "numberserial": "6027",
+    "formattedid": "227-3249-6027",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354624.07,
+    "longitude": 1391810.02,
+    "wgsCoordinate": {
+      "latitude": 35.77335277777778,
+      "longitude": 139.30278333333334
+    }
+  },
+  {
+    "id": 3416,
+    "adminnumber": "228-411",
+    "numberserial": "6039",
+    "formattedid": "228-411-6039",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354304.77,
+    "longitude": 1391706.85,
+    "wgsCoordinate": {
+      "latitude": 35.71799166666668,
+      "longitude": 139.28523611111115
+    }
+  },
+  {
+    "id": 3417,
+    "adminnumber": "228-3184",
+    "numberserial": "6004",
+    "formattedid": "228-3184-6004",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.36,
+    "longitude": 1391710.55,
+    "wgsCoordinate": {
+      "latitude": 35.739266666666666,
+      "longitude": 139.2862638888889
+    }
+  },
+  {
+    "id": 3418,
+    "adminnumber": "228-3184",
+    "numberserial": "6005",
+    "formattedid": "228-3184-6005",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.39,
+    "longitude": 1391711.51,
+    "wgsCoordinate": {
+      "latitude": 35.739275000000006,
+      "longitude": 139.28653055555554
+    }
+  },
+  {
+    "id": 3419,
+    "adminnumber": "228-3165",
+    "numberserial": "6003",
+    "formattedid": "228-3165-6003",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354418.29,
+    "longitude": 1391812.24,
+    "wgsCoordinate": {
+      "latitude": 35.738413888888886,
+      "longitude": 139.3034
+    }
+  },
+  {
+    "id": 3420,
+    "adminnumber": "228-3165",
+    "numberserial": "6004",
+    "formattedid": "228-3165-6004",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354418.25,
+    "longitude": 1391813.61,
+    "wgsCoordinate": {
+      "latitude": 35.73840277777778,
+      "longitude": 139.3037805555556
+    }
+  },
+  {
+    "id": 3421,
+    "adminnumber": "227-3249",
+    "numberserial": "6028",
+    "formattedid": "227-3249-6028",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354635.32,
+    "longitude": 1391817.62,
+    "wgsCoordinate": {
+      "latitude": 35.77647777777778,
+      "longitude": 139.3048944444445
+    }
+  },
+  {
+    "id": 3422,
+    "adminnumber": "227-3249",
+    "numberserial": "6029",
+    "formattedid": "227-3249-6029",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354635.13,
+    "longitude": 1391817.8,
+    "wgsCoordinate": {
+      "latitude": 35.776425,
+      "longitude": 139.30494444444446
+    }
+  },
+  {
+    "id": 3423,
+    "adminnumber": "227-3249",
+    "numberserial": "6030",
+    "formattedid": "227-3249-6030",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354634.4,
+    "longitude": 1391817.84,
+    "wgsCoordinate": {
+      "latitude": 35.77622222222223,
+      "longitude": 139.30495555555558
+    }
+  },
+  {
+    "id": 3424,
+    "adminnumber": "227-3249",
+    "numberserial": "6031",
+    "formattedid": "227-3249-6031",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354634.16,
+    "longitude": 1391818.05,
+    "wgsCoordinate": {
+      "latitude": 35.77615555555555,
+      "longitude": 139.3050138888889
+    }
+  },
+  {
+    "id": 3425,
+    "adminnumber": "228-3184",
+    "numberserial": "6006",
+    "formattedid": "228-3184-6006",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.1,
+    "longitude": 1391718.74,
+    "wgsCoordinate": {
+      "latitude": 35.739194444444436,
+      "longitude": 139.2885388888889
+    }
+  },
+  {
+    "id": 3426,
+    "adminnumber": "228-3184",
+    "numberserial": "6007",
+    "formattedid": "228-3184-6007",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.11,
+    "longitude": 1391719.57,
+    "wgsCoordinate": {
+      "latitude": 35.73919722222222,
+      "longitude": 139.28876944444445
+    }
+  },
+  {
+    "id": 3427,
+    "adminnumber": "228-3184",
+    "numberserial": "6008",
+    "formattedid": "228-3184-6008",
+    "routename": "（一１８４）奥多摩あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.15,
+    "longitude": 1391724.48,
+    "wgsCoordinate": {
+      "latitude": 35.73920833333334,
+      "longitude": 139.29013333333333
+    }
+  },
+  {
+    "id": 3428,
+    "adminnumber": "228-3165",
+    "numberserial": "6009",
+    "formattedid": "228-3165-6009",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.18,
+    "longitude": 1391725.63,
+    "wgsCoordinate": {
+      "latitude": 35.739216666666664,
+      "longitude": 139.29045277777774
+    }
+  },
+  {
+    "id": 3438,
+    "adminnumber": "228-3165",
+    "numberserial": "6017",
+    "formattedid": "228-3165-6017",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354418.91,
+    "longitude": 1391805.22,
+    "wgsCoordinate": {
+      "latitude": 35.738586111111104,
+      "longitude": 139.30145000000002
+    }
+  },
+  {
+    "id": 3429,
+    "adminnumber": "228-3165",
+    "numberserial": "6010",
+    "formattedid": "228-3165-6010",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.1,
+    "longitude": 1391733.94,
+    "wgsCoordinate": {
+      "latitude": 35.739194444444436,
+      "longitude": 139.2927611111111
+    }
+  },
+  {
+    "id": 3430,
+    "adminnumber": "228-3165",
+    "numberserial": "6011",
+    "formattedid": "228-3165-6011",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354421.18,
+    "longitude": 1391734.89,
+    "wgsCoordinate": {
+      "latitude": 35.739216666666664,
+      "longitude": 139.29302499999997
+    }
+  },
+  {
+    "id": 3431,
+    "adminnumber": "218-3165",
+    "numberserial": "6012",
+    "formattedid": "218-3165-6012",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354420.34,
+    "longitude": 1391746.17,
+    "wgsCoordinate": {
+      "latitude": 35.738983333333344,
+      "longitude": 139.29615833333332
+    }
+  },
+  {
+    "id": 3432,
+    "adminnumber": "218-3165",
+    "numberserial": "6013",
+    "formattedid": "218-3165-6013",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354420.32,
+    "longitude": 1391747.75,
+    "wgsCoordinate": {
+      "latitude": 35.738977777777784,
+      "longitude": 139.29659722222223
+    }
+  },
+  {
+    "id": 3433,
+    "adminnumber": "227-1029",
+    "numberserial": "6005",
+    "formattedid": "227-1029-6005",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354529.09,
+    "longitude": 1391827.46,
+    "wgsCoordinate": {
+      "latitude": 35.758080555555566,
+      "longitude": 139.30762777777778
+    }
+  },
+  {
+    "id": 3434,
+    "adminnumber": "228-3165",
+    "numberserial": "6014",
+    "formattedid": "228-3165-6014",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354419.69,
+    "longitude": 1391754.75,
+    "wgsCoordinate": {
+      "latitude": 35.73880277777778,
+      "longitude": 139.29854166666667
+    }
+  },
+  {
+    "id": 3435,
+    "adminnumber": "228-3165",
+    "numberserial": "6015",
+    "formattedid": "228-3165-6015",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354419.69,
+    "longitude": 1391755.8,
+    "wgsCoordinate": {
+      "latitude": 35.73880277777778,
+      "longitude": 139.29883333333333
+    }
+  },
+  {
+    "id": 3436,
+    "adminnumber": "227-3250",
+    "numberserial": "6001",
+    "formattedid": "227-3250-6001",
+    "routename": "（一２５０）あきる野羽村線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "羽村市",
+    "latitude": 354457.49,
+    "longitude": 1391832.93,
+    "wgsCoordinate": {
+      "latitude": 35.74930277777778,
+      "longitude": 139.3091472222222
+    }
+  },
+  {
+    "id": 3437,
+    "adminnumber": "228-3165",
+    "numberserial": "6016",
+    "formattedid": "228-3165-6016",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354419.01,
+    "longitude": 1391821.52,
+    "wgsCoordinate": {
+      "latitude": 35.73861388888889,
+      "longitude": 139.3059777777778
+    }
+  },
+  {
+    "id": 3439,
+    "adminnumber": "228-3165",
+    "numberserial": "6018",
+    "formattedid": "228-3165-6018",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354418.77,
+    "longitude": 1391807.13,
+    "wgsCoordinate": {
+      "latitude": 35.73854722222223,
+      "longitude": 139.30198055555553
+    }
+  },
+  {
+    "id": 3440,
+    "adminnumber": "228-1033",
+    "numberserial": "6004",
+    "formattedid": "228-1033-6004",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354329.05,
+    "longitude": 1391007.64,
+    "wgsCoordinate": {
+      "latitude": 35.72473611111111,
+      "longitude": 139.16878888888886
+    }
+  },
+  {
+    "id": 3441,
+    "adminnumber": "228-1046",
+    "numberserial": "6005",
+    "formattedid": "228-1046-6005",
+    "routename": "（主４６）八王子あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354253.82,
+    "longitude": 1391703.42,
+    "wgsCoordinate": {
+      "latitude": 35.71495,
+      "longitude": 139.28428333333332
+    }
+  },
+  {
+    "id": 3442,
+    "adminnumber": "205-1053",
+    "numberserial": "6001",
+    "formattedid": "205-1053-6001",
+    "routename": "（主５３）青梅秩父線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355012.69,
+    "longitude": 1391212.55,
+    "wgsCoordinate": {
+      "latitude": 35.83685833333334,
+      "longitude": 139.20348611111112
+    }
+  },
+  {
+    "id": 3443,
+    "adminnumber": "205-411",
+    "numberserial": "6009",
+    "formattedid": "205-411-6009",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354726.21,
+    "longitude": 1391458.85,
+    "wgsCoordinate": {
+      "latitude": 35.79061388888889,
+      "longitude": 139.24968055555556
+    }
+  },
+  {
+    "id": 3444,
+    "adminnumber": "205-411",
+    "numberserial": "6011",
+    "formattedid": "205-411-6011",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354728.49,
+    "longitude": 1391341.65,
+    "wgsCoordinate": {
+      "latitude": 35.79124722222222,
+      "longitude": 139.22823611111107
+    }
+  },
+  {
+    "id": 3445,
+    "adminnumber": "205-411",
+    "numberserial": "6012",
+    "formattedid": "205-411-6012",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354824.86,
+    "longitude": 1391241.11,
+    "wgsCoordinate": {
+      "latitude": 35.80690555555555,
+      "longitude": 139.21141944444446
+    }
+  },
+  {
+    "id": 3446,
+    "adminnumber": "205-1028",
+    "numberserial": "6002",
+    "formattedid": "205-1028-6002",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354838.14,
+    "longitude": 1391532.73,
+    "wgsCoordinate": {
+      "latitude": 35.81059444444445,
+      "longitude": 139.25909166666665
+    }
+  },
+  {
+    "id": 3447,
+    "adminnumber": "205-1028",
+    "numberserial": "6003",
+    "formattedid": "205-1028-6003",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354838.41,
+    "longitude": 1391532.82,
+    "wgsCoordinate": {
+      "latitude": 35.810669444444436,
+      "longitude": 139.25911666666667
+    }
+  },
+  {
+    "id": 3448,
+    "adminnumber": "205-1028",
+    "numberserial": "6004",
+    "formattedid": "205-1028-6004",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354839.52,
+    "longitude": 1391533.13,
+    "wgsCoordinate": {
+      "latitude": 35.81097777777778,
+      "longitude": 139.25920277777774
+    }
+  },
+  {
+    "id": 3449,
+    "adminnumber": "205-1053",
+    "numberserial": "6002",
+    "formattedid": "205-1053-6002",
+    "routename": "（主５３）青梅秩父線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354906.72,
+    "longitude": 1391440.54,
+    "wgsCoordinate": {
+      "latitude": 35.81853333333333,
+      "longitude": 139.24459444444443
+    }
+  },
+  {
+    "id": 3450,
+    "adminnumber": "205-1044",
+    "numberserial": "B006",
+    "formattedid": "205-1044-B006",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354725.31,
+    "longitude": 1391928.29,
+    "wgsCoordinate": {
+      "latitude": 35.79036388888888,
+      "longitude": 139.324525
+    }
+  },
+  {
+    "id": 3451,
+    "adminnumber": "205-1044",
+    "numberserial": "B007",
+    "formattedid": "205-1044-B007",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354725.36,
+    "longitude": 1391928.63,
+    "wgsCoordinate": {
+      "latitude": 35.79037777777777,
+      "longitude": 139.3246194444444
+    }
+  },
+  {
+    "id": 3452,
+    "adminnumber": "205-1044",
+    "numberserial": "6001",
+    "formattedid": "205-1044-6001",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354915.29,
+    "longitude": 1391727.56,
+    "wgsCoordinate": {
+      "latitude": 35.82091388888889,
+      "longitude": 139.2909888888889
+    }
+  },
+  {
+    "id": 3453,
+    "adminnumber": "205-1005",
+    "numberserial": "6005",
+    "formattedid": "205-1005-6005",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354712.89,
+    "longitude": 1391631.9,
+    "wgsCoordinate": {
+      "latitude": 35.78691388888889,
+      "longitude": 139.27552777777777
+    }
+  },
+  {
+    "id": 3454,
+    "adminnumber": "205-1031",
+    "numberserial": "6001",
+    "formattedid": "205-1031-6001",
+    "routename": "（主３１）青梅あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354641.57,
+    "longitude": 1391555.98,
+    "wgsCoordinate": {
+      "latitude": 35.77821388888889,
+      "longitude": 139.26555
+    }
+  },
+  {
+    "id": 3455,
+    "adminnumber": "205-3249",
+    "numberserial": "6021",
+    "formattedid": "205-3249-6021",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354636.52,
+    "longitude": 1391841.79,
+    "wgsCoordinate": {
+      "latitude": 35.776811111111115,
+      "longitude": 139.31160833333337
+    }
+  },
+  {
+    "id": 3456,
+    "adminnumber": "205-3249",
+    "numberserial": "6022",
+    "formattedid": "205-3249-6022",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354638.46,
+    "longitude": 1391840.17,
+    "wgsCoordinate": {
+      "latitude": 35.777350000000006,
+      "longitude": 139.3111583333333
+    }
+  },
+  {
+    "id": 3457,
+    "adminnumber": "205-3249",
+    "numberserial": "6023",
+    "formattedid": "205-3249-6023",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354642.24,
+    "longitude": 1391836.96,
+    "wgsCoordinate": {
+      "latitude": 35.7784,
+      "longitude": 139.31026666666668
+    }
+  },
+  {
+    "id": 3458,
+    "adminnumber": "205-3249",
+    "numberserial": "6024",
+    "formattedid": "205-3249-6024",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354643.17,
+    "longitude": 1391835.78,
+    "wgsCoordinate": {
+      "latitude": 35.778658333333325,
+      "longitude": 139.3099388888889
+    }
+  },
+  {
+    "id": 3459,
+    "adminnumber": "205-411",
+    "numberserial": "6004",
+    "formattedid": "205-411-6004",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354558.01,
+    "longitude": 1391739.98,
+    "wgsCoordinate": {
+      "latitude": 35.76611388888889,
+      "longitude": 139.2944388888889
+    }
+  },
+  {
+    "id": 3460,
+    "adminnumber": "205-411",
+    "numberserial": "6006",
+    "formattedid": "205-411-6006",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354658.62,
+    "longitude": 1391536.93,
+    "wgsCoordinate": {
+      "latitude": 35.78295,
+      "longitude": 139.26025833333333
+    }
+  },
+  {
+    "id": 3461,
+    "adminnumber": "205-411",
+    "numberserial": "6007",
+    "formattedid": "205-411-6007",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354704.27,
+    "longitude": 1391455.97,
+    "wgsCoordinate": {
+      "latitude": 35.78451944444445,
+      "longitude": 139.24888055555553
+    }
+  },
+  {
+    "id": 3462,
+    "adminnumber": "205-411",
+    "numberserial": "6008",
+    "formattedid": "205-411-6008",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354707.9,
+    "longitude": 1391458.25,
+    "wgsCoordinate": {
+      "latitude": 35.78552777777778,
+      "longitude": 139.24951388888888
+    }
+  },
+  {
+    "id": 3463,
+    "adminnumber": "205-411",
+    "numberserial": "6010",
+    "formattedid": "205-411-6010",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354713.4,
+    "longitude": 1391412.23,
+    "wgsCoordinate": {
+      "latitude": 35.78705555555556,
+      "longitude": 139.23673055555554
+    }
+  },
+  {
+    "id": 3464,
+    "adminnumber": "205-1029",
+    "numberserial": "6007",
+    "formattedid": "205-1029-6007",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354716.31,
+    "longitude": 1391628.14,
+    "wgsCoordinate": {
+      "latitude": 35.787863888888886,
+      "longitude": 139.2744833333333
+    }
+  },
+  {
+    "id": 3465,
+    "adminnumber": "228-1033",
+    "numberserial": "6018",
+    "formattedid": "228-1033-6018",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354334.1,
+    "longitude": 1391235.5,
+    "wgsCoordinate": {
+      "latitude": 35.72613888888888,
+      "longitude": 139.2098611111111
+    }
+  },
+  {
+    "id": 3466,
+    "adminnumber": "305-3251",
+    "numberserial": "6008",
+    "formattedid": "305-3251-6008",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3467,
+    "adminnumber": "228-3201",
+    "numberserial": "6002",
+    "formattedid": "228-3201-6002",
+    "routename": "（一２０１）十里木御嶽停車場線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3468,
+    "adminnumber": "205-411",
+    "numberserial": "6040",
+    "formattedid": "205-411-6040",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3469,
+    "adminnumber": "305-3251",
+    "numberserial": "6009",
+    "formattedid": "305-3251-6009",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3470,
+    "adminnumber": "228-1032",
+    "numberserial": "6005",
+    "formattedid": "228-1032-6005",
+    "routename": "（主３２）八王子五日市線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3471,
+    "adminnumber": "228-1032",
+    "numberserial": "6004",
+    "formattedid": "228-1032-6004",
+    "routename": "（主３２）八王子五日市線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3472,
+    "adminnumber": "228-1032",
+    "numberserial": "6003",
+    "formattedid": "228-1032-6003",
+    "routename": "（主３２）八王子五日市線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354353.1,
+    "longitude": 1391331.5,
+    "wgsCoordinate": {
+      "latitude": 35.73141666666666,
+      "longitude": 139.22541666666666
+    }
+  },
+  {
+    "id": 3473,
+    "adminnumber": "228-1032",
+    "numberserial": "6002",
+    "formattedid": "228-1032-6002",
+    "routename": "（主３２）八王子五日市線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 354352.0,
+    "longitude": 1391333.5,
+    "wgsCoordinate": {
+      "latitude": 35.73111111111111,
+      "longitude": 139.22597222222223
+    }
+  },
+  {
+    "id": 3474,
+    "adminnumber": "205-3193",
+    "numberserial": "6002",
+    "formattedid": "205-3193-6002",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3475,
+    "adminnumber": "308-411",
+    "numberserial": "6040B",
+    "formattedid": "308-411-6040B",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3476,
+    "adminnumber": "228-3165",
+    "numberserial": "6012",
+    "formattedid": "228-3165-6012",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3477,
+    "adminnumber": "228-3165",
+    "numberserial": "6013",
+    "formattedid": "228-3165-6013",
+    "routename": "（一１６５）伊奈福生線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "あきる野市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3478,
+    "adminnumber": "205-3181",
+    "numberserial": "0.8km",
+    "formattedid": "205-3181-0.8km",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3479,
+    "adminnumber": "218-1007",
+    "numberserial": "7009",
+    "formattedid": "218-1007-7009",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3480,
+    "adminnumber": "218-1007",
+    "numberserial": "7010",
+    "formattedid": "218-1007-7010",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3297,
+    "adminnumber": "307-1033",
+    "numberserial": "6005",
+    "formattedid": "307-1033-6005",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354215.7,
+    "longitude": 1390723.55,
+    "wgsCoordinate": {
+      "latitude": 35.70436111111112,
+      "longitude": 139.12320833333337
+    }
+  },
+  {
+    "id": 3298,
+    "adminnumber": "307-1033",
+    "numberserial": "6006",
+    "formattedid": "307-1033-6006",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354206.77,
+    "longitude": 1390809.13,
+    "wgsCoordinate": {
+      "latitude": 35.70188055555556,
+      "longitude": 139.1358694444444
+    }
+  },
+  {
+    "id": 3299,
+    "adminnumber": "307-1033",
+    "numberserial": "6007",
+    "formattedid": "307-1033-6007",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354323.68,
+    "longitude": 1390948.34,
+    "wgsCoordinate": {
+      "latitude": 35.72324444444445,
+      "longitude": 139.1634277777778
+    }
+  },
+  {
+    "id": 3300,
+    "adminnumber": "307-1033",
+    "numberserial": "6008",
+    "formattedid": "307-1033-6008",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354320.83,
+    "longitude": 1390948.7,
+    "wgsCoordinate": {
+      "latitude": 35.72245277777778,
+      "longitude": 139.16352777777777
+    }
+  },
+  {
+    "id": 3301,
+    "adminnumber": "307-1033",
+    "numberserial": "6016",
+    "formattedid": "307-1033-6016",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354311.19,
+    "longitude": 1390903.23,
+    "wgsCoordinate": {
+      "latitude": 35.719775000000006,
+      "longitude": 139.15089722222223
+    }
+  },
+  {
+    "id": 3302,
+    "adminnumber": "307-1033",
+    "numberserial": "6017",
+    "formattedid": "307-1033-6017",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354247.84,
+    "longitude": 1390856.12,
+    "wgsCoordinate": {
+      "latitude": 35.7132888888889,
+      "longitude": 139.14892222222224
+    }
+  },
+  {
+    "id": 3303,
+    "adminnumber": "308-1045",
+    "numberserial": "6001",
+    "formattedid": "308-1045-6001",
+    "routename": "（主４５）奥多摩青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354849.33,
+    "longitude": 1390910.33,
+    "wgsCoordinate": {
+      "latitude": 35.81370277777778,
+      "longitude": 139.15286944444446
+    }
+  },
+  {
+    "id": 3304,
+    "adminnumber": "307-3205",
+    "numberserial": "6001",
+    "formattedid": "307-3205-6001",
+    "routename": "（一２０５）水根本宿線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354434.37,
+    "longitude": 1390732.53,
+    "wgsCoordinate": {
+      "latitude": 35.74288055555556,
+      "longitude": 139.1257027777778
+    }
+  },
+  {
+    "id": 3305,
+    "adminnumber": "218-1029",
+    "numberserial": "6001",
+    "formattedid": "218-1029-6001",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354311.27,
+    "longitude": 1392007.57,
+    "wgsCoordinate": {
+      "latitude": 35.719797222222226,
+      "longitude": 139.33543611111114
+    }
+  },
+  {
+    "id": 3306,
+    "adminnumber": "218-1029",
+    "numberserial": "6002",
+    "formattedid": "218-1029-6002",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354312.53,
+    "longitude": 1392007.43,
+    "wgsCoordinate": {
+      "latitude": 35.72014722222223,
+      "longitude": 139.3353972222222
+    }
+  },
+  {
+    "id": 3307,
+    "adminnumber": "218-1029",
+    "numberserial": "6003",
+    "formattedid": "218-1029-6003",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354313.13,
+    "longitude": 1392007.37,
+    "wgsCoordinate": {
+      "latitude": 35.72031388888889,
+      "longitude": 139.3353805555556
+    }
+  },
+  {
+    "id": 3308,
+    "adminnumber": "218-1029",
+    "numberserial": "6009",
+    "formattedid": "218-1029-6009",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354420.78,
+    "longitude": 1391909.27,
+    "wgsCoordinate": {
+      "latitude": 35.73910555555556,
+      "longitude": 139.31924166666667
+    }
+  },
+  {
+    "id": 3309,
+    "adminnumber": "305-1031",
+    "numberserial": "6003",
+    "formattedid": "305-1031-6003",
+    "routename": "（主３１）青梅あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354540.42,
+    "longitude": 1391506.11,
+    "wgsCoordinate": {
+      "latitude": 35.761227777777776,
+      "longitude": 139.25169722222225
+    }
+  },
+  {
+    "id": 3310,
+    "adminnumber": "305-1031",
+    "numberserial": "6004",
+    "formattedid": "305-1031-6004",
+    "routename": "（主３１）青梅あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354535.94,
+    "longitude": 1391446.96,
+    "wgsCoordinate": {
+      "latitude": 35.75998333333333,
+      "longitude": 139.24637777777775
+    }
+  },
+  {
+    "id": 3311,
+    "adminnumber": "305-1031",
+    "numberserial": "6006",
+    "formattedid": "305-1031-6006",
+    "routename": "（主３１）青梅あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354516.52,
+    "longitude": 1391448.0,
+    "wgsCoordinate": {
+      "latitude": 35.7545888888889,
+      "longitude": 139.24666666666664
+    }
+  },
+  {
+    "id": 3312,
+    "adminnumber": "305-1031",
+    "numberserial": "6007",
+    "formattedid": "305-1031-6007",
+    "routename": "（主３１）青梅あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354429.81,
+    "longitude": 1391344.56,
+    "wgsCoordinate": {
+      "latitude": 35.74161388888889,
+      "longitude": 139.22904444444447
+    }
+  },
+  {
+    "id": 3313,
+    "adminnumber": "307-1033",
+    "numberserial": "6001",
+    "formattedid": "307-1033-6001",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354157.86,
+    "longitude": 1390608.4,
+    "wgsCoordinate": {
+      "latitude": 35.69940555555555,
+      "longitude": 139.1023333333333
+    }
+  },
+  {
+    "id": 3314,
+    "adminnumber": "307-1033",
+    "numberserial": "6002",
+    "formattedid": "307-1033-6002",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354150.65,
+    "longitude": 1390558.11,
+    "wgsCoordinate": {
+      "latitude": 35.69740277777778,
+      "longitude": 139.09947500000004
+    }
+  },
+  {
+    "id": 3315,
+    "adminnumber": "307-1033",
+    "numberserial": "6003",
+    "formattedid": "307-1033-6003",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354208.86,
+    "longitude": 1390642.14,
+    "wgsCoordinate": {
+      "latitude": 35.70246111111111,
+      "longitude": 139.11170555555552
+    }
+  },
+  {
+    "id": 3316,
+    "adminnumber": "307-1033",
+    "numberserial": "6004",
+    "formattedid": "307-1033-6004",
+    "routename": "（主３３）上野原あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354216.64,
+    "longitude": 1390700.63,
+    "wgsCoordinate": {
+      "latitude": 35.70462222222223,
+      "longitude": 139.11684166666663
+    }
+  },
+  {
+    "id": 3317,
+    "adminnumber": "307-3205",
+    "numberserial": "6002",
+    "formattedid": "307-3205-6002",
+    "routename": "（一２０５）水根本宿線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354437.8,
+    "longitude": 1390740.1,
+    "wgsCoordinate": {
+      "latitude": 35.74383333333333,
+      "longitude": 139.1278055555556
+    }
+  },
+  {
+    "id": 3318,
+    "adminnumber": "307-3206",
+    "numberserial": "6001",
+    "formattedid": "307-3206-6001",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354327.09,
+    "longitude": 1390339.96,
+    "wgsCoordinate": {
+      "latitude": 35.72419166666668,
+      "longitude": 139.0611
+    }
+  },
+  {
+    "id": 3319,
+    "adminnumber": "307-3206",
+    "numberserial": "6002",
+    "formattedid": "307-3206-6002",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354323.88,
+    "longitude": 1390351.33,
+    "wgsCoordinate": {
+      "latitude": 35.7233,
+      "longitude": 139.06425833333336
+    }
+  },
+  {
+    "id": 3320,
+    "adminnumber": "307-3206",
+    "numberserial": "6003",
+    "formattedid": "307-3206-6003",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354307.73,
+    "longitude": 1390403.75,
+    "wgsCoordinate": {
+      "latitude": 35.71881388888889,
+      "longitude": 139.06770833333334
+    }
+  },
+  {
+    "id": 3321,
+    "adminnumber": "307-3206",
+    "numberserial": "6004",
+    "formattedid": "307-3206-6004",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354307.52,
+    "longitude": 1390403.5,
+    "wgsCoordinate": {
+      "latitude": 35.71875555555556,
+      "longitude": 139.0676388888889
+    }
+  },
+  {
+    "id": 3322,
+    "adminnumber": "307-3206",
+    "numberserial": "6005",
+    "formattedid": "307-3206-6005",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354308.85,
+    "longitude": 1390413.35,
+    "wgsCoordinate": {
+      "latitude": 35.719125,
+      "longitude": 139.070375
+    }
+  },
+  {
+    "id": 3323,
+    "adminnumber": "307-3206",
+    "numberserial": "6006",
+    "formattedid": "307-3206-6006",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354207.71,
+    "longitude": 1390615.91,
+    "wgsCoordinate": {
+      "latitude": 35.70214166666668,
+      "longitude": 139.1044194444444
+    }
+  },
+  {
+    "id": 3324,
+    "adminnumber": "307-3206",
+    "numberserial": "6007",
+    "formattedid": "307-3206-6007",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354206.9,
+    "longitude": 1390622.65,
+    "wgsCoordinate": {
+      "latitude": 35.701916666666676,
+      "longitude": 139.10629166666664
+    }
+  },
+  {
+    "id": 3325,
+    "adminnumber": "307-3206",
+    "numberserial": "6008",
+    "formattedid": "307-3206-6008",
+    "routename": "（一２０６）川野上川乗線",
+    "officename": "西多摩建設事務所",
+    "areaname": "檜原工区",
+    "municipalityname": "檜原村",
+    "latitude": 354235.26,
+    "longitude": 1390535.71,
+    "wgsCoordinate": {
+      "latitude": 35.70979444444445,
+      "longitude": 139.09325277777776
+    }
+  },
+  {
+    "id": 3326,
+    "adminnumber": "218-3249",
+    "numberserial": "6001",
+    "formattedid": "218-3249-6001",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354444.74,
+    "longitude": 1391955.62,
+    "wgsCoordinate": {
+      "latitude": 35.74576111111111,
+      "longitude": 139.3321166666667
+    }
+  },
+  {
+    "id": 3327,
+    "adminnumber": "218-3249",
+    "numberserial": "6002",
+    "formattedid": "218-3249-6002",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "福生工区",
+    "municipalityname": "福生市",
+    "latitude": 354445.82,
+    "longitude": 1391955.21,
+    "wgsCoordinate": {
+      "latitude": 35.74606111111111,
+      "longitude": 139.33200277777777
+    }
+  },
+  {
+    "id": 3328,
+    "adminnumber": "305-3251",
+    "numberserial": "6001",
+    "formattedid": "305-3251-6001",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354554.02,
+    "longitude": 1391335.91,
+    "wgsCoordinate": {
+      "latitude": 35.76500555555556,
+      "longitude": 139.22664166666664
+    }
+  },
+  {
+    "id": 3329,
+    "adminnumber": "305-3251",
+    "numberserial": "6003",
+    "formattedid": "305-3251-6003",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354547.41,
+    "longitude": 1391341.81,
+    "wgsCoordinate": {
+      "latitude": 35.763169444444436,
+      "longitude": 139.22828055555559
+    }
+  },
+  {
+    "id": 3330,
+    "adminnumber": "305-3251",
+    "numberserial": "6004",
+    "formattedid": "305-3251-6004",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354547.14,
+    "longitude": 1391341.86,
+    "wgsCoordinate": {
+      "latitude": 35.76309444444445,
+      "longitude": 139.2282944444445
+    }
+  },
+  {
+    "id": 3331,
+    "adminnumber": "305-3251",
+    "numberserial": "6005",
+    "formattedid": "305-3251-6005",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354526.03,
+    "longitude": 1391407.03,
+    "wgsCoordinate": {
+      "latitude": 35.757230555555566,
+      "longitude": 139.2352861111111
+    }
+  },
+  {
+    "id": 3332,
+    "adminnumber": "305-3251",
+    "numberserial": "6006",
+    "formattedid": "305-3251-6006",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354524.25,
+    "longitude": 1391407.02,
+    "wgsCoordinate": {
+      "latitude": 35.75673611111111,
+      "longitude": 139.2352833333333
+    }
+  },
+  {
+    "id": 3333,
+    "adminnumber": "305-3251",
+    "numberserial": "6007",
+    "formattedid": "305-3251-6007",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354512.52,
+    "longitude": 1391419.18,
+    "wgsCoordinate": {
+      "latitude": 35.75347777777778,
+      "longitude": 139.23866111111107
+    }
+  },
+  {
+    "id": 3334,
+    "adminnumber": "308-411",
+    "numberserial": "6013",
+    "formattedid": "308-411-6013",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354843.74,
+    "longitude": 1390726.22,
+    "wgsCoordinate": {
+      "latitude": 35.812149999999995,
+      "longitude": 139.12395
+    }
+  },
+  {
+    "id": 3335,
+    "adminnumber": "308-411",
+    "numberserial": "6014",
+    "formattedid": "308-411-6014",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354830.01,
+    "longitude": 1390550.76,
+    "wgsCoordinate": {
+      "latitude": 35.80833611111111,
+      "longitude": 139.09743333333336
+    }
+  },
+  {
+    "id": 3336,
+    "adminnumber": "308-411",
+    "numberserial": "6015",
+    "formattedid": "308-411-6015",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354807.63,
+    "longitude": 1390531.48,
+    "wgsCoordinate": {
+      "latitude": 35.80211944444444,
+      "longitude": 139.09207777777777
+    }
+  },
+  {
+    "id": 3337,
+    "adminnumber": "308-411",
+    "numberserial": "6016",
+    "formattedid": "308-411-6016",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354758.11,
+    "longitude": 1390453.89,
+    "wgsCoordinate": {
+      "latitude": 35.799474999999994,
+      "longitude": 139.08163611111107
+    }
+  },
+  {
+    "id": 3338,
+    "adminnumber": "308-411",
+    "numberserial": "6017",
+    "formattedid": "308-411-6017",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354753.06,
+    "longitude": 1390444.42,
+    "wgsCoordinate": {
+      "latitude": 35.79807222222222,
+      "longitude": 139.07900555555554
+    }
+  },
+  {
+    "id": 3339,
+    "adminnumber": "308-411",
+    "numberserial": "6018",
+    "formattedid": "308-411-6018",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "奥多摩工区",
+    "municipalityname": "奥多摩町",
+    "latitude": 354752.48,
+    "longitude": 1390440.34,
+    "wgsCoordinate": {
+      "latitude": 35.797911111111105,
+      "longitude": 139.07787222222225
+    }
+  },
+  {
+    "id": 4323,
+    "adminnumber": "251",
+    "numberserial": "6002",
+    "formattedid": "251-6002",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354547.5,
+    "longitude": 1391341.1,
+    "wgsCoordinate": {
+      "latitude": 35.763194444444444,
+      "longitude": 139.22808333333336
+    }
+  },
+  {
+    "id": 4322,
+    "adminnumber": "251",
+    "numberserial": "6002",
+    "formattedid": "251-6002",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354547.5,
+    "longitude": 1391341.1,
+    "wgsCoordinate": {
+      "latitude": 35.763194444444444,
+      "longitude": 139.22808333333336
+    }
+  },
+  {
+    "id": 4324,
+    "adminnumber": "251",
+    "numberserial": "6002",
+    "formattedid": "251-6002",
+    "routename": "（一２５１）青梅日の出線",
+    "officename": "西多摩建設事務所",
+    "areaname": "あきる野工区",
+    "municipalityname": "日の出町",
+    "latitude": 354547.5,
+    "longitude": 1391341.1,
+    "wgsCoordinate": {
+      "latitude": 35.763194444444444,
+      "longitude": 139.22808333333336
+    }
+  }
+]

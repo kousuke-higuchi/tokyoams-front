@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <rtnwall-side-card-details />
+        <rtnwall-side-card-details select-tab="protocol" />
       </v-col>
       <v-col md="9" cols="12">
         <roadfacility-appendage-decision></roadfacility-appendage-decision>

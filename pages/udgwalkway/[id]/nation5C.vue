@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <underground-walkway-side-card-details />
+        <underground-walkway-side-card-details select-tab="nation" />
       </v-col>
       <v-col md="9" cols="12">
         <roadfacility-nation5-c></roadfacility-nation5-c>

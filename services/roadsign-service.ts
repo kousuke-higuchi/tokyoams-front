@@ -1,7 +1,7 @@
 import Service from "./service";
 
-import roadsignJson from "~~/assets/roadsign.json"
-import { RoadsignSummary } from "~~/types";
+import roadsignJson from "~~/assets/roadsignSummary.json"
+import { AtfSummary } from "~~/types";
 
 /**
  * 道路標識表示灯系のAPIを提供します。
@@ -13,8 +13,8 @@ import { RoadsignSummary } from "~~/types";
      */
     public getList() {
        // TODO: WebAPIによる実装に変更すること
-       return new Promise<[RoadsignSummary]>((resolve)=>{
-          resolve(roadsignJson as [RoadsignSummary])
+       return new Promise<[AtfSummary]>((resolve)=>{
+          resolve(roadsignJson as [AtfSummary])
        }) 
     }
 }

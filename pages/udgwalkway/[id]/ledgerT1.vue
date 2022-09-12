@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <underground-walkway-side-card-details />
+        <underground-walkway-side-card-details select-tab="ledger" />
       </v-col>
       <v-col md="9" cols="12">
         <v-card elevation="3" class="rfaTable">

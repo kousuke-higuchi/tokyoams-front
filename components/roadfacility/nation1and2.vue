@@ -163,11 +163,11 @@
 </template>
 
 <script lang="ts">
-import { rfaNation1And2 } from '~~/types';
+import { RfaNation1And2 } from '~~/types';
 
 export default defineComponent({
   props: {
-    formInfo: rfaNation1And2
+    formInfo: RfaNation1And2
   },
   data(){
     return{

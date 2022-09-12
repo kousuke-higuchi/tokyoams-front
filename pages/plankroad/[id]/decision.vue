@@ -2,7 +2,7 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <plankroad-side-card-details />
+        <plankroad-side-card-details select-tab="protocol" />
       </v-col>
       <v-col md="9" cols="12">
         <roadfacility-decision title="桟道"></roadfacility-decision>

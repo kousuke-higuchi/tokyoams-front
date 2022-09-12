@@ -140,7 +140,7 @@
     const searchCond = ref(_cond)
 
     interface Emits {
-        (e: 'update:isOpen', isOpen: boolean): void;
+        (e: 'update:isOpen', isOpen: boolean): void,
         (e: 'beforeClose',accept: boolean, conditions: any ): void,
         (e: 'afterClose', accept: boolean, conditions: any ): void,
     }

@@ -1,0 +1,7223 @@
+[
+  {
+    "id": 4228,
+    "adminnumber": "12-3226",
+    "numberserial": "990003",
+    "formattedid": "12-3226-990003",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354522.27,
+    "longitude": 1392902.66,
+    "wgsCoordinate": {
+      "latitude": 35.75618611111111,
+      "longitude": 139.48407222222218
+    }
+  },
+  {
+    "id": 4229,
+    "adminnumber": "12-3226",
+    "numberserial": "990012",
+    "formattedid": "12-3226-990012",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354554.07,
+    "longitude": 1393002.02,
+    "wgsCoordinate": {
+      "latitude": 35.76501944444445,
+      "longitude": 139.50056111111113
+    }
+  },
+  {
+    "id": 4204,
+    "adminnumber": "12-3129",
+    "numberserial": "8503",
+    "formattedid": "12-3129-8503",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4205,
+    "adminnumber": "12-3129",
+    "numberserial": "8504",
+    "formattedid": "12-3129-8504",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4206,
+    "adminnumber": "12-3226",
+    "numberserial": "8001",
+    "formattedid": "12-3226-8001",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4207,
+    "adminnumber": "12-3226",
+    "numberserial": "8002",
+    "formattedid": "12-3226-8002",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4208,
+    "adminnumber": "12-3226",
+    "numberserial": "8003",
+    "formattedid": "12-3226-8003",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4209,
+    "adminnumber": "12-3226",
+    "numberserial": "8004",
+    "formattedid": "12-3226-8004",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4210,
+    "adminnumber": "12-3226",
+    "numberserial": "8005",
+    "formattedid": "12-3226-8005",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4211,
+    "adminnumber": "12-3226",
+    "numberserial": "8006",
+    "formattedid": "12-3226-8006",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4212,
+    "adminnumber": "12-3226",
+    "numberserial": "8007",
+    "formattedid": "12-3226-8007",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4213,
+    "adminnumber": "12-3226",
+    "numberserial": "8008",
+    "formattedid": "12-3226-8008",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354555.51,
+    "longitude": 1393004.94,
+    "wgsCoordinate": {
+      "latitude": 35.76541944444445,
+      "longitude": 139.50137222222222
+    }
+  },
+  {
+    "id": 4214,
+    "adminnumber": "12-3226",
+    "numberserial": "8009",
+    "formattedid": "12-3226-8009",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4215,
+    "adminnumber": "12-3226",
+    "numberserial": "8010",
+    "formattedid": "12-3226-8010",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354555.91,
+    "longitude": 1393005.14,
+    "wgsCoordinate": {
+      "latitude": 35.76553055555555,
+      "longitude": 139.50142777777774
+    }
+  },
+  {
+    "id": 4216,
+    "adminnumber": "12-3226",
+    "numberserial": "8500",
+    "formattedid": "12-3226-8500",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4217,
+    "adminnumber": "12-3226",
+    "numberserial": "8501",
+    "formattedid": "12-3226-8501",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4218,
+    "adminnumber": "12-3226",
+    "numberserial": "8502",
+    "formattedid": "12-3226-8502",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4219,
+    "adminnumber": "12-3226",
+    "numberserial": "8503",
+    "formattedid": "12-3226-8503",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4220,
+    "adminnumber": "12-3226",
+    "numberserial": "8504",
+    "formattedid": "12-3226-8504",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354604.69,
+    "longitude": 1393002.67,
+    "wgsCoordinate": {
+      "latitude": 35.76796944444445,
+      "longitude": 139.50074166666664
+    }
+  },
+  {
+    "id": 4221,
+    "adminnumber": "12-3226",
+    "numberserial": "8505",
+    "formattedid": "12-3226-8505",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4222,
+    "adminnumber": "12-3226",
+    "numberserial": "8506",
+    "formattedid": "12-3226-8506",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4223,
+    "adminnumber": "12-3226",
+    "numberserial": "8507",
+    "formattedid": "12-3226-8507",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4224,
+    "adminnumber": "12-1040",
+    "numberserial": "990002",
+    "formattedid": "12-1040-990002",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354633.64,
+    "longitude": 1393052.4,
+    "wgsCoordinate": {
+      "latitude": 35.77601111111112,
+      "longitude": 139.51455555555552
+    }
+  },
+  {
+    "id": 4225,
+    "adminnumber": "12-1040",
+    "numberserial": "990001",
+    "formattedid": "12-1040-990001",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354627.36,
+    "longitude": 1393016.43,
+    "wgsCoordinate": {
+      "latitude": 35.77426666666666,
+      "longitude": 139.50456388888887
+    }
+  },
+  {
+    "id": 4226,
+    "adminnumber": "12-3230",
+    "numberserial": "990003-1",
+    "formattedid": "12-3230-990003-1",
+    "routename": "（一２３０）小平停車場小川新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354411.54,
+    "longitude": 1392913.35,
+    "wgsCoordinate": {
+      "latitude": 35.73653888888889,
+      "longitude": 139.48704166666667
+    }
+  },
+  {
+    "id": 4227,
+    "adminnumber": "12-3226",
+    "numberserial": "990002",
+    "formattedid": "12-3226-990002",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354522.01,
+    "longitude": 1392902.22,
+    "wgsCoordinate": {
+      "latitude": 35.75611388888889,
+      "longitude": 139.48395
+    }
+  },
+  {
+    "id": 4230,
+    "adminnumber": "12-3226",
+    "numberserial": "990011",
+    "formattedid": "12-3226-990011",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354550.48,
+    "longitude": 1392957.4,
+    "wgsCoordinate": {
+      "latitude": 35.764022222222216,
+      "longitude": 139.49927777777773
+    }
+  },
+  {
+    "id": 4231,
+    "adminnumber": "12-3226",
+    "numberserial": "990010",
+    "formattedid": "12-3226-990010",
+    "routename": "（一２２６）東村山清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354549.79,
+    "longitude": 1392955.34,
+    "wgsCoordinate": {
+      "latitude": 35.76383055555555,
+      "longitude": 139.49870555555557
+    }
+  },
+  {
+    "id": 4232,
+    "adminnumber": "12-1024",
+    "numberserial": "990030",
+    "formattedid": "12-1024-990030",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354655.84,
+    "longitude": 1393056.36,
+    "wgsCoordinate": {
+      "latitude": 35.78217777777778,
+      "longitude": 139.51565555555558
+    }
+  },
+  {
+    "id": 4233,
+    "adminnumber": "12-1024",
+    "numberserial": "990031",
+    "formattedid": "12-1024-990031",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354647.58,
+    "longitude": 1393058.19,
+    "wgsCoordinate": {
+      "latitude": 35.77988333333334,
+      "longitude": 139.51616388888888
+    }
+  },
+  {
+    "id": 4234,
+    "adminnumber": "12-1024",
+    "numberserial": "990032",
+    "formattedid": "12-1024-990032",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354645.56,
+    "longitude": 1393058.45,
+    "wgsCoordinate": {
+      "latitude": 35.77932222222222,
+      "longitude": 139.51623611111108
+    }
+  },
+  {
+    "id": 4235,
+    "adminnumber": "12-1024",
+    "numberserial": "990033",
+    "formattedid": "12-1024-990033",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 354641.99,
+    "longitude": 1393100.34,
+    "wgsCoordinate": {
+      "latitude": 35.77833055555555,
+      "longitude": 139.51676111111115
+    }
+  },
+  {
+    "id": 4236,
+    "adminnumber": "12-1024",
+    "numberserial": "990034",
+    "formattedid": "12-1024-990034",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354604.35,
+    "longitude": 1393215.77,
+    "wgsCoordinate": {
+      "latitude": 35.76787499999999,
+      "longitude": 139.5377138888889
+    }
+  },
+  {
+    "id": 4237,
+    "adminnumber": "12-1024",
+    "numberserial": "990035",
+    "formattedid": "12-1024-990035",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354602.19,
+    "longitude": 1393221.9,
+    "wgsCoordinate": {
+      "latitude": 35.767275,
+      "longitude": 139.53941666666663
+    }
+  },
+  {
+    "id": 4238,
+    "adminnumber": "12-1024",
+    "numberserial": "990036",
+    "formattedid": "12-1024-990036",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354559.04,
+    "longitude": 1393226.52,
+    "wgsCoordinate": {
+      "latitude": 35.7664,
+      "longitude": 139.54070000000002
+    }
+  },
+  {
+    "id": 4239,
+    "adminnumber": "12-1024",
+    "numberserial": "990037",
+    "formattedid": "12-1024-990037",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354559.09,
+    "longitude": 1393228.0,
+    "wgsCoordinate": {
+      "latitude": 35.7664138888889,
+      "longitude": 139.54111111111112
+    }
+  },
+  {
+    "id": 4240,
+    "adminnumber": "12-1024",
+    "numberserial": "990038",
+    "formattedid": "12-1024-990038",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354558.15,
+    "longitude": 1393228.62,
+    "wgsCoordinate": {
+      "latitude": 35.76615277777778,
+      "longitude": 139.54128333333335
+    }
+  },
+  {
+    "id": 4241,
+    "adminnumber": "12-1024",
+    "numberserial": "990039",
+    "formattedid": "12-1024-990039",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354553.14,
+    "longitude": 1393234.62,
+    "wgsCoordinate": {
+      "latitude": 35.76476111111111,
+      "longitude": 139.54295000000002
+    }
+  },
+  {
+    "id": 4242,
+    "adminnumber": "12-1024",
+    "numberserial": "990040",
+    "formattedid": "12-1024-990040",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354551.58,
+    "longitude": 1393238.59,
+    "wgsCoordinate": {
+      "latitude": 35.76432777777778,
+      "longitude": 139.5440527777778
+    }
+  },
+  {
+    "id": 4243,
+    "adminnumber": "12-1024",
+    "numberserial": "990041",
+    "formattedid": "12-1024-990041",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354551.77,
+    "longitude": 1393240.54,
+    "wgsCoordinate": {
+      "latitude": 35.76438055555556,
+      "longitude": 139.54459444444444
+    }
+  },
+  {
+    "id": 4244,
+    "adminnumber": "12-1024",
+    "numberserial": "990042",
+    "formattedid": "12-1024-990042",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354552.76,
+    "longitude": 1393244.07,
+    "wgsCoordinate": {
+      "latitude": 35.76465555555556,
+      "longitude": 139.545575
+    }
+  },
+  {
+    "id": 4245,
+    "adminnumber": "12-1024",
+    "numberserial": "990043",
+    "formattedid": "12-1024-990043",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354551.82,
+    "longitude": 1393248.89,
+    "wgsCoordinate": {
+      "latitude": 35.76439444444445,
+      "longitude": 139.54691388888887
+    }
+  },
+  {
+    "id": 4246,
+    "adminnumber": "12-3129",
+    "numberserial": "990009",
+    "formattedid": "12-3129-990009",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354532.99,
+    "longitude": 1392815.13,
+    "wgsCoordinate": {
+      "latitude": 35.759163888888885,
+      "longitude": 139.47086944444442
+    }
+  },
+  {
+    "id": 4247,
+    "adminnumber": "12-3129",
+    "numberserial": "990008",
+    "formattedid": "12-3129-990008",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354531.13,
+    "longitude": 1392818.49,
+    "wgsCoordinate": {
+      "latitude": 35.75864722222222,
+      "longitude": 139.47180277777778
+    }
+  },
+  {
+    "id": 4248,
+    "adminnumber": "12-3129",
+    "numberserial": "990007",
+    "formattedid": "12-3129-990007",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354518.95,
+    "longitude": 1392839.48,
+    "wgsCoordinate": {
+      "latitude": 35.75526388888889,
+      "longitude": 139.47763333333333
+    }
+  },
+  {
+    "id": 4249,
+    "adminnumber": "12-3129",
+    "numberserial": "990012",
+    "formattedid": "12-3129-990012",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354517.8,
+    "longitude": 1392841.57,
+    "wgsCoordinate": {
+      "latitude": 35.75494444444444,
+      "longitude": 139.47821388888892
+    }
+  },
+  {
+    "id": 4250,
+    "adminnumber": "12-3129",
+    "numberserial": "990006",
+    "formattedid": "12-3129-990006",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354510.68,
+    "longitude": 1392857.7,
+    "wgsCoordinate": {
+      "latitude": 35.752966666666666,
+      "longitude": 139.48269444444443
+    }
+  },
+  {
+    "id": 4251,
+    "adminnumber": "12-3129",
+    "numberserial": "990011",
+    "formattedid": "12-3129-990011",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354508.06,
+    "longitude": 1392901.3,
+    "wgsCoordinate": {
+      "latitude": 35.75223888888889,
+      "longitude": 139.48369444444444
+    }
+  },
+  {
+    "id": 4252,
+    "adminnumber": "12-3129",
+    "numberserial": "990005",
+    "formattedid": "12-3129-990005",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354502.7,
+    "longitude": 1392908.15,
+    "wgsCoordinate": {
+      "latitude": 35.750750000000004,
+      "longitude": 139.4855972222222
+    }
+  },
+  {
+    "id": 4253,
+    "adminnumber": "12-3129",
+    "numberserial": "990001",
+    "formattedid": "12-3129-990001",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354502.37,
+    "longitude": 1392908.52,
+    "wgsCoordinate": {
+      "latitude": 35.750658333333334,
+      "longitude": 139.48569999999998
+    }
+  },
+  {
+    "id": 4254,
+    "adminnumber": "12-3129",
+    "numberserial": "990010",
+    "formattedid": "12-3129-990010",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354500.13,
+    "longitude": 1392911.05,
+    "wgsCoordinate": {
+      "latitude": 35.750036111111115,
+      "longitude": 139.48640277777778
+    }
+  },
+  {
+    "id": 4255,
+    "adminnumber": "12-3129",
+    "numberserial": "990004",
+    "formattedid": "12-3129-990004",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354456.3,
+    "longitude": 1392913.72,
+    "wgsCoordinate": {
+      "latitude": 35.74897222222222,
+      "longitude": 139.48714444444443
+    }
+  },
+  {
+    "id": 4256,
+    "adminnumber": "12-3129",
+    "numberserial": "990002",
+    "formattedid": "12-3129-990002",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354454.2,
+    "longitude": 1392926.48,
+    "wgsCoordinate": {
+      "latitude": 35.74838888888889,
+      "longitude": 139.49068888888888
+    }
+  },
+  {
+    "id": 4257,
+    "adminnumber": "12-3129",
+    "numberserial": "990003",
+    "formattedid": "12-3129-990003",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354452.57,
+    "longitude": 1392954.54,
+    "wgsCoordinate": {
+      "latitude": 35.747936111111116,
+      "longitude": 139.49848333333333
+    }
+  },
+  {
+    "id": 4258,
+    "adminnumber": "12-3129",
+    "numberserial": "7906",
+    "formattedid": "12-3129-7906",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354505.98,
+    "longitude": 1393028.54,
+    "wgsCoordinate": {
+      "latitude": 35.751661111111105,
+      "longitude": 139.50792777777778
+    }
+  },
+  {
+    "id": 4259,
+    "adminnumber": "12-1043",
+    "numberserial": "990011",
+    "formattedid": "12-1043-990011",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354350.23,
+    "longitude": 1392505.97,
+    "wgsCoordinate": {
+      "latitude": 35.73061944444444,
+      "longitude": 139.41832499999998
+    }
+  },
+  {
+    "id": 4260,
+    "adminnumber": "12-1043",
+    "numberserial": "990012",
+    "formattedid": "12-1043-990012",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "東大和市",
+    "latitude": 354356.26,
+    "longitude": 1392504.8,
+    "wgsCoordinate": {
+      "latitude": 35.73229444444445,
+      "longitude": 139.418
+    }
+  },
+  {
+    "id": 4261,
+    "adminnumber": "12-1004",
+    "numberserial": "8519",
+    "formattedid": "12-1004-8519",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354532.34,
+    "longitude": 1393003.64,
+    "wgsCoordinate": {
+      "latitude": 35.75898333333334,
+      "longitude": 139.50101111111107
+    }
+  },
+  {
+    "id": 4262,
+    "adminnumber": "12-1029",
+    "numberserial": "998001",
+    "formattedid": "12-1029-998001",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354219.26,
+    "longitude": 1392038.27,
+    "wgsCoordinate": {
+      "latitude": 35.70535,
+      "longitude": 139.3439638888889
+    }
+  },
+  {
+    "id": 4263,
+    "adminnumber": "12-1029",
+    "numberserial": "998002",
+    "formattedid": "12-1029-998002",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354215.67,
+    "longitude": 1392048.94,
+    "wgsCoordinate": {
+      "latitude": 35.70435277777778,
+      "longitude": 139.34692777777778
+    }
+  },
+  {
+    "id": 4264,
+    "adminnumber": "12-1029",
+    "numberserial": "998003",
+    "formattedid": "12-1029-998003",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354214.88,
+    "longitude": 1392052.1,
+    "wgsCoordinate": {
+      "latitude": 35.70413333333334,
+      "longitude": 139.3478055555556
+    }
+  },
+  {
+    "id": 4265,
+    "adminnumber": "12-1029",
+    "numberserial": "998005",
+    "formattedid": "12-1029-998005",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354210.27,
+    "longitude": 1392108.92,
+    "wgsCoordinate": {
+      "latitude": 35.702852777777785,
+      "longitude": 139.35247777777775
+    }
+  },
+  {
+    "id": 4266,
+    "adminnumber": "12-1029",
+    "numberserial": "998007",
+    "formattedid": "12-1029-998007",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354156.59,
+    "longitude": 1392148.09,
+    "wgsCoordinate": {
+      "latitude": 35.69905277777778,
+      "longitude": 139.36335833333334
+    }
+  },
+  {
+    "id": 4267,
+    "adminnumber": "12-1029",
+    "numberserial": "998008",
+    "formattedid": "12-1029-998008",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354156.96,
+    "longitude": 1392155.36,
+    "wgsCoordinate": {
+      "latitude": 35.699155555555556,
+      "longitude": 139.3653777777778
+    }
+  },
+  {
+    "id": 4268,
+    "adminnumber": "12-1029",
+    "numberserial": "998009",
+    "formattedid": "12-1029-998009",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354203.79,
+    "longitude": 1392220.73,
+    "wgsCoordinate": {
+      "latitude": 35.701052777777775,
+      "longitude": 139.372425
+    }
+  },
+  {
+    "id": 4269,
+    "adminnumber": "12-1029",
+    "numberserial": "998010",
+    "formattedid": "12-1029-998010",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354205.06,
+    "longitude": 1392234.11,
+    "wgsCoordinate": {
+      "latitude": 35.70140555555556,
+      "longitude": 139.3761416666667
+    }
+  },
+  {
+    "id": 4270,
+    "adminnumber": "12-1029",
+    "numberserial": "998011",
+    "formattedid": "12-1029-998011",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354202.01,
+    "longitude": 1392301.88,
+    "wgsCoordinate": {
+      "latitude": 35.70055833333334,
+      "longitude": 139.38385555555553
+    }
+  },
+  {
+    "id": 4271,
+    "adminnumber": "12-1029",
+    "numberserial": "998012",
+    "formattedid": "12-1029-998012",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354201.49,
+    "longitude": 1392305.0,
+    "wgsCoordinate": {
+      "latitude": 35.70041388888889,
+      "longitude": 139.38472222222222
+    }
+  },
+  {
+    "id": 4272,
+    "adminnumber": "12-1029",
+    "numberserial": "998014",
+    "formattedid": "12-1029-998014",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354154.24,
+    "longitude": 1392324.14,
+    "wgsCoordinate": {
+      "latitude": 35.69839999999999,
+      "longitude": 139.39003888888885
+    }
+  },
+  {
+    "id": 4273,
+    "adminnumber": "12-1029",
+    "numberserial": "998016",
+    "formattedid": "12-1029-998016",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354153.33,
+    "longitude": 1392329.17,
+    "wgsCoordinate": {
+      "latitude": 35.698147222222225,
+      "longitude": 139.3914361111111
+    }
+  },
+  {
+    "id": 4274,
+    "adminnumber": "12-1029",
+    "numberserial": "998017",
+    "formattedid": "12-1029-998017",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354152.32,
+    "longitude": 1392334.42,
+    "wgsCoordinate": {
+      "latitude": 35.69786666666666,
+      "longitude": 139.3928944444444
+    }
+  },
+  {
+    "id": 4275,
+    "adminnumber": "12-1029",
+    "numberserial": "998018",
+    "formattedid": "12-1029-998018",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354151.49,
+    "longitude": 1392337.44,
+    "wgsCoordinate": {
+      "latitude": 35.6976361111111,
+      "longitude": 139.3937333333333
+    }
+  },
+  {
+    "id": 4276,
+    "adminnumber": "12-1029",
+    "numberserial": "998019",
+    "formattedid": "12-1029-998019",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354151.76,
+    "longitude": 1392337.51,
+    "wgsCoordinate": {
+      "latitude": 35.69771111111111,
+      "longitude": 139.39375277777776
+    }
+  },
+  {
+    "id": 4277,
+    "adminnumber": "12-1029",
+    "numberserial": "998020",
+    "formattedid": "12-1029-998020",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354149.92,
+    "longitude": 1392339.89,
+    "wgsCoordinate": {
+      "latitude": 35.697199999999995,
+      "longitude": 139.39441388888886
+    }
+  },
+  {
+    "id": 4278,
+    "adminnumber": "12-1029",
+    "numberserial": "998021",
+    "formattedid": "12-1029-998021",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354146.42,
+    "longitude": 1392349.05,
+    "wgsCoordinate": {
+      "latitude": 35.69622777777777,
+      "longitude": 139.39695833333334
+    }
+  },
+  {
+    "id": 4279,
+    "adminnumber": "12-1029",
+    "numberserial": "998028",
+    "formattedid": "12-1029-998028",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354119.2,
+    "longitude": 1392446.81,
+    "wgsCoordinate": {
+      "latitude": 35.68866666666667,
+      "longitude": 139.4130027777778
+    }
+  },
+  {
+    "id": 4280,
+    "adminnumber": "12-1029",
+    "numberserial": "998041",
+    "formattedid": "12-1029-998041",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354217.33,
+    "longitude": 1392106.83,
+    "wgsCoordinate": {
+      "latitude": 35.70481388888889,
+      "longitude": 139.35189722222225
+    }
+  },
+  {
+    "id": 4281,
+    "adminnumber": "12-1029",
+    "numberserial": "998040",
+    "formattedid": "12-1029-998040",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354200.3,
+    "longitude": 1392156.41,
+    "wgsCoordinate": {
+      "latitude": 35.70008333333333,
+      "longitude": 139.36566944444442
+    }
+  },
+  {
+    "id": 4283,
+    "adminnumber": "12-1016",
+    "numberserial": "990002",
+    "formattedid": "12-1016-990002",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "小平市",
+    "latitude": 354434.88,
+    "longitude": 1392800.42,
+    "wgsCoordinate": {
+      "latitude": 35.74302222222222,
+      "longitude": 139.46678333333332
+    }
+  },
+  {
+    "id": 4285,
+    "adminnumber": "12-1005",
+    "numberserial": "990003",
+    "formattedid": "12-1005-990003",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354349.63,
+    "longitude": 1393036.75,
+    "wgsCoordinate": {
+      "latitude": 35.73045277777778,
+      "longitude": 139.51020833333334
+    }
+  },
+  {
+    "id": 4286,
+    "adminnumber": "12-1005",
+    "numberserial": "990004",
+    "formattedid": "12-1005-990004",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354350.2,
+    "longitude": 1393028.6,
+    "wgsCoordinate": {
+      "latitude": 35.730611111111116,
+      "longitude": 139.50794444444446
+    }
+  },
+  {
+    "id": 4287,
+    "adminnumber": "12-1005",
+    "numberserial": "990005",
+    "formattedid": "12-1005-990005",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354349.9,
+    "longitude": 1393026.84,
+    "wgsCoordinate": {
+      "latitude": 35.73052777777779,
+      "longitude": 139.50745555555557
+    }
+  },
+  {
+    "id": 4288,
+    "adminnumber": "12-1005",
+    "numberserial": "990007",
+    "formattedid": "12-1005-990007",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354350.43,
+    "longitude": 1392915.04,
+    "wgsCoordinate": {
+      "latitude": 35.730675,
+      "longitude": 139.4875111111111
+    }
+  },
+  {
+    "id": 4289,
+    "adminnumber": "12-1005",
+    "numberserial": "990009",
+    "formattedid": "12-1005-990009",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354350.02,
+    "longitude": 1392848.82,
+    "wgsCoordinate": {
+      "latitude": 35.730561111111115,
+      "longitude": 139.4802277777778
+    }
+  },
+  {
+    "id": 4290,
+    "adminnumber": "12-1005",
+    "numberserial": "990010",
+    "formattedid": "12-1005-990010",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354349.28,
+    "longitude": 1392743.65,
+    "wgsCoordinate": {
+      "latitude": 35.73035555555556,
+      "longitude": 139.46212499999996
+    }
+  },
+  {
+    "id": 4291,
+    "adminnumber": "12-1005",
+    "numberserial": "990011",
+    "formattedid": "12-1005-990011",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354349.33,
+    "longitude": 1392743.13,
+    "wgsCoordinate": {
+      "latitude": 35.73036944444445,
+      "longitude": 139.4619805555555
+    }
+  },
+  {
+    "id": 4292,
+    "adminnumber": "12-1005",
+    "numberserial": "990014",
+    "formattedid": "12-1005-990014",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354351.48,
+    "longitude": 1392717.05,
+    "wgsCoordinate": {
+      "latitude": 35.73096666666666,
+      "longitude": 139.45473611111112
+    }
+  },
+  {
+    "id": 4293,
+    "adminnumber": "12-1005",
+    "numberserial": "990015",
+    "formattedid": "12-1005-990015",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354352.36,
+    "longitude": 1392710.72,
+    "wgsCoordinate": {
+      "latitude": 35.73121111111111,
+      "longitude": 139.45297777777776
+    }
+  },
+  {
+    "id": 4294,
+    "adminnumber": "12-1005",
+    "numberserial": "990016",
+    "formattedid": "12-1005-990016",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354352.37,
+    "longitude": 1392710.3,
+    "wgsCoordinate": {
+      "latitude": 35.73121388888889,
+      "longitude": 139.4528611111111
+    }
+  },
+  {
+    "id": 4295,
+    "adminnumber": "12-1005",
+    "numberserial": "990017",
+    "formattedid": "12-1005-990017",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354353.14,
+    "longitude": 1392656.75,
+    "wgsCoordinate": {
+      "latitude": 35.73142777777778,
+      "longitude": 139.44909722222224
+    }
+  },
+  {
+    "id": 4296,
+    "adminnumber": "12-1005",
+    "numberserial": "990018",
+    "formattedid": "12-1005-990018",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354353.14,
+    "longitude": 1392656.36,
+    "wgsCoordinate": {
+      "latitude": 35.73142777777778,
+      "longitude": 139.44898888888892
+    }
+  },
+  {
+    "id": 4297,
+    "adminnumber": "12-1005",
+    "numberserial": "990019",
+    "formattedid": "12-1005-990019",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354355.01,
+    "longitude": 1392636.23,
+    "wgsCoordinate": {
+      "latitude": 35.731947222222225,
+      "longitude": 139.44339722222222
+    }
+  },
+  {
+    "id": 4298,
+    "adminnumber": "12-1005",
+    "numberserial": "990023",
+    "formattedid": "12-1005-990023",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354455.81,
+    "longitude": 1392535.89,
+    "wgsCoordinate": {
+      "latitude": 35.74883611111111,
+      "longitude": 139.42663611111107
+    }
+  },
+  {
+    "id": 4299,
+    "adminnumber": "12-1005",
+    "numberserial": "990024",
+    "formattedid": "12-1005-990024",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354506.54,
+    "longitude": 1392536.8,
+    "wgsCoordinate": {
+      "latitude": 35.75181666666666,
+      "longitude": 139.4268888888889
+    }
+  },
+  {
+    "id": 4300,
+    "adminnumber": "12-1005",
+    "numberserial": "990025",
+    "formattedid": "12-1005-990025",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354509.98,
+    "longitude": 1392531.98,
+    "wgsCoordinate": {
+      "latitude": 35.75277222222222,
+      "longitude": 139.42555
+    }
+  },
+  {
+    "id": 4301,
+    "adminnumber": "12-1005",
+    "numberserial": "990026",
+    "formattedid": "12-1005-990026",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354511.58,
+    "longitude": 1392521.26,
+    "wgsCoordinate": {
+      "latitude": 35.753216666666674,
+      "longitude": 139.42257222222221
+    }
+  },
+  {
+    "id": 4302,
+    "adminnumber": "12-1005",
+    "numberserial": "990027",
+    "formattedid": "12-1005-990027",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354511.86,
+    "longitude": 1392520.13,
+    "wgsCoordinate": {
+      "latitude": 35.75329444444444,
+      "longitude": 139.4222583333333
+    }
+  },
+  {
+    "id": 4303,
+    "adminnumber": "12-1005",
+    "numberserial": "990028",
+    "formattedid": "12-1005-990028",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354513.46,
+    "longitude": 1392518.0,
+    "wgsCoordinate": {
+      "latitude": 35.7537388888889,
+      "longitude": 139.42166666666665
+    }
+  },
+  {
+    "id": 4304,
+    "adminnumber": "12-1005",
+    "numberserial": "990029",
+    "formattedid": "12-1005-990029",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354513.19,
+    "longitude": 1392517.6,
+    "wgsCoordinate": {
+      "latitude": 35.75366388888889,
+      "longitude": 139.42155555555559
+    }
+  },
+  {
+    "id": 4305,
+    "adminnumber": "12-1005",
+    "numberserial": "990030",
+    "formattedid": "12-1005-990030",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354513.97,
+    "longitude": 1392516.51,
+    "wgsCoordinate": {
+      "latitude": 35.75388055555555,
+      "longitude": 139.42125277777777
+    }
+  },
+  {
+    "id": 4306,
+    "adminnumber": "12-1005",
+    "numberserial": "990031",
+    "formattedid": "12-1005-990031",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354514.89,
+    "longitude": 1392513.78,
+    "wgsCoordinate": {
+      "latitude": 35.754136111111116,
+      "longitude": 139.42049444444444
+    }
+  },
+  {
+    "id": 4307,
+    "adminnumber": "12-1005",
+    "numberserial": "990101",
+    "formattedid": "12-1005-990101",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354520.35,
+    "longitude": 1392449.24,
+    "wgsCoordinate": {
+      "latitude": 35.75565277777777,
+      "longitude": 139.4136777777778
+    }
+  },
+  {
+    "id": 4308,
+    "adminnumber": "12-1005",
+    "numberserial": "990102",
+    "formattedid": "12-1005-990102",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354521.87,
+    "longitude": 1392445.17,
+    "wgsCoordinate": {
+      "latitude": 35.756074999999996,
+      "longitude": 139.4125472222222
+    }
+  },
+  {
+    "id": 4309,
+    "adminnumber": "12-1005",
+    "numberserial": "990103",
+    "formattedid": "12-1005-990103",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354523.42,
+    "longitude": 1392439.84,
+    "wgsCoordinate": {
+      "latitude": 35.75650555555555,
+      "longitude": 139.4110666666667
+    }
+  },
+  {
+    "id": 4310,
+    "adminnumber": "12-1005",
+    "numberserial": "990105",
+    "formattedid": "12-1005-990105",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354524.21,
+    "longitude": 1392434.72,
+    "wgsCoordinate": {
+      "latitude": 35.756725,
+      "longitude": 139.40964444444444
+    }
+  },
+  {
+    "id": 4311,
+    "adminnumber": "12-1005",
+    "numberserial": "990107",
+    "formattedid": "12-1005-990107",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354526.78,
+    "longitude": 1392426.14,
+    "wgsCoordinate": {
+      "latitude": 35.7574388888889,
+      "longitude": 139.4072611111111
+    }
+  },
+  {
+    "id": 4312,
+    "adminnumber": "12-1005",
+    "numberserial": "990108",
+    "formattedid": "12-1005-990108",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354527.08,
+    "longitude": 1392425.27,
+    "wgsCoordinate": {
+      "latitude": 35.75752222222223,
+      "longitude": 139.40701944444444
+    }
+  },
+  {
+    "id": 4313,
+    "adminnumber": "12-1005",
+    "numberserial": "990109",
+    "formattedid": "12-1005-990109",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354526.71,
+    "longitude": 1392425.11,
+    "wgsCoordinate": {
+      "latitude": 35.75741944444445,
+      "longitude": 139.40697500000005
+    }
+  },
+  {
+    "id": 4314,
+    "adminnumber": "12-1005",
+    "numberserial": "990110",
+    "formattedid": "12-1005-990110",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354528.27,
+    "longitude": 1392420.05,
+    "wgsCoordinate": {
+      "latitude": 35.757852777777785,
+      "longitude": 139.40556944444447
+    }
+  },
+  {
+    "id": 4315,
+    "adminnumber": "12-1005",
+    "numberserial": "990111",
+    "formattedid": "12-1005-990111",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354528.01,
+    "longitude": 1392419.15,
+    "wgsCoordinate": {
+      "latitude": 35.757780555555556,
+      "longitude": 139.40531944444442
+    }
+  },
+  {
+    "id": 4284,
+    "adminnumber": "12-1005",
+    "numberserial": "990001",
+    "formattedid": "12-1005-990001",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354349.71,
+    "longitude": 1393053.5,
+    "wgsCoordinate": {
+      "latitude": 35.730475000000006,
+      "longitude": 139.51486111111112
+    }
+  },
+  {
+    "id": 4316,
+    "adminnumber": "12-1005",
+    "numberserial": "990112",
+    "formattedid": "12-1005-990112",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354528.35,
+    "longitude": 1392412.08,
+    "wgsCoordinate": {
+      "latitude": 35.75787499999999,
+      "longitude": 139.40335555555558
+    }
+  },
+  {
+    "id": 4317,
+    "adminnumber": "12-1005",
+    "numberserial": "990113",
+    "formattedid": "12-1005-990113",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354528.22,
+    "longitude": 1392406.97,
+    "wgsCoordinate": {
+      "latitude": 35.757838888888884,
+      "longitude": 139.4019361111111
+    }
+  },
+  {
+    "id": 4318,
+    "adminnumber": "12-1005",
+    "numberserial": "990114",
+    "formattedid": "12-1005-990114",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354528.33,
+    "longitude": 1392405.61,
+    "wgsCoordinate": {
+      "latitude": 35.75786944444445,
+      "longitude": 139.40155833333336
+    }
+  },
+  {
+    "id": 4319,
+    "adminnumber": "12-1005",
+    "numberserial": "990116",
+    "formattedid": "12-1005-990116",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354525.43,
+    "longitude": 1392403.73,
+    "wgsCoordinate": {
+      "latitude": 35.75706388888889,
+      "longitude": 139.40103611111113
+    }
+  },
+  {
+    "id": 4320,
+    "adminnumber": "12-1005",
+    "numberserial": "990117",
+    "formattedid": "12-1005-990117",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354522.84,
+    "longitude": 1392401.89,
+    "wgsCoordinate": {
+      "latitude": 35.75634444444445,
+      "longitude": 139.400525
+    }
+  },
+  {
+    "id": 4321,
+    "adminnumber": "12-1005",
+    "numberserial": "990121",
+    "formattedid": "12-1005-990121",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354514.55,
+    "longitude": 1392357.18,
+    "wgsCoordinate": {
+      "latitude": 35.754041666666666,
+      "longitude": 139.39921666666663
+    }
+  },
+  {
+    "id": 4322,
+    "adminnumber": "12-1005",
+    "numberserial": "990122",
+    "formattedid": "12-1005-990122",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354514.68,
+    "longitude": 1392355.82,
+    "wgsCoordinate": {
+      "latitude": 35.75407777777777,
+      "longitude": 139.3988388888889
+    }
+  },
+  {
+    "id": 4323,
+    "adminnumber": "12-1005",
+    "numberserial": "990124",
+    "formattedid": "12-1005-990124",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354515.75,
+    "longitude": 1392348.76,
+    "wgsCoordinate": {
+      "latitude": 35.754375,
+      "longitude": 139.39687777777777
+    }
+  },
+  {
+    "id": 4324,
+    "adminnumber": "12-1005",
+    "numberserial": "990127",
+    "formattedid": "12-1005-990127",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354516.53,
+    "longitude": 1392340.23,
+    "wgsCoordinate": {
+      "latitude": 35.75459166666668,
+      "longitude": 139.39450833333333
+    }
+  },
+  {
+    "id": 4332,
+    "adminnumber": "12-1005",
+    "numberserial": "990140",
+    "formattedid": "12-1005-990140",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354526.46,
+    "longitude": 1392255.86,
+    "wgsCoordinate": {
+      "latitude": 35.75735,
+      "longitude": 139.38218333333336
+    }
+  },
+  {
+    "id": 4333,
+    "adminnumber": "12-1005",
+    "numberserial": "990142",
+    "formattedid": "12-1005-990142",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354528.73,
+    "longitude": 1392248.63,
+    "wgsCoordinate": {
+      "latitude": 35.75798055555555,
+      "longitude": 139.38017499999998
+    }
+  },
+  {
+    "id": 4334,
+    "adminnumber": "12-1005",
+    "numberserial": "990141",
+    "formattedid": "12-1005-990141",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354528.49,
+    "longitude": 1392248.19,
+    "wgsCoordinate": {
+      "latitude": 35.757913888888886,
+      "longitude": 139.38005277777776
+    }
+  },
+  {
+    "id": 4325,
+    "adminnumber": "12-1005",
+    "numberserial": "990129",
+    "formattedid": "12-1005-990129",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354516.72,
+    "longitude": 1392337.52,
+    "wgsCoordinate": {
+      "latitude": 35.75464444444444,
+      "longitude": 139.39375555555554
+    }
+  },
+  {
+    "id": 4326,
+    "adminnumber": "12-1005",
+    "numberserial": "990130",
+    "formattedid": "12-1005-990130",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354517.12,
+    "longitude": 1392327.09,
+    "wgsCoordinate": {
+      "latitude": 35.754755555555555,
+      "longitude": 139.39085833333334
+    }
+  },
+  {
+    "id": 4327,
+    "adminnumber": "12-1005",
+    "numberserial": "990132",
+    "formattedid": "12-1005-990132",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354517.79,
+    "longitude": 1392322.23,
+    "wgsCoordinate": {
+      "latitude": 35.75494166666666,
+      "longitude": 139.3895083333333
+    }
+  },
+  {
+    "id": 4328,
+    "adminnumber": "12-1005",
+    "numberserial": "990133",
+    "formattedid": "12-1005-990133",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354518.54,
+    "longitude": 1392316.57,
+    "wgsCoordinate": {
+      "latitude": 35.75514999999999,
+      "longitude": 139.38793611111112
+    }
+  },
+  {
+    "id": 4329,
+    "adminnumber": "12-1005",
+    "numberserial": "990134",
+    "formattedid": "12-1005-990134",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354518.63,
+    "longitude": 1392316.18,
+    "wgsCoordinate": {
+      "latitude": 35.755175,
+      "longitude": 139.38782777777774
+    }
+  },
+  {
+    "id": 4330,
+    "adminnumber": "12-1005",
+    "numberserial": "990136",
+    "formattedid": "12-1005-990136",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354523.26,
+    "longitude": 1392303.16,
+    "wgsCoordinate": {
+      "latitude": 35.756461111111115,
+      "longitude": 139.38421111111109
+    }
+  },
+  {
+    "id": 4331,
+    "adminnumber": "12-1005",
+    "numberserial": "990138",
+    "formattedid": "12-1005-990138",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354525.64,
+    "longitude": 1392259.0,
+    "wgsCoordinate": {
+      "latitude": 35.75712222222223,
+      "longitude": 139.38305555555556
+    }
+  },
+  {
+    "id": 4335,
+    "adminnumber": "12-1005",
+    "numberserial": "990143",
+    "formattedid": "12-1005-990143",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354532.65,
+    "longitude": 1392234.58,
+    "wgsCoordinate": {
+      "latitude": 35.75906944444445,
+      "longitude": 139.37627222222224
+    }
+  },
+  {
+    "id": 4336,
+    "adminnumber": "12-1005",
+    "numberserial": "990145",
+    "formattedid": "12-1005-990145",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354536.0,
+    "longitude": 1392219.55,
+    "wgsCoordinate": {
+      "latitude": 35.76,
+      "longitude": 139.37209722222224
+    }
+  },
+  {
+    "id": 4337,
+    "adminnumber": "12-1005",
+    "numberserial": "990146",
+    "formattedid": "12-1005-990146",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354537.36,
+    "longitude": 1392214.39,
+    "wgsCoordinate": {
+      "latitude": 35.76037777777778,
+      "longitude": 139.37066388888886
+    }
+  },
+  {
+    "id": 4338,
+    "adminnumber": "12-1005",
+    "numberserial": "990147",
+    "formattedid": "12-1005-990147",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354538.22,
+    "longitude": 1392213.39,
+    "wgsCoordinate": {
+      "latitude": 35.76061666666666,
+      "longitude": 139.3703861111111
+    }
+  },
+  {
+    "id": 4339,
+    "adminnumber": "12-1005",
+    "numberserial": "990148",
+    "formattedid": "12-1005-990148",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354544.19,
+    "longitude": 1392201.96,
+    "wgsCoordinate": {
+      "latitude": 35.762275,
+      "longitude": 139.36721111111112
+    }
+  },
+  {
+    "id": 4340,
+    "adminnumber": "12-3152",
+    "numberserial": "990008",
+    "formattedid": "12-3152-990008",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354206.65,
+    "longitude": 1392227.34,
+    "wgsCoordinate": {
+      "latitude": 35.701847222222234,
+      "longitude": 139.37426111111114
+    }
+  },
+  {
+    "id": 3779,
+    "adminnumber": "12-1004",
+    "numberserial": "8001",
+    "formattedid": "12-1004-8001",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3780,
+    "adminnumber": "12-1004",
+    "numberserial": "8002",
+    "formattedid": "12-1004-8002",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3781,
+    "adminnumber": "12-1004",
+    "numberserial": "8003",
+    "formattedid": "12-1004-8003",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3782,
+    "adminnumber": "12-1004",
+    "numberserial": "8004",
+    "formattedid": "12-1004-8004",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3783,
+    "adminnumber": "12-1004",
+    "numberserial": "8005",
+    "formattedid": "12-1004-8005",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3784,
+    "adminnumber": "12-1004",
+    "numberserial": "8006",
+    "formattedid": "12-1004-8006",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354450.71,
+    "longitude": 1393112.24,
+    "wgsCoordinate": {
+      "latitude": 35.74741944444445,
+      "longitude": 139.52006666666668
+    }
+  },
+  {
+    "id": 3785,
+    "adminnumber": "12-1004",
+    "numberserial": "8007",
+    "formattedid": "12-1004-8007",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3786,
+    "adminnumber": "12-1004",
+    "numberserial": "8008",
+    "formattedid": "12-1004-8008",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3787,
+    "adminnumber": "12-1004",
+    "numberserial": "8009",
+    "formattedid": "12-1004-8009",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354454.92,
+    "longitude": 1393055.97,
+    "wgsCoordinate": {
+      "latitude": 35.74858888888888,
+      "longitude": 139.5155472222222
+    }
+  },
+  {
+    "id": 3788,
+    "adminnumber": "12-1004",
+    "numberserial": "8010",
+    "formattedid": "12-1004-8010",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3789,
+    "adminnumber": "12-1004",
+    "numberserial": "8011",
+    "formattedid": "12-1004-8011",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3790,
+    "adminnumber": "12-1004",
+    "numberserial": "8500",
+    "formattedid": "12-1004-8500",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3791,
+    "adminnumber": "12-1004",
+    "numberserial": "8501",
+    "formattedid": "12-1004-8501",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3792,
+    "adminnumber": "12-1004",
+    "numberserial": "8502",
+    "formattedid": "12-1004-8502",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3793,
+    "adminnumber": "12-1004",
+    "numberserial": "8503",
+    "formattedid": "12-1004-8503",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3794,
+    "adminnumber": "12-1004",
+    "numberserial": "8504",
+    "formattedid": "12-1004-8504",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3795,
+    "adminnumber": "12-1004",
+    "numberserial": "8505",
+    "formattedid": "12-1004-8505",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354452.72,
+    "longitude": 1393105.02,
+    "wgsCoordinate": {
+      "latitude": 35.74797777777777,
+      "longitude": 139.51806111111114
+    }
+  },
+  {
+    "id": 3796,
+    "adminnumber": "12-1004",
+    "numberserial": "8506",
+    "formattedid": "12-1004-8506",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3797,
+    "adminnumber": "12-1004",
+    "numberserial": "8507",
+    "formattedid": "12-1004-8507",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3798,
+    "adminnumber": "12-1004",
+    "numberserial": "8508",
+    "formattedid": "12-1004-8508",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3799,
+    "adminnumber": "12-1004",
+    "numberserial": "8509",
+    "formattedid": "12-1004-8509",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3800,
+    "adminnumber": "12-1004",
+    "numberserial": "8510",
+    "formattedid": "12-1004-8510",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3801,
+    "adminnumber": "12-1004",
+    "numberserial": "8511",
+    "formattedid": "12-1004-8511",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3802,
+    "adminnumber": "12-1004",
+    "numberserial": "8900",
+    "formattedid": "12-1004-8900",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3803,
+    "adminnumber": "12-1005",
+    "numberserial": "8001",
+    "formattedid": "12-1005-8001",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3804,
+    "adminnumber": "12-1005",
+    "numberserial": "8002",
+    "formattedid": "12-1005-8002",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354349.38,
+    "longitude": 1393050.82,
+    "wgsCoordinate": {
+      "latitude": 35.730383333333336,
+      "longitude": 139.5141166666667
+    }
+  },
+  {
+    "id": 3805,
+    "adminnumber": "12-1005",
+    "numberserial": "8003",
+    "formattedid": "12-1005-8003",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354350.75,
+    "longitude": 1392904.2,
+    "wgsCoordinate": {
+      "latitude": 35.73076388888889,
+      "longitude": 139.48449999999997
+    }
+  },
+  {
+    "id": 3806,
+    "adminnumber": "12-1005",
+    "numberserial": "8500",
+    "formattedid": "12-1005-8500",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3807,
+    "adminnumber": "12-1005",
+    "numberserial": "8501",
+    "formattedid": "12-1005-8501",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354349.8,
+    "longitude": 1392738.04,
+    "wgsCoordinate": {
+      "latitude": 35.7305,
+      "longitude": 139.46056666666667
+    }
+  },
+  {
+    "id": 3808,
+    "adminnumber": "12-1005",
+    "numberserial": "8502",
+    "formattedid": "12-1005-8502",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354351.81,
+    "longitude": 1392718.97,
+    "wgsCoordinate": {
+      "latitude": 35.73105833333334,
+      "longitude": 139.4552694444444
+    }
+  },
+  {
+    "id": 3809,
+    "adminnumber": "12-1005",
+    "numberserial": "8504",
+    "formattedid": "12-1005-8504",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3810,
+    "adminnumber": "12-1005",
+    "numberserial": "8505",
+    "formattedid": "12-1005-8505",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3811,
+    "adminnumber": "12-1007",
+    "numberserial": "8001",
+    "formattedid": "12-1007-8001",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3831,
+    "adminnumber": "12-1015",
+    "numberserial": "8503",
+    "formattedid": "12-1015-8503",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3832,
+    "adminnumber": "12-3234",
+    "numberserial": "8507",
+    "formattedid": "12-3234-8507",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3812,
+    "adminnumber": "12-1007",
+    "numberserial": "8002",
+    "formattedid": "12-1007-8002",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3813,
+    "adminnumber": "12-1007",
+    "numberserial": "8003",
+    "formattedid": "12-1007-8003",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354303.45,
+    "longitude": 1392813.37,
+    "wgsCoordinate": {
+      "latitude": 35.717625000000005,
+      "longitude": 139.47038055555558
+    }
+  },
+  {
+    "id": 3814,
+    "adminnumber": "12-1007",
+    "numberserial": "8004",
+    "formattedid": "12-1007-8004",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354309.66,
+    "longitude": 1392626.08,
+    "wgsCoordinate": {
+      "latitude": 35.71934999999999,
+      "longitude": 139.4405777777778
+    }
+  },
+  {
+    "id": 3815,
+    "adminnumber": "12-1007",
+    "numberserial": "8500",
+    "formattedid": "12-1007-8500",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354245.32,
+    "longitude": 1393010.87,
+    "wgsCoordinate": {
+      "latitude": 35.712588888888895,
+      "longitude": 139.50301944444448
+    }
+  },
+  {
+    "id": 3816,
+    "adminnumber": "12-1007",
+    "numberserial": "8501",
+    "formattedid": "12-1007-8501",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354245.52,
+    "longitude": 1393005.35,
+    "wgsCoordinate": {
+      "latitude": 35.71264444444445,
+      "longitude": 139.50148611111115
+    }
+  },
+  {
+    "id": 3817,
+    "adminnumber": "12-1007",
+    "numberserial": "8502",
+    "formattedid": "12-1007-8502",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3818,
+    "adminnumber": "12-1007",
+    "numberserial": "8503",
+    "formattedid": "12-1007-8503",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354249.47,
+    "longitude": 1392943.08,
+    "wgsCoordinate": {
+      "latitude": 35.713741666666664,
+      "longitude": 139.49530000000001
+    }
+  },
+  {
+    "id": 3819,
+    "adminnumber": "12-1007",
+    "numberserial": "8504",
+    "formattedid": "12-1007-8504",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354249.59,
+    "longitude": 1392942.47,
+    "wgsCoordinate": {
+      "latitude": 35.71377500000001,
+      "longitude": 139.49513055555553
+    }
+  },
+  {
+    "id": 3820,
+    "adminnumber": "12-1007",
+    "numberserial": "8505",
+    "formattedid": "12-1007-8505",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3821,
+    "adminnumber": "12-1007",
+    "numberserial": "8506",
+    "formattedid": "12-1007-8506",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3822,
+    "adminnumber": "12-1007",
+    "numberserial": "8507",
+    "formattedid": "12-1007-8507",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3823,
+    "adminnumber": "12-1007",
+    "numberserial": "8508",
+    "formattedid": "12-1007-8508",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354300.51,
+    "longitude": 1392845.45,
+    "wgsCoordinate": {
+      "latitude": 35.71680833333334,
+      "longitude": 139.47929166666665
+    }
+  },
+  {
+    "id": 3824,
+    "adminnumber": "12-1007",
+    "numberserial": "8509",
+    "formattedid": "12-1007-8509",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354302.13,
+    "longitude": 1392837.55,
+    "wgsCoordinate": {
+      "latitude": 35.717258333333334,
+      "longitude": 139.47709722222223
+    }
+  },
+  {
+    "id": 3825,
+    "adminnumber": "12-1007",
+    "numberserial": "8510",
+    "formattedid": "12-1007-8510",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354302.86,
+    "longitude": 1392833.5,
+    "wgsCoordinate": {
+      "latitude": 35.717461111111106,
+      "longitude": 139.47597222222223
+    }
+  },
+  {
+    "id": 3826,
+    "adminnumber": "12-1007",
+    "numberserial": "8511",
+    "formattedid": "12-1007-8511",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354304.27,
+    "longitude": 1392825.01,
+    "wgsCoordinate": {
+      "latitude": 35.717852777777786,
+      "longitude": 139.4736138888889
+    }
+  },
+  {
+    "id": 3827,
+    "adminnumber": "12-1015",
+    "numberserial": "8001",
+    "formattedid": "12-1015-8001",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3829,
+    "adminnumber": "12-1015",
+    "numberserial": "8501",
+    "formattedid": "12-1015-8501",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354512.35,
+    "longitude": 1393056.69,
+    "wgsCoordinate": {
+      "latitude": 35.753430555555546,
+      "longitude": 139.51574722222222
+    }
+  },
+  {
+    "id": 3830,
+    "adminnumber": "12-1015",
+    "numberserial": "8502",
+    "formattedid": "12-1015-8502",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3837,
+    "adminnumber": "12-3145",
+    "numberserial": "8801",
+    "formattedid": "12-3145-8801",
+    "routename": "（一１４５）立川国分寺線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3838,
+    "adminnumber": "12-3145",
+    "numberserial": "8802",
+    "formattedid": "12-3145-8802",
+    "routename": "（一１４５）立川国分寺線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3839,
+    "adminnumber": "12-3145",
+    "numberserial": "8900",
+    "formattedid": "12-3145-8900",
+    "routename": "（一１４５）立川国分寺線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3840,
+    "adminnumber": "12-3146",
+    "numberserial": "8001",
+    "formattedid": "12-3146-8001",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3841,
+    "adminnumber": "12-1043",
+    "numberserial": "990013",
+    "formattedid": "12-1043-990013",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "東大和市",
+    "latitude": 354356.17,
+    "longitude": 1392504.02,
+    "wgsCoordinate": {
+      "latitude": 35.73226944444444,
+      "longitude": 139.41778333333332
+    }
+  },
+  {
+    "id": 3842,
+    "adminnumber": "12-1043",
+    "numberserial": "990014",
+    "formattedid": "12-1043-990014",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "東大和市",
+    "latitude": 354356.45,
+    "longitude": 1392503.25,
+    "wgsCoordinate": {
+      "latitude": 35.73234722222223,
+      "longitude": 139.41756944444444
+    }
+  },
+  {
+    "id": 3843,
+    "adminnumber": "12-1015",
+    "numberserial": "990011",
+    "formattedid": "12-1015-990011",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354550.36,
+    "longitude": 1393059.13,
+    "wgsCoordinate": {
+      "latitude": 35.76398888888888,
+      "longitude": 139.51642499999997
+    }
+  },
+  {
+    "id": 3844,
+    "adminnumber": "12-1015",
+    "numberserial": "990012",
+    "formattedid": "12-1015-990012",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354550.78,
+    "longitude": 1393059.57,
+    "wgsCoordinate": {
+      "latitude": 35.76410555555557,
+      "longitude": 139.51654722222224
+    }
+  },
+  {
+    "id": 3845,
+    "adminnumber": "12-1015",
+    "numberserial": "990014",
+    "formattedid": "12-1015-990014",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "小平市",
+    "latitude": 354408.8,
+    "longitude": 1393046.95,
+    "wgsCoordinate": {
+      "latitude": 35.73577777777778,
+      "longitude": 139.51304166666665
+    }
+  },
+  {
+    "id": 3846,
+    "adminnumber": "12-1015",
+    "numberserial": "990015",
+    "formattedid": "12-1015-990015",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "小平市",
+    "latitude": 354402.27,
+    "longitude": 1393045.55,
+    "wgsCoordinate": {
+      "latitude": 35.733963888888894,
+      "longitude": 139.5126527777778
+    }
+  },
+  {
+    "id": 3847,
+    "adminnumber": "12-1015",
+    "numberserial": "990016",
+    "formattedid": "12-1015-990016",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "小平市",
+    "latitude": 354356.05,
+    "longitude": 1393045.46,
+    "wgsCoordinate": {
+      "latitude": 35.732236111111106,
+      "longitude": 139.51262777777777
+    }
+  },
+  {
+    "id": 3848,
+    "adminnumber": "12-1016",
+    "numberserial": "8002",
+    "formattedid": "12-1016-8002",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3849,
+    "adminnumber": "12-1016",
+    "numberserial": "8500",
+    "formattedid": "12-1016-8500",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3850,
+    "adminnumber": "12-1016",
+    "numberserial": "8501",
+    "formattedid": "12-1016-8501",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3851,
+    "adminnumber": "12-1017",
+    "numberserial": "8500",
+    "formattedid": "12-1017-8500",
+    "routename": "（主１７）所沢府中線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3860,
+    "adminnumber": "12-1024",
+    "numberserial": "8501",
+    "formattedid": "12-1024-8501",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3852,
+    "adminnumber": "12-1017",
+    "numberserial": "8501",
+    "formattedid": "12-1017-8501",
+    "routename": "（主１７）所沢府中線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3853,
+    "adminnumber": "12-1017",
+    "numberserial": "8502",
+    "formattedid": "12-1017-8502",
+    "routename": "（主１７）所沢府中線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3854,
+    "adminnumber": "12-1024",
+    "numberserial": "8001",
+    "formattedid": "12-1024-8001",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3855,
+    "adminnumber": "12-1024",
+    "numberserial": "8002",
+    "formattedid": "12-1024-8002",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3856,
+    "adminnumber": "12-1024",
+    "numberserial": "8003",
+    "formattedid": "12-1024-8003",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3857,
+    "adminnumber": "12-1024",
+    "numberserial": "8004",
+    "formattedid": "12-1024-8004",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3858,
+    "adminnumber": "12-1024",
+    "numberserial": "8005",
+    "formattedid": "12-1024-8005",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3859,
+    "adminnumber": "12-1024",
+    "numberserial": "8500",
+    "formattedid": "12-1024-8500",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3861,
+    "adminnumber": "12-1024",
+    "numberserial": "8502",
+    "formattedid": "12-1024-8502",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3862,
+    "adminnumber": "12-1024",
+    "numberserial": "8503",
+    "formattedid": "12-1024-8503",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3863,
+    "adminnumber": "12-1024",
+    "numberserial": "8504",
+    "formattedid": "12-1024-8504",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3864,
+    "adminnumber": "12-1024",
+    "numberserial": "8505",
+    "formattedid": "12-1024-8505",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3865,
+    "adminnumber": "12-1024",
+    "numberserial": "8506",
+    "formattedid": "12-1024-8506",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3866,
+    "adminnumber": "12-1024",
+    "numberserial": "8507",
+    "formattedid": "12-1024-8507",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3867,
+    "adminnumber": "12-1024",
+    "numberserial": "8508",
+    "formattedid": "12-1024-8508",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3868,
+    "adminnumber": "12-3129",
+    "numberserial": "8007",
+    "formattedid": "12-3129-8007",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3869,
+    "adminnumber": "12-3129",
+    "numberserial": "8008",
+    "formattedid": "12-3129-8008",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3870,
+    "adminnumber": "12-3129",
+    "numberserial": "8009",
+    "formattedid": "12-3129-8009",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354451.62,
+    "longitude": 1392950.25,
+    "wgsCoordinate": {
+      "latitude": 35.74767222222222,
+      "longitude": 139.49729166666665
+    }
+  },
+  {
+    "id": 3871,
+    "adminnumber": "12-3129",
+    "numberserial": "8505",
+    "formattedid": "12-3129-8505",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3872,
+    "adminnumber": "12-3129",
+    "numberserial": "8506",
+    "formattedid": "12-3129-8506",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3873,
+    "adminnumber": "12-3129",
+    "numberserial": "8507",
+    "formattedid": "12-3129-8507",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3874,
+    "adminnumber": "12-3129",
+    "numberserial": "8508",
+    "formattedid": "12-3129-8508",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3875,
+    "adminnumber": "12-3129",
+    "numberserial": "8509",
+    "formattedid": "12-3129-8509",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3876,
+    "adminnumber": "12-3129",
+    "numberserial": "8510",
+    "formattedid": "12-3129-8510",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3877,
+    "adminnumber": "12-3129",
+    "numberserial": "8511",
+    "formattedid": "12-3129-8511",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3878,
+    "adminnumber": "12-3129",
+    "numberserial": "8512",
+    "formattedid": "12-3129-8512",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3879,
+    "adminnumber": "12-3129",
+    "numberserial": "8513",
+    "formattedid": "12-3129-8513",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3880,
+    "adminnumber": "12-3129",
+    "numberserial": "8514",
+    "formattedid": "12-3129-8514",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3881,
+    "adminnumber": "12-3131",
+    "numberserial": "8001",
+    "formattedid": "12-3131-8001",
+    "routename": "（一１３１）小川停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3882,
+    "adminnumber": "12-3131",
+    "numberserial": "8500",
+    "formattedid": "12-3131-8500",
+    "routename": "（一１３１）小川停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3883,
+    "adminnumber": "12-3131",
+    "numberserial": "8501",
+    "formattedid": "12-3131-8501",
+    "routename": "（一１３１）小川停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3884,
+    "adminnumber": "12-3132",
+    "numberserial": "8001",
+    "formattedid": "12-3132-8001",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3885,
+    "adminnumber": "12-3132",
+    "numberserial": "8002",
+    "formattedid": "12-3132-8002",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3886,
+    "adminnumber": "12-3132",
+    "numberserial": "8003",
+    "formattedid": "12-3132-8003",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3887,
+    "adminnumber": "12-3132",
+    "numberserial": "8004",
+    "formattedid": "12-3132-8004",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3888,
+    "adminnumber": "12-3132",
+    "numberserial": "8005",
+    "formattedid": "12-3132-8005",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354332.57,
+    "longitude": 1393104.05,
+    "wgsCoordinate": {
+      "latitude": 35.72571388888889,
+      "longitude": 139.51779166666668
+    }
+  },
+  {
+    "id": 3889,
+    "adminnumber": "12-3132",
+    "numberserial": "8006",
+    "formattedid": "12-3132-8006",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3890,
+    "adminnumber": "12-3132",
+    "numberserial": "8500",
+    "formattedid": "12-3132-8500",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3891,
+    "adminnumber": "12-3132",
+    "numberserial": "8501",
+    "formattedid": "12-3132-8501",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3892,
+    "adminnumber": "12-3132",
+    "numberserial": "8502",
+    "formattedid": "12-3132-8502",
+    "routename": "（一１３２）小川山田無線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3893,
+    "adminnumber": "12-3227",
+    "numberserial": "8001",
+    "formattedid": "12-3227-8001",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354409.87,
+    "longitude": 1393021.31,
+    "wgsCoordinate": {
+      "latitude": 35.736075,
+      "longitude": 139.50591944444446
+    }
+  },
+  {
+    "id": 3894,
+    "adminnumber": "12-3227",
+    "numberserial": "8002",
+    "formattedid": "12-3227-8002",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354408.36,
+    "longitude": 1393030.33,
+    "wgsCoordinate": {
+      "latitude": 35.73565555555555,
+      "longitude": 139.50842500000002
+    }
+  },
+  {
+    "id": 3895,
+    "adminnumber": "12-3227",
+    "numberserial": "8500",
+    "formattedid": "12-3227-8500",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3896,
+    "adminnumber": "12-3227",
+    "numberserial": "8501",
+    "formattedid": "12-3227-8501",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3897,
+    "adminnumber": "12-3227",
+    "numberserial": "8502",
+    "formattedid": "12-3227-8502",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3898,
+    "adminnumber": "12-3227",
+    "numberserial": "8503",
+    "formattedid": "12-3227-8503",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3899,
+    "adminnumber": "12-3227",
+    "numberserial": "8504",
+    "formattedid": "12-3227-8504",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354412.49,
+    "longitude": 1393006.51,
+    "wgsCoordinate": {
+      "latitude": 35.736802777777775,
+      "longitude": 139.50180833333334
+    }
+  },
+  {
+    "id": 3900,
+    "adminnumber": "12-3227",
+    "numberserial": "8505",
+    "formattedid": "12-3227-8505",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354412.62,
+    "longitude": 1393007.65,
+    "wgsCoordinate": {
+      "latitude": 35.73683888888889,
+      "longitude": 139.50212499999998
+    }
+  },
+  {
+    "id": 3901,
+    "adminnumber": "12-3227",
+    "numberserial": "8506",
+    "formattedid": "12-3227-8506",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3902,
+    "adminnumber": "12-3227",
+    "numberserial": "8507",
+    "formattedid": "12-3227-8507",
+    "routename": "（一２２７）小平停車場野中新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 354406.69,
+    "longitude": 1393039.03,
+    "wgsCoordinate": {
+      "latitude": 35.735191666666665,
+      "longitude": 139.51084166666666
+    }
+  },
+  {
+    "id": 3903,
+    "adminnumber": "12-3230",
+    "numberserial": "8500",
+    "formattedid": "12-3230-8500",
+    "routename": "（一２３０）小平停車場小川新田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "小平市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3904,
+    "adminnumber": "12-3234",
+    "numberserial": "8001",
+    "formattedid": "12-3234-8001",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3905,
+    "adminnumber": "12-3234",
+    "numberserial": "8002",
+    "formattedid": "12-3234-8002",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354508.25,
+    "longitude": 1393038.01,
+    "wgsCoordinate": {
+      "latitude": 35.752291666666665,
+      "longitude": 139.51055833333334
+    }
+  },
+  {
+    "id": 3906,
+    "adminnumber": "12-3234",
+    "numberserial": "8003",
+    "formattedid": "12-3234-8003",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3907,
+    "adminnumber": "12-3234",
+    "numberserial": "8004",
+    "formattedid": "12-3234-8004",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3908,
+    "adminnumber": "12-3234",
+    "numberserial": "8005",
+    "formattedid": "12-3234-8005",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3909,
+    "adminnumber": "12-3234",
+    "numberserial": "8006",
+    "formattedid": "12-3234-8006",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3910,
+    "adminnumber": "12-3234",
+    "numberserial": "8007",
+    "formattedid": "12-3234-8007",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3911,
+    "adminnumber": "12-3234",
+    "numberserial": "8008",
+    "formattedid": "12-3234-8008",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3912,
+    "adminnumber": "12-3234",
+    "numberserial": "8009",
+    "formattedid": "12-3234-8009",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3913,
+    "adminnumber": "12-3234",
+    "numberserial": "8500",
+    "formattedid": "12-3234-8500",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 354510.79,
+    "longitude": 1393041.54,
+    "wgsCoordinate": {
+      "latitude": 35.75299722222222,
+      "longitude": 139.5115388888889
+    }
+  },
+  {
+    "id": 3914,
+    "adminnumber": "12-3234",
+    "numberserial": "8501",
+    "formattedid": "12-3234-8501",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3915,
+    "adminnumber": "12-3234",
+    "numberserial": "8502",
+    "formattedid": "12-3234-8502",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3916,
+    "adminnumber": "12-3234",
+    "numberserial": "8503",
+    "formattedid": "12-3234-8503",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3917,
+    "adminnumber": "12-3234",
+    "numberserial": "8504",
+    "formattedid": "12-3234-8504",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3918,
+    "adminnumber": "12-3234",
+    "numberserial": "8505",
+    "formattedid": "12-3234-8505",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3919,
+    "adminnumber": "12-3234",
+    "numberserial": "8506",
+    "formattedid": "12-3234-8506",
+    "routename": "（一２３４）前沢保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東久留米市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3949,
+    "adminnumber": "12-3145",
+    "numberserial": "145-",
+    "formattedid": "12-3145-145-",
+    "routename": "（一１４５）立川国分寺線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国分寺市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3959,
+    "adminnumber": "12-3146",
+    "numberserial": "8002",
+    "formattedid": "12-3146-8002",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3960,
+    "adminnumber": "12-3146",
+    "numberserial": "8003",
+    "formattedid": "12-3146-8003",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 354123.5,
+    "longitude": 1392650.13,
+    "wgsCoordinate": {
+      "latitude": 35.68986111111111,
+      "longitude": 139.4472583333333
+    }
+  },
+  {
+    "id": 3961,
+    "adminnumber": "12-3146",
+    "numberserial": "8004",
+    "formattedid": "12-3146-8004",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 354118.42,
+    "longitude": 1392650.1,
+    "wgsCoordinate": {
+      "latitude": 35.68844999999999,
+      "longitude": 139.44725000000003
+    }
+  },
+  {
+    "id": 3962,
+    "adminnumber": "12-3146",
+    "numberserial": "8800",
+    "formattedid": "12-3146-8800",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3963,
+    "adminnumber": "12-3146",
+    "numberserial": "8801",
+    "formattedid": "12-3146-8801",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3964,
+    "adminnumber": "12-3146",
+    "numberserial": "8900",
+    "formattedid": "12-3146-8900",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3965,
+    "adminnumber": "12-3146",
+    "numberserial": "8901",
+    "formattedid": "12-3146-8901",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3966,
+    "adminnumber": "12-3146",
+    "numberserial": "8902",
+    "formattedid": "12-3146-8902",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3967,
+    "adminnumber": "12-3146",
+    "numberserial": "8903",
+    "formattedid": "12-3146-8903",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3968,
+    "adminnumber": "12-3146",
+    "numberserial": "8904",
+    "formattedid": "12-3146-8904",
+    "routename": "（一１４６）国立停車場保谷線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "国立市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3983,
+    "adminnumber": "12-1007",
+    "numberserial": "8005",
+    "formattedid": "12-1007-8005",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354310.3,
+    "longitude": 1392624.05,
+    "wgsCoordinate": {
+      "latitude": 35.71952777777778,
+      "longitude": 139.4400138888889
+    }
+  },
+  {
+    "id": 3984,
+    "adminnumber": "12-1007",
+    "numberserial": "8006",
+    "formattedid": "12-1007-8006",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3985,
+    "adminnumber": "12-1007",
+    "numberserial": "8007",
+    "formattedid": "12-1007-8007",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354322.07,
+    "longitude": 1392516.52,
+    "wgsCoordinate": {
+      "latitude": 35.722797222222226,
+      "longitude": 139.42125555555555
+    }
+  },
+  {
+    "id": 3986,
+    "adminnumber": "12-1007",
+    "numberserial": "8008",
+    "formattedid": "12-1007-8008",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3987,
+    "adminnumber": "12-1007",
+    "numberserial": "8009",
+    "formattedid": "12-1007-8009",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3988,
+    "adminnumber": "12-1007",
+    "numberserial": "8010",
+    "formattedid": "12-1007-8010",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354326.96,
+    "longitude": 1392401.81,
+    "wgsCoordinate": {
+      "latitude": 35.72415555555556,
+      "longitude": 139.4005027777778
+    }
+  },
+  {
+    "id": 3989,
+    "adminnumber": "12-1007",
+    "numberserial": "8011",
+    "formattedid": "12-1007-8011",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3990,
+    "adminnumber": "12-1007",
+    "numberserial": "8012",
+    "formattedid": "12-1007-8012",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3991,
+    "adminnumber": "12-1007",
+    "numberserial": "8013",
+    "formattedid": "12-1007-8013",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3992,
+    "adminnumber": "12-1007",
+    "numberserial": "8513",
+    "formattedid": "12-1007-8513",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354304.51,
+    "longitude": 1392641.9,
+    "wgsCoordinate": {
+      "latitude": 35.71791944444445,
+      "longitude": 139.4449722222222
+    }
+  },
+  {
+    "id": 3993,
+    "adminnumber": "12-1007",
+    "numberserial": "8514",
+    "formattedid": "12-1007-8514",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3994,
+    "adminnumber": "12-1007",
+    "numberserial": "8515",
+    "formattedid": "12-1007-8515",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354333.2,
+    "longitude": 1392329.01,
+    "wgsCoordinate": {
+      "latitude": 35.725888888888896,
+      "longitude": 139.39139166666666
+    }
+  },
+  {
+    "id": 3995,
+    "adminnumber": "12-1007",
+    "numberserial": "8516",
+    "formattedid": "12-1007-8516",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3996,
+    "adminnumber": "12-1007",
+    "numberserial": "8800",
+    "formattedid": "12-1007-8800",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3997,
+    "adminnumber": "12-1007",
+    "numberserial": "8801",
+    "formattedid": "12-1007-8801",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3998,
+    "adminnumber": "12-1007",
+    "numberserial": "8802",
+    "formattedid": "12-1007-8802",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 3999,
+    "adminnumber": "12-1007",
+    "numberserial": "8803",
+    "formattedid": "12-1007-8803",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4000,
+    "adminnumber": "12-1007",
+    "numberserial": "8804",
+    "formattedid": "12-1007-8804",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4001,
+    "adminnumber": "12-1007",
+    "numberserial": "8900",
+    "formattedid": "12-1007-8900",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354322.01,
+    "longitude": 1392515.34,
+    "wgsCoordinate": {
+      "latitude": 35.72278055555556,
+      "longitude": 139.4209277777778
+    }
+  },
+  {
+    "id": 4002,
+    "adminnumber": "12-1007",
+    "numberserial": "8901",
+    "formattedid": "12-1007-8901",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354322.22,
+    "longitude": 1392508.7,
+    "wgsCoordinate": {
+      "latitude": 35.72283888888888,
+      "longitude": 139.4190833333333
+    }
+  },
+  {
+    "id": 4003,
+    "adminnumber": "12-1007",
+    "numberserial": "8902",
+    "formattedid": "12-1007-8902",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4004,
+    "adminnumber": "12-1007",
+    "numberserial": "8903",
+    "formattedid": "12-1007-8903",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4005,
+    "adminnumber": "12-1007",
+    "numberserial": "8904",
+    "formattedid": "12-1007-8904",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4006,
+    "adminnumber": "12-1007",
+    "numberserial": "8905",
+    "formattedid": "12-1007-8905",
+    "routename": "（主７）杉並あきる野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4007,
+    "adminnumber": "12-1016",
+    "numberserial": "8001",
+    "formattedid": "12-1016-8001",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4008,
+    "adminnumber": "12-1029",
+    "numberserial": "8001",
+    "formattedid": "12-1029-8001",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354124.75,
+    "longitude": 1392446.85,
+    "wgsCoordinate": {
+      "latitude": 35.69020833333333,
+      "longitude": 139.4130138888889
+    }
+  },
+  {
+    "id": 4009,
+    "adminnumber": "12-1029",
+    "numberserial": "8002",
+    "formattedid": "12-1029-8002",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354156.47,
+    "longitude": 1392319.99,
+    "wgsCoordinate": {
+      "latitude": 35.69901944444443,
+      "longitude": 139.3888861111111
+    }
+  },
+  {
+    "id": 4010,
+    "adminnumber": "12-1029",
+    "numberserial": "8003",
+    "formattedid": "12-1029-8003",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4011,
+    "adminnumber": "12-1029",
+    "numberserial": "8004",
+    "formattedid": "12-1029-8004",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4012,
+    "adminnumber": "12-1029",
+    "numberserial": "8005",
+    "formattedid": "12-1029-8005",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4013,
+    "adminnumber": "12-1029",
+    "numberserial": "8006",
+    "formattedid": "12-1029-8006",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354201.6,
+    "longitude": 1392126.99,
+    "wgsCoordinate": {
+      "latitude": 35.70044444444444,
+      "longitude": 139.3574972222222
+    }
+  },
+  {
+    "id": 4014,
+    "adminnumber": "12-1029",
+    "numberserial": "8007",
+    "formattedid": "12-1029-8007",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4015,
+    "adminnumber": "12-1029",
+    "numberserial": "8008",
+    "formattedid": "12-1029-8008",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4016,
+    "adminnumber": "12-1029",
+    "numberserial": "8500",
+    "formattedid": "12-1029-8500",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4017,
+    "adminnumber": "12-1029",
+    "numberserial": "8501",
+    "formattedid": "12-1029-8501",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354130.61,
+    "longitude": 1392432.61,
+    "wgsCoordinate": {
+      "latitude": 35.6918361111111,
+      "longitude": 139.40905833333338
+    }
+  },
+  {
+    "id": 4018,
+    "adminnumber": "12-1029",
+    "numberserial": "8502",
+    "formattedid": "12-1029-8502",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4019,
+    "adminnumber": "12-1029",
+    "numberserial": "8503",
+    "formattedid": "12-1029-8503",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354136.43,
+    "longitude": 1392401.39,
+    "wgsCoordinate": {
+      "latitude": 35.69345277777777,
+      "longitude": 139.4003861111111
+    }
+  },
+  {
+    "id": 4020,
+    "adminnumber": "12-1029",
+    "numberserial": "8504",
+    "formattedid": "12-1029-8504",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4021,
+    "adminnumber": "12-1029",
+    "numberserial": "8505",
+    "formattedid": "12-1029-8505",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4022,
+    "adminnumber": "12-1029",
+    "numberserial": "8506",
+    "formattedid": "12-1029-8506",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4023,
+    "adminnumber": "12-1029",
+    "numberserial": "8800",
+    "formattedid": "12-1029-8800",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4024,
+    "adminnumber": "12-1029",
+    "numberserial": "8801",
+    "formattedid": "12-1029-8801",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4025,
+    "adminnumber": "12-1029",
+    "numberserial": "8802",
+    "formattedid": "12-1029-8802",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354136.86,
+    "longitude": 1392400.65,
+    "wgsCoordinate": {
+      "latitude": 35.693572222222215,
+      "longitude": 139.40018055555552
+    }
+  },
+  {
+    "id": 4026,
+    "adminnumber": "12-1029",
+    "numberserial": "8803",
+    "formattedid": "12-1029-8803",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4027,
+    "adminnumber": "12-1029",
+    "numberserial": "8900",
+    "formattedid": "12-1029-8900",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4028,
+    "adminnumber": "12-1029",
+    "numberserial": "8901",
+    "formattedid": "12-1029-8901",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4029,
+    "adminnumber": "12-1029",
+    "numberserial": "8902",
+    "formattedid": "12-1029-8902",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4030,
+    "adminnumber": "12-1029",
+    "numberserial": "8903",
+    "formattedid": "12-1029-8903",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4031,
+    "adminnumber": "12-1029",
+    "numberserial": "8904",
+    "formattedid": "12-1029-8904",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4032,
+    "adminnumber": "12-1029",
+    "numberserial": "8905",
+    "formattedid": "12-1029-8905",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4033,
+    "adminnumber": "12-1029",
+    "numberserial": "8906",
+    "formattedid": "12-1029-8906",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4034,
+    "adminnumber": "12-1029",
+    "numberserial": "8907",
+    "formattedid": "12-1029-8907",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4035,
+    "adminnumber": "12-1029",
+    "numberserial": "8908",
+    "formattedid": "12-1029-8908",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4036,
+    "adminnumber": "12-1029",
+    "numberserial": "8909",
+    "formattedid": "12-1029-8909",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4037,
+    "adminnumber": "12-1029",
+    "numberserial": "8910",
+    "formattedid": "12-1029-8910",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4038,
+    "adminnumber": "12-1029",
+    "numberserial": "8911",
+    "formattedid": "12-1029-8911",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4039,
+    "adminnumber": "12-1029",
+    "numberserial": "8912",
+    "formattedid": "12-1029-8912",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4040,
+    "adminnumber": "12-1029",
+    "numberserial": "8913",
+    "formattedid": "12-1029-8913",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4041,
+    "adminnumber": "12-1029",
+    "numberserial": "8914",
+    "formattedid": "12-1029-8914",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354145.82,
+    "longitude": 1392352.36,
+    "wgsCoordinate": {
+      "latitude": 35.696061111111106,
+      "longitude": 139.3978777777778
+    }
+  },
+  {
+    "id": 4042,
+    "adminnumber": "12-1029",
+    "numberserial": "8915",
+    "formattedid": "12-1029-8915",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 354153.73,
+    "longitude": 1392326.55,
+    "wgsCoordinate": {
+      "latitude": 35.69825833333333,
+      "longitude": 139.39070833333335
+    }
+  },
+  {
+    "id": 4043,
+    "adminnumber": "12-1029",
+    "numberserial": "8916",
+    "formattedid": "12-1029-8916",
+    "routename": "（主２９）立川青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4044,
+    "adminnumber": "12-1043",
+    "numberserial": "8002",
+    "formattedid": "12-1043-8002",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4045,
+    "adminnumber": "12-1043",
+    "numberserial": "8003",
+    "formattedid": "12-1043-8003",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4046,
+    "adminnumber": "12-1043",
+    "numberserial": "8004",
+    "formattedid": "12-1043-8004",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4047,
+    "adminnumber": "12-1043",
+    "numberserial": "8900",
+    "formattedid": "12-1043-8900",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4054,
+    "adminnumber": "12-3149",
+    "numberserial": "8800",
+    "formattedid": "12-3149-8800",
+    "routename": "（一１４９）立川日野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4048,
+    "adminnumber": "12-1043",
+    "numberserial": "8901",
+    "formattedid": "12-1043-8901",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4049,
+    "adminnumber": "12-1043",
+    "numberserial": "8902",
+    "formattedid": "12-1043-8902",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4050,
+    "adminnumber": "12-1043",
+    "numberserial": "8903",
+    "formattedid": "12-1043-8903",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4051,
+    "adminnumber": "12-1043",
+    "numberserial": "8904",
+    "formattedid": "12-1043-8904",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4052,
+    "adminnumber": "12-3145",
+    "numberserial": "8800",
+    "formattedid": "12-3145-8800",
+    "routename": "（一１４５）立川国分寺線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4053,
+    "adminnumber": "12-3149",
+    "numberserial": "8001",
+    "formattedid": "12-3149-8001",
+    "routename": "（一１４９）立川日野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4055,
+    "adminnumber": "12-3149",
+    "numberserial": "8801",
+    "formattedid": "12-3149-8801",
+    "routename": "（一１４９）立川日野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4056,
+    "adminnumber": "12-3149",
+    "numberserial": "8900",
+    "formattedid": "12-3149-8900",
+    "routename": "（一１４９）立川日野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4057,
+    "adminnumber": "12-3149",
+    "numberserial": "8901",
+    "formattedid": "12-3149-8901",
+    "routename": "（一１４９）立川日野線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4058,
+    "adminnumber": "12-3152",
+    "numberserial": "8500",
+    "formattedid": "12-3152-8500",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354222.81,
+    "longitude": 1392232.77,
+    "wgsCoordinate": {
+      "latitude": 35.70633611111111,
+      "longitude": 139.37576944444444
+    }
+  },
+  {
+    "id": 4059,
+    "adminnumber": "12-3152",
+    "numberserial": "8501",
+    "formattedid": "12-3152-8501",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354219.75,
+    "longitude": 1392232.14,
+    "wgsCoordinate": {
+      "latitude": 35.705486111111114,
+      "longitude": 139.37559444444443
+    }
+  },
+  {
+    "id": 4060,
+    "adminnumber": "12-3152",
+    "numberserial": "8502",
+    "formattedid": "12-3152-8502",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354214.15,
+    "longitude": 1392230.07,
+    "wgsCoordinate": {
+      "latitude": 35.703930555555566,
+      "longitude": 139.37501944444446
+    }
+  },
+  {
+    "id": 4061,
+    "adminnumber": "12-3152",
+    "numberserial": "8503",
+    "formattedid": "12-3152-8503",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354212.66,
+    "longitude": 1392229.78,
+    "wgsCoordinate": {
+      "latitude": 35.703516666666665,
+      "longitude": 139.3749388888889
+    }
+  },
+  {
+    "id": 4062,
+    "adminnumber": "12-3152",
+    "numberserial": "8504",
+    "formattedid": "12-3152-8504",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354209.24,
+    "longitude": 1392228.37,
+    "wgsCoordinate": {
+      "latitude": 35.70256666666667,
+      "longitude": 139.37454722222225
+    }
+  },
+  {
+    "id": 4063,
+    "adminnumber": "12-3152",
+    "numberserial": "8505",
+    "formattedid": "12-3152-8505",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354209.04,
+    "longitude": 1392227.77,
+    "wgsCoordinate": {
+      "latitude": 35.70251111111111,
+      "longitude": 139.37438055555558
+    }
+  },
+  {
+    "id": 4064,
+    "adminnumber": "12-3152",
+    "numberserial": "8506",
+    "formattedid": "12-3152-8506",
+    "routename": "（一１５２）中神停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 354206.9,
+    "longitude": 1392227.43,
+    "wgsCoordinate": {
+      "latitude": 35.701916666666676,
+      "longitude": 139.3742861111111
+    }
+  },
+  {
+    "id": 4065,
+    "adminnumber": "12-3153",
+    "numberserial": "8001",
+    "formattedid": "12-3153-8001",
+    "routename": "（一１５３）立川昭島線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4066,
+    "adminnumber": "12-3153",
+    "numberserial": "8002",
+    "formattedid": "12-3153-8002",
+    "routename": "（一１５３）立川昭島線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4067,
+    "adminnumber": "12-3153",
+    "numberserial": "8500",
+    "formattedid": "12-3153-8500",
+    "routename": "（一１５３）立川昭島線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4068,
+    "adminnumber": "12-3153",
+    "numberserial": "8501",
+    "formattedid": "12-3153-8501",
+    "routename": "（一１５３）立川昭島線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4069,
+    "adminnumber": "12-3153",
+    "numberserial": "8900",
+    "formattedid": "12-3153-8900",
+    "routename": "（一１５３）立川昭島線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4070,
+    "adminnumber": "12-3162",
+    "numberserial": "8001",
+    "formattedid": "12-3162-8001",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4071,
+    "adminnumber": "12-3162",
+    "numberserial": "8002",
+    "formattedid": "12-3162-8002",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4072,
+    "adminnumber": "12-3162",
+    "numberserial": "8003",
+    "formattedid": "12-3162-8003",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4073,
+    "adminnumber": "12-3162",
+    "numberserial": "8004",
+    "formattedid": "12-3162-8004",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4074,
+    "adminnumber": "12-3162",
+    "numberserial": "8503",
+    "formattedid": "12-3162-8503",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4075,
+    "adminnumber": "12-3162",
+    "numberserial": "8504",
+    "formattedid": "12-3162-8504",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4076,
+    "adminnumber": "12-3162",
+    "numberserial": "8505",
+    "formattedid": "12-3162-8505",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4077,
+    "adminnumber": "12-3162",
+    "numberserial": "8800",
+    "formattedid": "12-3162-8800",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4078,
+    "adminnumber": "12-3162",
+    "numberserial": "8900",
+    "formattedid": "12-3162-8900",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "立川市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4079,
+    "adminnumber": "12-3220",
+    "numberserial": "8001",
+    "formattedid": "12-3220-8001",
+    "routename": "（一２２０）昭島停車場熊川線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "立川工区",
+    "municipalityname": "昭島市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4080,
+    "adminnumber": "12-1005",
+    "numberserial": "8004",
+    "formattedid": "12-1005-8004",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354434.36,
+    "longitude": 1392548.33,
+    "wgsCoordinate": {
+      "latitude": 35.74287777777778,
+      "longitude": 139.43009166666667
+    }
+  },
+  {
+    "id": 4081,
+    "adminnumber": "12-1005",
+    "numberserial": "8005",
+    "formattedid": "12-1005-8005",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354454.26,
+    "longitude": 1392536.67,
+    "wgsCoordinate": {
+      "latitude": 35.74840555555556,
+      "longitude": 139.42685277777775
+    }
+  },
+  {
+    "id": 4082,
+    "adminnumber": "12-1005",
+    "numberserial": "8006",
+    "formattedid": "12-1005-8006",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4083,
+    "adminnumber": "12-1005",
+    "numberserial": "8007",
+    "formattedid": "12-1005-8007",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354516.34,
+    "longitude": 1392504.37,
+    "wgsCoordinate": {
+      "latitude": 35.754538888888895,
+      "longitude": 139.41788055555557
+    }
+  },
+  {
+    "id": 4084,
+    "adminnumber": "12-1005",
+    "numberserial": "8008",
+    "formattedid": "12-1005-8008",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4085,
+    "adminnumber": "12-1005",
+    "numberserial": "8009",
+    "formattedid": "12-1005-8009",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354527.92,
+    "longitude": 1392404.72,
+    "wgsCoordinate": {
+      "latitude": 35.75775555555555,
+      "longitude": 139.4013111111111
+    }
+  },
+  {
+    "id": 4086,
+    "adminnumber": "12-1005",
+    "numberserial": "8010",
+    "formattedid": "12-1005-8010",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354516.6,
+    "longitude": 1392358.33,
+    "wgsCoordinate": {
+      "latitude": 35.7546111111111,
+      "longitude": 139.39953611111113
+    }
+  },
+  {
+    "id": 4087,
+    "adminnumber": "12-1005",
+    "numberserial": "8011",
+    "formattedid": "12-1005-8011",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354515.39,
+    "longitude": 1392348.94,
+    "wgsCoordinate": {
+      "latitude": 35.75427500000001,
+      "longitude": 139.39692777777776
+    }
+  },
+  {
+    "id": 4088,
+    "adminnumber": "12-1005",
+    "numberserial": "8012",
+    "formattedid": "12-1005-8012",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354515.9,
+    "longitude": 1392343.8,
+    "wgsCoordinate": {
+      "latitude": 35.75441666666667,
+      "longitude": 139.3955
+    }
+  },
+  {
+    "id": 4089,
+    "adminnumber": "12-1005",
+    "numberserial": "8013",
+    "formattedid": "12-1005-8013",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354516.4,
+    "longitude": 1392337.66,
+    "wgsCoordinate": {
+      "latitude": 35.75455555555556,
+      "longitude": 139.3937944444444
+    }
+  },
+  {
+    "id": 4090,
+    "adminnumber": "12-1005",
+    "numberserial": "8014",
+    "formattedid": "12-1005-8014",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354519.87,
+    "longitude": 1392312.18,
+    "wgsCoordinate": {
+      "latitude": 35.755519444444445,
+      "longitude": 139.38671666666664
+    }
+  },
+  {
+    "id": 4091,
+    "adminnumber": "12-1005",
+    "numberserial": "8015",
+    "formattedid": "12-1005-8015",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4092,
+    "adminnumber": "12-1005",
+    "numberserial": "8016",
+    "formattedid": "12-1005-8016",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354546.31,
+    "longitude": 1392158.26,
+    "wgsCoordinate": {
+      "latitude": 35.76286388888889,
+      "longitude": 139.36618333333334
+    }
+  },
+  {
+    "id": 4093,
+    "adminnumber": "12-1005",
+    "numberserial": "8019",
+    "formattedid": "12-1005-8019",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4094,
+    "adminnumber": "12-1005",
+    "numberserial": "8506",
+    "formattedid": "12-1005-8506",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354523.62,
+    "longitude": 1392437.41,
+    "wgsCoordinate": {
+      "latitude": 35.75656111111111,
+      "longitude": 139.41039166666664
+    }
+  },
+  {
+    "id": 4095,
+    "adminnumber": "12-1005",
+    "numberserial": "8507",
+    "formattedid": "12-1005-8507",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354523.93,
+    "longitude": 1392434.54,
+    "wgsCoordinate": {
+      "latitude": 35.75664722222222,
+      "longitude": 139.40959444444445
+    }
+  },
+  {
+    "id": 4096,
+    "adminnumber": "12-1005",
+    "numberserial": "8508",
+    "formattedid": "12-1005-8508",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354522.1,
+    "longitude": 1392401.94,
+    "wgsCoordinate": {
+      "latitude": 35.756138888888884,
+      "longitude": 139.4005388888889
+    }
+  },
+  {
+    "id": 4097,
+    "adminnumber": "12-1005",
+    "numberserial": "8509",
+    "formattedid": "12-1005-8509",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354521.58,
+    "longitude": 1392401.63,
+    "wgsCoordinate": {
+      "latitude": 35.75599444444445,
+      "longitude": 139.40045277777776
+    }
+  },
+  {
+    "id": 4098,
+    "adminnumber": "12-1005",
+    "numberserial": "8510",
+    "formattedid": "12-1005-8510",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4099,
+    "adminnumber": "12-1005",
+    "numberserial": "8511",
+    "formattedid": "12-1005-8511",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354526.8,
+    "longitude": 1392256.31,
+    "wgsCoordinate": {
+      "latitude": 35.75744444444444,
+      "longitude": 139.38230833333336
+    }
+  },
+  {
+    "id": 4100,
+    "adminnumber": "12-1005",
+    "numberserial": "8512",
+    "formattedid": "12-1005-8512",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354533.43,
+    "longitude": 1392225.45,
+    "wgsCoordinate": {
+      "latitude": 35.75928611111111,
+      "longitude": 139.3737361111111
+    }
+  },
+  {
+    "id": 4101,
+    "adminnumber": "12-1005",
+    "numberserial": "8513",
+    "formattedid": "12-1005-8513",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354547.41,
+    "longitude": 1392157.64,
+    "wgsCoordinate": {
+      "latitude": 35.763169444444436,
+      "longitude": 139.36601111111108
+    }
+  },
+  {
+    "id": 4102,
+    "adminnumber": "12-1005",
+    "numberserial": "8514",
+    "formattedid": "12-1005-8514",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354548.07,
+    "longitude": 1392156.95,
+    "wgsCoordinate": {
+      "latitude": 35.76335277777778,
+      "longitude": 139.3658194444444
+    }
+  },
+  {
+    "id": 4103,
+    "adminnumber": "12-1005",
+    "numberserial": "8515",
+    "formattedid": "12-1005-8515",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354549.64,
+    "longitude": 1392154.73,
+    "wgsCoordinate": {
+      "latitude": 35.76378888888889,
+      "longitude": 139.36520277777777
+    }
+  },
+  {
+    "id": 4104,
+    "adminnumber": "12-1043",
+    "numberserial": "8005",
+    "formattedid": "12-1043-8005",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4105,
+    "adminnumber": "12-1043",
+    "numberserial": "8006",
+    "formattedid": "12-1043-8006",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4106,
+    "adminnumber": "12-1043",
+    "numberserial": "8007",
+    "formattedid": "12-1043-8007",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354519.15,
+    "longitude": 1392444.69,
+    "wgsCoordinate": {
+      "latitude": 35.75531944444445,
+      "longitude": 139.4124138888889
+    }
+  },
+  {
+    "id": 4107,
+    "adminnumber": "12-1043",
+    "numberserial": "8500",
+    "formattedid": "12-1043-8500",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4108,
+    "adminnumber": "12-1043",
+    "numberserial": "8507",
+    "formattedid": "12-1043-8507",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354459.57,
+    "longitude": 1392445.81,
+    "wgsCoordinate": {
+      "latitude": 35.749880555555556,
+      "longitude": 139.41272500000002
+    }
+  },
+  {
+    "id": 4109,
+    "adminnumber": "12-1043",
+    "numberserial": "8502",
+    "formattedid": "12-1043-8502",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4110,
+    "adminnumber": "12-1043",
+    "numberserial": "8503",
+    "formattedid": "12-1043-8503",
+    "routename": "（主４３）立川東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4111,
+    "adminnumber": "12-3128",
+    "numberserial": "8011",
+    "formattedid": "12-3128-8011",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4112,
+    "adminnumber": "12-3128",
+    "numberserial": "8012",
+    "formattedid": "12-3128-8012",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4113,
+    "adminnumber": "12-3128",
+    "numberserial": "8013",
+    "formattedid": "12-3128-8013",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4114,
+    "adminnumber": "12-3128",
+    "numberserial": "8014",
+    "formattedid": "12-3128-8014",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354516.12,
+    "longitude": 1392622.94,
+    "wgsCoordinate": {
+      "latitude": 35.75447777777778,
+      "longitude": 139.43970555555555
+    }
+  },
+  {
+    "id": 4115,
+    "adminnumber": "12-3128",
+    "numberserial": "8015",
+    "formattedid": "12-3128-8015",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354511.79,
+    "longitude": 1392619.8,
+    "wgsCoordinate": {
+      "latitude": 35.753274999999995,
+      "longitude": 139.43883333333335
+    }
+  },
+  {
+    "id": 4116,
+    "adminnumber": "12-3128",
+    "numberserial": "8016",
+    "formattedid": "12-3128-8016",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4117,
+    "adminnumber": "12-3128",
+    "numberserial": "8017",
+    "formattedid": "12-3128-8017",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4118,
+    "adminnumber": "12-3128",
+    "numberserial": "8018",
+    "formattedid": "12-3128-8018",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4119,
+    "adminnumber": "12-3128",
+    "numberserial": "8504",
+    "formattedid": "12-3128-8504",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354520.77,
+    "longitude": 1392639.17,
+    "wgsCoordinate": {
+      "latitude": 35.75576944444445,
+      "longitude": 139.44421388888887
+    }
+  },
+  {
+    "id": 4120,
+    "adminnumber": "12-3128",
+    "numberserial": "8505",
+    "formattedid": "12-3128-8505",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4121,
+    "adminnumber": "12-3128",
+    "numberserial": "8506",
+    "formattedid": "12-3128-8506",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4122,
+    "adminnumber": "12-3128",
+    "numberserial": "8507",
+    "formattedid": "12-3128-8507",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 354514.3,
+    "longitude": 1392620.9,
+    "wgsCoordinate": {
+      "latitude": 35.75397222222222,
+      "longitude": 139.43913888888886
+    }
+  },
+  {
+    "id": 4123,
+    "adminnumber": "12-3128",
+    "numberserial": "8508",
+    "formattedid": "12-3128-8508",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4124,
+    "adminnumber": "12-3128",
+    "numberserial": "8509",
+    "formattedid": "12-3128-8509",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4126,
+    "adminnumber": "12-3128",
+    "numberserial": "8511",
+    "formattedid": "12-3128-8511",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4127,
+    "adminnumber": "12-3162",
+    "numberserial": "8500",
+    "formattedid": "12-3162-8500",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4128,
+    "adminnumber": "12-3162",
+    "numberserial": "8501",
+    "formattedid": "12-3162-8501",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354512.58,
+    "longitude": 1392229.2,
+    "wgsCoordinate": {
+      "latitude": 35.75349444444445,
+      "longitude": 139.37477777777778
+    }
+  },
+  {
+    "id": 4129,
+    "adminnumber": "12-3162",
+    "numberserial": "8502",
+    "formattedid": "12-3162-8502",
+    "routename": "（一１６２）三ツ木八王子線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4130,
+    "adminnumber": "12-3182",
+    "numberserial": "8001",
+    "formattedid": "12-3182-8001",
+    "routename": "（一１８２）旧残堀横田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4131,
+    "adminnumber": "12-3182",
+    "numberserial": "8002",
+    "formattedid": "12-3182-8002",
+    "routename": "（一１８２）旧残堀横田線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4132,
+    "adminnumber": "12-1004",
+    "numberserial": "8014",
+    "formattedid": "12-1004-8014",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4133,
+    "adminnumber": "12-1004",
+    "numberserial": "8015",
+    "formattedid": "12-1004-8015",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4134,
+    "adminnumber": "12-1004",
+    "numberserial": "8016",
+    "formattedid": "12-1004-8016",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4135,
+    "adminnumber": "12-1004",
+    "numberserial": "8513",
+    "formattedid": "12-1004-8513",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4136,
+    "adminnumber": "12-1004",
+    "numberserial": "8514",
+    "formattedid": "12-1004-8514",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4137,
+    "adminnumber": "12-1004",
+    "numberserial": "8515",
+    "formattedid": "12-1004-8515",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4138,
+    "adminnumber": "12-1004",
+    "numberserial": "8516",
+    "formattedid": "12-1004-8516",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354604.94,
+    "longitude": 1392916.05,
+    "wgsCoordinate": {
+      "latitude": 35.76803888888889,
+      "longitude": 139.48779166666665
+    }
+  },
+  {
+    "id": 4139,
+    "adminnumber": "12-1004",
+    "numberserial": "8517",
+    "formattedid": "12-1004-8517",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354605.98,
+    "longitude": 1392914.72,
+    "wgsCoordinate": {
+      "latitude": 35.76832777777777,
+      "longitude": 139.4874222222222
+    }
+  },
+  {
+    "id": 4140,
+    "adminnumber": "12-1004",
+    "numberserial": "8518",
+    "formattedid": "12-1004-8518",
+    "routename": "（主４）東京所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354626.86,
+    "longitude": 1392836.17,
+    "wgsCoordinate": {
+      "latitude": 35.77412777777777,
+      "longitude": 139.47671388888887
+    }
+  },
+  {
+    "id": 4141,
+    "adminnumber": "12-1005",
+    "numberserial": "8017",
+    "formattedid": "12-1005-8017",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4142,
+    "adminnumber": "12-1005",
+    "numberserial": "8018",
+    "formattedid": "12-1005-8018",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354504.48,
+    "longitude": 1392730.03,
+    "wgsCoordinate": {
+      "latitude": 35.75124444444444,
+      "longitude": 139.45834166666666
+    }
+  },
+  {
+    "id": 4143,
+    "adminnumber": "12-1005",
+    "numberserial": "8800",
+    "formattedid": "12-1005-8800",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354516.17,
+    "longitude": 1392340.59,
+    "wgsCoordinate": {
+      "latitude": 35.75449166666666,
+      "longitude": 139.39460833333334
+    }
+  },
+  {
+    "id": 4144,
+    "adminnumber": "12-1005",
+    "numberserial": "8900",
+    "formattedid": "12-1005-8900",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354517.55,
+    "longitude": 1392326.94,
+    "wgsCoordinate": {
+      "latitude": 35.754875,
+      "longitude": 139.39081666666664
+    }
+  },
+  {
+    "id": 4145,
+    "adminnumber": "12-1005",
+    "numberserial": "8901",
+    "formattedid": "12-1005-8901",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4146,
+    "adminnumber": "12-1005",
+    "numberserial": "8902",
+    "formattedid": "12-1005-8902",
+    "routename": "（主５）新宿青梅線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "武蔵村山市",
+    "latitude": 354525.27,
+    "longitude": 1392259.0,
+    "wgsCoordinate": {
+      "latitude": 35.75701944444445,
+      "longitude": 139.38305555555556
+    }
+  },
+  {
+    "id": 4147,
+    "adminnumber": "12-1015",
+    "numberserial": "8002",
+    "formattedid": "12-1015-8002",
+    "routename": "（主１５）府中清瀬線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4148,
+    "adminnumber": "12-1016",
+    "numberserial": "8003",
+    "formattedid": "12-1016-8003",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4149,
+    "adminnumber": "12-1016",
+    "numberserial": "8004",
+    "formattedid": "12-1016-8004",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354540.14,
+    "longitude": 1392801.9,
+    "wgsCoordinate": {
+      "latitude": 35.76115,
+      "longitude": 139.46719444444443
+    }
+  },
+  {
+    "id": 4150,
+    "adminnumber": "12-1016",
+    "numberserial": "8502",
+    "formattedid": "12-1016-8502",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354520.05,
+    "longitude": 1392800.88,
+    "wgsCoordinate": {
+      "latitude": 35.75556944444444,
+      "longitude": 139.46691111111107
+    }
+  },
+  {
+    "id": 4151,
+    "adminnumber": "12-1016",
+    "numberserial": "8503",
+    "formattedid": "12-1016-8503",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354520.95,
+    "longitude": 1392800.95,
+    "wgsCoordinate": {
+      "latitude": 35.75581944444445,
+      "longitude": 139.46693055555554
+    }
+  },
+  {
+    "id": 4152,
+    "adminnumber": "12-1016",
+    "numberserial": "8504",
+    "formattedid": "12-1016-8504",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354549.24,
+    "longitude": 1392806.65,
+    "wgsCoordinate": {
+      "latitude": 35.76367777777777,
+      "longitude": 139.46851388888888
+    }
+  },
+  {
+    "id": 4153,
+    "adminnumber": "12-1016",
+    "numberserial": "8505",
+    "formattedid": "12-1016-8505",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354559.56,
+    "longitude": 1392814.6,
+    "wgsCoordinate": {
+      "latitude": 35.76654444444444,
+      "longitude": 139.47072222222226
+    }
+  },
+  {
+    "id": 4154,
+    "adminnumber": "12-1016",
+    "numberserial": "8506",
+    "formattedid": "12-1016-8506",
+    "routename": "（主１６）立川所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354600.45,
+    "longitude": 1392815.77,
+    "wgsCoordinate": {
+      "latitude": 35.76679166666667,
+      "longitude": 139.47104722222224
+    }
+  },
+  {
+    "id": 4155,
+    "adminnumber": "12-1024",
+    "numberserial": "8006",
+    "formattedid": "12-1024-8006",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4156,
+    "adminnumber": "12-1024",
+    "numberserial": "8007",
+    "formattedid": "12-1024-8007",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4125,
+    "adminnumber": "12-3128",
+    "numberserial": "8510",
+    "formattedid": "12-3128-8510",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "小平工区",
+    "municipalityname": "東大和市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4157,
+    "adminnumber": "12-1024",
+    "numberserial": "8008",
+    "formattedid": "12-1024-8008",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4158,
+    "adminnumber": "12-1024",
+    "numberserial": "8009",
+    "formattedid": "12-1024-8009",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4159,
+    "adminnumber": "12-1024",
+    "numberserial": "8010",
+    "formattedid": "12-1024-8010",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4160,
+    "adminnumber": "12-1024",
+    "numberserial": "8011",
+    "formattedid": "12-1024-8011",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4161,
+    "adminnumber": "12-1024",
+    "numberserial": "8012",
+    "formattedid": "12-1024-8012",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4162,
+    "adminnumber": "12-1024",
+    "numberserial": "8509",
+    "formattedid": "12-1024-8509",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4163,
+    "adminnumber": "12-1024",
+    "numberserial": "8510",
+    "formattedid": "12-1024-8510",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4164,
+    "adminnumber": "12-1024",
+    "numberserial": "8511",
+    "formattedid": "12-1024-8511",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4165,
+    "adminnumber": "12-1024",
+    "numberserial": "8512",
+    "formattedid": "12-1024-8512",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4166,
+    "adminnumber": "12-1024",
+    "numberserial": "8513",
+    "formattedid": "12-1024-8513",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4167,
+    "adminnumber": "12-1024",
+    "numberserial": "8900",
+    "formattedid": "12-1024-8900",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4168,
+    "adminnumber": "12-1024",
+    "numberserial": "8901",
+    "formattedid": "12-1024-8901",
+    "routename": "（主２４）練馬所沢線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4169,
+    "adminnumber": "12-1040",
+    "numberserial": "8001",
+    "formattedid": "12-1040-8001",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4170,
+    "adminnumber": "12-1040",
+    "numberserial": "8002",
+    "formattedid": "12-1040-8002",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4171,
+    "adminnumber": "12-1040",
+    "numberserial": "8003",
+    "formattedid": "12-1040-8003",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354619.32,
+    "longitude": 1392901.01,
+    "wgsCoordinate": {
+      "latitude": 35.77203333333333,
+      "longitude": 139.48361388888887
+    }
+  },
+  {
+    "id": 4172,
+    "adminnumber": "12-1040",
+    "numberserial": "8500",
+    "formattedid": "12-1040-8500",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4173,
+    "adminnumber": "12-1040",
+    "numberserial": "8501",
+    "formattedid": "12-1040-8501",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4174,
+    "adminnumber": "12-1040",
+    "numberserial": "8502",
+    "formattedid": "12-1040-8502",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4175,
+    "adminnumber": "12-1040",
+    "numberserial": "8503",
+    "formattedid": "12-1040-8503",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4176,
+    "adminnumber": "12-1040",
+    "numberserial": "8504",
+    "formattedid": "12-1040-8504",
+    "routename": "（主４０）さいたま東村山線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4177,
+    "adminnumber": "12-3126",
+    "numberserial": "8500",
+    "formattedid": "12-3126-8500",
+    "routename": null,
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "清瀬市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4178,
+    "adminnumber": "12-3127",
+    "numberserial": "8001",
+    "formattedid": "12-3127-8001",
+    "routename": "（一１２７）秋津停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4179,
+    "adminnumber": "12-3127",
+    "numberserial": "8500",
+    "formattedid": "12-3127-8500",
+    "routename": "（一１２７）秋津停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4180,
+    "adminnumber": "12-3127",
+    "numberserial": "8501",
+    "formattedid": "12-3127-8501",
+    "routename": "（一１２７）秋津停車場線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4181,
+    "adminnumber": "12-3128",
+    "numberserial": "8001",
+    "formattedid": "12-3128-8001",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4182,
+    "adminnumber": "12-3128",
+    "numberserial": "8002",
+    "formattedid": "12-3128-8002",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4183,
+    "adminnumber": "12-3128",
+    "numberserial": "8003",
+    "formattedid": "12-3128-8003",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4184,
+    "adminnumber": "12-3128",
+    "numberserial": "8004",
+    "formattedid": "12-3128-8004",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354539.74,
+    "longitude": 1392723.53,
+    "wgsCoordinate": {
+      "latitude": 35.76103888888888,
+      "longitude": 139.45653611111112
+    }
+  },
+  {
+    "id": 4185,
+    "adminnumber": "12-3128",
+    "numberserial": "8005",
+    "formattedid": "12-3128-8005",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354532.09,
+    "longitude": 1392707.79,
+    "wgsCoordinate": {
+      "latitude": 35.7589138888889,
+      "longitude": 139.4521638888889
+    }
+  },
+  {
+    "id": 4186,
+    "adminnumber": "12-3128",
+    "numberserial": "8006",
+    "formattedid": "12-3128-8006",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4187,
+    "adminnumber": "12-3128",
+    "numberserial": "8007",
+    "formattedid": "12-3128-8007",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4188,
+    "adminnumber": "12-3128",
+    "numberserial": "8008",
+    "formattedid": "12-3128-8008",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4189,
+    "adminnumber": "12-3128",
+    "numberserial": "8009",
+    "formattedid": "12-3128-8009",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4190,
+    "adminnumber": "12-3128",
+    "numberserial": "8010",
+    "formattedid": "12-3128-8010",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4191,
+    "adminnumber": "12-3128",
+    "numberserial": "8500",
+    "formattedid": "12-3128-8500",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4192,
+    "adminnumber": "12-3128",
+    "numberserial": "8501",
+    "formattedid": "12-3128-8501",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4193,
+    "adminnumber": "12-3128",
+    "numberserial": "8502",
+    "formattedid": "12-3128-8502",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4194,
+    "adminnumber": "12-3128",
+    "numberserial": "8503",
+    "formattedid": "12-3128-8503",
+    "routename": "（一１２８）東村山東大和線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4195,
+    "adminnumber": "12-3129",
+    "numberserial": "8001",
+    "formattedid": "12-3129-8001",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4196,
+    "adminnumber": "12-3129",
+    "numberserial": "8002",
+    "formattedid": "12-3129-8002",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4197,
+    "adminnumber": "12-3129",
+    "numberserial": "8003",
+    "formattedid": "12-3129-8003",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4198,
+    "adminnumber": "12-3129",
+    "numberserial": "8004",
+    "formattedid": "12-3129-8004",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4199,
+    "adminnumber": "12-3129",
+    "numberserial": "8005",
+    "formattedid": "12-3129-8005",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 4200,
+    "adminnumber": "12-3129",
+    "numberserial": "8006",
+    "formattedid": "12-3129-8006",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354501.39,
+    "longitude": 1392910.27,
+    "wgsCoordinate": {
+      "latitude": 35.75038611111111,
+      "longitude": 139.4861861111111
+    }
+  },
+  {
+    "id": 4201,
+    "adminnumber": "12-3129",
+    "numberserial": "8500",
+    "formattedid": "12-3129-8500",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354530.3,
+    "longitude": 1392822.52,
+    "wgsCoordinate": {
+      "latitude": 35.75841666666666,
+      "longitude": 139.47292222222222
+    }
+  },
+  {
+    "id": 4202,
+    "adminnumber": "12-3129",
+    "numberserial": "8501",
+    "formattedid": "12-3129-8501",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354518.29,
+    "longitude": 1392839.74,
+    "wgsCoordinate": {
+      "latitude": 35.75508055555555,
+      "longitude": 139.47770555555556
+    }
+  },
+  {
+    "id": 4203,
+    "adminnumber": "12-3129",
+    "numberserial": "8502",
+    "formattedid": "12-3129-8502",
+    "routename": "（一１２９）東村山東久留米線",
+    "officename": "北多摩北部建設事務所",
+    "areaname": "東村山工区",
+    "municipalityname": "東村山市",
+    "latitude": 354504.75,
+    "longitude": 1392904.48,
+    "wgsCoordinate": {
+      "latitude": 35.75131944444445,
+      "longitude": 139.48457777777776
+    }
+  }
+]

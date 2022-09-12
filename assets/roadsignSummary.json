@@ -1,0 +1,5289 @@
+[
+  {
+    "id": 14562,
+    "adminnumber": "8-1005",
+    "numberserial": "9513",
+    "formattedid": "8-1005-9513",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 15383,
+    "adminnumber": "8-3179",
+    "numberserial": "7107",
+    "formattedid": "8-3179-7107",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354726.01,
+    "longitude": 1391933.29,
+    "wgsCoordinate": {
+      "latitude": 35.79055833333334,
+      "longitude": 139.3259138888889
+    }
+  },
+  {
+    "id": 15386,
+    "adminnumber": "8-3179",
+    "numberserial": "7408",
+    "formattedid": "8-3179-7408",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354725.46,
+    "longitude": 1391929.29,
+    "wgsCoordinate": {
+      "latitude": 35.79040555555556,
+      "longitude": 139.3248027777778
+    }
+  },
+  {
+    "id": 15388,
+    "adminnumber": "8-3179",
+    "numberserial": "7705",
+    "formattedid": "8-3179-7705",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.51,
+    "longitude": 1391922.49,
+    "wgsCoordinate": {
+      "latitude": 35.79014166666667,
+      "longitude": 139.32291388888888
+    }
+  },
+  {
+    "id": 15389,
+    "adminnumber": "8-3179",
+    "numberserial": "7706",
+    "formattedid": "8-3179-7706",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.29,
+    "longitude": 1391920.87,
+    "wgsCoordinate": {
+      "latitude": 35.79008055555555,
+      "longitude": 139.3224638888889
+    }
+  },
+  {
+    "id": 14690,
+    "adminnumber": "8-1028",
+    "numberserial": "7103",
+    "formattedid": "8-1028-7103",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354732.24,
+    "longitude": 1391614.75,
+    "wgsCoordinate": {
+      "latitude": 35.79228888888888,
+      "longitude": 139.2707638888889
+    }
+  },
+  {
+    "id": 14691,
+    "adminnumber": "8-1028",
+    "numberserial": "7105",
+    "formattedid": "8-1028-7105",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354919.4,
+    "longitude": 1391632.89,
+    "wgsCoordinate": {
+      "latitude": 35.822055555555565,
+      "longitude": 139.27580277777776
+    }
+  },
+  {
+    "id": 14692,
+    "adminnumber": "8-1028",
+    "numberserial": "7106",
+    "formattedid": "8-1028-7106",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354919.06,
+    "longitude": 1391639.85,
+    "wgsCoordinate": {
+      "latitude": 35.821961111111115,
+      "longitude": 139.27773611111115
+    }
+  },
+  {
+    "id": 15048,
+    "adminnumber": "8-1044",
+    "numberserial": "7100",
+    "formattedid": "8-1044-7100",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354721.92,
+    "longitude": 1391933.41,
+    "wgsCoordinate": {
+      "latitude": 35.789422222222214,
+      "longitude": 139.3259472222222
+    }
+  },
+  {
+    "id": 15049,
+    "adminnumber": "8-1044",
+    "numberserial": "7101",
+    "formattedid": "8-1044-7101",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354728.02,
+    "longitude": 1391926.12,
+    "wgsCoordinate": {
+      "latitude": 35.79111666666667,
+      "longitude": 139.32392222222225
+    }
+  },
+  {
+    "id": 15050,
+    "adminnumber": "8-1044",
+    "numberserial": "7102",
+    "formattedid": "8-1044-7102",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354742.56,
+    "longitude": 1391907.41,
+    "wgsCoordinate": {
+      "latitude": 35.79515555555555,
+      "longitude": 139.31872499999997
+    }
+  },
+  {
+    "id": 15051,
+    "adminnumber": "8-1044",
+    "numberserial": "7104",
+    "formattedid": "8-1044-7104",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354817.38,
+    "longitude": 1391823.4,
+    "wgsCoordinate": {
+      "latitude": 35.804827777777774,
+      "longitude": 139.30649999999997
+    }
+  },
+  {
+    "id": 15052,
+    "adminnumber": "8-1044",
+    "numberserial": "7106",
+    "formattedid": "8-1044-7106",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354923.3,
+    "longitude": 1391712.62,
+    "wgsCoordinate": {
+      "latitude": 35.82313888888889,
+      "longitude": 139.28683888888892
+    }
+  },
+  {
+    "id": 15053,
+    "adminnumber": "8-1044",
+    "numberserial": "7107",
+    "formattedid": "8-1044-7107",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354914.41,
+    "longitude": 1391729.15,
+    "wgsCoordinate": {
+      "latitude": 35.82066944444444,
+      "longitude": 139.29143055555554
+    }
+  },
+  {
+    "id": 15054,
+    "adminnumber": "8-1044",
+    "numberserial": "7108",
+    "formattedid": "8-1044-7108",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354918.96,
+    "longitude": 1391721.7,
+    "wgsCoordinate": {
+      "latitude": 35.82193333333334,
+      "longitude": 139.2893611111111
+    }
+  },
+  {
+    "id": 15390,
+    "adminnumber": "8-3179",
+    "numberserial": "7707",
+    "formattedid": "8-3179-7707",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.82,
+    "longitude": 1391838.13,
+    "wgsCoordinate": {
+      "latitude": 35.78828333333333,
+      "longitude": 139.31059166666665
+    }
+  },
+  {
+    "id": 15391,
+    "adminnumber": "8-3179",
+    "numberserial": "7708",
+    "formattedid": "8-3179-7708",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.41,
+    "longitude": 1391836.79,
+    "wgsCoordinate": {
+      "latitude": 35.78650277777777,
+      "longitude": 139.31021944444447
+    }
+  },
+  {
+    "id": 15392,
+    "adminnumber": "8-3181",
+    "numberserial": "7100",
+    "formattedid": "8-3181-7100",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354806.9,
+    "longitude": 1391819.62,
+    "wgsCoordinate": {
+      "latitude": 35.80191666666667,
+      "longitude": 139.30545000000004
+    }
+  },
+  {
+    "id": 15393,
+    "adminnumber": "8-3181",
+    "numberserial": "7101",
+    "formattedid": "8-3181-7101",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354720.94,
+    "longitude": 1391835.62,
+    "wgsCoordinate": {
+      "latitude": 35.78915,
+      "longitude": 139.3098944444445
+    }
+  },
+  {
+    "id": 15394,
+    "adminnumber": "8-3181",
+    "numberserial": "7102",
+    "formattedid": "8-3181-7102",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354710.51,
+    "longitude": 1391810.99,
+    "wgsCoordinate": {
+      "latitude": 35.786252777777776,
+      "longitude": 139.3030527777778
+    }
+  },
+  {
+    "id": 15395,
+    "adminnumber": "8-3181",
+    "numberserial": "7103",
+    "formattedid": "8-3181-7103",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.85,
+    "longitude": 1391836.9,
+    "wgsCoordinate": {
+      "latitude": 35.786624999999994,
+      "longitude": 139.31025
+    }
+  },
+  {
+    "id": 15396,
+    "adminnumber": "8-3181",
+    "numberserial": "7400",
+    "formattedid": "8-3181-7400",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354756.11,
+    "longitude": 1391827.69,
+    "wgsCoordinate": {
+      "latitude": 35.79891944444444,
+      "longitude": 139.30769166666667
+    }
+  },
+  {
+    "id": 15397,
+    "adminnumber": "8-3181",
+    "numberserial": "7404",
+    "formattedid": "8-3181-7404",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354702.61,
+    "longitude": 1391810.69,
+    "wgsCoordinate": {
+      "latitude": 35.78405833333333,
+      "longitude": 139.30296944444444
+    }
+  },
+  {
+    "id": 15398,
+    "adminnumber": "8-3181",
+    "numberserial": "7408",
+    "formattedid": "8-3181-7408",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354650.73,
+    "longitude": 1391810.53,
+    "wgsCoordinate": {
+      "latitude": 35.780758333333324,
+      "longitude": 139.30292500000002
+    }
+  },
+  {
+    "id": 15399,
+    "adminnumber": "8-3181",
+    "numberserial": "7412",
+    "formattedid": "8-3181-7412",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354641.81,
+    "longitude": 1391808.79,
+    "wgsCoordinate": {
+      "latitude": 35.778280555555554,
+      "longitude": 139.30244166666668
+    }
+  },
+  {
+    "id": 15400,
+    "adminnumber": "8-3181",
+    "numberserial": "7419",
+    "formattedid": "8-3181-7419",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354737.52,
+    "longitude": 1391832.37,
+    "wgsCoordinate": {
+      "latitude": 35.793755555555556,
+      "longitude": 139.3089916666667
+    }
+  },
+  {
+    "id": 15401,
+    "adminnumber": "8-3181",
+    "numberserial": "7701",
+    "formattedid": "8-3181-7701",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354758.27,
+    "longitude": 1391827.88,
+    "wgsCoordinate": {
+      "latitude": 35.79951944444445,
+      "longitude": 139.30774444444444
+    }
+  },
+  {
+    "id": 15402,
+    "adminnumber": "8-3181",
+    "numberserial": "7702",
+    "formattedid": "8-3181-7702",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354754.03,
+    "longitude": 1391828.12,
+    "wgsCoordinate": {
+      "latitude": 35.79834166666667,
+      "longitude": 139.30781111111116
+    }
+  },
+  {
+    "id": 15403,
+    "adminnumber": "8-3181",
+    "numberserial": "7703",
+    "formattedid": "8-3181-7703",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.65,
+    "longitude": 1391835.91,
+    "wgsCoordinate": {
+      "latitude": 35.78879166666667,
+      "longitude": 139.30997499999998
+    }
+  },
+  {
+    "id": 14363,
+    "adminnumber": "8-411",
+    "numberserial": "7730",
+    "formattedid": "8-411-7730",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354820.75,
+    "longitude": 1391249.37,
+    "wgsCoordinate": {
+      "latitude": 35.80576388888888,
+      "longitude": 139.21371388888892
+    }
+  },
+  {
+    "id": 14693,
+    "adminnumber": "8-1028",
+    "numberserial": "7107",
+    "formattedid": "8-1028-7107",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354932.32,
+    "longitude": 1391720.2,
+    "wgsCoordinate": {
+      "latitude": 35.82564444444445,
+      "longitude": 139.28894444444444
+    }
+  },
+  {
+    "id": 14694,
+    "adminnumber": "8-1028",
+    "numberserial": "7109",
+    "formattedid": "8-1028-7109",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354956.13,
+    "longitude": 1391748.23,
+    "wgsCoordinate": {
+      "latitude": 35.832258333333336,
+      "longitude": 139.29673055555554
+    }
+  },
+  {
+    "id": 14696,
+    "adminnumber": "8-1028",
+    "numberserial": "7110",
+    "formattedid": "8-1028-7110",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355003.21,
+    "longitude": 1391749.88,
+    "wgsCoordinate": {
+      "latitude": 35.83422500000001,
+      "longitude": 139.29718888888885
+    }
+  },
+  {
+    "id": 14697,
+    "adminnumber": "8-1028",
+    "numberserial": "7111",
+    "formattedid": "8-1028-7111",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354923.34,
+    "longitude": 1391708.65,
+    "wgsCoordinate": {
+      "latitude": 35.82315000000001,
+      "longitude": 139.28573611111108
+    }
+  },
+  {
+    "id": 14701,
+    "adminnumber": "8-1028",
+    "numberserial": "7204",
+    "formattedid": "8-1028-7204",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354727.8,
+    "longitude": 1391614.76,
+    "wgsCoordinate": {
+      "latitude": 35.79105555555555,
+      "longitude": 139.27076666666667
+    }
+  },
+  {
+    "id": 14702,
+    "adminnumber": "8-1028",
+    "numberserial": "7205",
+    "formattedid": "8-1028-7205",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354734.85,
+    "longitude": 1391614.54,
+    "wgsCoordinate": {
+      "latitude": 35.79301388888888,
+      "longitude": 139.27070555555557
+    }
+  },
+  {
+    "id": 14703,
+    "adminnumber": "8-1028",
+    "numberserial": "7206",
+    "formattedid": "8-1028-7206",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354739.6,
+    "longitude": 1391613.79,
+    "wgsCoordinate": {
+      "latitude": 35.79433333333333,
+      "longitude": 139.27049722222225
+    }
+  },
+  {
+    "id": 14704,
+    "adminnumber": "8-1028",
+    "numberserial": "7207",
+    "formattedid": "8-1028-7207",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354744.17,
+    "longitude": 1391611.59,
+    "wgsCoordinate": {
+      "latitude": 35.79560277777777,
+      "longitude": 139.26988611111113
+    }
+  },
+  {
+    "id": 14705,
+    "adminnumber": "8-1028",
+    "numberserial": "7208",
+    "formattedid": "8-1028-7208",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354809.05,
+    "longitude": 1391555.16,
+    "wgsCoordinate": {
+      "latitude": 35.80251388888888,
+      "longitude": 139.2653222222222
+    }
+  },
+  {
+    "id": 14706,
+    "adminnumber": "8-1028",
+    "numberserial": "7212",
+    "formattedid": "8-1028-7212",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354851.98,
+    "longitude": 1391555.16,
+    "wgsCoordinate": {
+      "latitude": 35.81443888888888,
+      "longitude": 139.2653222222222
+    }
+  },
+  {
+    "id": 14707,
+    "adminnumber": "8-1028",
+    "numberserial": "7214",
+    "formattedid": "8-1028-7214",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354920.31,
+    "longitude": 1391634.88,
+    "wgsCoordinate": {
+      "latitude": 35.82230833333334,
+      "longitude": 139.27635555555554
+    }
+  },
+  {
+    "id": 14708,
+    "adminnumber": "8-1028",
+    "numberserial": "7215",
+    "formattedid": "8-1028-7215",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354920.82,
+    "longitude": 1391635.58,
+    "wgsCoordinate": {
+      "latitude": 35.82245,
+      "longitude": 139.27655000000004
+    }
+  },
+  {
+    "id": 14709,
+    "adminnumber": "8-1028",
+    "numberserial": "7216",
+    "formattedid": "8-1028-7216",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354934.85,
+    "longitude": 1391722.42,
+    "wgsCoordinate": {
+      "latitude": 35.82634722222222,
+      "longitude": 139.28956111111108
+    }
+  },
+  {
+    "id": 14710,
+    "adminnumber": "8-1028",
+    "numberserial": "7218",
+    "formattedid": "8-1028-7218",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.37,
+    "longitude": 1391749.63,
+    "wgsCoordinate": {
+      "latitude": 35.83510277777778,
+      "longitude": 139.2971194444444
+    }
+  },
+  {
+    "id": 14711,
+    "adminnumber": "8-1028",
+    "numberserial": "7219",
+    "formattedid": "8-1028-7219",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.32,
+    "longitude": 1391749.3,
+    "wgsCoordinate": {
+      "latitude": 35.83508888888889,
+      "longitude": 139.2970277777778
+    }
+  },
+  {
+    "id": 14712,
+    "adminnumber": "8-1028",
+    "numberserial": "7300",
+    "formattedid": "8-1028-7300",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.4,
+    "longitude": 1391749.3,
+    "wgsCoordinate": {
+      "latitude": 35.83511111111112,
+      "longitude": 139.2970277777778
+    }
+  },
+  {
+    "id": 14713,
+    "adminnumber": "8-1028",
+    "numberserial": "7301",
+    "formattedid": "8-1028-7301",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.43,
+    "longitude": 1391749.29,
+    "wgsCoordinate": {
+      "latitude": 35.835119444444445,
+      "longitude": 139.29702500000002
+    }
+  },
+  {
+    "id": 15065,
+    "adminnumber": "8-1044",
+    "numberserial": "7706",
+    "formattedid": "8-1044-7706",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354837.46,
+    "longitude": 1391800.8,
+    "wgsCoordinate": {
+      "latitude": 35.81040555555556,
+      "longitude": 139.30022222222226
+    }
+  },
+  {
+    "id": 15066,
+    "adminnumber": "8-1044",
+    "numberserial": "7707",
+    "formattedid": "8-1044-7707",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354839.9,
+    "longitude": 1391800.12,
+    "wgsCoordinate": {
+      "latitude": 35.811083333333336,
+      "longitude": 139.30003333333337
+    }
+  },
+  {
+    "id": 15067,
+    "adminnumber": "8-1044",
+    "numberserial": "7708",
+    "formattedid": "8-1044-7708",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354849.21,
+    "longitude": 1391753.81,
+    "wgsCoordinate": {
+      "latitude": 35.81366944444445,
+      "longitude": 139.29828055555558
+    }
+  },
+  {
+    "id": 15068,
+    "adminnumber": "8-1044",
+    "numberserial": "7709",
+    "formattedid": "8-1044-7709",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354852.44,
+    "longitude": 1391752.5,
+    "wgsCoordinate": {
+      "latitude": 35.814566666666664,
+      "longitude": 139.29791666666665
+    }
+  },
+  {
+    "id": 15069,
+    "adminnumber": "8-1044",
+    "numberserial": "7710",
+    "formattedid": "8-1044-7710",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354857.81,
+    "longitude": 1391751.09,
+    "wgsCoordinate": {
+      "latitude": 35.81605833333333,
+      "longitude": 139.297525
+    }
+  },
+  {
+    "id": 15070,
+    "adminnumber": "8-1044",
+    "numberserial": "7711",
+    "formattedid": "8-1044-7711",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354858.01,
+    "longitude": 1391750.99,
+    "wgsCoordinate": {
+      "latitude": 35.816113888888886,
+      "longitude": 139.2974972222222
+    }
+  },
+  {
+    "id": 15071,
+    "adminnumber": "8-1044",
+    "numberserial": "7714",
+    "formattedid": "8-1044-7714",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354927.5,
+    "longitude": 1391722.91,
+    "wgsCoordinate": {
+      "latitude": 35.82430555555556,
+      "longitude": 139.2896972222222
+    }
+  },
+  {
+    "id": 15072,
+    "adminnumber": "8-1044",
+    "numberserial": "7716",
+    "formattedid": "8-1044-7716",
+    "routename": "（主４４）瑞穂富岡線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354934.42,
+    "longitude": 1391723.47,
+    "wgsCoordinate": {
+      "latitude": 35.826227777777774,
+      "longitude": 139.28985277777778
+    }
+  },
+  {
+    "id": 15078,
+    "adminnumber": "8-1045",
+    "numberserial": "7107",
+    "formattedid": "8-1045-7107",
+    "routename": "（主４５）奥多摩青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354702.54,
+    "longitude": 1391452.0,
+    "wgsCoordinate": {
+      "latitude": 35.78403888888888,
+      "longitude": 139.24777777777777
+    }
+  },
+  {
+    "id": 14373,
+    "adminnumber": "8-411",
+    "numberserial": "7742",
+    "formattedid": "8-411-7742",
+    "routename": "（国４１１）国道４１１号",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354813.9,
+    "longitude": 1391036.44,
+    "wgsCoordinate": {
+      "latitude": 35.80386111111112,
+      "longitude": 139.17678888888886
+    }
+  },
+  {
+    "id": 14718,
+    "adminnumber": "8-1028",
+    "numberserial": "7410",
+    "formattedid": "8-1028-7410",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354727.26,
+    "longitude": 1391614.69,
+    "wgsCoordinate": {
+      "latitude": 35.790905555555554,
+      "longitude": 139.2707472222222
+    }
+  },
+  {
+    "id": 14719,
+    "adminnumber": "8-1028",
+    "numberserial": "7414",
+    "formattedid": "8-1028-7414",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354734.51,
+    "longitude": 1391614.59,
+    "wgsCoordinate": {
+      "latitude": 35.79291944444444,
+      "longitude": 139.2707194444445
+    }
+  },
+  {
+    "id": 14720,
+    "adminnumber": "8-1028",
+    "numberserial": "7416",
+    "formattedid": "8-1028-7416",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354739.37,
+    "longitude": 1391614.21,
+    "wgsCoordinate": {
+      "latitude": 35.79426944444444,
+      "longitude": 139.2706138888889
+    }
+  },
+  {
+    "id": 14721,
+    "adminnumber": "8-1028",
+    "numberserial": "7419",
+    "formattedid": "8-1028-7419",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354839.1,
+    "longitude": 1391532.81,
+    "wgsCoordinate": {
+      "latitude": 35.8108611111111,
+      "longitude": 139.2591138888889
+    }
+  },
+  {
+    "id": 14722,
+    "adminnumber": "8-1028",
+    "numberserial": "7420",
+    "formattedid": "8-1028-7420",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354851.48,
+    "longitude": 1391555.14,
+    "wgsCoordinate": {
+      "latitude": 35.81429999999999,
+      "longitude": 139.26531666666665
+    }
+  },
+  {
+    "id": 14723,
+    "adminnumber": "8-1028",
+    "numberserial": "7423",
+    "formattedid": "8-1028-7423",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354934.98,
+    "longitude": 1391722.65,
+    "wgsCoordinate": {
+      "latitude": 35.82638333333333,
+      "longitude": 139.28962499999997
+    }
+  },
+  {
+    "id": 14726,
+    "adminnumber": "8-1028",
+    "numberserial": "7435",
+    "formattedid": "8-1028-7435",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354744.09,
+    "longitude": 1391611.64,
+    "wgsCoordinate": {
+      "latitude": 35.79558055555556,
+      "longitude": 139.26989999999998
+    }
+  },
+  {
+    "id": 14727,
+    "adminnumber": "8-1028",
+    "numberserial": "7443",
+    "formattedid": "8-1028-7443",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354908.04,
+    "longitude": 1391631.62,
+    "wgsCoordinate": {
+      "latitude": 35.8189,
+      "longitude": 139.27545000000003
+    }
+  },
+  {
+    "id": 14728,
+    "adminnumber": "8-1028",
+    "numberserial": "7445",
+    "formattedid": "8-1028-7445",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354916.96,
+    "longitude": 1391631.33,
+    "wgsCoordinate": {
+      "latitude": 35.82137777777778,
+      "longitude": 139.27536944444446
+    }
+  },
+  {
+    "id": 14729,
+    "adminnumber": "8-1028",
+    "numberserial": "7447",
+    "formattedid": "8-1028-7447",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354920.69,
+    "longitude": 1391634.84,
+    "wgsCoordinate": {
+      "latitude": 35.822413888888896,
+      "longitude": 139.27634444444448
+    }
+  },
+  {
+    "id": 14731,
+    "adminnumber": "8-1028",
+    "numberserial": "7700",
+    "formattedid": "8-1028-7700",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354733.71,
+    "longitude": 1391614.21,
+    "wgsCoordinate": {
+      "latitude": 35.79269722222222,
+      "longitude": 139.2706138888889
+    }
+  },
+  {
+    "id": 14732,
+    "adminnumber": "8-1028",
+    "numberserial": "7702",
+    "formattedid": "8-1028-7702",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354744.9,
+    "longitude": 1391611.33,
+    "wgsCoordinate": {
+      "latitude": 35.79580555555556,
+      "longitude": 139.26981388888893
+    }
+  },
+  {
+    "id": 14733,
+    "adminnumber": "8-1028",
+    "numberserial": "7704",
+    "formattedid": "8-1028-7704",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354836.02,
+    "longitude": 1391534.16,
+    "wgsCoordinate": {
+      "latitude": 35.810005555555556,
+      "longitude": 139.25948888888885
+    }
+  },
+  {
+    "id": 14734,
+    "adminnumber": "8-1028",
+    "numberserial": "7705",
+    "formattedid": "8-1028-7705",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354835.99,
+    "longitude": 1391534.16,
+    "wgsCoordinate": {
+      "latitude": 35.809997222222215,
+      "longitude": 139.25948888888885
+    }
+  },
+  {
+    "id": 14735,
+    "adminnumber": "8-1028",
+    "numberserial": "7707",
+    "formattedid": "8-1028-7707",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354840.59,
+    "longitude": 1391534.63,
+    "wgsCoordinate": {
+      "latitude": 35.811275,
+      "longitude": 139.2596194444444
+    }
+  },
+  {
+    "id": 14736,
+    "adminnumber": "8-1028",
+    "numberserial": "7708",
+    "formattedid": "8-1028-7708",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354844.9,
+    "longitude": 1391545.42,
+    "wgsCoordinate": {
+      "latitude": 35.812472222222226,
+      "longitude": 139.26261666666664
+    }
+  },
+  {
+    "id": 14737,
+    "adminnumber": "8-1028",
+    "numberserial": "7709",
+    "formattedid": "8-1028-7709",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354844.91,
+    "longitude": 1391545.44,
+    "wgsCoordinate": {
+      "latitude": 35.81247499999999,
+      "longitude": 139.2626222222222
+    }
+  },
+  {
+    "id": 14738,
+    "adminnumber": "8-1028",
+    "numberserial": "7711",
+    "formattedid": "8-1028-7711",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.51,
+    "longitude": 1391711.21,
+    "wgsCoordinate": {
+      "latitude": 35.82347500000001,
+      "longitude": 139.28644722222222
+    }
+  },
+  {
+    "id": 15100,
+    "adminnumber": "8-1039",
+    "numberserial": "7218",
+    "formattedid": "8-1039-7218",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355019.5,
+    "longitude": 1391156.38,
+    "wgsCoordinate": {
+      "latitude": 35.838750000000005,
+      "longitude": 139.19899444444442
+    }
+  },
+  {
+    "id": 15101,
+    "adminnumber": "8-1039",
+    "numberserial": "7219",
+    "formattedid": "8-1039-7219",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355019.61,
+    "longitude": 1391156.38,
+    "wgsCoordinate": {
+      "latitude": 35.83878055555555,
+      "longitude": 139.19899444444442
+    }
+  },
+  {
+    "id": 15435,
+    "adminnumber": "8-3193",
+    "numberserial": "7100",
+    "formattedid": "8-3193-7100",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355015.81,
+    "longitude": 1391654.14,
+    "wgsCoordinate": {
+      "latitude": 35.837725,
+      "longitude": 139.28170555555553
+    }
+  },
+  {
+    "id": 15436,
+    "adminnumber": "8-3193",
+    "numberserial": "7102",
+    "formattedid": "8-3193-7102",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354956.83,
+    "longitude": 1391612.79,
+    "wgsCoordinate": {
+      "latitude": 35.83245277777779,
+      "longitude": 139.27021944444448
+    }
+  },
+  {
+    "id": 15437,
+    "adminnumber": "8-3193",
+    "numberserial": "7103",
+    "formattedid": "8-3193-7103",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354954.13,
+    "longitude": 1391605.59,
+    "wgsCoordinate": {
+      "latitude": 35.831702777777785,
+      "longitude": 139.26821944444447
+    }
+  },
+  {
+    "id": 15438,
+    "adminnumber": "8-3193",
+    "numberserial": "7104",
+    "formattedid": "8-3193-7104",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354922.91,
+    "longitude": 1391459.75,
+    "wgsCoordinate": {
+      "latitude": 35.823030555555555,
+      "longitude": 139.24993055555555
+    }
+  },
+  {
+    "id": 15439,
+    "adminnumber": "8-3193",
+    "numberserial": "7105",
+    "formattedid": "8-3193-7105",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354937.99,
+    "longitude": 1391304.46,
+    "wgsCoordinate": {
+      "latitude": 35.827219444444445,
+      "longitude": 139.21790555555555
+    }
+  },
+  {
+    "id": 15440,
+    "adminnumber": "8-3193",
+    "numberserial": "7106",
+    "formattedid": "8-3193-7106",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354938.14,
+    "longitude": 1391254.29,
+    "wgsCoordinate": {
+      "latitude": 35.82726111111112,
+      "longitude": 139.21508055555555
+    }
+  },
+  {
+    "id": 15441,
+    "adminnumber": "8-3193",
+    "numberserial": "7300",
+    "formattedid": "8-3193-7300",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355016.1,
+    "longitude": 1391656.23,
+    "wgsCoordinate": {
+      "latitude": 35.837805555555555,
+      "longitude": 139.28228611111112
+    }
+  },
+  {
+    "id": 15442,
+    "adminnumber": "8-3193",
+    "numberserial": "7301",
+    "formattedid": "8-3193-7301",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355016.06,
+    "longitude": 1391656.27,
+    "wgsCoordinate": {
+      "latitude": 35.83779444444445,
+      "longitude": 139.28229722222224
+    }
+  },
+  {
+    "id": 15443,
+    "adminnumber": "8-3193",
+    "numberserial": "7400",
+    "formattedid": "8-3193-7400",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355015.72,
+    "longitude": 1391652.0,
+    "wgsCoordinate": {
+      "latitude": 35.8377,
+      "longitude": 139.28111111111113
+    }
+  },
+  {
+    "id": 15444,
+    "adminnumber": "8-3193",
+    "numberserial": "7404",
+    "formattedid": "8-3193-7404",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354955.09,
+    "longitude": 1391608.85,
+    "wgsCoordinate": {
+      "latitude": 35.831969444444454,
+      "longitude": 139.26912500000003
+    }
+  },
+  {
+    "id": 15445,
+    "adminnumber": "8-3193",
+    "numberserial": "7407",
+    "formattedid": "8-3193-7407",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354942.25,
+    "longitude": 1391539.34,
+    "wgsCoordinate": {
+      "latitude": 35.82840277777778,
+      "longitude": 139.2609277777778
+    }
+  },
+  {
+    "id": 15446,
+    "adminnumber": "8-3193",
+    "numberserial": "7409",
+    "formattedid": "8-3193-7409",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354934.82,
+    "longitude": 1391523.25,
+    "wgsCoordinate": {
+      "latitude": 35.82633888888889,
+      "longitude": 139.25645833333334
+    }
+  },
+  {
+    "id": 15447,
+    "adminnumber": "8-3193",
+    "numberserial": "7700",
+    "formattedid": "8-3193-7700",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355013.71,
+    "longitude": 1391636.81,
+    "wgsCoordinate": {
+      "latitude": 35.837141666666675,
+      "longitude": 139.2768916666667
+    }
+  },
+  {
+    "id": 15448,
+    "adminnumber": "8-3193",
+    "numberserial": "7702",
+    "formattedid": "8-3193-7702",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355004.15,
+    "longitude": 1391623.22,
+    "wgsCoordinate": {
+      "latitude": 35.83448611111112,
+      "longitude": 139.27311666666668
+    }
+  },
+  {
+    "id": 15449,
+    "adminnumber": "8-3193",
+    "numberserial": "7703",
+    "formattedid": "8-3193-7703",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355003.78,
+    "longitude": 1391623.21,
+    "wgsCoordinate": {
+      "latitude": 35.83438333333334,
+      "longitude": 139.2731138888889
+    }
+  },
+  {
+    "id": 15450,
+    "adminnumber": "8-3193",
+    "numberserial": "7704",
+    "formattedid": "8-3193-7704",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355001.26,
+    "longitude": 1391619.35,
+    "wgsCoordinate": {
+      "latitude": 35.83368333333334,
+      "longitude": 139.2720416666667
+    }
+  },
+  {
+    "id": 15451,
+    "adminnumber": "8-3193",
+    "numberserial": "7706",
+    "formattedid": "8-3193-7706",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354955.15,
+    "longitude": 1391609.57,
+    "wgsCoordinate": {
+      "latitude": 35.83198611111112,
+      "longitude": 139.26932500000004
+    }
+  },
+  {
+    "id": 15452,
+    "adminnumber": "8-3193",
+    "numberserial": "7707",
+    "formattedid": "8-3193-7707",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354954.66,
+    "longitude": 1391608.52,
+    "wgsCoordinate": {
+      "latitude": 35.831849999999996,
+      "longitude": 139.26903333333334
+    }
+  },
+  {
+    "id": 15453,
+    "adminnumber": "8-3193",
+    "numberserial": "7711",
+    "formattedid": "8-3193-7711",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354947.09,
+    "longitude": 1391552.73,
+    "wgsCoordinate": {
+      "latitude": 35.82974722222223,
+      "longitude": 139.2646472222222
+    }
+  },
+  {
+    "id": 15454,
+    "adminnumber": "8-3193",
+    "numberserial": "7712",
+    "formattedid": "8-3193-7712",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354944.53,
+    "longitude": 1391543.66,
+    "wgsCoordinate": {
+      "latitude": 35.82903611111112,
+      "longitude": 139.26212777777775
+    }
+  },
+  {
+    "id": 15814,
+    "adminnumber": "8-3221",
+    "numberserial": "7300",
+    "formattedid": "8-3221-7300",
+    "routename": "（一２２１）原市場下成木線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355023.3,
+    "longitude": 1391647.34,
+    "wgsCoordinate": {
+      "latitude": 35.83980555555556,
+      "longitude": 139.2798166666667
+    }
+  },
+  {
+    "id": 15815,
+    "adminnumber": "8-3221",
+    "numberserial": "7700",
+    "formattedid": "8-3221-7700",
+    "routename": "（一２２１）原市場下成木線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355017.15,
+    "longitude": 1391651.58,
+    "wgsCoordinate": {
+      "latitude": 35.83809722222223,
+      "longitude": 139.28099444444447
+    }
+  },
+  {
+    "id": 15460,
+    "adminnumber": "8-3193",
+    "numberserial": "7719",
+    "formattedid": "8-3193-7719",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354925.78,
+    "longitude": 1391515.22,
+    "wgsCoordinate": {
+      "latitude": 35.82382777777779,
+      "longitude": 139.25422777777777
+    }
+  },
+  {
+    "id": 14739,
+    "adminnumber": "8-1028",
+    "numberserial": "7712",
+    "formattedid": "8-1028-7712",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354942.45,
+    "longitude": 1391730.42,
+    "wgsCoordinate": {
+      "latitude": 35.82845833333334,
+      "longitude": 139.2917833333333
+    }
+  },
+  {
+    "id": 14740,
+    "adminnumber": "8-1028",
+    "numberserial": "7713",
+    "formattedid": "8-1028-7713",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354923.26,
+    "longitude": 1391708.29,
+    "wgsCoordinate": {
+      "latitude": 35.823127777777785,
+      "longitude": 139.28563611111113
+    }
+  },
+  {
+    "id": 14741,
+    "adminnumber": "8-1029",
+    "numberserial": "7001",
+    "formattedid": "8-1029-7001",
+    "routename": "（主２９）立川青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354302.9,
+    "longitude": 1392008.85,
+    "wgsCoordinate": {
+      "latitude": 35.71747222222223,
+      "longitude": 139.3357916666667
+    }
+  },
+  {
+    "id": 15102,
+    "adminnumber": "8-1039",
+    "numberserial": "7401",
+    "formattedid": "8-1039-7401",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354852.81,
+    "longitude": 1391502.09,
+    "wgsCoordinate": {
+      "latitude": 35.81466944444444,
+      "longitude": 139.2505805555556
+    }
+  },
+  {
+    "id": 15103,
+    "adminnumber": "8-1039",
+    "numberserial": "7402",
+    "formattedid": "8-1039-7402",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354905.61,
+    "longitude": 1391442.63,
+    "wgsCoordinate": {
+      "latitude": 35.818225,
+      "longitude": 139.24517499999996
+    }
+  },
+  {
+    "id": 15104,
+    "adminnumber": "8-1039",
+    "numberserial": "7403",
+    "formattedid": "8-1039-7403",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354906.36,
+    "longitude": 1391441.52,
+    "wgsCoordinate": {
+      "latitude": 35.81843333333333,
+      "longitude": 139.24486666666667
+    }
+  },
+  {
+    "id": 15110,
+    "adminnumber": "8-3181",
+    "numberserial": "7109",
+    "formattedid": "8-3181-7109",
+    "routename": "（一１８１）藤橋小作線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354714.21,
+    "longitude": 1391836.39,
+    "wgsCoordinate": {
+      "latitude": 35.78728055555556,
+      "longitude": 139.31010833333332
+    }
+  },
+  {
+    "id": 15114,
+    "adminnumber": "8-3179",
+    "numberserial": "7303",
+    "formattedid": "8-3179-7303",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354728.1,
+    "longitude": 1391945.93,
+    "wgsCoordinate": {
+      "latitude": 35.79113888888888,
+      "longitude": 139.329425
+    }
+  },
+  {
+    "id": 15455,
+    "adminnumber": "8-3193",
+    "numberserial": "7713",
+    "formattedid": "8-3193-7713",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354936.59,
+    "longitude": 1391526.94,
+    "wgsCoordinate": {
+      "latitude": 35.82683055555557,
+      "longitude": 139.2574833333333
+    }
+  },
+  {
+    "id": 15456,
+    "adminnumber": "8-3193",
+    "numberserial": "7714",
+    "formattedid": "8-3193-7714",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354936.99,
+    "longitude": 1391527.72,
+    "wgsCoordinate": {
+      "latitude": 35.82694166666667,
+      "longitude": 139.2577
+    }
+  },
+  {
+    "id": 15457,
+    "adminnumber": "8-3193",
+    "numberserial": "7715",
+    "formattedid": "8-3193-7715",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354936.26,
+    "longitude": 1391525.31,
+    "wgsCoordinate": {
+      "latitude": 35.8267388888889,
+      "longitude": 139.25703055555556
+    }
+  },
+  {
+    "id": 15458,
+    "adminnumber": "8-3193",
+    "numberserial": "7716",
+    "formattedid": "8-3193-7716",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354935.77,
+    "longitude": 1391524.44,
+    "wgsCoordinate": {
+      "latitude": 35.82660277777779,
+      "longitude": 139.25678888888888
+    }
+  },
+  {
+    "id": 15459,
+    "adminnumber": "8-3193",
+    "numberserial": "7717",
+    "formattedid": "8-3193-7717",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354933.91,
+    "longitude": 1391521.34,
+    "wgsCoordinate": {
+      "latitude": 35.82608611111111,
+      "longitude": 139.2559277777778
+    }
+  },
+  {
+    "id": 15461,
+    "adminnumber": "8-3193",
+    "numberserial": "7720",
+    "formattedid": "8-3193-7720",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.98,
+    "longitude": 1391513.05,
+    "wgsCoordinate": {
+      "latitude": 35.82360555555555,
+      "longitude": 139.253625
+    }
+  },
+  {
+    "id": 15462,
+    "adminnumber": "8-3193",
+    "numberserial": "7721",
+    "formattedid": "8-3193-7721",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.49,
+    "longitude": 1391512.56,
+    "wgsCoordinate": {
+      "latitude": 35.82346944444445,
+      "longitude": 139.2534888888889
+    }
+  },
+  {
+    "id": 15463,
+    "adminnumber": "8-3193",
+    "numberserial": "7722",
+    "formattedid": "8-3193-7722",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354923.35,
+    "longitude": 1391508.85,
+    "wgsCoordinate": {
+      "latitude": 35.82315277777777,
+      "longitude": 139.25245833333335
+    }
+  },
+  {
+    "id": 15464,
+    "adminnumber": "8-3193",
+    "numberserial": "7723",
+    "formattedid": "8-3193-7723",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354922.98,
+    "longitude": 1391507.36,
+    "wgsCoordinate": {
+      "latitude": 35.823049999999995,
+      "longitude": 139.25204444444446
+    }
+  },
+  {
+    "id": 15465,
+    "adminnumber": "8-3193",
+    "numberserial": "7725",
+    "formattedid": "8-3193-7725",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354921.18,
+    "longitude": 1391344.62,
+    "wgsCoordinate": {
+      "latitude": 35.82255,
+      "longitude": 139.22906111111115
+    }
+  },
+  {
+    "id": 15466,
+    "adminnumber": "8-3193",
+    "numberserial": "7727",
+    "formattedid": "8-3193-7727",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354938.54,
+    "longitude": 1391258.93,
+    "wgsCoordinate": {
+      "latitude": 35.827372222222216,
+      "longitude": 139.2163694444444
+    }
+  },
+  {
+    "id": 15467,
+    "adminnumber": "8-3193",
+    "numberserial": "7728",
+    "formattedid": "8-3193-7728",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354938.3,
+    "longitude": 1391258.3,
+    "wgsCoordinate": {
+      "latitude": 35.827305555555554,
+      "longitude": 139.21619444444445
+    }
+  },
+  {
+    "id": 15468,
+    "adminnumber": "8-3193",
+    "numberserial": "7729",
+    "formattedid": "8-3193-7729",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354938.36,
+    "longitude": 1391258.32,
+    "wgsCoordinate": {
+      "latitude": 35.82732222222222,
+      "longitude": 139.21620000000001
+    }
+  },
+  {
+    "id": 15469,
+    "adminnumber": "8-3193",
+    "numberserial": "7730",
+    "formattedid": "8-3193-7730",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354938.27,
+    "longitude": 1391254.61,
+    "wgsCoordinate": {
+      "latitude": 35.82729722222223,
+      "longitude": 139.21516944444446
+    }
+  },
+  {
+    "id": 15470,
+    "adminnumber": "8-3193",
+    "numberserial": "7731",
+    "formattedid": "8-3193-7731",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354937.45,
+    "longitude": 1391253.11,
+    "wgsCoordinate": {
+      "latitude": 35.827069444444454,
+      "longitude": 139.2147527777778
+    }
+  },
+  {
+    "id": 15471,
+    "adminnumber": "8-3193",
+    "numberserial": "7732",
+    "formattedid": "8-3193-7732",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354936.61,
+    "longitude": 1391252.34,
+    "wgsCoordinate": {
+      "latitude": 35.82683611111111,
+      "longitude": 139.2145388888889
+    }
+  },
+  {
+    "id": 15472,
+    "adminnumber": "8-3193",
+    "numberserial": "7733",
+    "formattedid": "8-3193-7733",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354936.04,
+    "longitude": 1391247.67,
+    "wgsCoordinate": {
+      "latitude": 35.826677777777775,
+      "longitude": 139.21324166666665
+    }
+  },
+  {
+    "id": 15473,
+    "adminnumber": "8-3193",
+    "numberserial": "7734",
+    "formattedid": "8-3193-7734",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354935.8,
+    "longitude": 1391246.85,
+    "wgsCoordinate": {
+      "latitude": 35.82661111111111,
+      "longitude": 139.2130138888889
+    }
+  },
+  {
+    "id": 15474,
+    "adminnumber": "8-3193",
+    "numberserial": "7736",
+    "formattedid": "8-3193-7736",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354932.31,
+    "longitude": 1391243.32,
+    "wgsCoordinate": {
+      "latitude": 35.82564166666667,
+      "longitude": 139.21203333333335
+    }
+  },
+  {
+    "id": 15475,
+    "adminnumber": "8-3193",
+    "numberserial": "7737",
+    "formattedid": "8-3193-7737",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354927.46,
+    "longitude": 1391240.76,
+    "wgsCoordinate": {
+      "latitude": 35.824294444444455,
+      "longitude": 139.2113222222222
+    }
+  },
+  {
+    "id": 15476,
+    "adminnumber": "8-3193",
+    "numberserial": "7739",
+    "formattedid": "8-3193-7739",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.75,
+    "longitude": 1391239.16,
+    "wgsCoordinate": {
+      "latitude": 35.82354166666667,
+      "longitude": 139.21087777777774
+    }
+  },
+  {
+    "id": 15477,
+    "adminnumber": "8-3193",
+    "numberserial": "7740",
+    "formattedid": "8-3193-7740",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.69,
+    "longitude": 1391239.14,
+    "wgsCoordinate": {
+      "latitude": 35.823525000000004,
+      "longitude": 139.21087222222218
+    }
+  },
+  {
+    "id": 15478,
+    "adminnumber": "8-3193",
+    "numberserial": "7741",
+    "formattedid": "8-3193-7741",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354922.01,
+    "longitude": 1391238.09,
+    "wgsCoordinate": {
+      "latitude": 35.82278055555556,
+      "longitude": 139.21058055555557
+    }
+  },
+  {
+    "id": 15825,
+    "adminnumber": "8-3249",
+    "numberserial": "7104",
+    "formattedid": "8-3249-7104",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354646.01,
+    "longitude": 1391827.59,
+    "wgsCoordinate": {
+      "latitude": 35.779447222222224,
+      "longitude": 139.30766388888892
+    }
+  },
+  {
+    "id": 15826,
+    "adminnumber": "8-3249",
+    "numberserial": "7105",
+    "formattedid": "8-3249-7105",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354645.01,
+    "longitude": 1391822.59,
+    "wgsCoordinate": {
+      "latitude": 35.77916944444445,
+      "longitude": 139.30627500000003
+    }
+  },
+  {
+    "id": 15830,
+    "adminnumber": "8-3249",
+    "numberserial": "7301",
+    "formattedid": "8-3249-7301",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354637.71,
+    "longitude": 1391840.3,
+    "wgsCoordinate": {
+      "latitude": 35.77714166666667,
+      "longitude": 139.31119444444448
+    }
+  },
+  {
+    "id": 15840,
+    "adminnumber": "8-3249",
+    "numberserial": "7425",
+    "formattedid": "8-3249-7425",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354642.59,
+    "longitude": 1391837.17,
+    "wgsCoordinate": {
+      "latitude": 35.77849722222223,
+      "longitude": 139.31032499999998
+    }
+  },
+  {
+    "id": 14427,
+    "adminnumber": "8-1005",
+    "numberserial": "7002",
+    "formattedid": "8-1005-7002",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354703.9,
+    "longitude": 1391845.38,
+    "wgsCoordinate": {
+      "latitude": 35.78441666666667,
+      "longitude": 139.31260555555554
+    }
+  },
+  {
+    "id": 14428,
+    "adminnumber": "8-1005",
+    "numberserial": "7003",
+    "formattedid": "8-1005-7003",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.49,
+    "longitude": 1391824.61,
+    "wgsCoordinate": {
+      "latitude": 35.786525,
+      "longitude": 139.30683611111115
+    }
+  },
+  {
+    "id": 14429,
+    "adminnumber": "8-1005",
+    "numberserial": "7004",
+    "formattedid": "8-1005-7004",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354716.37,
+    "longitude": 1391747.33,
+    "wgsCoordinate": {
+      "latitude": 35.78788055555555,
+      "longitude": 139.29648055555558
+    }
+  },
+  {
+    "id": 14430,
+    "adminnumber": "8-1005",
+    "numberserial": "7005",
+    "formattedid": "8-1005-7005",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.44,
+    "longitude": 1391722.26,
+    "wgsCoordinate": {
+      "latitude": 35.78845555555555,
+      "longitude": 139.28951666666666
+    }
+  },
+  {
+    "id": 15479,
+    "adminnumber": "8-3193",
+    "numberserial": "7742",
+    "formattedid": "8-3193-7742",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354917.21,
+    "longitude": 1391235.17,
+    "wgsCoordinate": {
+      "latitude": 35.82144722222223,
+      "longitude": 139.20976944444442
+    }
+  },
+  {
+    "id": 15483,
+    "adminnumber": "8-3194",
+    "numberserial": "7100",
+    "formattedid": "8-3194-7100",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354949.54,
+    "longitude": 1391612.27,
+    "wgsCoordinate": {
+      "latitude": 35.83042777777778,
+      "longitude": 139.27007500000002
+    }
+  },
+  {
+    "id": 15484,
+    "adminnumber": "8-3194",
+    "numberserial": "7101",
+    "formattedid": "8-3194-7101",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354923.3,
+    "longitude": 1391634.34,
+    "wgsCoordinate": {
+      "latitude": 35.82313888888889,
+      "longitude": 139.2762055555556
+    }
+  },
+  {
+    "id": 15485,
+    "adminnumber": "8-3194",
+    "numberserial": "7103",
+    "formattedid": "8-3194-7103",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354720.21,
+    "longitude": 1391734.69,
+    "wgsCoordinate": {
+      "latitude": 35.78894722222223,
+      "longitude": 139.29296944444442
+    }
+  },
+  {
+    "id": 15486,
+    "adminnumber": "8-3194",
+    "numberserial": "7104",
+    "formattedid": "8-3194-7104",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354715.49,
+    "longitude": 1391734.03,
+    "wgsCoordinate": {
+      "latitude": 35.787636111111105,
+      "longitude": 139.29278611111113
+    }
+  },
+  {
+    "id": 15487,
+    "adminnumber": "8-3194",
+    "numberserial": "7105",
+    "formattedid": "8-3194-7105",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354652.66,
+    "longitude": 1391719.67,
+    "wgsCoordinate": {
+      "latitude": 35.781294444444434,
+      "longitude": 139.2887972222222
+    }
+  },
+  {
+    "id": 15488,
+    "adminnumber": "8-3194",
+    "numberserial": "7701",
+    "formattedid": "8-3194-7701",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354950.24,
+    "longitude": 1391612.17,
+    "wgsCoordinate": {
+      "latitude": 35.830622222222225,
+      "longitude": 139.27004722222222
+    }
+  },
+  {
+    "id": 15489,
+    "adminnumber": "8-3194",
+    "numberserial": "7702",
+    "formattedid": "8-3194-7702",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354937.83,
+    "longitude": 1391624.58,
+    "wgsCoordinate": {
+      "latitude": 35.82717500000001,
+      "longitude": 139.27349444444448
+    }
+  },
+  {
+    "id": 15490,
+    "adminnumber": "8-3194",
+    "numberserial": "7703",
+    "formattedid": "8-3194-7703",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354937.78,
+    "longitude": 1391624.6,
+    "wgsCoordinate": {
+      "latitude": 35.827161111111124,
+      "longitude": 139.27350000000004
+    }
+  },
+  {
+    "id": 15491,
+    "adminnumber": "8-3194",
+    "numberserial": "7708",
+    "formattedid": "8-3194-7708",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354722.88,
+    "longitude": 1391734.73,
+    "wgsCoordinate": {
+      "latitude": 35.78968888888889,
+      "longitude": 139.29298055555554
+    }
+  },
+  {
+    "id": 15492,
+    "adminnumber": "8-3195",
+    "numberserial": "7100",
+    "formattedid": "8-3195-7100",
+    "routename": "（一１９５）富岡入間線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355000.98,
+    "longitude": 1391751.77,
+    "wgsCoordinate": {
+      "latitude": 35.83360555555555,
+      "longitude": 139.2977138888889
+    }
+  },
+  {
+    "id": 15493,
+    "adminnumber": "8-3195",
+    "numberserial": "7300",
+    "formattedid": "8-3195-7300",
+    "routename": "（一１９５）富岡入間線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.74,
+    "longitude": 1391803.48,
+    "wgsCoordinate": {
+      "latitude": 35.835205555555554,
+      "longitude": 139.30096666666668
+    }
+  },
+  {
+    "id": 15494,
+    "adminnumber": "8-3195",
+    "numberserial": "7700",
+    "formattedid": "8-3195-7700",
+    "routename": "（一１９５）富岡入間線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355000.58,
+    "longitude": 1391750.59,
+    "wgsCoordinate": {
+      "latitude": 35.833494444444455,
+      "longitude": 139.29738611111114
+    }
+  },
+  {
+    "id": 15841,
+    "adminnumber": "8-3249",
+    "numberserial": "7427",
+    "formattedid": "8-3249-7427",
+    "routename": "（一２４９）福生青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354646.67,
+    "longitude": 1391824.18,
+    "wgsCoordinate": {
+      "latitude": 35.77963055555555,
+      "longitude": 139.30671666666666
+    }
+  },
+  {
+    "id": 14434,
+    "adminnumber": "8-1005",
+    "numberserial": "7009",
+    "formattedid": "8-1005-7009",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354715.47,
+    "longitude": 1391800.15,
+    "wgsCoordinate": {
+      "latitude": 35.787630555555545,
+      "longitude": 139.30004166666666
+    }
+  },
+  {
+    "id": 14435,
+    "adminnumber": "8-1005",
+    "numberserial": "7010",
+    "formattedid": "8-1005-7010",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.79,
+    "longitude": 1391708.84,
+    "wgsCoordinate": {
+      "latitude": 35.78855277777777,
+      "longitude": 139.2857888888889
+    }
+  },
+  {
+    "id": 14436,
+    "adminnumber": "8-1005",
+    "numberserial": "7011",
+    "formattedid": "8-1005-7011",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.48,
+    "longitude": 1391642.79,
+    "wgsCoordinate": {
+      "latitude": 35.78874444444444,
+      "longitude": 139.2785527777778
+    }
+  },
+  {
+    "id": 14442,
+    "adminnumber": "8-1005",
+    "numberserial": "7017",
+    "formattedid": "8-1005-7017",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354712.21,
+    "longitude": 1391819.69,
+    "wgsCoordinate": {
+      "latitude": 35.786725000000004,
+      "longitude": 139.30546944444444
+    }
+  },
+  {
+    "id": 14443,
+    "adminnumber": "8-1005",
+    "numberserial": "7018",
+    "formattedid": "8-1005-7018",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.39,
+    "longitude": 1391649.81,
+    "wgsCoordinate": {
+      "latitude": 35.788719444444446,
+      "longitude": 139.2805027777778
+    }
+  },
+  {
+    "id": 15148,
+    "adminnumber": "8-1045",
+    "numberserial": "7703",
+    "formattedid": "8-1045-7703",
+    "routename": "（主４５）奥多摩青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354755.45,
+    "longitude": 1391041.86,
+    "wgsCoordinate": {
+      "latitude": 35.79873611111111,
+      "longitude": 139.17829444444448
+    }
+  },
+  {
+    "id": 15504,
+    "adminnumber": "8-3201",
+    "numberserial": "7101",
+    "formattedid": "8-3201-7101",
+    "routename": "（一２０１）十里木御嶽停車場線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354702.52,
+    "longitude": 1391448.37,
+    "wgsCoordinate": {
+      "latitude": 35.78403333333333,
+      "longitude": 139.24676944444445
+    }
+  },
+  {
+    "id": 15877,
+    "adminnumber": "8-1005",
+    "numberserial": "9902",
+    "formattedid": "8-1005-9902",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354700.61,
+    "longitude": 1391857.49,
+    "wgsCoordinate": {
+      "latitude": 35.78350277777777,
+      "longitude": 139.31596944444445
+    }
+  },
+  {
+    "id": 15882,
+    "adminnumber": "8-1039",
+    "numberserial": "9901",
+    "formattedid": "8-1039-9901",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354851.45,
+    "longitude": 1391505.22,
+    "wgsCoordinate": {
+      "latitude": 35.81429166666667,
+      "longitude": 139.25145
+    }
+  },
+  {
+    "id": 15883,
+    "adminnumber": "8-1039",
+    "numberserial": "9902",
+    "formattedid": "8-1039-9902",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354908.31,
+    "longitude": 1391442.63,
+    "wgsCoordinate": {
+      "latitude": 35.818975,
+      "longitude": 139.24517499999996
+    }
+  },
+  {
+    "id": 15885,
+    "adminnumber": "8-3193",
+    "numberserial": "9901",
+    "formattedid": "8-3193-9901",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354906.11,
+    "longitude": 1391438.91,
+    "wgsCoordinate": {
+      "latitude": 35.81836388888889,
+      "longitude": 139.24414166666662
+    }
+  },
+  {
+    "id": 14450,
+    "adminnumber": "8-1005",
+    "numberserial": "7106",
+    "formattedid": "8-1005-7106",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354706.85,
+    "longitude": 1391836.71,
+    "wgsCoordinate": {
+      "latitude": 35.785236111111104,
+      "longitude": 139.31019722222223
+    }
+  },
+  {
+    "id": 14451,
+    "adminnumber": "8-1005",
+    "numberserial": "7107",
+    "formattedid": "8-1005-7107",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354710.04,
+    "longitude": 1391830.33,
+    "wgsCoordinate": {
+      "latitude": 35.78612222222221,
+      "longitude": 139.30842500000003
+    }
+  },
+  {
+    "id": 14452,
+    "adminnumber": "8-1005",
+    "numberserial": "7108",
+    "formattedid": "8-1005-7108",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354713.43,
+    "longitude": 1391814.06,
+    "wgsCoordinate": {
+      "latitude": 35.78706388888889,
+      "longitude": 139.3039055555556
+    }
+  },
+  {
+    "id": 14453,
+    "adminnumber": "8-1005",
+    "numberserial": "7109",
+    "formattedid": "8-1005-7109",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354714.67,
+    "longitude": 1391809.22,
+    "wgsCoordinate": {
+      "latitude": 35.787408333333325,
+      "longitude": 139.30256111111112
+    }
+  },
+  {
+    "id": 14454,
+    "adminnumber": "8-1005",
+    "numberserial": "7110",
+    "formattedid": "8-1005-7110",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354716.94,
+    "longitude": 1391738.31,
+    "wgsCoordinate": {
+      "latitude": 35.788038888888885,
+      "longitude": 139.29397500000002
+    }
+  },
+  {
+    "id": 14455,
+    "adminnumber": "8-1005",
+    "numberserial": "7111",
+    "formattedid": "8-1005-7111",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.83,
+    "longitude": 1391731.03,
+    "wgsCoordinate": {
+      "latitude": 35.78828611111111,
+      "longitude": 139.2919527777778
+    }
+  },
+  {
+    "id": 14456,
+    "adminnumber": "8-1005",
+    "numberserial": "7112",
+    "formattedid": "8-1005-7112",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.54,
+    "longitude": 1391657.8,
+    "wgsCoordinate": {
+      "latitude": 35.7887611111111,
+      "longitude": 139.28272222222225
+    }
+  },
+  {
+    "id": 14457,
+    "adminnumber": "8-1005",
+    "numberserial": "7113",
+    "formattedid": "8-1005-7113",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354720.01,
+    "longitude": 1391651.76,
+    "wgsCoordinate": {
+      "latitude": 35.788891666666665,
+      "longitude": 139.28104444444446
+    }
+  },
+  {
+    "id": 14458,
+    "adminnumber": "8-1005",
+    "numberserial": "7114",
+    "formattedid": "8-1005-7114",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.98,
+    "longitude": 1391643.97,
+    "wgsCoordinate": {
+      "latitude": 35.78860555555555,
+      "longitude": 139.27888055555556
+    }
+  },
+  {
+    "id": 15176,
+    "adminnumber": "8-1038",
+    "numberserial": "7101",
+    "formattedid": "8-1038-7101",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.43,
+    "longitude": 1391626.85,
+    "wgsCoordinate": {
+      "latitude": 35.79011944444444,
+      "longitude": 139.27412500000003
+    }
+  },
+  {
+    "id": 15177,
+    "adminnumber": "8-1038",
+    "numberserial": "7102",
+    "formattedid": "8-1038-7102",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354728.02,
+    "longitude": 1391648.6,
+    "wgsCoordinate": {
+      "latitude": 35.79111666666667,
+      "longitude": 139.2801666666667
+    }
+  },
+  {
+    "id": 15178,
+    "adminnumber": "8-1038",
+    "numberserial": "7103",
+    "formattedid": "8-1038-7103",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354738.24,
+    "longitude": 1391724.84,
+    "wgsCoordinate": {
+      "latitude": 35.79395555555555,
+      "longitude": 139.29023333333336
+    }
+  },
+  {
+    "id": 15179,
+    "adminnumber": "8-1038",
+    "numberserial": "7200",
+    "formattedid": "8-1038-7200",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354727.33,
+    "longitude": 1391615.33,
+    "wgsCoordinate": {
+      "latitude": 35.790925,
+      "longitude": 139.27092500000003
+    }
+  },
+  {
+    "id": 15180,
+    "adminnumber": "8-1038",
+    "numberserial": "7202",
+    "formattedid": "8-1038-7202",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.31,
+    "longitude": 1391627.19,
+    "wgsCoordinate": {
+      "latitude": 35.79008611111111,
+      "longitude": 139.27421944444444
+    }
+  },
+  {
+    "id": 15181,
+    "adminnumber": "8-1038",
+    "numberserial": "7300",
+    "formattedid": "8-1038-7300",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354836.74,
+    "longitude": 1391905.12,
+    "wgsCoordinate": {
+      "latitude": 35.81020555555555,
+      "longitude": 139.31808888888892
+    }
+  },
+  {
+    "id": 15182,
+    "adminnumber": "8-1038",
+    "numberserial": "7301",
+    "formattedid": "8-1038-7301",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354836.79,
+    "longitude": 1391905.15,
+    "wgsCoordinate": {
+      "latitude": 35.810219444444435,
+      "longitude": 139.3180972222222
+    }
+  },
+  {
+    "id": 15183,
+    "adminnumber": "8-1038",
+    "numberserial": "7400",
+    "formattedid": "8-1038-7400",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354726.07,
+    "longitude": 1391622.93,
+    "wgsCoordinate": {
+      "latitude": 35.790575,
+      "longitude": 139.2730361111111
+    }
+  },
+  {
+    "id": 15184,
+    "adminnumber": "8-1038",
+    "numberserial": "7404",
+    "formattedid": "8-1038-7404",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.2,
+    "longitude": 1391627.5,
+    "wgsCoordinate": {
+      "latitude": 35.790055555555554,
+      "longitude": 139.27430555555557
+    }
+  },
+  {
+    "id": 15185,
+    "adminnumber": "8-1038",
+    "numberserial": "7406",
+    "formattedid": "8-1038-7406",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354728.31,
+    "longitude": 1391652.69,
+    "wgsCoordinate": {
+      "latitude": 35.79119722222222,
+      "longitude": 139.28130277777777
+    }
+  },
+  {
+    "id": 15186,
+    "adminnumber": "8-1038",
+    "numberserial": "7410",
+    "formattedid": "8-1038-7410",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354735.79,
+    "longitude": 1391721.17,
+    "wgsCoordinate": {
+      "latitude": 35.793274999999994,
+      "longitude": 139.28921388888887
+    }
+  },
+  {
+    "id": 15187,
+    "adminnumber": "8-1038",
+    "numberserial": "7413",
+    "formattedid": "8-1038-7413",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354741.41,
+    "longitude": 1391729.0,
+    "wgsCoordinate": {
+      "latitude": 35.7948361111111,
+      "longitude": 139.2913888888889
+    }
+  },
+  {
+    "id": 15188,
+    "adminnumber": "8-1038",
+    "numberserial": "7417",
+    "formattedid": "8-1038-7417",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354756.76,
+    "longitude": 1391749.83,
+    "wgsCoordinate": {
+      "latitude": 35.7991,
+      "longitude": 139.297175
+    }
+  },
+  {
+    "id": 15189,
+    "adminnumber": "8-1038",
+    "numberserial": "7419",
+    "formattedid": "8-1038-7419",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354812.82,
+    "longitude": 1391818.68,
+    "wgsCoordinate": {
+      "latitude": 35.80356111111111,
+      "longitude": 139.3051888888889
+    }
+  },
+  {
+    "id": 15190,
+    "adminnumber": "8-1038",
+    "numberserial": "7421",
+    "formattedid": "8-1038-7421",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354815.3,
+    "longitude": 1391824.46,
+    "wgsCoordinate": {
+      "latitude": 35.804249999999996,
+      "longitude": 139.30679444444445
+    }
+  },
+  {
+    "id": 15191,
+    "adminnumber": "8-1038",
+    "numberserial": "7425",
+    "formattedid": "8-1038-7425",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354825.27,
+    "longitude": 1391852.5,
+    "wgsCoordinate": {
+      "latitude": 35.80701944444445,
+      "longitude": 139.31458333333333
+    }
+  },
+  {
+    "id": 15524,
+    "adminnumber": "8-3202",
+    "numberserial": "7200",
+    "formattedid": "8-3202-7200",
+    "routename": "（一２０２）上成木川井線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355015.15,
+    "longitude": 1391153.53,
+    "wgsCoordinate": {
+      "latitude": 35.837541666666674,
+      "longitude": 139.1982027777778
+    }
+  },
+  {
+    "id": 15529,
+    "adminnumber": "8-3202",
+    "numberserial": "7900",
+    "formattedid": "8-3202-7900",
+    "routename": "（一２０２）上成木川井線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355013.08,
+    "longitude": 1391144.02,
+    "wgsCoordinate": {
+      "latitude": 35.836966666666676,
+      "longitude": 139.19556111111112
+    }
+  },
+  {
+    "id": 15897,
+    "adminnumber": "8-1028",
+    "numberserial": "7211",
+    "formattedid": "8-1028-7211",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354839.51,
+    "longitude": 1391533.16,
+    "wgsCoordinate": {
+      "latitude": 35.810975,
+      "longitude": 139.25921111111109
+    }
+  },
+  {
+    "id": 15898,
+    "adminnumber": "8-1028",
+    "numberserial": "7213",
+    "formattedid": "8-1028-7213",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354903.91,
+    "longitude": 1391622.45,
+    "wgsCoordinate": {
+      "latitude": 35.81775277777778,
+      "longitude": 139.27290277777777
+    }
+  },
+  {
+    "id": 15899,
+    "adminnumber": "8-3179",
+    "numberserial": "7108",
+    "formattedid": "8-3179-7108",
+    "routename": "（一１７９）所沢青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.11,
+    "longitude": 1391840.29,
+    "wgsCoordinate": {
+      "latitude": 35.78836388888888,
+      "longitude": 139.3111916666667
+    }
+  },
+  {
+    "id": 15900,
+    "adminnumber": "8-3195",
+    "numberserial": "7301",
+    "formattedid": "8-3195-7301",
+    "routename": "（一１９５）富岡入間線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.8,
+    "longitude": 1391803.5,
+    "wgsCoordinate": {
+      "latitude": 35.83522222222222,
+      "longitude": 139.30097222222224
+    }
+  },
+  {
+    "id": 14486,
+    "adminnumber": "8-1005",
+    "numberserial": "7218",
+    "formattedid": "8-1005-7218",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354708.5,
+    "longitude": 1391834.32,
+    "wgsCoordinate": {
+      "latitude": 35.785694444444445,
+      "longitude": 139.30953333333338
+    }
+  },
+  {
+    "id": 14487,
+    "adminnumber": "8-1005",
+    "numberserial": "7219",
+    "formattedid": "8-1005-7219",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.51,
+    "longitude": 1391822.09,
+    "wgsCoordinate": {
+      "latitude": 35.78653055555556,
+      "longitude": 139.30613611111116
+    }
+  },
+  {
+    "id": 14488,
+    "adminnumber": "8-1005",
+    "numberserial": "7220",
+    "formattedid": "8-1005-7220",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354713.81,
+    "longitude": 1391811.89,
+    "wgsCoordinate": {
+      "latitude": 35.787169444444444,
+      "longitude": 139.30330277777776
+    }
+  },
+  {
+    "id": 14489,
+    "adminnumber": "8-1005",
+    "numberserial": "7221",
+    "formattedid": "8-1005-7221",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354714.53,
+    "longitude": 1391810.36,
+    "wgsCoordinate": {
+      "latitude": 35.78736944444445,
+      "longitude": 139.3028777777778
+    }
+  },
+  {
+    "id": 14490,
+    "adminnumber": "8-1005",
+    "numberserial": "7222",
+    "formattedid": "8-1005-7222",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354716.74,
+    "longitude": 1391744.09,
+    "wgsCoordinate": {
+      "latitude": 35.78798333333333,
+      "longitude": 139.29558055555557
+    }
+  },
+  {
+    "id": 14491,
+    "adminnumber": "8-1005",
+    "numberserial": "7223",
+    "formattedid": "8-1005-7223",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.31,
+    "longitude": 1391744.09,
+    "wgsCoordinate": {
+      "latitude": 35.78814166666666,
+      "longitude": 139.29558055555557
+    }
+  },
+  {
+    "id": 15192,
+    "adminnumber": "8-1038",
+    "numberserial": "7429",
+    "formattedid": "8-1038-7429",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354738.71,
+    "longitude": 1391730.32,
+    "wgsCoordinate": {
+      "latitude": 35.79408611111111,
+      "longitude": 139.29175555555557
+    }
+  },
+  {
+    "id": 15193,
+    "adminnumber": "8-1038",
+    "numberserial": "7433",
+    "formattedid": "8-1038-7433",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354757.12,
+    "longitude": 1391816.57,
+    "wgsCoordinate": {
+      "latitude": 35.7992,
+      "longitude": 139.3046027777778
+    }
+  },
+  {
+    "id": 15194,
+    "adminnumber": "8-1038",
+    "numberserial": "7437",
+    "formattedid": "8-1038-7437",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354801.1,
+    "longitude": 1391825.54,
+    "wgsCoordinate": {
+      "latitude": 35.800305555555546,
+      "longitude": 139.30709444444446
+    }
+  },
+  {
+    "id": 15195,
+    "adminnumber": "8-1038",
+    "numberserial": "7441",
+    "formattedid": "8-1038-7441",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354806.26,
+    "longitude": 1391836.19,
+    "wgsCoordinate": {
+      "latitude": 35.80173888888889,
+      "longitude": 139.31005277777777
+    }
+  },
+  {
+    "id": 15196,
+    "adminnumber": "8-1038",
+    "numberserial": "7600",
+    "formattedid": "8-1038-7600",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.78,
+    "longitude": 1391625.86,
+    "wgsCoordinate": {
+      "latitude": 35.79021666666667,
+      "longitude": 139.27385000000004
+    }
+  },
+  {
+    "id": 15197,
+    "adminnumber": "8-1038",
+    "numberserial": "7601",
+    "formattedid": "8-1038-7601",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.82,
+    "longitude": 1391625.79,
+    "wgsCoordinate": {
+      "latitude": 35.79022777777778,
+      "longitude": 139.27383055555558
+    }
+  },
+  {
+    "id": 15198,
+    "adminnumber": "8-1038",
+    "numberserial": "7602",
+    "formattedid": "8-1038-7602",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354726.29,
+    "longitude": 1391639.76,
+    "wgsCoordinate": {
+      "latitude": 35.790636111111105,
+      "longitude": 139.27771111111113
+    }
+  },
+  {
+    "id": 15199,
+    "adminnumber": "8-1038",
+    "numberserial": "7603",
+    "formattedid": "8-1038-7603",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354735.52,
+    "longitude": 1391721.94,
+    "wgsCoordinate": {
+      "latitude": 35.793200000000006,
+      "longitude": 139.28942777777777
+    }
+  },
+  {
+    "id": 15200,
+    "adminnumber": "8-1038",
+    "numberserial": "7700",
+    "formattedid": "8-1038-7700",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354727.38,
+    "longitude": 1391616.97,
+    "wgsCoordinate": {
+      "latitude": 35.79093888888889,
+      "longitude": 139.27138055555557
+    }
+  },
+  {
+    "id": 15201,
+    "adminnumber": "8-1038",
+    "numberserial": "7701",
+    "formattedid": "8-1038-7701",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354733.44,
+    "longitude": 1391712.56,
+    "wgsCoordinate": {
+      "latitude": 35.79262222222222,
+      "longitude": 139.28682222222224
+    }
+  },
+  {
+    "id": 15202,
+    "adminnumber": "8-1038",
+    "numberserial": "7702",
+    "formattedid": "8-1038-7702",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354734.96,
+    "longitude": 1391718.2,
+    "wgsCoordinate": {
+      "latitude": 35.79304444444445,
+      "longitude": 139.28838888888887
+    }
+  },
+  {
+    "id": 15203,
+    "adminnumber": "8-1038",
+    "numberserial": "7705",
+    "formattedid": "8-1038-7705",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354800.75,
+    "longitude": 1391756.05,
+    "wgsCoordinate": {
+      "latitude": 35.80020833333333,
+      "longitude": 139.29890277777778
+    }
+  },
+  {
+    "id": 15204,
+    "adminnumber": "8-1038",
+    "numberserial": "7706",
+    "formattedid": "8-1038-7706",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354805.56,
+    "longitude": 1391804.0,
+    "wgsCoordinate": {
+      "latitude": 35.80154444444444,
+      "longitude": 139.3011111111111
+    }
+  },
+  {
+    "id": 15205,
+    "adminnumber": "8-1038",
+    "numberserial": "7707",
+    "formattedid": "8-1038-7707",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354821.63,
+    "longitude": 1391840.94,
+    "wgsCoordinate": {
+      "latitude": 35.80600833333333,
+      "longitude": 139.31137222222222
+    }
+  },
+  {
+    "id": 15206,
+    "adminnumber": "8-1038",
+    "numberserial": "7708",
+    "formattedid": "8-1038-7708",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354832.7,
+    "longitude": 1391905.59,
+    "wgsCoordinate": {
+      "latitude": 35.809083333333334,
+      "longitude": 139.31821944444445
+    }
+  },
+  {
+    "id": 15207,
+    "adminnumber": "8-1039",
+    "numberserial": "7001",
+    "formattedid": "8-1039-7001",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354849.75,
+    "longitude": 1391509.77,
+    "wgsCoordinate": {
+      "latitude": 35.81381944444444,
+      "longitude": 139.2527138888889
+    }
+  },
+  {
+    "id": 15209,
+    "adminnumber": "8-1039",
+    "numberserial": "7102",
+    "formattedid": "8-1039-7102",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354907.94,
+    "longitude": 1391441.0,
+    "wgsCoordinate": {
+      "latitude": 35.818872222222225,
+      "longitude": 139.2447222222222
+    }
+  },
+  {
+    "id": 15210,
+    "adminnumber": "8-1039",
+    "numberserial": "7103",
+    "formattedid": "8-1039-7103",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354921.03,
+    "longitude": 1391451.43,
+    "wgsCoordinate": {
+      "latitude": 35.822508333333346,
+      "longitude": 139.2476194444444
+    }
+  },
+  {
+    "id": 15211,
+    "adminnumber": "8-1039",
+    "numberserial": "7105",
+    "formattedid": "8-1039-7105",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354927.51,
+    "longitude": 1391452.39,
+    "wgsCoordinate": {
+      "latitude": 35.82430833333334,
+      "longitude": 139.24788611111106
+    }
+  },
+  {
+    "id": 15212,
+    "adminnumber": "8-1039",
+    "numberserial": "7106",
+    "formattedid": "8-1039-7106",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355009.07,
+    "longitude": 1391226.91,
+    "wgsCoordinate": {
+      "latitude": 35.83585277777778,
+      "longitude": 139.20747499999996
+    }
+  },
+  {
+    "id": 15921,
+    "adminnumber": "8-1038",
+    "numberserial": "7105",
+    "formattedid": "8-1038-7105",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354818.34,
+    "longitude": 1391828.12,
+    "wgsCoordinate": {
+      "latitude": 35.80509444444445,
+      "longitude": 139.30781111111116
+    }
+  },
+  {
+    "id": 15923,
+    "adminnumber": "8-1028",
+    "numberserial": "7454",
+    "formattedid": "8-1028-7454",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.29,
+    "longitude": 1391711.46,
+    "wgsCoordinate": {
+      "latitude": 35.823413888888886,
+      "longitude": 139.28651666666664
+    }
+  },
+  {
+    "id": 15924,
+    "adminnumber": "8-1038",
+    "numberserial": "7447",
+    "formattedid": "8-1038-7447",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354744.29,
+    "longitude": 1391742.37,
+    "wgsCoordinate": {
+      "latitude": 35.7956361111111,
+      "longitude": 139.2951027777778
+    }
+  },
+  {
+    "id": 15925,
+    "adminnumber": "8-1028",
+    "numberserial": "7113",
+    "formattedid": "8-1028-7113",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354930.04,
+    "longitude": 1391719.3,
+    "wgsCoordinate": {
+      "latitude": 35.82501111111111,
+      "longitude": 139.28869444444445
+    }
+  },
+  {
+    "id": 15928,
+    "adminnumber": "8-1028",
+    "numberserial": "7217",
+    "formattedid": "8-1028-7217",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355000.67,
+    "longitude": 1391749.3,
+    "wgsCoordinate": {
+      "latitude": 35.83351944444444,
+      "longitude": 139.2970277777778
+    }
+  },
+  {
+    "id": 14492,
+    "adminnumber": "8-1005",
+    "numberserial": "7224",
+    "formattedid": "8-1005-7224",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.62,
+    "longitude": 1391734.83,
+    "wgsCoordinate": {
+      "latitude": 35.78822777777778,
+      "longitude": 139.29300833333335
+    }
+  },
+  {
+    "id": 14493,
+    "adminnumber": "8-1005",
+    "numberserial": "7225",
+    "formattedid": "8-1005-7225",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.01,
+    "longitude": 1391733.89,
+    "wgsCoordinate": {
+      "latitude": 35.78805833333333,
+      "longitude": 139.2927472222222
+    }
+  },
+  {
+    "id": 14494,
+    "adminnumber": "8-1005",
+    "numberserial": "7226",
+    "formattedid": "8-1005-7226",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.35,
+    "longitude": 1391712.94,
+    "wgsCoordinate": {
+      "latitude": 35.78843055555555,
+      "longitude": 139.28692777777775
+    }
+  },
+  {
+    "id": 14495,
+    "adminnumber": "8-1005",
+    "numberserial": "7227",
+    "formattedid": "8-1005-7227",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.15,
+    "longitude": 1391711.72,
+    "wgsCoordinate": {
+      "latitude": 35.788652777777784,
+      "longitude": 139.28658888888887
+    }
+  },
+  {
+    "id": 14496,
+    "adminnumber": "8-1005",
+    "numberserial": "7228",
+    "formattedid": "8-1005-7228",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.68,
+    "longitude": 1391655.62,
+    "wgsCoordinate": {
+      "latitude": 35.788799999999995,
+      "longitude": 139.28211666666672
+    }
+  },
+  {
+    "id": 14497,
+    "adminnumber": "8-1005",
+    "numberserial": "7230",
+    "formattedid": "8-1005-7230",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.38,
+    "longitude": 1391641.46,
+    "wgsCoordinate": {
+      "latitude": 35.788716666666666,
+      "longitude": 139.27818333333335
+    }
+  },
+  {
+    "id": 14498,
+    "adminnumber": "8-1005",
+    "numberserial": "7231",
+    "formattedid": "8-1005-7231",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.76,
+    "longitude": 1391641.18,
+    "wgsCoordinate": {
+      "latitude": 35.78854444444445,
+      "longitude": 139.27810555555556
+    }
+  },
+  {
+    "id": 14510,
+    "adminnumber": "8-1005",
+    "numberserial": "7244",
+    "formattedid": "8-1005-7244",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.01,
+    "longitude": 1391722.48,
+    "wgsCoordinate": {
+      "latitude": 35.788336111111114,
+      "longitude": 139.28957777777777
+    }
+  },
+  {
+    "id": 14511,
+    "adminnumber": "8-1005",
+    "numberserial": "7245",
+    "formattedid": "8-1005-7245",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.24,
+    "longitude": 1391641.59,
+    "wgsCoordinate": {
+      "latitude": 35.78867777777777,
+      "longitude": 139.2782194444445
+    }
+  },
+  {
+    "id": 14512,
+    "adminnumber": "8-1005",
+    "numberserial": "7246",
+    "formattedid": "8-1005-7246",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.05,
+    "longitude": 1391641.75,
+    "wgsCoordinate": {
+      "latitude": 35.788624999999996,
+      "longitude": 139.27826388888892
+    }
+  },
+  {
+    "id": 14513,
+    "adminnumber": "8-1005",
+    "numberserial": "7247",
+    "formattedid": "8-1005-7247",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.31,
+    "longitude": 1391611.92,
+    "wgsCoordinate": {
+      "latitude": 35.786474999999996,
+      "longitude": 139.26997777777777
+    }
+  },
+  {
+    "id": 15213,
+    "adminnumber": "8-1039",
+    "numberserial": "7107",
+    "formattedid": "8-1039-7107",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355011.46,
+    "longitude": 1391213.15,
+    "wgsCoordinate": {
+      "latitude": 35.836516666666675,
+      "longitude": 139.20365277777773
+    }
+  },
+  {
+    "id": 15214,
+    "adminnumber": "8-1039",
+    "numberserial": "7101",
+    "formattedid": "8-1039-7101",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354842.86,
+    "longitude": 1391527.29,
+    "wgsCoordinate": {
+      "latitude": 35.81190555555555,
+      "longitude": 139.25758055555556
+    }
+  },
+  {
+    "id": 15216,
+    "adminnumber": "8-1039",
+    "numberserial": "7201",
+    "formattedid": "8-1039-7201",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354724.52,
+    "longitude": 1391510.0,
+    "wgsCoordinate": {
+      "latitude": 35.79014444444445,
+      "longitude": 139.25277777777777
+    }
+  },
+  {
+    "id": 15217,
+    "adminnumber": "8-1039",
+    "numberserial": "7202",
+    "formattedid": "8-1039-7202",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354743.73,
+    "longitude": 1391516.27,
+    "wgsCoordinate": {
+      "latitude": 35.79548055555555,
+      "longitude": 139.25451944444444
+    }
+  },
+  {
+    "id": 15218,
+    "adminnumber": "8-1039",
+    "numberserial": "7203",
+    "formattedid": "8-1039-7203",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354759.91,
+    "longitude": 1391514.3,
+    "wgsCoordinate": {
+      "latitude": 35.79997499999999,
+      "longitude": 139.25397222222225
+    }
+  },
+  {
+    "id": 15219,
+    "adminnumber": "8-1039",
+    "numberserial": "7205",
+    "formattedid": "8-1039-7205",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354839.21,
+    "longitude": 1391532.77,
+    "wgsCoordinate": {
+      "latitude": 35.81089166666667,
+      "longitude": 139.25910277777777
+    }
+  },
+  {
+    "id": 15220,
+    "adminnumber": "8-1039",
+    "numberserial": "7206",
+    "formattedid": "8-1039-7206",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354846.83,
+    "longitude": 1391518.94,
+    "wgsCoordinate": {
+      "latitude": 35.813008333333336,
+      "longitude": 139.25526111111108
+    }
+  },
+  {
+    "id": 15221,
+    "adminnumber": "8-1039",
+    "numberserial": "7208",
+    "formattedid": "8-1039-7208",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354923.78,
+    "longitude": 1391454.67,
+    "wgsCoordinate": {
+      "latitude": 35.823272222222236,
+      "longitude": 139.2485194444444
+    }
+  },
+  {
+    "id": 15222,
+    "adminnumber": "8-1039",
+    "numberserial": "7209",
+    "formattedid": "8-1039-7209",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.13,
+    "longitude": 1391454.24,
+    "wgsCoordinate": {
+      "latitude": 35.82336944444445,
+      "longitude": 139.24839999999998
+    }
+  },
+  {
+    "id": 15223,
+    "adminnumber": "8-1039",
+    "numberserial": "7210",
+    "formattedid": "8-1039-7210",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354924.27,
+    "longitude": 1391454.25,
+    "wgsCoordinate": {
+      "latitude": 35.82340833333334,
+      "longitude": 139.24840277777776
+    }
+  },
+  {
+    "id": 15224,
+    "adminnumber": "8-1039",
+    "numberserial": "7212",
+    "formattedid": "8-1039-7212",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354945.93,
+    "longitude": 1391421.68,
+    "wgsCoordinate": {
+      "latitude": 35.829425,
+      "longitude": 139.23935555555553
+    }
+  },
+  {
+    "id": 15225,
+    "adminnumber": "8-1039",
+    "numberserial": "7211",
+    "formattedid": "8-1039-7211",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354945.27,
+    "longitude": 1391422.47,
+    "wgsCoordinate": {
+      "latitude": 35.829241666666675,
+      "longitude": 139.23957499999997
+    }
+  },
+  {
+    "id": 15226,
+    "adminnumber": "8-1039",
+    "numberserial": "7213",
+    "formattedid": "8-1039-7213",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355000.27,
+    "longitude": 1391317.97,
+    "wgsCoordinate": {
+      "latitude": 35.83340833333334,
+      "longitude": 139.22165833333332
+    }
+  },
+  {
+    "id": 15227,
+    "adminnumber": "8-1039",
+    "numberserial": "7214",
+    "formattedid": "8-1039-7214",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355011.67,
+    "longitude": 1391304.66,
+    "wgsCoordinate": {
+      "latitude": 35.836574999999996,
+      "longitude": 139.2179611111111
+    }
+  },
+  {
+    "id": 15228,
+    "adminnumber": "8-1039",
+    "numberserial": "7215",
+    "formattedid": "8-1039-7215",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355013.58,
+    "longitude": 1391241.33,
+    "wgsCoordinate": {
+      "latitude": 35.83710555555556,
+      "longitude": 139.21148055555557
+    }
+  },
+  {
+    "id": 15229,
+    "adminnumber": "8-1039",
+    "numberserial": "7216",
+    "formattedid": "8-1039-7216",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355008.6,
+    "longitude": 1391227.49,
+    "wgsCoordinate": {
+      "latitude": 35.835722222222216,
+      "longitude": 139.2076361111111
+    }
+  },
+  {
+    "id": 15230,
+    "adminnumber": "8-1039",
+    "numberserial": "7217",
+    "formattedid": "8-1039-7217",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355012.1,
+    "longitude": 1391212.82,
+    "wgsCoordinate": {
+      "latitude": 35.83669444444444,
+      "longitude": 139.20356111111113
+    }
+  },
+  {
+    "id": 15231,
+    "adminnumber": "8-1039",
+    "numberserial": "7405",
+    "formattedid": "8-1039-7405",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354923.67,
+    "longitude": 1391454.56,
+    "wgsCoordinate": {
+      "latitude": 35.82324166666667,
+      "longitude": 139.2484888888889
+    }
+  },
+  {
+    "id": 15233,
+    "adminnumber": "8-1039",
+    "numberserial": "7701",
+    "formattedid": "8-1039-7701",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354740.86,
+    "longitude": 1391510.7,
+    "wgsCoordinate": {
+      "latitude": 35.794683333333325,
+      "longitude": 139.2529722222222
+    }
+  },
+  {
+    "id": 15234,
+    "adminnumber": "8-1039",
+    "numberserial": "7702",
+    "formattedid": "8-1039-7702",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354742.93,
+    "longitude": 1391512.59,
+    "wgsCoordinate": {
+      "latitude": 35.79525833333333,
+      "longitude": 139.25349722222225
+    }
+  },
+  {
+    "id": 15235,
+    "adminnumber": "8-1039",
+    "numberserial": "7703",
+    "formattedid": "8-1039-7703",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354744.22,
+    "longitude": 1391516.45,
+    "wgsCoordinate": {
+      "latitude": 35.79561666666666,
+      "longitude": 139.25456944444443
+    }
+  },
+  {
+    "id": 15933,
+    "adminnumber": "8-1028",
+    "numberserial": "7104",
+    "formattedid": "8-1028-7104",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 15952,
+    "adminnumber": "8-3193",
+    "numberserial": "7101",
+    "formattedid": "8-3193-7101",
+    "routename": "（一１９３）下畑軍畑線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355015.32,
+    "longitude": 1391645.05,
+    "wgsCoordinate": {
+      "latitude": 35.837588888888895,
+      "longitude": 139.27918055555557
+    }
+  },
+  {
+    "id": 15252,
+    "adminnumber": "8-1039",
+    "numberserial": "7724",
+    "formattedid": "8-1039-7724",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "wgsCoordinate": null
+  },
+  {
+    "id": 14522,
+    "adminnumber": "8-1005",
+    "numberserial": "7490",
+    "formattedid": "8-1005-7490",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354652.69,
+    "longitude": 1391926.47,
+    "wgsCoordinate": {
+      "latitude": 35.781302777777775,
+      "longitude": 139.32401944444445
+    }
+  },
+  {
+    "id": 14523,
+    "adminnumber": "8-1005",
+    "numberserial": "7494",
+    "formattedid": "8-1005-7494",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354709.97,
+    "longitude": 1391828.63,
+    "wgsCoordinate": {
+      "latitude": 35.78610277777777,
+      "longitude": 139.30795277777776
+    }
+  },
+  {
+    "id": 14524,
+    "adminnumber": "8-1005",
+    "numberserial": "7466",
+    "formattedid": "8-1005-7466",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354659.29,
+    "longitude": 1391902.03,
+    "wgsCoordinate": {
+      "latitude": 35.783136111111105,
+      "longitude": 139.31723055555557
+    }
+  },
+  {
+    "id": 14525,
+    "adminnumber": "8-1005",
+    "numberserial": "7419",
+    "formattedid": "8-1005-7419",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354708.42,
+    "longitude": 1391834.53,
+    "wgsCoordinate": {
+      "latitude": 35.78567222222222,
+      "longitude": 139.30959166666668
+    }
+  },
+  {
+    "id": 14526,
+    "adminnumber": "8-1005",
+    "numberserial": "7470",
+    "formattedid": "8-1005-7470",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354712.11,
+    "longitude": 1391822.39,
+    "wgsCoordinate": {
+      "latitude": 35.786697222222216,
+      "longitude": 139.30621944444442
+    }
+  },
+  {
+    "id": 14527,
+    "adminnumber": "8-1005",
+    "numberserial": "7474",
+    "formattedid": "8-1005-7474",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354713.9,
+    "longitude": 1391810.73,
+    "wgsCoordinate": {
+      "latitude": 35.78719444444445,
+      "longitude": 139.30298055555556
+    }
+  },
+  {
+    "id": 14528,
+    "adminnumber": "8-1005",
+    "numberserial": "7464",
+    "formattedid": "8-1005-7464",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354715.1,
+    "longitude": 1391803.98,
+    "wgsCoordinate": {
+      "latitude": 35.78752777777777,
+      "longitude": 139.30110555555555
+    }
+  },
+  {
+    "id": 14529,
+    "adminnumber": "8-1005",
+    "numberserial": "7426",
+    "formattedid": "8-1005-7426",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354715.77,
+    "longitude": 1391756.87,
+    "wgsCoordinate": {
+      "latitude": 35.787713888888895,
+      "longitude": 139.2991305555556
+    }
+  },
+  {
+    "id": 14530,
+    "adminnumber": "8-1005",
+    "numberserial": "7430",
+    "formattedid": "8-1005-7430",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.25,
+    "longitude": 1391743.94,
+    "wgsCoordinate": {
+      "latitude": 35.788125,
+      "longitude": 139.29553888888887
+    }
+  },
+  {
+    "id": 14531,
+    "adminnumber": "8-1005",
+    "numberserial": "7432",
+    "formattedid": "8-1005-7432",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.11,
+    "longitude": 1391733.89,
+    "wgsCoordinate": {
+      "latitude": 35.788086111111106,
+      "longitude": 139.2927472222222
+    }
+  },
+  {
+    "id": 15251,
+    "adminnumber": "8-1039",
+    "numberserial": "7723",
+    "formattedid": "8-1039-7723",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354959.36,
+    "longitude": 1391327.11,
+    "wgsCoordinate": {
+      "latitude": 35.83315555555556,
+      "longitude": 139.22419722222224
+    }
+  },
+  {
+    "id": 14532,
+    "adminnumber": "8-1005",
+    "numberserial": "7436",
+    "formattedid": "8-1005-7436",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.26,
+    "longitude": 1391723.59,
+    "wgsCoordinate": {
+      "latitude": 35.788405555555556,
+      "longitude": 139.28988611111114
+    }
+  },
+  {
+    "id": 14533,
+    "adminnumber": "8-1005",
+    "numberserial": "7437",
+    "formattedid": "8-1005-7437",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.66,
+    "longitude": 1391723.38,
+    "wgsCoordinate": {
+      "latitude": 35.78823888888888,
+      "longitude": 139.28982777777773
+    }
+  },
+  {
+    "id": 14534,
+    "adminnumber": "8-1005",
+    "numberserial": "7478",
+    "formattedid": "8-1005-7478",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.61,
+    "longitude": 1391711.61,
+    "wgsCoordinate": {
+      "latitude": 35.78850277777777,
+      "longitude": 139.28655833333335
+    }
+  },
+  {
+    "id": 14535,
+    "adminnumber": "8-1005",
+    "numberserial": "7482",
+    "formattedid": "8-1005-7482",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.11,
+    "longitude": 1391703.57,
+    "wgsCoordinate": {
+      "latitude": 35.78864166666666,
+      "longitude": 139.28432500000002
+    }
+  },
+  {
+    "id": 14536,
+    "adminnumber": "8-1005",
+    "numberserial": "7486",
+    "formattedid": "8-1005-7486",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.52,
+    "longitude": 1391654.28,
+    "wgsCoordinate": {
+      "latitude": 35.78875555555556,
+      "longitude": 139.28174444444446
+    }
+  },
+  {
+    "id": 14888,
+    "adminnumber": "8-1031",
+    "numberserial": "7100",
+    "formattedid": "8-1031-7100",
+    "routename": "（主３１）青梅あきる野線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354717.59,
+    "longitude": 1391543.42,
+    "wgsCoordinate": {
+      "latitude": 35.78821944444445,
+      "longitude": 139.26206111111108
+    }
+  },
+  {
+    "id": 15236,
+    "adminnumber": "8-1039",
+    "numberserial": "7705",
+    "formattedid": "8-1039-7705",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354837.42,
+    "longitude": 1391532.09,
+    "wgsCoordinate": {
+      "latitude": 35.810394444444434,
+      "longitude": 139.2589138888889
+    }
+  },
+  {
+    "id": 15237,
+    "adminnumber": "8-1039",
+    "numberserial": "7707",
+    "formattedid": "8-1039-7707",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354848.75,
+    "longitude": 1391512.86,
+    "wgsCoordinate": {
+      "latitude": 35.813541666666666,
+      "longitude": 139.25357222222226
+    }
+  },
+  {
+    "id": 15238,
+    "adminnumber": "8-1039",
+    "numberserial": "7708",
+    "formattedid": "8-1039-7708",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354905.38,
+    "longitude": 1391442.56,
+    "wgsCoordinate": {
+      "latitude": 35.81816111111112,
+      "longitude": 139.24515555555556
+    }
+  },
+  {
+    "id": 15239,
+    "adminnumber": "8-1039",
+    "numberserial": "7709",
+    "formattedid": "8-1039-7709",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354927.11,
+    "longitude": 1391452.89,
+    "wgsCoordinate": {
+      "latitude": 35.824197222222224,
+      "longitude": 139.24802499999996
+    }
+  },
+  {
+    "id": 15240,
+    "adminnumber": "8-1039",
+    "numberserial": "7710",
+    "formattedid": "8-1039-7710",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354934.65,
+    "longitude": 1391437.28,
+    "wgsCoordinate": {
+      "latitude": 35.82629166666668,
+      "longitude": 139.2436888888889
+    }
+  },
+  {
+    "id": 15241,
+    "adminnumber": "8-1039",
+    "numberserial": "7712",
+    "formattedid": "8-1039-7712",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354940.2,
+    "longitude": 1391432.98,
+    "wgsCoordinate": {
+      "latitude": 35.82783333333334,
+      "longitude": 139.24249444444442
+    }
+  },
+  {
+    "id": 15242,
+    "adminnumber": "8-1039",
+    "numberserial": "7713",
+    "formattedid": "8-1039-7713",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354944.75,
+    "longitude": 1391422.55,
+    "wgsCoordinate": {
+      "latitude": 35.829097222222224,
+      "longitude": 139.23959722222222
+    }
+  },
+  {
+    "id": 15243,
+    "adminnumber": "8-1039",
+    "numberserial": "7714",
+    "formattedid": "8-1039-7714",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354950.31,
+    "longitude": 1391411.49,
+    "wgsCoordinate": {
+      "latitude": 35.83064166666667,
+      "longitude": 139.23652499999997
+    }
+  },
+  {
+    "id": 15244,
+    "adminnumber": "8-1039",
+    "numberserial": "7716",
+    "formattedid": "8-1039-7716",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354955.73,
+    "longitude": 1391400.7,
+    "wgsCoordinate": {
+      "latitude": 35.83214722222222,
+      "longitude": 139.23352777777774
+    }
+  },
+  {
+    "id": 15245,
+    "adminnumber": "8-1039",
+    "numberserial": "7717",
+    "formattedid": "8-1039-7717",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354958.21,
+    "longitude": 1391401.79,
+    "wgsCoordinate": {
+      "latitude": 35.83283611111112,
+      "longitude": 139.23383055555556
+    }
+  },
+  {
+    "id": 15246,
+    "adminnumber": "8-1039",
+    "numberserial": "7718",
+    "formattedid": "8-1039-7718",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354959.21,
+    "longitude": 1391400.34,
+    "wgsCoordinate": {
+      "latitude": 35.833113888888896,
+      "longitude": 139.2334277777778
+    }
+  },
+  {
+    "id": 15247,
+    "adminnumber": "8-1039",
+    "numberserial": "7719",
+    "formattedid": "8-1039-7719",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354957.57,
+    "longitude": 1391353.88,
+    "wgsCoordinate": {
+      "latitude": 35.83265833333334,
+      "longitude": 139.2316333333333
+    }
+  },
+  {
+    "id": 15248,
+    "adminnumber": "8-1039",
+    "numberserial": "7720",
+    "formattedid": "8-1039-7720",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354952.04,
+    "longitude": 1391343.26,
+    "wgsCoordinate": {
+      "latitude": 35.83112222222222,
+      "longitude": 139.22868333333335
+    }
+  },
+  {
+    "id": 15249,
+    "adminnumber": "8-1039",
+    "numberserial": "7721",
+    "formattedid": "8-1039-7721",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354953.68,
+    "longitude": 1391337.84,
+    "wgsCoordinate": {
+      "latitude": 35.83157777777778,
+      "longitude": 139.2271777777778
+    }
+  },
+  {
+    "id": 15250,
+    "adminnumber": "8-1039",
+    "numberserial": "7722",
+    "formattedid": "8-1039-7722",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354954.33,
+    "longitude": 1391335.29,
+    "wgsCoordinate": {
+      "latitude": 35.83175833333334,
+      "longitude": 139.22646944444446
+    }
+  },
+  {
+    "id": 15253,
+    "adminnumber": "8-1039",
+    "numberserial": "7725",
+    "formattedid": "8-1039-7725",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355001.06,
+    "longitude": 1391317.62,
+    "wgsCoordinate": {
+      "latitude": 35.83362777777778,
+      "longitude": 139.22156111111116
+    }
+  },
+  {
+    "id": 15254,
+    "adminnumber": "8-1039",
+    "numberserial": "7726",
+    "formattedid": "8-1039-7726",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355002.07,
+    "longitude": 1391315.95,
+    "wgsCoordinate": {
+      "latitude": 35.83390833333334,
+      "longitude": 139.2210972222222
+    }
+  },
+  {
+    "id": 15255,
+    "adminnumber": "8-1039",
+    "numberserial": "7727",
+    "formattedid": "8-1039-7727",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355002.46,
+    "longitude": 1391316.07,
+    "wgsCoordinate": {
+      "latitude": 35.83401666666668,
+      "longitude": 139.2211305555556
+    }
+  },
+  {
+    "id": 15256,
+    "adminnumber": "8-1039",
+    "numberserial": "7728",
+    "formattedid": "8-1039-7728",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355004.01,
+    "longitude": 1391312.79,
+    "wgsCoordinate": {
+      "latitude": 35.834447222222224,
+      "longitude": 139.22021944444447
+    }
+  },
+  {
+    "id": 15257,
+    "adminnumber": "8-1039",
+    "numberserial": "7729",
+    "formattedid": "8-1039-7729",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355004.67,
+    "longitude": 1391311.93,
+    "wgsCoordinate": {
+      "latitude": 35.834630555555556,
+      "longitude": 139.21998055555554
+    }
+  },
+  {
+    "id": 15258,
+    "adminnumber": "8-1039",
+    "numberserial": "7730",
+    "formattedid": "8-1039-7730",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.45,
+    "longitude": 1391309.95,
+    "wgsCoordinate": {
+      "latitude": 35.835125000000005,
+      "longitude": 139.21943055555553
+    }
+  },
+  {
+    "id": 15953,
+    "adminnumber": "8-3194",
+    "numberserial": "7102",
+    "formattedid": "8-3194-7102",
+    "routename": "（一１９４）成木河辺線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354744.06,
+    "longitude": 1391726.96,
+    "wgsCoordinate": {
+      "latitude": 35.79557222222222,
+      "longitude": 139.2908222222222
+    }
+  },
+  {
+    "id": 15954,
+    "adminnumber": "8-1045",
+    "numberserial": "7402",
+    "formattedid": "8-1045-7402",
+    "routename": "（主４５）奥多摩青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354803.84,
+    "longitude": 1391110.01,
+    "wgsCoordinate": {
+      "latitude": 35.80106666666667,
+      "longitude": 139.18611388888888
+    }
+  },
+  {
+    "id": 15955,
+    "adminnumber": "8-1045",
+    "numberserial": "7403",
+    "formattedid": "8-1045-7403",
+    "routename": "（主４５）奥多摩青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354805.48,
+    "longitude": 1391110.26,
+    "wgsCoordinate": {
+      "latitude": 35.80152222222221,
+      "longitude": 139.18618333333333
+    }
+  },
+  {
+    "id": 15958,
+    "adminnumber": "8-1028",
+    "numberserial": "7601",
+    "formattedid": "8-1028-7601",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354823.06,
+    "longitude": 1391551.37,
+    "wgsCoordinate": {
+      "latitude": 35.80640555555555,
+      "longitude": 139.26426944444447
+    }
+  },
+  {
+    "id": 15959,
+    "adminnumber": "8-1028",
+    "numberserial": "7602",
+    "formattedid": "8-1028-7602",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354836.72,
+    "longitude": 1391533.65,
+    "wgsCoordinate": {
+      "latitude": 35.81019999999999,
+      "longitude": 139.2593472222222
+    }
+  },
+  {
+    "id": 15960,
+    "adminnumber": "8-1028",
+    "numberserial": "7714",
+    "formattedid": "8-1028-7714",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354825.82,
+    "longitude": 1391548.33,
+    "wgsCoordinate": {
+      "latitude": 35.80717222222222,
+      "longitude": 139.263425
+    }
+  },
+  {
+    "id": 15963,
+    "adminnumber": "8-1028",
+    "numberserial": "7112",
+    "formattedid": "8-1028-7112",
+    "routename": "（主２８）青梅飯能線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354928.06,
+    "longitude": 1391716.96,
+    "wgsCoordinate": {
+      "latitude": 35.82446111111111,
+      "longitude": 139.28804444444444
+    }
+  },
+  {
+    "id": 15969,
+    "adminnumber": "8-1005",
+    "numberserial": "7487",
+    "formattedid": "8-1005-7487",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354720.5,
+    "longitude": 1391654.74,
+    "wgsCoordinate": {
+      "latitude": 35.789027777777775,
+      "longitude": 139.28187222222223
+    }
+  },
+  {
+    "id": 15970,
+    "adminnumber": "8-1005",
+    "numberserial": "7488",
+    "formattedid": "8-1005-7488",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354720.04,
+    "longitude": 1391655.51,
+    "wgsCoordinate": {
+      "latitude": 35.78889999999999,
+      "longitude": 139.2820861111111
+    }
+  },
+  {
+    "id": 15971,
+    "adminnumber": "8-1005",
+    "numberserial": "7489",
+    "formattedid": "8-1005-7489",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.26,
+    "longitude": 1391654.98,
+    "wgsCoordinate": {
+      "latitude": 35.78868333333333,
+      "longitude": 139.2819388888889
+    }
+  },
+  {
+    "id": 14192,
+    "adminnumber": "8-1005",
+    "numberserial": "7248",
+    "formattedid": "8-1005-7248",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.04,
+    "longitude": 1391611.99,
+    "wgsCoordinate": {
+      "latitude": 35.78639999999999,
+      "longitude": 139.26999722222223
+    }
+  },
+  {
+    "id": 14195,
+    "adminnumber": "8-1005",
+    "numberserial": "7302",
+    "formattedid": "8-1005-7302",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354652.97,
+    "longitude": 1391925.46,
+    "wgsCoordinate": {
+      "latitude": 35.78138055555554,
+      "longitude": 139.32373888888887
+    }
+  },
+  {
+    "id": 14537,
+    "adminnumber": "8-1005",
+    "numberserial": "7442",
+    "formattedid": "8-1005-7442",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.03,
+    "longitude": 1391645.08,
+    "wgsCoordinate": {
+      "latitude": 35.78861944444445,
+      "longitude": 139.2791888888889
+    }
+  },
+  {
+    "id": 14538,
+    "adminnumber": "8-1005",
+    "numberserial": "7446",
+    "formattedid": "8-1005-7446",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.81,
+    "longitude": 1391641.29,
+    "wgsCoordinate": {
+      "latitude": 35.78855833333333,
+      "longitude": 139.27813611111114
+    }
+  },
+  {
+    "id": 14546,
+    "adminnumber": "8-1005",
+    "numberserial": "7718",
+    "formattedid": "8-1005-7718",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.15,
+    "longitude": 1391626.87,
+    "wgsCoordinate": {
+      "latitude": 35.78643055555556,
+      "longitude": 139.2741305555556
+    }
+  },
+  {
+    "id": 14547,
+    "adminnumber": "8-1005",
+    "numberserial": "7719",
+    "formattedid": "8-1005-7719",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354710.07,
+    "longitude": 1391534.54,
+    "wgsCoordinate": {
+      "latitude": 35.78613055555556,
+      "longitude": 139.25959444444445
+    }
+  },
+  {
+    "id": 14551,
+    "adminnumber": "8-1005",
+    "numberserial": "7950",
+    "formattedid": "8-1005-7950",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354703.86,
+    "longitude": 1391845.5,
+    "wgsCoordinate": {
+      "latitude": 35.78440555555555,
+      "longitude": 139.3126388888889
+    }
+  },
+  {
+    "id": 14552,
+    "adminnumber": "8-1005",
+    "numberserial": "7951",
+    "formattedid": "8-1005-7951",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354711.5,
+    "longitude": 1391824.41,
+    "wgsCoordinate": {
+      "latitude": 35.78652777777778,
+      "longitude": 139.30678055555555
+    }
+  },
+  {
+    "id": 14553,
+    "adminnumber": "8-1005",
+    "numberserial": "7952",
+    "formattedid": "8-1005-7952",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354715.41,
+    "longitude": 1391800.29,
+    "wgsCoordinate": {
+      "latitude": 35.78761388888888,
+      "longitude": 139.30008055555558
+    }
+  },
+  {
+    "id": 14554,
+    "adminnumber": "8-1005",
+    "numberserial": "7953",
+    "formattedid": "8-1005-7953",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354718.77,
+    "longitude": 1391708.67,
+    "wgsCoordinate": {
+      "latitude": 35.78854722222223,
+      "longitude": 139.28574166666664
+    }
+  },
+  {
+    "id": 14555,
+    "adminnumber": "8-1005",
+    "numberserial": "7954",
+    "formattedid": "8-1005-7954",
+    "routename": "（主５）新宿青梅線",
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 354719.48,
+    "longitude": 1391642.96,
+    "wgsCoordinate": {
+      "latitude": 35.78874444444444,
+      "longitude": 139.2786
+    }
+  },
+  {
+    "id": 15259,
+    "adminnumber": "8-1039",
+    "numberserial": "7731",
+    "formattedid": "8-1039-7731",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355006.97,
+    "longitude": 1391310.06,
+    "wgsCoordinate": {
+      "latitude": 35.83526944444444,
+      "longitude": 139.21946111111112
+    }
+  },
+  {
+    "id": 15260,
+    "adminnumber": "8-1039",
+    "numberserial": "7732",
+    "formattedid": "8-1039-7732",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355009.97,
+    "longitude": 1391305.26,
+    "wgsCoordinate": {
+      "latitude": 35.836102777777775,
+      "longitude": 139.2181277777778
+    }
+  },
+  {
+    "id": 15261,
+    "adminnumber": "8-1039",
+    "numberserial": "7734",
+    "formattedid": "8-1039-7734",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355012.08,
+    "longitude": 1391304.43,
+    "wgsCoordinate": {
+      "latitude": 35.836688888888894,
+      "longitude": 139.2178972222222
+    }
+  },
+  {
+    "id": 15262,
+    "adminnumber": "8-1039",
+    "numberserial": "7735",
+    "formattedid": "8-1039-7735",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355013.07,
+    "longitude": 1391258.99,
+    "wgsCoordinate": {
+      "latitude": 35.836963888888896,
+      "longitude": 139.2163861111111
+    }
+  },
+  {
+    "id": 15263,
+    "adminnumber": "8-1039",
+    "numberserial": "7736",
+    "formattedid": "8-1039-7736",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355015.95,
+    "longitude": 1391259.26,
+    "wgsCoordinate": {
+      "latitude": 35.837763888888894,
+      "longitude": 139.2164611111111
+    }
+  },
+  {
+    "id": 15264,
+    "adminnumber": "8-1039",
+    "numberserial": "7737",
+    "formattedid": "8-1039-7737",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355018.24,
+    "longitude": 1391258.05,
+    "wgsCoordinate": {
+      "latitude": 35.8384,
+      "longitude": 139.216125
+    }
+  },
+  {
+    "id": 15265,
+    "adminnumber": "8-1039",
+    "numberserial": "7739",
+    "formattedid": "8-1039-7739",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355020.93,
+    "longitude": 1391248.77,
+    "wgsCoordinate": {
+      "latitude": 35.83914722222222,
+      "longitude": 139.21354722222222
+    }
+  },
+  {
+    "id": 15266,
+    "adminnumber": "8-1039",
+    "numberserial": "7740",
+    "formattedid": "8-1039-7740",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355016.15,
+    "longitude": 1391245.95,
+    "wgsCoordinate": {
+      "latitude": 35.837819444444456,
+      "longitude": 139.21276388888887
+    }
+  },
+  {
+    "id": 15267,
+    "adminnumber": "8-1039",
+    "numberserial": "7743",
+    "formattedid": "8-1039-7743",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355013.12,
+    "longitude": 1391240.53,
+    "wgsCoordinate": {
+      "latitude": 35.836977777777776,
+      "longitude": 139.21125833333332
+    }
+  },
+  {
+    "id": 15268,
+    "adminnumber": "8-1039",
+    "numberserial": "7744",
+    "formattedid": "8-1039-7744",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355013.41,
+    "longitude": 1391239.98,
+    "wgsCoordinate": {
+      "latitude": 35.83705833333333,
+      "longitude": 139.21110555555555
+    }
+  },
+  {
+    "id": 15269,
+    "adminnumber": "8-1039",
+    "numberserial": "7746",
+    "formattedid": "8-1039-7746",
+    "routename": null,
+    "officename": "西多摩建設事務所",
+    "areaname": "青梅工区",
+    "municipalityname": "青梅市",
+    "latitude": 355012.61,
+    "longitude": 1391212.19,
+    "wgsCoordinate": {
+      "latitude": 35.83683611111111,
+      "longitude": 139.2033861111111
+    }
+  }
+]

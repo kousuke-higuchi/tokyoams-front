@@ -2,24 +2,24 @@
   <div>
     <v-row>
       <v-col md="3" cols="12">
-        <underground-walkway-side-card-details />
+        <underground-walkway-side-card-details select-tab="ledger" />
       </v-col>
       <v-col md="9" cols="12">
         <v-card>
           <v-sheet class="d-flex tbTitle">
             <v-card-text class="title">管理番号</v-card-text>
-            <v-card-text>{{ adminId }}</v-card-text>
+            <v-card-text>{{  adminId  }}</v-card-text>
             <v-card-text class="title">路線名</v-card-text>
-            <v-card-text>{{ routeName }}</v-card-text>
+            <v-card-text>{{  routeName  }}</v-card-text>
             <v-card-text class="title">所在地</v-card-text>
-            <v-card-text>{{ location }}</v-card-text>
+            <v-card-text>{{  location  }}</v-card-text>
             <v-card-text class="title">地点標</v-card-text>
-            <v-card-text>{{ waypointFrom }}km~{{ waypointTo }}km</v-card-text>
+            <v-card-text>{{  waypointFrom  }}km~{{  waypointTo  }}km</v-card-text>
           </v-sheet>
           <v-row no-gutters class="rfaCardText">
             <v-col cols="12">
               <v-card class="border elevation-0 rounded-0">
-                <v-card-text>(ファイル名:{{ groundViewfileName }})</v-card-text>
+                <v-card-text>(ファイル名:{{  groundViewfileName  }})</v-card-text>
                 <v-card-text>平面図およびボーリング柱状図</v-card-text>
                 <v-container>
                   <v-img :src="groundView" />
@@ -45,11 +45,11 @@
           </v-row>
           <v-sheet class="d-flex tbTitle">
             <v-card-text class="title">ディスク内資料参照コードNo</v-card-text>
-            <v-card-text>{{ codeNo }}</v-card-text>
+            <v-card-text>{{  codeNo  }}</v-card-text>
             <v-card-text class="title">道路台帳番号</v-card-text>
-            <v-card-text>{{ ledgerNo }}</v-card-text>
+            <v-card-text>{{  ledgerNo  }}</v-card-text>
             <v-card-text class="title">住宅地図番号</v-card-text>
-            <v-card-text>{{ mapNo }}</v-card-text>
+            <v-card-text>{{  mapNo  }}</v-card-text>
             <v-card-text>
               ※平面図・標準断面図・対象施設と関連施設関係を記入
             </v-card-text>
