@@ -35,12 +35,6 @@
                     </v-btn>
                 </v-btn-toggle>
             </v-col>
-            <v-col cols="12" class="py-2" md="2">
-                <v-btn color="primary" size="small" href="/order/regNewOrder">
-                    新規データ発行
-                </v-btn>
-
-            </v-col>
         </v-row>
         <v-row>
             <v-col cols="12" class="py-2">
@@ -93,18 +87,38 @@
         </v-row>
 
         <v-row>
-            <v-col cols="12" class="py-2">
-                <vue-good-table :columns="columns" :rows="orderData" :select-options="{ enabled: true }"
-                    :pagination-options="{
-                        enabled: false,
-                        
-                    }">
+            <v-expansion-panels multiple>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>クリックして対象施設を表示</v-expansion-panel-title>
 
-                </vue-good-table>
+                    <v-expansion-panel-text>
+                        <v-col cols="12" class="py-2">
+                            <vue-good-table :columns="columns" :rows="orderData" :select-options="{ enabled: true ,selectionInfoClass:'selected',
+                            selectionText: '行選択されています',
+                            clearSelectionText: '全選択解除',}" 
+                            :pagination-options="{        enabled: false,    }">
+
+                            </vue-good-table>
+                        </v-col>
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+            </v-expansion-panels>
+        </v-row>
+        <v-row>
+            <v-col cols="12" class="py-2">
+                <p></p>
+                <br>
 
             </v-col>
+        </v-row>
+        <v-row>
 
+            <v-col cols="12" class="py-2" md="2">
+                <v-btn color="primary" size="small" href="/order/regNewOrder">
+                    新規データ発行
+                </v-btn>
 
+            </v-col>
         </v-row>
 
     </v-container>

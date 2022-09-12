@@ -22,7 +22,7 @@
           </v-container>
           <div>
             <vue-good-table :columns="columns" :rows="rows" :pagination-options="{
-              enabled: true
+              enabled: false
             }">
               <template #table-row="props">
                 <span v-if="props.column.field == 'OutLedgerBtn'">
@@ -110,6 +110,8 @@ const center = ref([35.79112, 139.27753]);
 let footbridges = ref<Fbg2Summary[]>();
 const officeDropdwonItem = ref(['第一建設事務所', '第二建設事務所', '第三建設事務所', '第四建設事務所', '西多摩建設事務所']);
 const routeDropdownItem = ref(['一般都道十里木御岳停車場線201号', '主要地方道青梅おきる野線31号', '一般国道411号', '一般都道川野上川乗線206号', '主要地方道杉並あきる野線7号']);
+const areaDropdownItem = ref(['奥多摩出張所', '奥多摩工区', '青梅工区', '福生工区', 'あきる野工区', '檜原工区']);
+
 //TODO:ユーザーによって決める
 const officeid = 8;
 
@@ -142,7 +144,8 @@ let _columns = [
     sortable: false,
     filterOptions: {
       enabled: true,
-      placeholder: '工区入力',
+      placeholder: '-選択-',
+      filterDropdownItems: areaDropdownItem,
     },
   },
   {
@@ -236,6 +239,10 @@ const map2OfficeDropDown = (c) => {
   else if (modified.field == 'routeName') {
     modified.filterOptions.filterDropdownItems = routeDropdownItem
   }
+  else if (modified.field == 'areaName') {
+    modified.filterOptions.filterDropdownItems = areaDropdownItem
+  }  
+
   return modified
 };
 

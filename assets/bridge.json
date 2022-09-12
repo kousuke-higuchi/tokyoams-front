@@ -2,6 +2,7 @@
   {
     "id": 1674,
     "code": "10410600-0",
+    "selected": true,
     "bridge_name": "新矢柄橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -18,6 +19,7 @@
   {
     "id": 1475,
     "code": "10310190-0",
+    "selected": true,
     "bridge_name": "永田橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -34,6 +36,7 @@
   {
     "id": 621,
     "code": "10110440-0",
+    "selected": true,
     "bridge_name": "平石橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -53,6 +56,7 @@
   {
     "id": 622,
     "code": "10110450-0",
+    "selected": true,
     "bridge_name": "弁天橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -72,6 +76,7 @@
   {
     "id": 623,
     "code": "10110460-0",
+    "selected": true,
     "bridge_name": "万世橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -91,6 +96,7 @@
   {
     "id": 625,
     "code": "10110490-0",
+    "selected": true,
     "bridge_name": "南氷川橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -110,6 +116,7 @@
   {
     "id": 626,
     "code": "10110530-0",
+    "selected": true,
     "bridge_name": "無妙橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -129,6 +136,7 @@
   {
     "id": 647,
     "code": "10110570-0",
+    "selected": true,
     "bridge_name": "無名橋（棚沢）",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -148,6 +156,7 @@
   {
     "id": 629,
     "code": "10110580-0",
+    "selected": true,
     "bridge_name": "森越橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -167,6 +176,7 @@
   {
     "id": 1826,
     "code": "10110620-0",
+    "selected": true,
     "bridge_name": "日原１号橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -183,6 +193,7 @@
   {
     "id": 723,
     "code": "10210010-0",
+    "selected": true,
     "bridge_name": "愛敬橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -202,6 +213,7 @@
   {
     "id": 649,
     "code": "10210020-0",
+    "selected": true,
     "bridge_name": "秋葉橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -221,6 +233,7 @@
   {
     "id": 759,
     "code": "10210030-0",
+    "selected": true,
     "bridge_name": "軍畑大橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -240,6 +253,7 @@
   {
     "id": 650,
     "code": "10210040-0",
+    "selected": true,
     "bridge_name": "石神橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -259,6 +273,7 @@
   {
     "id": 651,
     "code": "10210060-0",
+    "selected": true,
     "bridge_name": "一家橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -278,6 +293,7 @@
   {
     "id": 652,
     "code": "10210070-0",
+    "selected": true,
     "bridge_name": "一之橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -297,6 +313,7 @@
   {
     "id": 653,
     "code": "10210080-0",
+    "selected": true,
     "bridge_name": "一番橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -316,6 +333,7 @@
   {
     "id": 656,
     "code": "10210080-0",
+    "selected": true,
     "bridge_name": "岩蔵橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -335,6 +353,7 @@
   {
     "id": 724,
     "code": "10210090-0",
+    "selected": true,
     "bridge_name": "井戸川橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -354,6 +373,7 @@
   {
     "id": 654,
     "code": "10210100-0",
+    "selected": true,
     "bridge_name": "入平橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -373,6 +393,7 @@
   {
     "id": 655,
     "code": "10210110-0",
+    "selected": true,
     "bridge_name": "岩井橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -392,6 +413,7 @@
   {
     "id": 657,
     "code": "10210120-0",
+    "selected": true,
     "bridge_name": "梅ヶ平橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -411,6 +433,7 @@
   {
     "id": 725,
     "code": "10210130-0",
+    "selected": true,
     "bridge_name": "永盛橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -430,6 +453,7 @@
   {
     "id": 659,
     "code": "10210140-0",
+    "selected": true,
     "bridge_name": "大熊橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -449,6 +473,7 @@
   {
     "id": 726,
     "code": "10210150-0",
+    "selected": true,
     "bridge_name": "大沢橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -468,6 +493,7 @@
   {
     "id": 727,
     "code": "10210160-0",
+    "selected": true,
     "bridge_name": "大荷田橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -487,6 +513,7 @@
   {
     "id": 785,
     "code": "10210170-0",
+    "selected": true,
     "bridge_name": "大橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -506,6 +533,7 @@
   {
     "id": 764,
     "code": "10210180-0",
+    "selected": true,
     "bridge_name": "奥多摩大橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -525,6 +553,7 @@
   {
     "id": 763,
     "code": "10210190-0",
+    "selected": true,
     "bridge_name": "奥多摩橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -544,6 +573,7 @@
   {
     "id": 660,
     "code": "10210200-0",
+    "selected": true,
     "bridge_name": "落合橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -563,6 +593,7 @@
   {
     "id": 661,
     "code": "10210210-0",
+    "selected": true,
     "bridge_name": "小枕橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -582,6 +613,7 @@
   {
     "id": 662,
     "code": "10210220-0",
+    "selected": true,
     "bridge_name": "折戸橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -601,6 +633,7 @@
   {
     "id": 664,
     "code": "10210240-0",
+    "selected": true,
     "bridge_name": "柿沢１号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -620,6 +653,7 @@
   {
     "id": 665,
     "code": "10210250-0",
+    "selected": true,
     "bridge_name": "柿沢２号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -639,6 +673,7 @@
   {
     "id": 663,
     "code": "10210260-0",
+    "selected": true,
     "bridge_name": "柿沢橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -658,6 +693,7 @@
   {
     "id": 666,
     "code": "10210270-0",
+    "selected": true,
     "bridge_name": "柏木橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -677,6 +713,7 @@
   {
     "id": 667,
     "code": "10210280-0",
+    "selected": true,
     "bridge_name": "霞橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -696,6 +733,7 @@
   {
     "id": 729,
     "code": "10210290-0",
+    "selected": true,
     "bridge_name": "要橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -715,6 +753,7 @@
   {
     "id": 1517,
     "code": "10210300-X",
+    "selected": true,
     "bridge_name": "上滝成橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -731,6 +770,7 @@
   {
     "id": 668,
     "code": "10210310-0",
+    "selected": true,
     "bridge_name": "上栃谷橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -750,6 +790,7 @@
   {
     "id": 670,
     "code": "10210320-0",
+    "selected": true,
     "bridge_name": "上成木橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -769,6 +810,7 @@
   {
     "id": 671,
     "code": "10210340-0",
+    "selected": true,
     "bridge_name": "観音橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -788,6 +830,7 @@
   {
     "id": 672,
     "code": "10210350-0",
+    "selected": true,
     "bridge_name": "久道橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -807,6 +850,7 @@
   {
     "id": 730,
     "code": "10210360-0",
+    "selected": true,
     "bridge_name": "霧久保橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -826,6 +870,7 @@
   {
     "id": 673,
     "code": "10210370-0",
+    "selected": true,
     "bridge_name": "極指橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -845,6 +890,7 @@
   {
     "id": 731,
     "code": "10210380-0",
+    "selected": true,
     "bridge_name": "光仙橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -864,6 +910,7 @@
   {
     "id": 674,
     "code": "10210390-0",
+    "selected": true,
     "bridge_name": "小ヶ井橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -883,6 +930,7 @@
   {
     "id": 732,
     "code": "10210400-0",
+    "selected": true,
     "bridge_name": "琴沢橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -902,6 +950,7 @@
   {
     "id": 675,
     "code": "10210410-0",
+    "selected": true,
     "bridge_name": "坂久橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -921,6 +970,7 @@
   {
     "id": 676,
     "code": "10210420-0",
+    "selected": true,
     "bridge_name": "境沢橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -940,6 +990,7 @@
   {
     "id": 677,
     "code": "10210430-0",
+    "selected": true,
     "bridge_name": "坂下橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -959,6 +1010,7 @@
   {
     "id": 678,
     "code": "10210440-0",
+    "selected": true,
     "bridge_name": "佐藤塚橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -978,6 +1030,7 @@
   {
     "id": 590,
     "code": "10110040-0",
+    "selected": true,
     "bridge_name": "一付橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -997,6 +1050,7 @@
   {
     "id": 591,
     "code": "10110060-0",
+    "selected": true,
     "bridge_name": "大丹波１号橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1016,6 +1070,7 @@
   {
     "id": 592,
     "code": "10110070-0",
+    "selected": true,
     "bridge_name": "大丹波２号橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1035,6 +1090,7 @@
   {
     "id": 596,
     "code": "10140080-0",
+    "selected": true,
     "bridge_name": "川井橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1051,6 +1107,7 @@
   {
     "id": 598,
     "code": "10140100-0",
+    "selected": true,
     "bridge_name": "神庭橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1070,6 +1127,7 @@
   {
     "id": 599,
     "code": "10110160-0",
+    "selected": true,
     "bridge_name": "神庭沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1089,6 +1147,7 @@
   {
     "id": 604,
     "code": "10110230-0",
+    "selected": true,
     "bridge_name": "古里附橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1108,6 +1167,7 @@
   {
     "id": 607,
     "code": "10410250-0",
+    "selected": true,
     "bridge_name": "昭和橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1127,6 +1187,7 @@
   {
     "id": 608,
     "code": "10110270-0",
+    "selected": true,
     "bridge_name": "瀬波橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1143,6 +1204,7 @@
   {
     "id": 610,
     "code": "10140320-0",
+    "selected": true,
     "bridge_name": "大正橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1162,6 +1224,7 @@
   {
     "id": 611,
     "code": "10110300-0",
+    "selected": true,
     "bridge_name": "滝の沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1181,6 +1244,7 @@
   {
     "id": 615,
     "code": "10110370-0",
+    "selected": true,
     "bridge_name": "登竜橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1200,6 +1264,7 @@
   {
     "id": 618,
     "code": "10110420-1",
+    "selected": true,
     "bridge_name": "氷川大橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1219,6 +1284,7 @@
   {
     "id": 619,
     "code": "10110420-2",
+    "selected": true,
     "bridge_name": "氷川大橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1235,6 +1301,7 @@
   {
     "id": 624,
     "code": "10110480-0",
+    "selected": true,
     "bridge_name": "南沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1254,6 +1321,7 @@
   {
     "id": 627,
     "code": "10110540-0",
+    "selected": true,
     "bridge_name": "無名７号橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1273,6 +1341,7 @@
   {
     "id": 628,
     "code": "10110550-0",
+    "selected": true,
     "bridge_name": "無名８号橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1292,6 +1361,7 @@
   {
     "id": 630,
     "code": "10140430-0",
+    "selected": true,
     "bridge_name": "八雲橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1308,6 +1378,7 @@
   {
     "id": 631,
     "code": "10110030-0",
+    "selected": true,
     "bridge_name": "市道橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1327,6 +1398,7 @@
   {
     "id": 632,
     "code": "10110090-0",
+    "selected": true,
     "bridge_name": "小沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1346,6 +1418,7 @@
   {
     "id": 633,
     "code": "10110100-0",
+    "selected": true,
     "bridge_name": "落沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1365,6 +1438,7 @@
   {
     "id": 634,
     "code": "10110110-0",
+    "selected": true,
     "bridge_name": "数馬橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1384,6 +1458,7 @@
   {
     "id": 635,
     "code": "10110190-0",
+    "selected": true,
     "bridge_name": "九頭龍橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1403,6 +1478,7 @@
   {
     "id": 636,
     "code": "10110210-0",
+    "selected": true,
     "bridge_name": "香蘭橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1422,6 +1498,7 @@
   {
     "id": 637,
     "code": "10110340-0",
+    "selected": true,
     "bridge_name": "月夜見橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1441,6 +1518,7 @@
   {
     "id": 638,
     "code": "10110350-0",
+    "selected": true,
     "bridge_name": "坪沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1460,6 +1538,7 @@
   {
     "id": 639,
     "code": "10110360-0",
+    "selected": true,
     "bridge_name": "戸沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1479,6 +1558,7 @@
   {
     "id": 640,
     "code": "10110380-0",
+    "selected": true,
     "bridge_name": "蜂巣沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -1498,6 +1578,7 @@
   {
     "id": 800,
     "code": "10410110-0",
+    "selected": true,
     "bridge_name": "上養沢橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1517,6 +1598,7 @@
   {
     "id": 801,
     "code": "10410120-0",
+    "selected": true,
     "bridge_name": "唐沢橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1536,6 +1618,7 @@
   {
     "id": 802,
     "code": "10410130-0",
+    "selected": true,
     "bridge_name": "肝要橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1555,6 +1638,7 @@
   {
     "id": 803,
     "code": "10410140-0",
+    "selected": true,
     "bridge_name": "北大久野橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1574,6 +1658,7 @@
   {
     "id": 804,
     "code": "10410160-0",
+    "selected": true,
     "bridge_name": "木和田平橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1593,6 +1678,7 @@
   {
     "id": 805,
     "code": "10410170-0",
+    "selected": true,
     "bridge_name": "熊野橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1612,6 +1698,7 @@
   {
     "id": 806,
     "code": "10410180-0",
+    "selected": true,
     "bridge_name": "茱萸窪橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1631,6 +1718,7 @@
   {
     "id": 807,
     "code": "10410210-0",
+    "selected": true,
     "bridge_name": "桜橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1650,6 +1738,7 @@
   {
     "id": 808,
     "code": "10410200-0",
+    "selected": true,
     "bridge_name": "桜井橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1669,6 +1758,7 @@
   {
     "id": 809,
     "code": "10410220-0",
+    "selected": true,
     "bridge_name": "沢口橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1688,6 +1778,7 @@
   {
     "id": 810,
     "code": "10440210-0",
+    "selected": true,
     "bridge_name": "三内橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1704,6 +1795,7 @@
   {
     "id": 811,
     "code": "10410230-0",
+    "selected": true,
     "bridge_name": "鹿の湯橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1723,6 +1815,7 @@
   {
     "id": 812,
     "code": "10410240-0",
+    "selected": true,
     "bridge_name": "下養沢橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1742,6 +1835,7 @@
   {
     "id": 813,
     "code": "10440300-0",
+    "selected": true,
     "bridge_name": "新橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1761,6 +1855,7 @@
   {
     "id": 814,
     "code": "10410300-0",
+    "selected": true,
     "bridge_name": "新橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1780,6 +1875,7 @@
   {
     "id": 815,
     "code": "10410270-0",
+    "selected": true,
     "bridge_name": "新肝要橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1799,6 +1895,7 @@
   {
     "id": 816,
     "code": "10410280-0",
+    "selected": true,
     "bridge_name": "新坂本橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1818,6 +1915,7 @@
   {
     "id": 817,
     "code": "10410310-0",
+    "selected": true,
     "bridge_name": "新水の口橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1837,6 +1935,7 @@
   {
     "id": 818,
     "code": "10410320-0",
+    "selected": true,
     "bridge_name": "住吉橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1856,6 +1955,7 @@
   {
     "id": 819,
     "code": "10410330-0",
+    "selected": true,
     "bridge_name": "諏訪下橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1875,6 +1975,7 @@
   {
     "id": 820,
     "code": "10410340-0",
+    "selected": true,
     "bridge_name": "曽利郷橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1894,6 +1995,7 @@
   {
     "id": 821,
     "code": "10410350-0",
+    "selected": true,
     "bridge_name": "高橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1913,6 +2015,7 @@
   {
     "id": 822,
     "code": "10410360-0",
+    "selected": true,
     "bridge_name": "高原橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1932,6 +2035,7 @@
   {
     "id": 823,
     "code": "10410370-0",
+    "selected": true,
     "bridge_name": "滝本橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1951,6 +2055,7 @@
   {
     "id": 824,
     "code": "10410560-0",
+    "selected": true,
     "bridge_name": "谷戸橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1970,6 +2075,7 @@
   {
     "id": 825,
     "code": "10410380-0",
+    "selected": true,
     "bridge_name": "天王橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -1989,6 +2095,7 @@
   {
     "id": 826,
     "code": "10410390-0",
+    "selected": true,
     "bridge_name": "鳥井田橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2008,6 +2115,7 @@
   {
     "id": 827,
     "code": "10410400-0",
+    "selected": true,
     "bridge_name": "中河原橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2027,6 +2135,7 @@
   {
     "id": 828,
     "code": "10410410-0",
+    "selected": true,
     "bridge_name": "中山橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2046,6 +2155,7 @@
   {
     "id": 829,
     "code": "10410420-0",
+    "selected": true,
     "bridge_name": "奈都知橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2065,6 +2175,7 @@
   {
     "id": 830,
     "code": "10410430-0",
+    "selected": true,
     "bridge_name": "西秋川橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2084,6 +2195,7 @@
   {
     "id": 831,
     "code": "10410440-0",
+    "selected": true,
     "bridge_name": "西野橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2103,6 +2215,7 @@
   {
     "id": 832,
     "code": "10410450-0",
+    "selected": true,
     "bridge_name": "西平井橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2122,6 +2235,7 @@
   {
     "id": 833,
     "code": "10410440-0",
+    "selected": true,
     "bridge_name": "東平井橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2141,6 +2255,7 @@
   {
     "id": 834,
     "code": "10410460-0",
+    "selected": true,
     "bridge_name": "日の出橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2160,6 +2275,7 @@
   {
     "id": 835,
     "code": "10410470-0",
+    "selected": true,
     "bridge_name": "不動橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2179,6 +2295,7 @@
   {
     "id": 1666,
     "code": "1041XXX0-0",
+    "selected": true,
     "bridge_name": "新天王橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2195,6 +2312,7 @@
   {
     "id": 1668,
     "code": "10310250-0",
+    "selected": true,
     "bridge_name": "南雨間橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -2211,6 +2329,7 @@
   {
     "id": 1664,
     "code": "10410150-0",
+    "selected": true,
     "bridge_name": "北三吉野橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2227,6 +2346,7 @@
   {
     "id": 1665,
     "code": "10410530-0",
+    "selected": true,
     "bridge_name": "南三吉野橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2243,6 +2363,7 @@
   {
     "id": 1383,
     "code": "10110010-0",
+    "selected": true,
     "bridge_name": "愛宕大橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2259,6 +2380,7 @@
   {
     "id": 1628,
     "code": "10310110-0",
+    "selected": true,
     "bridge_name": "新橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -2275,6 +2397,7 @@
   {
     "id": 1686,
     "code": "1021XXX0-0",
+    "selected": true,
     "bridge_name": "万年（上り）橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -2291,6 +2414,7 @@
   {
     "id": 1351,
     "code": "10310270-0",
+    "selected": true,
     "bridge_name": "もりやま橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -2307,6 +2431,7 @@
   {
     "id": 1352,
     "code": "10410580-X",
+    "selected": true,
     "bridge_name": "夕日橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2326,6 +2451,7 @@
   {
     "id": 589,
     "code": "10110020-0",
+    "selected": true,
     "bridge_name": "綾瀬橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2345,6 +2471,7 @@
   {
     "id": 1388,
     "code": "10110050-0",
+    "selected": true,
     "bridge_name": "海沢大橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2361,6 +2488,7 @@
   {
     "id": 593,
     "code": "10110080-0",
+    "selected": true,
     "bridge_name": "小川谷橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2380,6 +2508,7 @@
   {
     "id": 594,
     "code": "10110120-0",
+    "selected": true,
     "bridge_name": "神塚橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2399,6 +2528,7 @@
   {
     "id": 595,
     "code": "10110132-0",
+    "selected": true,
     "bridge_name": "唐沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2418,6 +2548,7 @@
   {
     "id": 597,
     "code": "10110140-0",
+    "selected": true,
     "bridge_name": "川乗橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2437,6 +2568,7 @@
   {
     "id": 1491,
     "code": "10110150-0",
+    "selected": true,
     "bridge_name": "神庭東橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2453,6 +2585,7 @@
   {
     "id": 600,
     "code": "10110170-0",
+    "selected": true,
     "bridge_name": "北川橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2472,6 +2605,7 @@
   {
     "id": 601,
     "code": "10110180-0",
+    "selected": true,
     "bridge_name": "草木沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2491,6 +2625,7 @@
   {
     "id": 602,
     "code": "10110200-0",
+    "selected": true,
     "bridge_name": "倉沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2510,6 +2645,7 @@
   {
     "id": 603,
     "code": "10110220-0",
+    "selected": true,
     "bridge_name": "琴浦橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2529,6 +2665,7 @@
   {
     "id": 605,
     "code": "10110240-0",
+    "selected": true,
     "bridge_name": "境橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2548,6 +2685,7 @@
   {
     "id": 606,
     "code": "10110250-0",
+    "selected": true,
     "bridge_name": "笹平橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2567,6 +2705,7 @@
   {
     "id": 1384,
     "code": "10510190-0",
+    "selected": true,
     "bridge_name": "笹野大橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -2583,6 +2722,7 @@
   {
     "id": 770,
     "code": "10110260-0",
+    "selected": true,
     "bridge_name": "昭和橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2602,6 +2742,7 @@
   {
     "id": 609,
     "code": "10110280-0",
+    "selected": true,
     "bridge_name": "蝉沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2621,6 +2762,7 @@
   {
     "id": 1719,
     "code": "10110290-0",
+    "selected": true,
     "bridge_name": "大正橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2637,6 +2779,7 @@
   {
     "id": 612,
     "code": "10110310-0",
+    "selected": true,
     "bridge_name": "竹の尾橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2656,6 +2799,7 @@
   {
     "id": 1606,
     "code": "1041XXX0-0",
+    "selected": true,
     "bridge_name": "夕日橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2672,6 +2816,7 @@
   {
     "id": 614,
     "code": "10110320-0",
+    "selected": true,
     "bridge_name": "棚沢橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2691,6 +2836,7 @@
   {
     "id": 613,
     "code": "10110330-0",
+    "selected": true,
     "bridge_name": "つきどめ橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2710,6 +2856,7 @@
   {
     "id": 616,
     "code": "10110390-0",
+    "selected": true,
     "bridge_name": "鳩の巣橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2729,6 +2876,7 @@
   {
     "id": 1395,
     "code": "1021XXX0-0",
+    "selected": true,
     "bridge_name": "岩倉橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -2745,6 +2893,7 @@
   {
     "id": 617,
     "code": "10110400-0",
+    "selected": true,
     "bridge_name": "花立橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2764,6 +2913,7 @@
   {
     "id": 648,
     "code": "10110410-0",
+    "selected": true,
     "bridge_name": "東長畑橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2783,6 +2933,7 @@
   {
     "id": 1348,
     "code": "10110420-0",
+    "selected": true,
     "bridge_name": "氷川大橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -2802,6 +2953,7 @@
   {
     "id": 1421,
     "code": "10279010-0",
+    "selected": true,
     "bridge_name": "金子橋（都県橋／埼玉県管理）",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -2818,6 +2970,7 @@
   {
     "id": 1465,
     "code": "10410290-0",
+    "selected": true,
     "bridge_name": "新天王橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2834,6 +2987,7 @@
   {
     "id": 1499,
     "code": "10510280-x",
+    "selected": true,
     "bridge_name": "橘橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -2850,6 +3004,7 @@
   {
     "id": 1502,
     "code": "10410590-X",
+    "selected": true,
     "bridge_name": "新乙津橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2866,6 +3021,7 @@
   {
     "id": 1503,
     "code": "10510500-x",
+    "selected": true,
     "bridge_name": "本宿１号橋（仮称）",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -2882,6 +3038,7 @@
   {
     "id": 1537,
     "code": "10410210-x",
+    "selected": true,
     "bridge_name": "桜橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2898,6 +3055,7 @@
   {
     "id": 1385,
     "code": "10310140-0",
+    "selected": true,
     "bridge_name": "瀬戸岡御堂橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -2914,6 +3072,7 @@
   {
     "id": 1386,
     "code": "10510380-0",
+    "selected": true,
     "bridge_name": "馬場橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -2930,6 +3089,7 @@
   {
     "id": 1387,
     "code": "10510450-0",
+    "selected": true,
     "bridge_name": "宮前橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -2949,6 +3109,7 @@
   {
     "id": 836,
     "code": "10440480-0",
+    "selected": true,
     "bridge_name": "堀口橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2968,6 +3129,7 @@
   {
     "id": 837,
     "code": "10410490-0",
+    "selected": true,
     "bridge_name": "松尾橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -2987,6 +3149,7 @@
   {
     "id": 838,
     "code": "10410500-0",
+    "selected": true,
     "bridge_name": "松葉沢橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3006,6 +3169,7 @@
   {
     "id": 839,
     "code": "10410510-0",
+    "selected": true,
     "bridge_name": "万沢橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3025,6 +3189,7 @@
   {
     "id": 840,
     "code": "10410520-0",
+    "selected": true,
     "bridge_name": "三ツ沢橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3044,6 +3209,7 @@
   {
     "id": 841,
     "code": "10410540-0",
+    "selected": true,
     "bridge_name": "水の口橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3063,6 +3229,7 @@
   {
     "id": 842,
     "code": "10410550-0",
+    "selected": true,
     "bridge_name": "無名１０号橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3082,6 +3249,7 @@
   {
     "id": 843,
     "code": "10410620-0",
+    "selected": true,
     "bridge_name": "無名１号橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3101,6 +3269,7 @@
   {
     "id": 844,
     "code": "1041XXX0-0",
+    "selected": true,
     "bridge_name": "矢柄橋A橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3120,6 +3289,7 @@
   {
     "id": 845,
     "code": "10410190-0",
+    "selected": true,
     "bridge_name": "御新造橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3139,6 +3309,7 @@
   {
     "id": 846,
     "code": "10410570-0",
+    "selected": true,
     "bridge_name": "山田大橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3158,6 +3329,7 @@
   {
     "id": 847,
     "code": "10410260-0",
+    "selected": true,
     "bridge_name": "新秋川橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3177,6 +3349,7 @@
   {
     "id": 848,
     "code": "10410030-0",
+    "selected": true,
     "bridge_name": "五日市橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -3196,6 +3369,7 @@
   {
     "id": 849,
     "code": "10510012-0",
+    "selected": true,
     "bridge_name": "出野橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3215,6 +3389,7 @@
   {
     "id": 850,
     "code": "10510020-0",
+    "selected": true,
     "bridge_name": "稲荷橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3234,6 +3409,7 @@
   {
     "id": 851,
     "code": "10510030-0",
+    "selected": true,
     "bridge_name": "上野橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3253,6 +3429,7 @@
   {
     "id": 852,
     "code": "10510040-0",
+    "selected": true,
     "bridge_name": "鵜流橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3272,6 +3449,7 @@
   {
     "id": 853,
     "code": "10540050-0",
+    "selected": true,
     "bridge_name": "馬道橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3291,6 +3469,7 @@
   {
     "id": 854,
     "code": "10510050-0",
+    "selected": true,
     "bridge_name": "大沢橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3310,6 +3489,7 @@
   {
     "id": 855,
     "code": "10510060-0",
+    "selected": true,
     "bridge_name": "王子橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3329,6 +3509,7 @@
   {
     "id": 856,
     "code": "10540070-0",
+    "selected": true,
     "bridge_name": "大瀬戸橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3348,6 +3529,7 @@
   {
     "id": 857,
     "code": "10510082-0",
+    "selected": true,
     "bridge_name": "太田橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3367,6 +3549,7 @@
   {
     "id": 858,
     "code": "10510090-0",
+    "selected": true,
     "bridge_name": "大向橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3386,6 +3569,7 @@
   {
     "id": 859,
     "code": "10510100-0",
+    "selected": true,
     "bridge_name": "尾崎橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3405,6 +3589,7 @@
   {
     "id": 860,
     "code": "10510110-0",
+    "selected": true,
     "bridge_name": "御鳥居橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3424,6 +3609,7 @@
   {
     "id": 861,
     "code": "10510120-0",
+    "selected": true,
     "bridge_name": "上沢橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3443,6 +3629,7 @@
   {
     "id": 862,
     "code": "10510130-0",
+    "selected": true,
     "bridge_name": "茅倉橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3462,6 +3649,7 @@
   {
     "id": 863,
     "code": "10510140-0",
+    "selected": true,
     "bridge_name": "北秋川橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3481,6 +3669,7 @@
   {
     "id": 864,
     "code": "10510150-0",
+    "selected": true,
     "bridge_name": "共励橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3500,6 +3689,7 @@
   {
     "id": 865,
     "code": "10510160-0",
+    "selected": true,
     "bridge_name": "暮沼橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3519,6 +3709,7 @@
   {
     "id": 866,
     "code": "10510180-0",
+    "selected": true,
     "bridge_name": "笹久保大橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3538,6 +3729,7 @@
   {
     "id": 867,
     "code": "10510200-0",
+    "selected": true,
     "bridge_name": "猿江橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3557,6 +3749,7 @@
   {
     "id": 868,
     "code": "10510210-0",
+    "selected": true,
     "bridge_name": "沢前橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3576,6 +3769,7 @@
   {
     "id": 869,
     "code": "10510220-0",
+    "selected": true,
     "bridge_name": "下河原橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3595,6 +3789,7 @@
   {
     "id": 870,
     "code": "10510240-0",
+    "selected": true,
     "bridge_name": "下除毛橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3614,6 +3809,7 @@
   {
     "id": 871,
     "code": "10510230-0",
+    "selected": true,
     "bridge_name": "下除毛新橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3633,6 +3829,7 @@
   {
     "id": 872,
     "code": "10510260-0",
+    "selected": true,
     "bridge_name": "神大橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3652,6 +3849,7 @@
   {
     "id": 873,
     "code": "10510270-0",
+    "selected": true,
     "bridge_name": "菅野橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3671,6 +3869,7 @@
   {
     "id": 874,
     "code": "10510280-0",
+    "selected": true,
     "bridge_name": "橘橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3690,6 +3889,7 @@
   {
     "id": 875,
     "code": "10510290-0",
+    "selected": true,
     "bridge_name": "道川橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3709,6 +3909,7 @@
   {
     "id": 876,
     "code": "10510300-0",
+    "selected": true,
     "bridge_name": "時坂沢橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3728,6 +3929,7 @@
   {
     "id": 877,
     "code": "10510310-0",
+    "selected": true,
     "bridge_name": "留浦橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3747,6 +3949,7 @@
   {
     "id": 878,
     "code": "10510320-0",
+    "selected": true,
     "bridge_name": "中里橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3766,6 +3969,7 @@
   {
     "id": 879,
     "code": "10510330-0",
+    "selected": true,
     "bridge_name": "中洲橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3785,6 +3989,7 @@
   {
     "id": 880,
     "code": "10510340-0",
+    "selected": true,
     "bridge_name": "滑石橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3804,6 +4009,7 @@
   {
     "id": 881,
     "code": "10510350-0",
+    "selected": true,
     "bridge_name": "西川橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3823,6 +4029,7 @@
   {
     "id": 882,
     "code": "10510360-0",
+    "selected": true,
     "bridge_name": "馬駐土橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3839,6 +4046,7 @@
   {
     "id": 883,
     "code": "10510370-0",
+    "selected": true,
     "bridge_name": "羽根撞橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3858,6 +4066,7 @@
   {
     "id": 884,
     "code": "10510390-0",
+    "selected": true,
     "bridge_name": "藤倉橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3877,6 +4086,7 @@
   {
     "id": 885,
     "code": "10510400-0",
+    "selected": true,
     "bridge_name": "不動橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3896,6 +4106,7 @@
   {
     "id": 886,
     "code": "10510410-0",
+    "selected": true,
     "bridge_name": "又土橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3915,6 +4126,7 @@
   {
     "id": 887,
     "code": "10510420-0",
+    "selected": true,
     "bridge_name": "御籠橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3934,6 +4146,7 @@
   {
     "id": 888,
     "code": "10510430-0",
+    "selected": true,
     "bridge_name": "南秋川橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3953,6 +4166,7 @@
   {
     "id": 889,
     "code": "10510440-0",
+    "selected": true,
     "bridge_name": "宮の橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3972,6 +4186,7 @@
   {
     "id": 890,
     "code": "10510460-0",
+    "selected": true,
     "bridge_name": "森沢橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -3991,6 +4206,7 @@
   {
     "id": 891,
     "code": "10510470-0",
+    "selected": true,
     "bridge_name": "柳沢橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -4010,6 +4226,7 @@
   {
     "id": 892,
     "code": "10510480-0",
+    "selected": true,
     "bridge_name": "大和沢橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -4029,6 +4246,7 @@
   {
     "id": 893,
     "code": "10510490-0",
+    "selected": true,
     "bridge_name": "除毛橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -4048,6 +4266,7 @@
   {
     "id": 894,
     "code": "10510170-0",
+    "selected": true,
     "bridge_name": "小瀬戸橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -4067,6 +4286,7 @@
   {
     "id": 895,
     "code": "10510250-0",
+    "selected": true,
     "bridge_name": "新大平橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -4086,6 +4306,7 @@
   {
     "id": 733,
     "code": "10210450-0",
+    "selected": true,
     "bridge_name": "下奥多摩橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4105,6 +4326,7 @@
   {
     "id": 1518,
     "code": "10210460-X",
+    "selected": true,
     "bridge_name": "下滝成橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4121,6 +4343,7 @@
   {
     "id": 680,
     "code": "10210480-0",
+    "selected": true,
     "bridge_name": "白岩上之橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4140,6 +4363,7 @@
   {
     "id": 682,
     "code": "10210490-0",
+    "selected": true,
     "bridge_name": "白岩下之橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4159,6 +4383,7 @@
   {
     "id": 681,
     "code": "10210500-0",
+    "selected": true,
     "bridge_name": "白岩中之橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4178,6 +4403,7 @@
   {
     "id": 683,
     "code": "10210510-0",
+    "selected": true,
     "bridge_name": "新岩井橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4197,6 +4423,7 @@
   {
     "id": 722,
     "code": "10210520-0",
+    "selected": true,
     "bridge_name": "新岩蔵大橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4216,6 +4443,7 @@
   {
     "id": 734,
     "code": "10210530-0",
+    "selected": true,
     "bridge_name": "神代橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4235,6 +4463,7 @@
   {
     "id": 684,
     "code": "10210540-0",
+    "selected": true,
     "bridge_name": "新高土戸橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4254,6 +4483,7 @@
   {
     "id": 735,
     "code": "10210550-0",
+    "selected": true,
     "bridge_name": "新明王橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4273,6 +4503,7 @@
   {
     "id": 736,
     "code": "10210560-0",
+    "selected": true,
     "bridge_name": "阻端沢橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4292,6 +4523,7 @@
   {
     "id": 641,
     "code": "10110470-0",
+    "selected": true,
     "bridge_name": "三頭橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -4311,6 +4543,7 @@
   {
     "id": 642,
     "code": "10110500-0",
+    "selected": true,
     "bridge_name": "峰谷橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -4330,6 +4563,7 @@
   {
     "id": 643,
     "code": "10110510-0",
+    "selected": true,
     "bridge_name": "深山橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -4349,6 +4583,7 @@
   {
     "id": 644,
     "code": "10110520-0",
+    "selected": true,
     "bridge_name": "麦山橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -4368,6 +4603,7 @@
   {
     "id": 645,
     "code": "10110590-0",
+    "selected": true,
     "bridge_name": "夢の滝橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -4387,6 +4623,7 @@
   {
     "id": 646,
     "code": "10110560-0",
+    "selected": true,
     "bridge_name": "無名９号橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -4406,6 +4643,7 @@
   {
     "id": 685,
     "code": "10210570-0",
+    "selected": true,
     "bridge_name": "大正院橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4425,6 +4663,7 @@
   {
     "id": 686,
     "code": "10210580-0",
+    "selected": true,
     "bridge_name": "高指橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4444,6 +4683,7 @@
   {
     "id": 687,
     "code": "10210590-0",
+    "selected": true,
     "bridge_name": "立ヶ谷上橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4463,6 +4703,7 @@
   {
     "id": 688,
     "code": "10210600-0",
+    "selected": true,
     "bridge_name": "立ヶ谷下橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4482,6 +4723,7 @@
   {
     "id": 737,
     "code": "10210610-0",
+    "selected": true,
     "bridge_name": "館橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4501,6 +4743,7 @@
   {
     "id": 738,
     "code": "10210620-0",
+    "selected": true,
     "bridge_name": "多摩川橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4520,6 +4763,7 @@
   {
     "id": 689,
     "code": "10210630-0",
+    "selected": true,
     "bridge_name": "壇阿久場橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4536,6 +4780,7 @@
   {
     "id": 739,
     "code": "10210640-0",
+    "selected": true,
     "bridge_name": "丹縄橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4555,6 +4800,7 @@
   {
     "id": 690,
     "code": "10210650-0",
+    "selected": true,
     "bridge_name": "壇の橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4574,6 +4820,7 @@
   {
     "id": 691,
     "code": "10210660-0",
+    "selected": true,
     "bridge_name": "中央橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4593,6 +4840,7 @@
   {
     "id": 740,
     "code": "10210670-0",
+    "selected": true,
     "bridge_name": "調布橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4612,6 +4860,7 @@
   {
     "id": 658,
     "code": "10310030-0",
+    "selected": true,
     "bridge_name": "大橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -4631,6 +4880,7 @@
   {
     "id": 741,
     "code": "10210680-0",
+    "selected": true,
     "bridge_name": "築瀬橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4650,6 +4900,7 @@
   {
     "id": 692,
     "code": "10210690-0",
+    "selected": true,
     "bridge_name": "寺下橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4669,6 +4920,7 @@
   {
     "id": 693,
     "code": "10210700-0",
+    "selected": true,
     "bridge_name": "天王橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4688,6 +4940,7 @@
   {
     "id": 694,
     "code": "10210710-0",
+    "selected": true,
     "bridge_name": "栃谷橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4707,6 +4960,7 @@
   {
     "id": 742,
     "code": "10210720-0",
+    "selected": true,
     "bridge_name": "鳶巣橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4726,6 +4980,7 @@
   {
     "id": 695,
     "code": "10210730-0",
+    "selected": true,
     "bridge_name": "中井橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4745,6 +5000,7 @@
   {
     "id": 696,
     "code": "10210740-0",
+    "selected": true,
     "bridge_name": "中里橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4764,6 +5020,7 @@
   {
     "id": 697,
     "code": "10210750-0",
+    "selected": true,
     "bridge_name": "長沢橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4783,6 +5040,7 @@
   {
     "id": 698,
     "code": "10210760-0",
+    "selected": true,
     "bridge_name": "中橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4802,6 +5060,7 @@
   {
     "id": 699,
     "code": "10210770-0",
+    "selected": true,
     "bridge_name": "梨ヶ谷橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4821,6 +5080,7 @@
   {
     "id": 743,
     "code": "10210810-0",
+    "selected": true,
     "bridge_name": "西平橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4840,6 +5100,7 @@
   {
     "id": 703,
     "code": "10210820-0",
+    "selected": true,
     "bridge_name": "ニ之橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4859,6 +5120,7 @@
   {
     "id": 704,
     "code": "10210830-0",
+    "selected": true,
     "bridge_name": "畑川橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4878,6 +5140,7 @@
   {
     "id": 744,
     "code": "10210840-0",
+    "selected": true,
     "bridge_name": "桧沢橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4897,6 +5160,7 @@
   {
     "id": 745,
     "code": "10210850-0",
+    "selected": true,
     "bridge_name": "平石橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4916,6 +5180,7 @@
   {
     "id": 1414,
     "code": "10210860-0",
+    "selected": true,
     "bridge_name": "平溝川大橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4932,6 +5197,7 @@
   {
     "id": 746,
     "code": "10210870-0",
+    "selected": true,
     "bridge_name": "平溝橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4951,6 +5217,7 @@
   {
     "id": 705,
     "code": "10210880-0",
+    "selected": true,
     "bridge_name": "吹上橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4970,6 +5237,7 @@
   {
     "id": 747,
     "code": "10210890-0",
+    "selected": true,
     "bridge_name": "二俣尾橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -4989,6 +5257,7 @@
   {
     "id": 706,
     "code": "10210900-0",
+    "selected": true,
     "bridge_name": "平和橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5008,6 +5277,7 @@
   {
     "id": 748,
     "code": "10210910-0",
+    "selected": true,
     "bridge_name": "町谷橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5027,6 +5297,7 @@
   {
     "id": 749,
     "code": "10210922-0",
+    "selected": true,
     "bridge_name": "万年橋(下り)",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5046,6 +5317,7 @@
   {
     "id": 751,
     "code": "10210940-0",
+    "selected": true,
     "bridge_name": "禊橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5065,6 +5337,7 @@
   {
     "id": 752,
     "code": "10210950-0",
+    "selected": true,
     "bridge_name": "御岳橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5084,6 +5357,7 @@
   {
     "id": 707,
     "code": "10210960-0",
+    "selected": true,
     "bridge_name": "峰の橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5103,6 +5377,7 @@
   {
     "id": 708,
     "code": "10210970-0",
+    "selected": true,
     "bridge_name": "無名２号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5122,6 +5397,7 @@
   {
     "id": 709,
     "code": "10210980-0",
+    "selected": true,
     "bridge_name": "無名３号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5141,6 +5417,7 @@
   {
     "id": 753,
     "code": "10210990-0",
+    "selected": true,
     "bridge_name": "無名４号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5160,6 +5437,7 @@
   {
     "id": 720,
     "code": "10211000-0",
+    "selected": true,
     "bridge_name": "無名５号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5179,6 +5457,7 @@
   {
     "id": 721,
     "code": "10211010-0",
+    "selected": true,
     "bridge_name": "無名６号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5198,6 +5477,7 @@
   {
     "id": 761,
     "code": "10211020-0",
+    "selected": true,
     "bridge_name": "無名橋（平溝）",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5217,6 +5497,7 @@
   {
     "id": 754,
     "code": "10211040-0",
+    "selected": true,
     "bridge_name": "明治橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5236,6 +5517,7 @@
   {
     "id": 1732,
     "code": "10211050-0",
+    "selected": true,
     "bridge_name": "木狐橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5252,6 +5534,7 @@
   {
     "id": 711,
     "code": "10211060-0",
+    "selected": true,
     "bridge_name": "谷津橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5271,6 +5554,7 @@
   {
     "id": 712,
     "code": "10211070-0",
+    "selected": true,
     "bridge_name": "山神橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5290,6 +5574,7 @@
   {
     "id": 713,
     "code": "10211080-0",
+    "selected": true,
     "bridge_name": "山の神橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5309,6 +5594,7 @@
   {
     "id": 714,
     "code": "10211090-0",
+    "selected": true,
     "bridge_name": "夕倉一の橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5328,6 +5614,7 @@
   {
     "id": 716,
     "code": "10211100-0",
+    "selected": true,
     "bridge_name": "夕倉三の橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5347,6 +5634,7 @@
   {
     "id": 715,
     "code": "10211110-0",
+    "selected": true,
     "bridge_name": "夕倉二の橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5366,6 +5654,7 @@
   {
     "id": 700,
     "code": "10210780-0",
+    "selected": true,
     "bridge_name": "成木１号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5385,6 +5674,7 @@
   {
     "id": 701,
     "code": "10210790-0",
+    "selected": true,
     "bridge_name": "成木２号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5404,6 +5694,7 @@
   {
     "id": 702,
     "code": "10210800-0",
+    "selected": true,
     "bridge_name": "成木３号橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5423,6 +5714,7 @@
   {
     "id": 717,
     "code": "10211120-0",
+    "selected": true,
     "bridge_name": "湯場橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5442,6 +5734,7 @@
   {
     "id": 1733,
     "code": "10211130-0",
+    "selected": true,
     "bridge_name": "吉野橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5458,6 +5751,7 @@
   {
     "id": 756,
     "code": "10211140-0",
+    "selected": true,
     "bridge_name": "四谷橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5474,6 +5768,7 @@
   {
     "id": 757,
     "code": "10211150-0",
+    "selected": true,
     "bridge_name": "鎧橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5493,6 +5788,7 @@
   {
     "id": 718,
     "code": "10211160-0",
+    "selected": true,
     "bridge_name": "両郡橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5512,6 +5808,7 @@
   {
     "id": 1734,
     "code": "10211170-0",
+    "selected": true,
     "bridge_name": "和田下橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5528,6 +5825,7 @@
   {
     "id": 758,
     "code": "10211180-0",
+    "selected": true,
     "bridge_name": "和田橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5547,6 +5845,7 @@
   {
     "id": 710,
     "code": "10240620-0",
+    "selected": true,
     "bridge_name": "木狐橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5566,6 +5865,7 @@
   {
     "id": 1812,
     "code": "10211190-0",
+    "selected": true,
     "bridge_name": "桜橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5582,6 +5882,7 @@
   {
     "id": 679,
     "code": "10210470-0",
+    "selected": true,
     "bridge_name": "下栃谷橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5601,6 +5902,7 @@
   {
     "id": 719,
     "code": "10240710-0",
+    "selected": true,
     "bridge_name": "和田下橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5620,6 +5922,7 @@
   {
     "id": 728,
     "code": "10210230-0",
+    "selected": true,
     "bridge_name": "凱旋橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5639,6 +5942,7 @@
   {
     "id": 750,
     "code": "10210931-0",
+    "selected": true,
     "bridge_name": "万年橋(上り)",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5658,6 +5962,7 @@
   {
     "id": 755,
     "code": "10241130-0",
+    "selected": true,
     "bridge_name": "吉野橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5677,6 +5982,7 @@
   {
     "id": 760,
     "code": "10210050-0",
+    "selected": true,
     "bridge_name": "石津橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5696,6 +6002,7 @@
   {
     "id": 762,
     "code": "10211030-0",
+    "selected": true,
     "bridge_name": "無名橋（御岳山）",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -5715,6 +6022,7 @@
   {
     "id": 765,
     "code": "10340010-0",
+    "selected": true,
     "bridge_name": "秋留橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5734,6 +6042,7 @@
   {
     "id": 766,
     "code": "10310020-0",
+    "selected": true,
     "bridge_name": "牛浜橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5753,6 +6062,7 @@
   {
     "id": 767,
     "code": "10310060-0",
+    "selected": true,
     "bridge_name": "切欠橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5772,6 +6082,7 @@
   {
     "id": 768,
     "code": "10310070-0",
+    "selected": true,
     "bridge_name": "熊野橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5791,6 +6102,7 @@
   {
     "id": 769,
     "code": "10310080-0",
+    "selected": true,
     "bridge_name": "鯉川橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5810,6 +6122,7 @@
   {
     "id": 771,
     "code": "10340110-X",
+    "selected": true,
     "bridge_name": "新橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5829,6 +6142,7 @@
   {
     "id": 772,
     "code": "10310120-0",
+    "selected": true,
     "bridge_name": "菅瀬橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5848,6 +6162,7 @@
   {
     "id": 773,
     "code": "10310130-0",
+    "selected": true,
     "bridge_name": "清巌院橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5867,6 +6182,7 @@
   {
     "id": 774,
     "code": "10310160-0",
+    "selected": true,
     "bridge_name": "代田橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5886,6 +6202,7 @@
   {
     "id": 775,
     "code": "10310170-0",
+    "selected": true,
     "bridge_name": "多西橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5905,6 +6222,7 @@
   {
     "id": 776,
     "code": "10310180-0",
+    "selected": true,
     "bridge_name": "多摩橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5924,6 +6242,7 @@
   {
     "id": 778,
     "code": "10310200-0",
+    "selected": true,
     "bridge_name": "中福生陸橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5943,6 +6262,7 @@
   {
     "id": 779,
     "code": "10310220-0",
+    "selected": true,
     "bridge_name": "東秋留橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5962,6 +6282,7 @@
   {
     "id": 780,
     "code": "10310230-0",
+    "selected": true,
     "bridge_name": "氷沢橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5978,6 +6299,7 @@
   {
     "id": 781,
     "code": "10310240-0",
+    "selected": true,
     "bridge_name": "福生橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -5997,6 +6319,7 @@
   {
     "id": 782,
     "code": "10310260-0",
+    "selected": true,
     "bridge_name": "睦橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6016,6 +6339,7 @@
   {
     "id": 783,
     "code": "10310280-0",
+    "selected": true,
     "bridge_name": "代継橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6035,6 +6359,7 @@
   {
     "id": 784,
     "code": "10310100-0",
+    "selected": true,
     "bridge_name": "新秋留橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6051,6 +6376,7 @@
   {
     "id": 786,
     "code": "10310040-0",
+    "selected": true,
     "bridge_name": "小作橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6070,6 +6396,7 @@
   {
     "id": 620,
     "code": "10110430-0",
+    "selected": true,
     "bridge_name": "桧村橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -6089,6 +6416,7 @@
   {
     "id": 787,
     "code": "10310090-0",
+    "selected": true,
     "bridge_name": "地蔵橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6108,6 +6436,7 @@
   {
     "id": 788,
     "code": "10310150-0",
+    "selected": true,
     "bridge_name": "第二加藤塚橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6127,6 +6456,7 @@
   {
     "id": 789,
     "code": "10310210-0",
+    "selected": true,
     "bridge_name": "羽村大橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6146,6 +6476,7 @@
   {
     "id": 790,
     "code": "10310050-0",
+    "selected": true,
     "bridge_name": "加藤塚橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6165,6 +6496,7 @@
   {
     "id": 791,
     "code": "10410010-0",
+    "selected": true,
     "bridge_name": "秋川橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6184,6 +6516,7 @@
   {
     "id": 792,
     "code": "10410020-0",
+    "selected": true,
     "bridge_name": "新井橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6203,6 +6536,7 @@
   {
     "id": 793,
     "code": "10410040-0",
+    "selected": true,
     "bridge_name": "入の下橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6222,6 +6556,7 @@
   {
     "id": 794,
     "code": "10410050-0",
+    "selected": true,
     "bridge_name": "上の橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6241,6 +6576,7 @@
   {
     "id": 795,
     "code": "10410060-0",
+    "selected": true,
     "bridge_name": "大岳橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6260,6 +6596,7 @@
   {
     "id": 796,
     "code": "10410070-0",
+    "selected": true,
     "bridge_name": "落合橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6279,6 +6616,7 @@
   {
     "id": 797,
     "code": "10410080-0",
+    "selected": true,
     "bridge_name": "海入道橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6298,6 +6636,7 @@
   {
     "id": 798,
     "code": "10410090-0",
+    "selected": true,
     "bridge_name": "柿平橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6317,6 +6656,7 @@
   {
     "id": 799,
     "code": "10410100-0",
+    "selected": true,
     "bridge_name": "神谷橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6336,6 +6676,7 @@
   {
     "id": 1708,
     "code": "10310010-0",
+    "selected": true,
     "bridge_name": "秋留橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6352,6 +6693,7 @@
   {
     "id": 1714,
     "code": "10510070-0",
+    "selected": true,
     "bridge_name": "大瀬戸橋",
     "office": "西多摩建設事務所",
     "area": "檜原工区",
@@ -6368,6 +6710,7 @@
   {
     "id": 1718,
     "code": "10210340-0",
+    "selected": true,
     "bridge_name": "観音橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -6384,6 +6727,7 @@
   {
     "id": 1725,
     "code": "10110330-0",
+    "selected": true,
     "bridge_name": "つきどめ橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -6400,6 +6744,7 @@
   {
     "id": 1729,
     "code": "10410480-0",
+    "selected": true,
     "bridge_name": "堀口橋",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6416,6 +6761,7 @@
   {
     "id": 1607,
     "code": "103100a0-x",
+    "selected": true,
     "bridge_name": "無名橋ー１",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6432,6 +6778,7 @@
   {
     "id": 1825,
     "code": "10310290-0",
+    "selected": true,
     "bridge_name": "草花大橋",
     "office": "西多摩建設事務所",
     "area": "福生工区",
@@ -6448,6 +6795,7 @@
   {
     "id": 1884,
     "code": "10110640-0",
+    "selected": true,
     "bridge_name": "まこご橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -6464,6 +6812,7 @@
   {
     "id": 669,
     "code": "10210330-0",
+    "selected": true,
     "bridge_name": "上成木橋(旧)",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -6483,6 +6832,7 @@
   {
     "id": 1813,
     "code": "10211200-0",
+    "selected": true,
     "bridge_name": "二之橋",
     "office": "西多摩建設事務所",
     "area": "青梅工区",
@@ -6499,6 +6849,7 @@
   {
     "id": 1620,
     "code": "10410610-0",
+    "selected": true,
     "bridge_name": "高瀬橋（仮称）",
     "office": "西多摩建設事務所",
     "area": "あきる野工区",
@@ -6515,6 +6866,7 @@
   {
     "id": 1650,
     "code": "10110610-0",
+    "selected": true,
     "bridge_name": "主４５将門橋Ａ橋（仮称）",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -6531,6 +6883,7 @@
   {
     "id": 1649,
     "code": "10110600-0",
+    "selected": true,
     "bridge_name": "主４５新一付橋（仮称）",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",
@@ -6547,6 +6900,7 @@
   {
     "id": 1883,
     "code": "10110630-0",
+    "selected": true,
     "bridge_name": "将門大橋",
     "office": "西多摩建設事務所",
     "area": "奥多摩工区",

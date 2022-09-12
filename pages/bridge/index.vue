@@ -157,7 +157,8 @@ export default defineComponent({
       bridges: [] as Array<BridgeSummary>,
       officeDropdwonItem: ['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
       routeDropdownItem:['一般都道十里木御岳停車場線201号','主要地方道青梅おきる野線31号','一般国道411号','一般都道川野上川乗線206号','主要地方道杉並あきる野線7号'],
-      // 一覧の列情報
+      areaDropdownItem:['奥多摩出張所', '奥多摩工区', '青梅工区', '福生工区', 'あきる野工区', '檜原工区'],
+       // 一覧の列情報
       columns: [
         {
           label: '施設名',
@@ -186,7 +187,8 @@ export default defineComponent({
           sortable: false,
           filterOptions: {
         	  enabled: true,
-            placeholder: '工区入力',
+            placeholder: '-選択-',
+            filterDropdownItems: [],
          },
         },
         {
@@ -285,6 +287,9 @@ export default defineComponent({
       }
       else if(modified.field == 'route_name'){
         modified.filterOptions.filterDropdownItems = this.routeDropdownItem
+      }
+      else if(modified.field == 'area'){
+        modified.filterOptions.filterDropdownItems = this.areaDropdownItem
       }
       return modified
     };
