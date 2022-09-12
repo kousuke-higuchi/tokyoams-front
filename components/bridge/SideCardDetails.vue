@@ -4,10 +4,9 @@
       <v-expansion-panel-title   disable-icon-rotate>
         橋梁名 : {{ selectFacility }}
 
-        <v-icon color="teal">
-              mdi-check
-            </v-icon>
-
+        <v-btn color="primary" variant="contained-flat" href="/bridge" @click="onReturnClick">
+          一覧に戻る
+          </v-btn>
       </v-expansion-panel-title>
       <v-expansion-panel-text>
         <v-card height="820px" elevation="3">
@@ -213,6 +212,9 @@
     console.log(args);
     return moment(args).format("yyyy年M月d日");
   };
+  const onReturnClick = ()=>{
+
+  }
 
   const isExtend = ref([0]);
   const panelIsExtended = computed(()=>{
