@@ -100,7 +100,7 @@
                   <v-container>
                     <vue-good-table
                     :columns="columnsOverlay"
-                    :rows="rows"
+                    :rows="bridges"
                     @row-click="onMarkerListRowClick"
                     >
                     </vue-good-table>
@@ -131,7 +131,6 @@
 </template>
 
 <script lang="ts">
-import bridgesJson from "@/assets/bridge.json"
 import bridgeService from "@/services/bridge-service"
 import { BridgeSummary } from "~~/types/bridge";
 
@@ -252,13 +251,11 @@ export default defineComponent({
          },
         },
       ],
-      // 一覧のレコード
-      rows: [],
       showFind: false,
       showTable: false,
     };
   },
-  mounted: function() {
+  mounted: async function() {
 
     //TODO:モック終了後、ログイン状態の判定は削除。    
     //TODO: 現在は、地図の中心を設定していない。officeid=10のuserでloginする
@@ -270,7 +267,7 @@ export default defineComponent({
       })
     }
     else {
-      this.bridges = bridgesJson;
+      this.bridges = bridgeService.getList4Mock();
     }
 
     const map2OfficeDropDown = (c)=>{
@@ -285,7 +282,6 @@ export default defineComponent({
     };
     this.columns = this.columns.map(map2OfficeDropDown);
     this.columnsOverlay = this.columnsOverlay.map(map2OfficeDropDown);
-    this.rows = bridgesJson;
   },
   computed: {
       makeDateRangeText () {

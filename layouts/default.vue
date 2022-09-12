@@ -23,10 +23,14 @@
 
     <toast v-model:isOpen="shownToast" :message="toastMessage" />
     <loading-overlay v-model:isOpen="isLoading" />
-
+    
+     <!-- メッセージボックス。useConfirm().confirm()を呼び出すことで使用できます。 -->
+    <dialog-wrapper></dialog-wrapper>
   </v-app>
 </template>
 <script lang="ts" setup>
+  import { DialogWrapper } from 'vue3-promise-dialog';
+
   const drawer = ref(false);
   const menuItems =  [
       { title: '施設管理画面', props: { prependIcon: 'mdi-content-copy'}, 

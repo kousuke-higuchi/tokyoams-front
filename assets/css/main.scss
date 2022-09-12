@@ -21,6 +21,9 @@ table.vgt-table select
   th {
     background-color: #eeeeee;
   }
+  td {
+    padding: 4px 10px !important;
+  }
 
   /* マウス移動時の行強調を無効にする */
   tr:hover {
@@ -29,7 +32,6 @@ table.vgt-table select
 
   /* v-textfieldのメッセージ部を隠す（下側に余白ができるので） */
   .v-input__details {
-    display: none;
     margin-bottom: 2px;
   }
 }

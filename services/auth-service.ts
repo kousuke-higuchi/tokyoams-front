@@ -11,9 +11,10 @@ class AuthService extends Service {
      * @param password パスワード
      */
     public login(userId:string, password:string) {
-        let params = new URLSearchParams();
-        params.append('username', userId);
-        params.append('password', password);
+        let params = {
+            'username': userId,
+            'password': password
+        }
 
         var res = this.http.post<User>("/api/login", params)
         return res.then(( r )=>{

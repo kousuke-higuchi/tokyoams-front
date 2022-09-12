@@ -1,4 +1,5 @@
 import Service from './service';
+import bridgesJson from "@/assets/bridge.json"
 
 /**
  * 橋梁系のAPIを提供します。
@@ -7,10 +8,18 @@ class BridgeService extends Service {
     /**
      * 橋梁一覧を取得します。
      */
-    public getList(officeid: number): Promise<any> {
+    public getList(officeid?: number): Promise<any> {
+        if(officeid===undefined) { return 
+        }
         let paves = this.http.get(`/api/Bridge/${officeid}`)
         console.log(paves)
         return this.http.get(`/api/Bridge/${officeid}`);
+    }
+
+    public getList4Mock() {
+        return new Promise<any[]>((resolve)=>{
+            resolve(bridgesJson)
+        })         
     }
 
     /**

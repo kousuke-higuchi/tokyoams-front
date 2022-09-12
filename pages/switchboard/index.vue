@@ -120,7 +120,7 @@
 </template>
 
 <script lang="ts" setup>
-  import switchboardService from '~~/services/switchboard-service';
+  import switchboardService from '@/services/atf/switchboard-service';
   import { AtfSummary } from '~~/types';
 
   const showMarkerList = ref(false);
@@ -128,9 +128,7 @@
   const zoom = ref(15);
   const center = ref([35.79112,139.27753]);
   const switchboards = ref<AtfSummary[]>();
-  switchboardService.getList().then((v) => {
-	switchboards.value = v;	
-  })
+  switchboards.value = (await switchboardService.getList()).data;
 
   const routenameDropdownItems = ref(['（特４１６）古川橋二子玉川線','（一１３９）真光寺長津田線','（一１３７）上麻生連光寺線','（一１１１）大田神奈川線']);
   const officeDropdownItems = ref(['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所']);

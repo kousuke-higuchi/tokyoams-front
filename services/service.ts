@@ -6,7 +6,7 @@ import { TOKEN_HEADER_NAME } from "~~/types";
 const apiClient: AxiosInstance = axios.create({
   // リクエストヘッダ
   headers: {
-    "Content-type": "application/x-www-form-urlencoded",
+    "Content-type": "application/json",
   },
 });
 
@@ -73,7 +73,7 @@ export default class Service {
    * @param noimageUrl 取得できない場合の代替画像
    * @returns 取得済ファイルへのURL。このURLより画像を参照することができます。
    */
-  protected downloadImageToUrl(url:string, noimageUrl = "/assets/img/noimage.png") {
+  public downloadImageToUrl(url:string, noimageUrl = "/assets/img/noimage.png") {
     return this.downloadToUrl(url)
       .catch((e)=>{
         return noimageUrl
