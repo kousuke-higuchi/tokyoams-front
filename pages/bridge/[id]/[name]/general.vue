@@ -12,7 +12,7 @@
           </v-card-title>
         </div>
         <v-card-text>
-          <v-img src="../../assets/img/dmg/bridgeDetail2_6_1.jpg"></v-img>
+          <v-img :src="imagePath"></v-img>
           <v-table density="compact">
             <tbody>
               <tr>
@@ -28,5 +28,9 @@
 </template>
 
 <script lang="ts" setup>
+import { url } from 'inspector';
+
     const child_extend = ref(true);
+ 
+    const imagePath = new URL('../../../../assets/img/dmg/bridgeDetail2_6_1.jpg', import.meta.url).href;
 </script>

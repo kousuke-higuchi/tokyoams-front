@@ -40,6 +40,11 @@
                     Excel
                   </v-btn>
                 </span>
+                <span v-else-if="props.column.field == 'OutSeismicBtn'">
+                  <v-btn class="btn" color="primary" dark size="small" v-on:click="onOutputSeismicClick()">
+                    Excel
+                  </v-btn>
+                </span>
                 <span v-else-if="props.column.field == 'name'">
                   <nuxt-link :to="`/footbridge/${props.row.id}/ledger1`">{{ props.formattedRow[props.column.field] }}
                   </nuxt-link>
@@ -186,6 +191,12 @@ let _columns = [
     filterable: false,
     sortable: false,
   },
+  {
+    label: '耐震台帳出力',
+    field: 'OutSeismicBtn',
+    filterable: false,
+    sortable: false,
+  },
 ];
 
 // 施設一覧の列情報
@@ -274,7 +285,9 @@ const onOutputRecodeClick = () => {
 const onOutputNationalClick = () => {
   console.debug('onOutputNationalClick');
 };
-
+const onOutputSeismicClick = () => {
+  console.debug('onOutputSeismicClick');
+};
 const onMarkerListRowClick = (e) => {
   const footbridge = e.row;
   // this.center = [footbridge.latitude, footbridge.longitude];

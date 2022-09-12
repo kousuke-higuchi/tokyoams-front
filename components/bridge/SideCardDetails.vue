@@ -1,8 +1,13 @@
 <template>
   <v-expansion-panels v-model="isExtend" multiple v-bind:class=" panelIsExtended ? 'panel_extend':'panel_nonextend'">
     <v-expansion-panel @click="onPanelIsExtendedChanged">
-      <v-expansion-panel-title>
+      <v-expansion-panel-title   disable-icon-rotate>
         橋梁名 : {{ selectFacility }}
+
+        <v-icon color="teal">
+              mdi-check
+            </v-icon>
+
       </v-expansion-panel-title>
       <v-expansion-panel-text>
         <v-card height="820px" elevation="3">
@@ -134,13 +139,13 @@
       ];
 
   const buttons02 = [
-        { title: '様式3', props: { to: `${baseUrl}/inspection3` } },
-        { title: '様式4-1', props: { to: `${baseUrl}/inspection41` } },
-        { title: '様式4-2', props: { to: `${baseUrl}/inspection42` } },
-        { title: '様式5', props: { to: `${baseUrl}/inspection5` } },
-        { title: '様式6', props: { to: `${baseUrl}/inspection6` } },
-        { title: '様式7', props: { to: `${baseUrl}/inspection7` } },
-        { title: '様式8', props: { to: `${baseUrl}/inspection8` } },
+        { title: '様式3（点検総括）', props: { to: `${baseUrl}/inspection3` } },
+        { title: '様式4-1（部材ごと評価）', props: { to: `${baseUrl}/inspection41` } },
+        { title: '様式4-2（主桁評価）', props: { to: `${baseUrl}/inspection42` } },
+        { title: '様式5（一般図）', props: { to: `${baseUrl}/inspection5` } },
+        { title: '様式6（写真台帳）', props: { to: `${baseUrl}/inspection6` } },
+        { title: '様式7（損傷写真）', props: { to: `${baseUrl}/inspection7` } },
+        { title: '様式8（損傷図）', props: { to: `${baseUrl}/inspection8` } },
   ];
 
   const buttons03 = [

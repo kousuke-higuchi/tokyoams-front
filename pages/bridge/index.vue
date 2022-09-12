@@ -49,6 +49,11 @@
                           Excel
                         </v-btn>
                     </span>
+                    <span v-else-if="props.column.field == 'OutSeismicBtn'">
+                        <v-btn class="btn" color="primary" dark size="small" v-on:click="onOutputNationalClick()">
+                          Excel
+                        </v-btn>
+                    </span>
                     <span v-else-if="props.column.field == 'Connect3dSystem'">
                         <v-btn class="btn" color="success" dark size="small" v-on:click="onOutputNationalClick()">
                           3Dシステム
@@ -131,6 +136,7 @@
 </template>
 
 <script lang="ts">
+import bridgesJson from "@/assets/bridge.json";
 import bridgeService from "@/services/bridge-service"
 import { BridgeSummary } from "~~/types/bridge";
 
@@ -217,6 +223,12 @@ export default defineComponent({
           sortable: false,
         },
         {
+          label: '耐震台帳',
+          field: 'OutSeismicBtn',
+          filterable: false,
+          sortable: false,
+        },
+        {
           label: '3Dシステム',
           field: 'Connect3dSystem',
           filterable: false,
@@ -267,7 +279,7 @@ export default defineComponent({
       })
     }
     else {
-      this.bridges = bridgeService.getList4Mock();
+      this.bridges = bridgesJson;
     }
 
     const map2OfficeDropDown = (c)=>{
