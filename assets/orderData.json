@@ -7,7 +7,7 @@
         "order_person": "担当者A",
         "to_person": "一建担当者",
       "order_period": "2023/3/31",
-      "state": "発注待",
+      "state": "データ作成済み",
       "color":"purple"
     },
     {
@@ -18,7 +18,7 @@
         "order_person": "担当者A",
         "to_person": "一建担当者",
         "order_period": "2023/3/31",
-      "state": "発注済",
+      "state": "ダウンロード済み",
       "color":"red"
     },
     {
@@ -29,7 +29,7 @@
         "order_person": "担当者B",
         "to_person": "一建担当者",
         "order_period": "2022/9/30",
-      "state": "確認中",
+      "state": "納品データ確認中",
       "color":"green"
     },
     {
@@ -40,7 +40,7 @@
         "order_person": "担当者B",
         "to_person": "一建担当者",
         "order_period": "2022/6/25",
-      "state": "更新済",
+      "state": "更新済み",
       "color":"blue"
     }
 ]

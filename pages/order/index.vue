@@ -68,7 +68,7 @@
                     </v-btn>
                     <div class="mt-2">
                         <vue-good-table :columns="columns" :rows="orderData" :pagination-options="{
-                            enabled: true,perPage: 1000,    rowsPerPageLabel: '1ページあたりの行数', nextLabel: '次へ', prevLabel: '前へ',    ofLabel: '/',
+                            enabled: false,perPage: 1000,    rowsPerPageLabel: '1ページあたりの行数', nextLabel: '次へ', prevLabel: '前へ',    ofLabel: '/',
                         }">
                             <template #table-row="props">
                                 <span v-if="props.column.field == 'state'">

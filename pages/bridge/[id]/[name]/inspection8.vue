@@ -16,18 +16,23 @@
           </v-card-actions>
         </div>
         <v-card-text>
-          <v-img src="../../assets/img/dmg/bridgeDetail2_7_3.jpg"></v-img>
+          <v-img :src="imagePath"></v-img>
         </v-card-text>
       </v-card>
     </v-col>
   </v-row>
+  <viewer :images="imagePath">
+      <img v-for="src in imagePath" :src="src" :key="src" />
+  </viewer>
 </template>
 
 <script lang="ts" setup>
+  import Viewer from "v-viewer";
   const child_extend = ref(true);
   const select = ref('全て');
   const histItems = ref<String[]>([
         '全て', '1'
   ]);
+  const imagePath =new URL('../../../../assets/img/dmg/damageFig.jpg',import.meta.url).href;
 
 </script>

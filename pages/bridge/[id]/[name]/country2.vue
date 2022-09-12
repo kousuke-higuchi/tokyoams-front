@@ -23,7 +23,7 @@
                     </tbody>
                   </v-table>
                   <div class="mt-1 ml-1" style="font-size: small">写真1</div>
-                  <v-img src="../../assets/img/dmg/fbg1P002view1.jpg"  height="320"></v-img>
+                  <v-img :src="imagePath1"  height="320"></v-img>
                 </v-card>
                 <v-card class="rounded-0">
                   <v-table density="compact">
@@ -34,7 +34,7 @@
                     </tbody>
                   </v-table>
                   <div class="mt-1 ml-1" style="font-size: small">写真2</div>
-                  <v-img src="../../assets/img/dmg/fbg1P002view2.jpg"  height="320"></v-img>
+                  <v-img :src="imagePath2"  height="320"></v-img>
                 </v-card>
               </v-col>
               <v-col md="6" cols="12" class="detailCard">
@@ -47,7 +47,7 @@
                     </tbody>
                   </v-table>
                   <div class="mt-1 ml-1" style="font-size: small">写真3</div>
-                  <v-img src="../../assets/img/dmg/fbg1P002view3.jpg"  height="320"></v-img>
+                  <v-img :src="imagePath3"  height="320"></v-img>
                 </v-card>
                 <v-card class="rounded-0">
                   <v-table density="compact">
@@ -58,7 +58,7 @@
                     </tbody>
                   </v-table>
                   <div class="mt-1 ml-1" style="font-size: small">写真4</div>
-                  <v-img src="../../assets/img/dmg/fbg1P002view4.jpg"  height="320"></v-img>
+                  <v-img :src="imagePath4"  height="320"></v-img>
                 </v-card>
               </v-col>
             </v-row>
@@ -71,6 +71,11 @@
 
 <script lang="ts" setup>
 const child_extend = ref(true);
+const imagePath1 = new URL('../../../../assets/img/dmg/fbg1P002view1.jpg',import.meta.url).href
+const imagePath2 = new URL('../../../../assets/img/dmg/fbg1P002view2.jpg',import.meta.url).href
+const imagePath3 = new URL('../../../../assets/img/dmg/fbg1P002view3.jpg',import.meta.url).href
+const imagePath4 = new URL('../../../../assets/img/dmg/fbg1P002view4.jpg',import.meta.url).href
+
 </script>
 
 <style scoped>

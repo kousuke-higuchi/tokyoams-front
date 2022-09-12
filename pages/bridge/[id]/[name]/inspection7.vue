@@ -87,42 +87,44 @@ export default defineComponent({
       memo: ['許容できる範囲のひび割れ',  '許容できるサビ', '水漏れシミ有(許容)', '塗装中', '多少のひび割れ', '多少のひび割れ' ],
       pictures: [
         {
-          img: '../../assets/img/dmg/bridgeDetail2_7_1.jpg',
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_7_1.jpg',import.meta.url).href,
           no: 1,
           material: '石',
           createDate: '2017年10月25日',
           memo: '許容できる範囲のひび割れ',
         },
         {
-          img: '../../assets/img/dmg/bridgeDetail2_7_2.jpg',
-          no: 2,
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_7_2.jpg',import.meta.url).href,
+           no: 2,
           material: '鉄鋼',
           createDate: '2017年10月25日',
           memo: '許容できるサビ',
         },
         {
-          img: '../../assets/img/dmg/bridgeDetail2_7_3.jpg',
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_7_3.jpg',import.meta.url).href,
           no: 3,
           material: '石',
           createDate: '2017年10月25日',
           memo: '水漏れシミ有(許容)',
         },
         {
-          img: '../../assets/img/dmg/bridgeDetail2_7_4.jpg',
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_7_4.jpg',import.meta.url).href,
           no: 4,
           material: '鉄鋼',
           createDate: '2017年10月25日',
           memo: '塗装中',
         },
         {
-          img: '../../assets/img/dmg/bridgeDetail2_3_2.jpg',
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_3_2.jpg',import.meta.url).href,
+         
           no: 5,
           material: '石',
           createDate: '2017年10月25日',
           memo: '多少のひび割れ',
         },
         {
-          img: '../../assets/img/dmg/bridgeDetail2_3_2.jpg',
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_3_2.jpg',import.meta.url).href,
+         
           no: 6,
           material: '石',
           createDate: '2017年10月25日',

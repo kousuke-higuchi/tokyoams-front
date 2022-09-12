@@ -16,7 +16,7 @@
           <v-row no-gutters>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_7_1.jpg"></v-img>
+                <v-img :src="imagePath1"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -31,7 +31,7 @@
             </v-col>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_7_2.jpg"></v-img>
+                <v-img :src="imagePath2"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -44,7 +44,7 @@
                 </v-table>
               </v-card>
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_7_4.jpg"></v-img>
+                <v-img :src="imagePath3"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -66,6 +66,10 @@
 
 <script lang="ts" setup>
   const child_extend = ref(true);
+  const imagePath1 = new URL("../../../../assets/img/dmg/bridgeDetail2_7_1.jpg", import.meta.url).href;
+  const imagePath2 = new URL("../../../../assets/img/dmg/bridgeDetail2_7_2.jpg", import.meta.url).href;
+  const imagePath3 = new URL("../../../../assets/img/dmg/bridgeDetail2_7_3.jpg", import.meta.url).href;
+  const imagePath4 = new URL("../../../../assets/img/dmg/bridgeDetail2_7_4.jpg", import.meta.url).href;
 </script>
 
 <style scoped>

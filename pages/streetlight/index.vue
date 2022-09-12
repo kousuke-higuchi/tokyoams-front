@@ -290,17 +290,17 @@ const streetlights = ref(new Array<AtfSummary>);
 
 onMounted(() => {
   console.log("123");
-  if (authState.state.value.isLogin) {
-    console.log("aaaa");
-    streetlightervice
-      .getList(authState.state.value.currentUser.officeid)
-      .then((apiData) => {
-        streetlights.value = apiData.data;
-        console.log(streetlights);
-      });
-  } else {
+  // if (authState.state.value.isLogin) {
+  //   console.log("aaaa");
+  //   streetlightervice
+  //     .getList(authState.state.value.currentUser.officeid)
+  //     .then((apiData) => {
+  //       streetlights.value = apiData.data;
+  //       console.log(streetlights);
+  //     });
+  // } else {
     streetlights.value = streetlightJson as Array<AtfSummary>;
-  }
+  // }
 });
 
 columns = columns.map(map2OfficeDropDown);

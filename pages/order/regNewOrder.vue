@@ -94,15 +94,16 @@
 
         <v-row>
             <v-col cols="12" class="py-2">
-            <vue-good-table :columns="columns" :rows="orderData" :select-options="{ enabled: true }" :pagination-options="{
-                            enabled: true,perPage: 1000,    rowsPerPageLabel: '1ページあたりの行数', nextLabel: '次へ', prevLabel: '前へ',    ofLabel: '/',
-                            
-                        }">
-
-                        </vue-good-table>
-
-                    </v-col>
+                <vue-good-table :columns="columns" :rows="orderData" :select-options="{ enabled: true }"
+                    :pagination-options="{
+                        enabled: false,
                         
+                    }">
+
+                </vue-good-table>
+
+            </v-col>
+
 
         </v-row>
 
