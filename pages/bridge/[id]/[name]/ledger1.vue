@@ -515,7 +515,7 @@
                   <tbody>
                     <tr>
                       <th>橋台</th>
-                      <th rowspan="2">筐体</th>
+                      <th rowspan="2">躯体</th>
                       <td>形式: 重力式</td>
                       <td rowspan="2">RC</td>
                       <td></td>
@@ -539,7 +539,7 @@
                     </tr>
                     <tr>
                       <th></th>
-                      <th rowspan="2">筐体</th>
+                      <th rowspan="2">躯体</th>
                       <td>形式: </td>
                       <td rowspan="2"></td>
                       <td></td>
@@ -563,7 +563,7 @@
                     </tr>
                     <tr>
                       <th></th>
-                      <th rowspan="2">筐体</th>
+                      <th rowspan="2">躯体</th>
                       <td>形式: </td>
                       <td rowspan="2"></td>
                       <td></td>
@@ -587,7 +587,7 @@
                     </tr>
                     <tr>
                       <th></th>
-                      <th rowspan="2">筐体</th>
+                      <th rowspan="2">躯体</th>
                       <td>形式: </td>
                       <td rowspan="2"></td>
                       <td></td>
@@ -611,7 +611,7 @@
                     </tr>
                     <tr>
                       <th></th>
-                      <th rowspan="2">筐体</th>
+                      <th rowspan="2">躯体</th>
                       <td>形式: </td>
                       <td rowspan="2"></td>
                       <td></td>
@@ -635,7 +635,7 @@
                     </tr>
                     <tr>
                       <th></th>
-                      <th rowspan="2">筐体</th>
+                      <th rowspan="2">躯体</th>
                       <td>形式: </td>
                       <td rowspan="2"></td>
                       <td></td>

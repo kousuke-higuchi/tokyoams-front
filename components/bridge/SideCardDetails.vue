@@ -4,9 +4,11 @@
       <v-expansion-panel-title   disable-icon-rotate>
         橋梁名 : {{ selectFacility }}
 
+        <v-row justify="end" class="mr-2">
         <v-btn color="primary" variant="contained-flat" href="/bridge" @click="onReturnClick">
           一覧に戻る
           </v-btn>
+        </v-row>
       </v-expansion-panel-title>
       <v-expansion-panel-text>
         <v-card height="820px" elevation="3">
@@ -239,6 +241,6 @@
 }
 
 .panel_nonextend {
-  width: 300px;
+  width: 500px;
 }
 </style>
