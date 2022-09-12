@@ -272,15 +272,8 @@ export default defineComponent({
     //TODO:モック終了後、ログイン状態の判定は削除。    
     //TODO: 現在は、地図の中心を設定していない。officeid=10のuserでloginする
     const authState = useAuthUser();
-    if (authState.state.value.isLogin) {
-      bridgeService.getList(authState.state.value.currentUser.officeid).then(s => {
-        this.bridges = s.data;
-        console.log(this.pavements);
-      })
-    }
-    else {
-      this.bridges = bridgesJson;
-    }
+    this.bridges = bridgesJson;
+    
 
     const map2OfficeDropDown = (c)=>{
       let modified = c;

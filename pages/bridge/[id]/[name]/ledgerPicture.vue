@@ -64,7 +64,7 @@ const photos = ref<BridgePhoto[]>([
     dataid: 1,
     item1: "全景写真",
     takedate: new Date(2017, 9, 25),
-    url: "../../assets/img/dmg/leaderPicture1.jpg",
+    url: new URL("../../assets/img/dmg/leaderPicture1.jpg",import.meta.url).href,
   },
   {
     dataid: 2,
