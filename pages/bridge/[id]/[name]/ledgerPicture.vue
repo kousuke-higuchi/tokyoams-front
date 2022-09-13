@@ -23,7 +23,7 @@
             >
               <v-sheet>
                 <div class="pa-4">
-                  <v-img :src=photo.url max-height="350" aspect-ratio="1">
+                  <v-img :src=imagePath1 max-height="350" aspect-ratio="1">
                   </v-img>
                 </div>
                 <v-table density="compact">
@@ -79,6 +79,7 @@ const photos = ref<BridgePhoto[]>([
     url: new URL('../../../../assets/img/dmg/leaderPicture3.jpg',import.meta.url).href,
   },
 ]);
+const imagePath1 = new URL('../../../../assets/img/dmg/leaderPicture1.jpg',import.meta.url).href
 
 photos.value.forEach((element, index) => {
   //TODO:モック終了後、ログイン状態の判定は削除。
