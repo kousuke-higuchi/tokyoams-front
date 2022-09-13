@@ -15,7 +15,7 @@
           <v-row no-gutters>
             <v-col md="6" cols="12" class="detailCard">
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_3_1.jpg"></v-img>
+                <v-img :src="getImageUrl1()"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -26,7 +26,7 @@
                 </v-table>
               </v-card>
               <v-card class="rounded-0">
-                <v-img src="../../assets/img/dmg/bridgeDetail2_3_2.jpg"></v-img>
+                <v-img :src="getImageUrl2()"></v-img>
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -53,6 +53,15 @@ export default defineComponent({
       child_extend: true,
     }
   },
+  methods:{
+    
+    getImageUrl1(){
+      return new URL(`../../../../assets/img/dmg/bridgeDetail2_3_1.jpg`, import.meta.url).href
+    },
+     getImageUrl2(){
+      return new URL(`../../../../assets/img/dmg/bridgeDetail2_3_2.jpg`, import.meta.url).href
+    },
+  }
 })
 </script>
 

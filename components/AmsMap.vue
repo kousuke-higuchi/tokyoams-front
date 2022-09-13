@@ -1,23 +1,18 @@
 <template>
-    <!-- <div style="text-align: right;">
-        <v-select v-model="selectedTile" :items="tileProviders" style="width: 500px;" 
-        item-text="name" item-value = "url" return-object label="地図を選択可能です。">
-        </v-select>
-    </div> -->
+    
+    <div style="text-align: right;">
+        <v-select v-model="selectedTile"
+         :items="tileProviders" 
+         style="width: 20em;" 
+        @update:model-value="onTileChange"
+        item-title="name" 
+        item-value = "url"
+        hide-details
+        density="compact"
+        return-object />
+    </div>
 
-    <select v-model="selectedTile">
-        <option :value="tileProviders[0]">{{tileProviders[0].name}}</option>
-        <option :value="tileProviders[1]">{{tileProviders[1].name}}</option>
-        <option :value="tileProviders[2]">{{tileProviders[2].name}}</option>    
-    </select>
-
-    <!-- <div style="text-align: right;">
-        <v-btn-toggle :v-model="selectedTile" tile color="deep-purple accent-3" group @change="changeMap(selectedMap)">
-            <v-btn v-for="item in tileProviders" :key="item.url" :label="item.name" :value="item">
-                {{item.name}}</v-btn>
-        </v-btn-toggle>
-    </div> -->
-    <ol-map ref="mapObject" :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 100%" @moveend="onViewMoved">
+    <ol-map ref="mapObject" :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 95%" @moveend="onViewMoved">
         <ol-view ref="viewObject" 
             :center="center"
             :zoom="zoom"
@@ -26,9 +21,10 @@
             :min-zoom="selectedTile.minZoom"
           />
 
-        <ol-tile-layer :title="selectedTile.name">
-            <ol-source-xyz :url="selectedTile.url" :attributions="selectedTile.attribution" />
+        <ol-tile-layer v-for="tile in tileProviders" :title="tile.name" :visible="(selectedTile.url == tile.url)" >
+            <ol-source-xyz :url="tile.url" :attributions="tile.attribution" />
         </ol-tile-layer>
+
         <ol-zoom-control />
         <ol-zoomslider-control />
         <ol-scaleline-control />
@@ -36,42 +32,45 @@
         <ol-attribution-control />
         <ol-interaction-select @select="featureSelected">
             <ol-style>
-                <ol-style-icon :src="markerIcon2"></ol-style-icon>
+                <ol-style-icon :src="selectedMarkerIcon"></ol-style-icon>
             </ol-style>
-
         </ol-interaction-select>
-
-
 
         <ol-vector-layer v-if="innerMarkers!=null">
             <ol-source-vector>
-                <ol-feature v-for="m in innerMarkers">
+                <ol-feature ref="m" v-for="(m,index) in innerMarkers" >
                     <ol-geom-point :coordinates="[m.wgsCoordinate.longitude, m.wgsCoordinate.latitude]" ></ol-geom-point>
                     <ol-style>
                         <ol-style-icon :src="markerIcon"></ol-style-icon>
-                        <ol-style-text></ol-style-text>
                     </ol-style>
                 </ol-feature>
             </ol-source-vector>
         </ol-vector-layer>
 
-
-        <ol-overlay v-if="selectedMarker!=null" :position="selectedMarker">
+        <ol-overlay v-if="selectedMarker!=null" 
+            :position="[selectedMarker.wgsCoordinate.longitude, selectedMarker.wgsCoordinate.latitude]">
             <template v-slot="slotProps">
-                <div class="overlay-content">
-                    <!-- <h1>{{selectedFacility}}</h1> -->
-                    <v-list>
-                        <v-list-item @click="onClickMarker(selectedMarker)">
-                            <v-list-item-title>詳細画面を表示する</v-list-item-title>
-                        </v-list-item>
-                        <v-list-item :href="`https://www.google.com/maps?q=${selectedMarker[1]},${selectedMarker[0]}`"
-                            target="_blank" style="color:black;">
-                            <v-list-item-title>Google Mapsで表示する
-                                <v-icon aria-hidden="true" size="x-small" icon="mdi-open-in-new" />
-                            </v-list-item-title>
-                        </v-list-item>
-                    </v-list>
-                </div>
+                <v-card>
+                    <template v-slot:title>
+                        {{selectedMarker.title}}
+                    </template>
+                    <!-- タイトル以外で表示する内容があれば以下のブロックに追加してください -->
+                    <!--
+                    <v-card-text>
+                        <div>Whitehaven Beach</div>
+                        <div>Whitsunday Island, Whitsunday Islands</div>
+                    </v-card-text>
+                    -->
+                    <v-card-actions>
+                        <v-btn color="primary" @click="onClickMarker(selectedMarker)">
+                            詳細
+                        </v-btn>
+                        <v-btn :href="`https://www.google.com/maps?q=${selectedMarker.wgsCoordinate.latitude},${selectedMarker.wgsCoordinate.longitude}`"
+                                target="_blank">
+                            Google Maps<v-icon aria-hidden="true" size="x-small" icon="mdi-open-in-new" />
+                        </v-btn>
+                    </v-card-actions>
+                </v-card>
             </template>
         </ol-overlay>
 
@@ -82,9 +81,8 @@
 <script lang="ts" setup>
 
     const markerIcon = new URL('../assets/img/map/MainPin_1_1.png', import.meta.url).href;
-    const markerIcon2 = new URL('../assets/img/map/MainPin_1_2.png', import.meta.url).href;
+    const selectedMarkerIcon = new URL('../assets/img/map/MainPin_1_2.png', import.meta.url).href;
     const selectedMarker = ref();
-    const selectedFacility = ref();
     const mapObject = ref();
     const viewObject = ref();
     const selectedMap = ref();
@@ -163,20 +161,20 @@
             resolve(result);
         })
     };
+
     const featureSelected = (marker) => {
-        // selectedMarker.value =[marker.wgsCoordinate.longitude, marker.wgsCoordinate.latitude]
-        selectedFacility.value = marker.selected[0].values_;
-
-        console.debug(selectedFacility);
-
-        selectedMarker.value = marker.selected[0].getGeometry().extent_;
+       
+        if(marker.selected.length>0) {
+            // クリックした施設を検索する（OpenLayers都合で緯度・経度で検索）
+            let coord = marker.selected[0].values_.geometry.flatCoordinates;
+            let selItem = innerMarkers.value.find((m)=>{
+                return m.wgsCoordinate.latitude ==coord[1] && m.wgsCoordinate.longitude==coord[0]
+            });
+            selectedMarker.value = selItem;
+        } else {
+            selectedMarker.value = null;
+        }
     }
-
-    const changeMap = (event) => {
-        selectedTile.value = tileProviders[event];
-
-    }
-
 
     const innerMarkers = ref([]);
     innerMarkers.value = await getMarkers(props.markers)
@@ -232,7 +230,7 @@
         // TODO: 可視範囲のみ取得するWebAPIでマーカを更新する
     }
     const officeCenters = [
-        { id:  0, location:  [ 35.790953482837146, 139.27761892688778] }, // 0  東京都全体
+        { id:  0, location:  [ 35.689891291380505, 139.69207462644442 ] }, // 0  東京都全体
         { id:  1, location:  [ 35.669433204892215, 139.77770929804947 ] }, // 1  第一建設事務所
         { id:  2, location:  [ 35.60940497161191,  139.7300895850496  ] },  // 2  第二建設事務所
         { id:  3, location:  [ 35.70733725156625,  139.66381926921395 ] }, // 3  第三建設事務所
@@ -255,11 +253,16 @@
     if (authState.state.value.isLogin) {
         // NOTE: hitしないときは、東京都全体
         let loc = officeCenters[0].location;
-        let defaultOffice = officeCenters.find((c)=>c.id == authState.state.value.currentUser.officeid);
+        // let defaultOffice = officeCenters.find((c)=>c.id == authState.state.value.currentUser.office.userofficeid);
 
-        if(defaultOffice) {
-            loc = defaultOffice.location;
-        }
-        center.value = [loc[1], loc[0]];
+        // if(defaultOffice) {
+        //     loc = defaultOffice.location;
+        // }
+        // center.value = [loc[1], loc[0]];
+    }
+
+    const onTileChange = () => {
+        // TODO: タイル表示の更新
+        // コンボボックスで選択できるようにはできたが、やり方が合ってないのかOpenlayersのタイルが切り替わらない。。。このイベントハンドラは不要？？？
     }
 </script>
