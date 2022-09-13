@@ -23,7 +23,7 @@
             >
               <v-sheet>
                 <div class="pa-4">
-                  <v-img :src=imagePath1 max-height="350" aspect-ratio="1">
+                  <v-img :src="imagePath1" max-height="350" aspect-ratio="1">
                   </v-img>
                 </div>
                 <v-table density="compact">
