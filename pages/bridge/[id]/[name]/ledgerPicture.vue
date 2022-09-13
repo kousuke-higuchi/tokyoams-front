@@ -18,12 +18,12 @@
               md="6"
               cols="12"
               class="detailCard"
-              v-for="photo in photos"
+              v-for="(photo,index) in photos"
               :key="photo.dataid"
             >
               <v-sheet>
                 <div class="pa-4">
-                  <v-img :src="imagePath1" max-height="350" aspect-ratio="1">
+                  <v-img :src="imagePaths[index]" max-height="350" aspect-ratio="1">
                   </v-img>
                 </div>
                 <v-table density="compact">
@@ -79,7 +79,12 @@ const photos = ref<BridgePhoto[]>([
     url: new URL('../../../../assets/img/dmg/leaderPicture3.jpg',import.meta.url).href,
   },
 ]);
-const imagePath1 = new URL('../../../../assets/img/dmg/leaderPicture1.jpg',import.meta.url).href
+const imagePaths = ref<string[]>(
+[ new URL('../../../../assets/img/dmg/leaderPicture1.jpg',import.meta.url).href,
+new URL('../../../../assets/img/dmg/leaderPicture2.jpg',import.meta.url).href,
+new URL('../../../../assets/img/dmg/leaderPicture3.jpg',import.meta.url).href,
+
+]);
 
 photos.value.forEach((element, index) => {
   //TODO:モック終了後、ログイン状態の判定は削除。
