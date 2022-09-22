@@ -1,0 +1,74 @@
+[
+  {
+    "bridgeid": 1,
+    "id": 15,
+    "investdate": 202007,
+    "investobject": "定期健全度調査",
+    "investreport": "総合評価　　：Ｃランク",
+    "investtrader": "日本調査(株)",
+    "createDate": "2020-07-01T00:00:00.000+00:00"
+  },
+  {
+    "bridgeid": 1,
+    "id": 14,
+    "investdate": 201512,
+    "investobject": "定期健全度調査・道路ストック総点検",
+    "investreport": "総合評価　　：Ｄランク",
+    "investtrader": "日本調査(株)",
+    "createDate": "2015-12-01T00:00:00.000+00:00"
+  },
+  {
+    "bridgeid": 1,
+    "id": 7,
+    "investdate": 201512,
+    "investobject": "定期健全度調査・道路ストック総点検",
+    "investreport": "総合評価　：Dランク",
+    "investtrader": "日本調査(株)",
+    "createDate": "2015-12-01T00:00:00.000+00:00"
+  },
+  {
+    "bridgeid": 1,
+    "id": 6,
+    "investdate": 201010,
+    "investobject": "定期健全度調査",
+    "investreport": "総合評価  ：Cランク",
+    "investtrader": "日本調査(株)",
+    "createDate": "2010-10-01T00:00:00.000+00:00"
+  },
+  {
+    "bridgeid": 1,
+    "id": 13,
+    "investdate": 201010,
+    "investobject": "定期健全度調査",
+    "investreport": "総合評価　　：Ｃランク",
+    "investtrader": "日本調査(株)",
+    "createDate": "2010-10-01T00:00:00.000+00:00"
+  },
+  {
+    "bridgeid": 1,
+    "id": 5,
+    "investdate": 200511,
+    "investobject": "定期健全度調査",
+    "investreport": "総合評価  ：Cランク",
+    "investtrader": "中央コンサルタンツ(株)",
+    "createDate": "2005-11-01T00:00:00.000+00:00"
+  },
+  {
+    "bridgeid": 1,
+    "id": 12,
+    "investdate": 200511,
+    "investobject": "定期健全度調査",
+    "investreport": "総合評価　　：Ｃランク",
+    "investtrader": "中央コンサルタンツ（株）",
+    "createDate": "2005-11-01T00:00:00.000+00:00"
+  },
+  {
+    "bridgeid": 1,
+    "id": 11,
+    "investdate": 200102,
+    "investobject": "定期健全度調査",
+    "investreport": "総合評価　　：Ｃランク",
+    "investtrader": "中央コンサルタンツ（株）",
+    "createDate": "2001-02-01T00:00:00.000+00:00"
+  }
+]

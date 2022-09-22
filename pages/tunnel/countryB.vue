@@ -54,7 +54,7 @@
                 <th>緯度</th>
                 <td colspan="3">{{  '35°43’50.5”'  }}</td>
                 <th rowspan="4">変状・異常<br />個所数合計</th>
-                <th rowspan="4">トンネル<br />本体工</th>
+                <th rowspan="4" class="text-center">トンネル<br />本体工</th>
                 <th>材質劣化</th>
                 <th>Ⅱ</th>
                 <td>3箇所</td>
@@ -63,7 +63,7 @@
                 <th>Ⅳ</th>
                 <td>0箇所</td>
                 <th rowspan="4">トンネル毎<br />の健全性</th>
-                <td rowspan="4">{{  'Ⅱ'  }}</td>
+                <td rowspan="4" class="text-center" style="font-size:large!important">{{  'Ⅱ'  }}</td>
                 <th rowspan="4">附属物の<br />取付状態</th>
                 <td rowspan="2">{{  '×'  }}</td>
               </tr>

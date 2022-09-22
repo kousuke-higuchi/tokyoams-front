@@ -1,29 +1,28 @@
 <template>
-
   <v-card>
     <v-tabs v-model="tab" color="primary">
       <v-tab value="list">一覧</v-tab>
       <v-tab value="map">地図</v-tab>
     </v-tabs>
-
     <v-card-text>
       <v-window v-model="tab">
         <!-- 一覧 tab -->
         <v-window-item value="list">
-          <v-container>
+          <v-col>
             <v-row justify="end">
-              <v-btn v-on:click="clickAdvanceSerch()" color="primary">
+              <v-btn v-on:click="clickFAdvancedSearch()" color="primary" size="small">
                 詳細検索
               </v-btn>
-              <v-btn class="ml-2" v-on:click="clickOutputCSV()" color="primary">
+              <v-btn class="ml-2" v-on:click="clickOutputCSV()" color="primary" size="small">
                 一覧出力
               </v-btn>
             </v-row>
-          </v-container>
-          <div>
-            <vue-good-table :columns="columns" :rows="utilitytunnels" :pagination-options="{
-              enabled: true
-            }">
+            <v-row class="d-flex ml-1">
+              {{ facilities.length }} 件
+            </v-row>
+          </v-col>
+          <div class="mt-2">
+            <vue-good-table :columns="columns" :rows="facilities">
               <template #table-row="props">
                 <span v-if="props.column.field == 'facillityname'">
                   <nuxt-link :to="`/utilitytunnel/${props.row.id}/ledger1`">{{  props.formattedRow[props.column.field]  }}
@@ -43,33 +42,31 @@
             </vue-good-table>
           </div>
         </v-window-item>
-
         <!-- 地図 tab -->
         <v-window-item value="map">
-          <v-container>
-            <v-row justify="end">
-              <v-btn v-on:click="clickFind()" color="primary">
+          <v-col>
+            <v-row justify="end" class="mr-2">
+              <v-btn v-on:click="clickFind()" color="primary" size="small">
                 検索条件
               </v-btn>
-              <v-menu v-model="showMarkerList" :close-on-content-click="false" location="bottom end">
+              <v-menu v-model="showMarkerList" :close-on-content-click="false" location="bottom end" size="small">
                 <template v-slot:activator="{ props }">
-                  <v-btn class="ml-2" color="primary" v-bind="props">
+                  <v-btn class="ml-2" color="primary" v-bind="props" size="small">
                     施設一覧
                   </v-btn>
                 </template>
                 <v-card>
                   <v-container>
-                    <vue-good-table :columns="columnsOverlay" :rows="rowsOverlay" @row-click="clickMarkerListRow">
+                    <vue-good-table :columns="columnsOverlay" :rows="facilities" @row-click="clickMarkerListRow">
                     </vue-good-table>
                   </v-container>
                 </v-card>
               </v-menu>
             </v-row>
-          </v-container>
-          <!--地図-->
-          <v-card style="height:78vh; width: 94vw">
-            <ams-map :zoom="zoom" :center="center" :markers="utilitytunnels" marker-title="facillityname"
-              @click-marker="clickMarker" />
+          </v-col>
+          <!-- 地図 -->
+          <v-card style="height: 78vh; width: 94vw">
+            <ams-map :zoom="zoom" :center="center" :markers="facilities" marker-title="name" @click-marker="clickMarker" />
           </v-card>
         </v-window-item>
       </v-window>
@@ -81,20 +78,36 @@
 </template>
 
 <script lang="ts">
-import utilitytunnelJson from "../../assets/roadfacility.json";
+import utilitytunnelJson from "@/assets/roadfacility.json";
 
 export default defineComponent({
   data() {
     return {
-      tab: 'map',
       showFind: false,
       showMarkerList: false,
-      utilitytunnels: utilitytunnelJson,
+      tab: 'map',
       zoom: 15,
       center: [35.79112, 139.27753],
-      officeDropdownItem: ['第一建設事務所', '第二建設事務所', '第三建設事務所', '第四建設事務所', '西多摩建設事務所'],
-      areaDropdownItem: ['奥多摩出張所', '檜原工区', 'あきる野工区', '福生工区', '青梅工区'],
-      routeDropdownItem: ['一般都道十里木御岳停車場線201号', '主要地方道青梅おきる野線31号', '一般国道411号', '一般都道川野上川乗線206号', '主要地方道杉並あきる野線7号'],
+      facilities: utilitytunnelJson,
+      officeDropdwonItem: [
+        "第一建設事務所", "第二建設事務所", "第三建設事務所", "第四建設事務所",
+        "第五建設事務所", "第六建設事務所", "西多摩建設事務所", "南多摩東部建設事務所",
+        "南多摩西部建設事務所", "北多摩南部建設事務所", "北多摩北部建設事務所",
+        "大島支庁", "三宅支庁", "八丈支庁", "小笠原支庁"
+      ],
+      areaDropdownItem: [
+        "港工区", "中央工区", "千代田工区", "品川工区", "大田工区",
+        "世田谷工区", "目黒工区", "中野工区", "新宿工区", "杉並工区",
+        "豊島工区", "板橋工区", "練馬工区", "石神井工区", "江戸川南工区",
+        "墨田工区", "江東工区", "葛飾東工区", "葛飾西工区", "江戸川北工区",
+        "港湾局管理", "荒川工区", "足立東工区", "足立西工区", "台東工区",
+        "文京工区", "北工区", "青梅工区", "福生工区", "あきる野工区",
+        "檜原工区", "奥多摩工区", "町田西工区", "多摩工区", "町田東工区",
+        "八王子東工区", "八王子西工区", "日野工区", "調布工区", "西東京工区",
+        "小金井工区", "小平工区", "東村山工区", "立川工区", "大島支庁",
+        "三宅支庁", "八丈支庁", "小笠原支庁"
+      ],
+      // 一覧の列情報
       columns: [
         {
           label: '施設名',
@@ -112,6 +125,7 @@ export default defineComponent({
           filterOptions: {
             enabled: true,
             placeholder: '-選択-',
+            filterValue: "",
             filterDropdownItems: [],
           },
         },
@@ -131,8 +145,7 @@ export default defineComponent({
           sortable: false,
           filterOptions: {
             enabled: true,
-            placeholder: '-選択-',
-            filterDropdownItems: [],
+            placeholder: '路線名入力',
           },
         },
         {
@@ -173,8 +186,7 @@ export default defineComponent({
           sortable: false,
           filterOptions: {
             enabled: true,
-            placeholder: '-選択-',
-            filterOptions: [],
+            placeholder: '路線名入力',            
           },
         },
       ],
@@ -186,12 +198,11 @@ export default defineComponent({
       let modified = c;
       if (modified.field == 'officename') {
         modified.filterOptions.filterDropdownItems = this.officeDropdownItem
+        modified.filterOptions.filterValue = "西多摩建設事務所";
       }
       else if (modified.field == 'areaname') {
         modified.filterOptions.filterDropdownItems = this.areaDropdownItem
-      }
-      else if (modified.field == 'routename') {
-        modified.filterOptions.filterDropdownItems = this.routeDropdownItem
+        modified.filterOptions.filterValue = "奥多摩工区";
       }
       return modified
     };
@@ -200,8 +211,8 @@ export default defineComponent({
     this.rowsOverlay = utilitytunnelJson;
   },
   methods: {
-    clickAdvanceSerch() {
-      console.debug('clickAdvanceSerch');
+    clickFAdvancedSearch() {
+      console.debug('clickFAdvancedSearch');
       this.showFind = !this.showFind;
     },
     clickOutputCSV() {

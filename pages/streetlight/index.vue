@@ -4,121 +4,70 @@
       <v-tab value="list">一覧</v-tab>
       <v-tab value="map">地図</v-tab>
     </v-tabs>
-
     <v-card-text>
       <v-window v-model="tab">
         <!-- 一覧 tab -->
         <v-window-item value="list">
           <v-col>
             <v-row justify="end">
-              <v-btn v-on:click="onExportForBatchClick()" color="secondary">
+              <v-btn v-on:click="onExportForBatchClick()" color="secondary" size="small">
                 一括登録用フォーマット出力
               </v-btn>
-              <v-btn
-                class="ml-2"
-                v-on:click="onBatchImportClick()"
-                color="secondary"
-              >
+							<v-btn class="ml-2" v-on:click="onBatchImportClick()" color="secondary" size="small">
                 一括インポート
               </v-btn>
-              <v-btn
-                class="ml-2"
-                v-on:click="onAdvancedSearchClick()"
-                color="primary"
-                size="small"
-              >
+							<v-btn class="ml-2" v-on:click="onAdvancedSearchClick()" color="primary" size="small">
                 詳細検索
               </v-btn>
-              <v-btn
-                class="ml-2"
-                v-on:click="onExportButtonClick()"
-                color="primary"
-                size="small"
-              >
+							<v-btn class="ml-2" v-on:click="onExportListClick()" color="primary" size="small">
                 一覧出力
               </v-btn>
             </v-row>
+            <v-row class="d-flex ml-1">
+              {{ facilities.length }} 件
+            </v-row>
           </v-col>
           <div class="mt-2">
-            <vue-good-table
-              :columns="columns"
-              :rows="streetlights"
-              :pagination-options="{
-                enabled: true,
-              }"
-            >
+            <vue-good-table :columns="columns" :rows="facilities">
               <template #table-row="props">
-                <span v-if="props.column.field == 'OutLedgerBtn'">
-                  <v-btn
-                    class="btn"
-                    color="primary"
-                    dark
-                    size="small"
-                    v-on:click="onOutputLedgerClick()"
-                  >
+								<span v-if="props.column.field == 'outLedgerBtn'">
+									<v-btn class="btn" color="primary" dark size="small" v-on:click="onOutLedgerClick()">
                     Excel
                   </v-btn>
                 </span>
-                <span v-else-if="props.column.field == 'DeleteBtn'">
-                  <v-btn
-                    class="btn"
-                    color="error"
-                    dark
-                    size="small"
-                    v-on:click="onDeleteRowClick()"
-                  >
+								<span v-else-if="props.column.field == 'deleteBtn'">
+									<v-btn class="btn" color="error" dark size="small" v-on:click="onDeleteRowClick()">
                     削除
                   </v-btn>
                 </span>
-
                 <span v-else-if="props.column.field == 'formattedid'">
-                  <nuxt-link :to="`/streetlight/${props.row.id}/ledger`">
-                    {{ props.formattedRow[props.column.field] }}
+									<nuxt-link :to="`${baseUrl}/${props.row.id}/ledger`">
+										{{props.formattedRow[props.column.field]}}
                   </nuxt-link>
                 </span>
                 <span v-else>
-                  {{ props.formattedRow[props.column.field] }}
+									{{props.formattedRow[props.column.field]}}
                 </span>
               </template>
             </vue-good-table>
           </div>
         </v-window-item>
-
         <!-- 地図 tab -->
         <v-window-item value="map">
           <v-col>
-            <v-row justify="end" class="mr-2">
-              <v-btn
-                v-on:click="onAdvancedSearchClick()"
-                color="primary"
-                size="small"
-              >
+			  <v-row justify="end">
+			  <v-btn v-on:click="onFindButtonClick()" color="primary" size="small">
                 検索条件
               </v-btn>
-              <v-menu
-                v-model="showMarkerList"
-                :close-on-content-click="false"
-                location="bottom end"
-                size="small"
-              >
+			  <v-menu v-model="showMarkerList" :close-on-content-click="false" location="bottom end">
                 <template v-slot:activator="{ props }">
-                  <v-btn
-                    class="ml-2"
-                    color="primary"
-                    v-bind="props"
-                    size="small"
-                  >
+					<v-btn class="ml-2" color="primary" v-bind="props" size="small">
                     施設一覧
                   </v-btn>
                 </template>
-
                 <v-card>
                   <v-container>
-                    <vue-good-table
-                      :columns="columnsOverlay"
-                      :rows="streetlights"
-                      @row-click="onMarkerListRowClick"
-                    >
+										<vue-good-table :columns="columnsOverlay" :rows="facilities" @row-click="onMarkerListRowclick">
                     </vue-good-table>
                   </v-container>
                 </v-card>
@@ -127,14 +76,9 @@
           </v-col>
 
           <!--地図-->
-          <v-card style="height: 78vh; width: 94vw">
-            <ams-map
-              :zoom="zoom"
-              :center="center"
-              :markers="streetlights"
-              marker-title="formattedid"
-              @click-marker="onMarkerClick"
-            />
+					<v-card style="height:78vh; width: 94vw">
+						<ams-map :zoom="zoom" :center="center" :markers="facilities" marker-title="formattedid"
+							@click-marker="onClickMarker" />
           </v-card>
         </v-window-item>
       </v-window>
@@ -150,48 +94,35 @@ import { AtfSummary } from "@/types";
 //TODO:モック終了後jsonファイルは削除
 import streetlightJson from "@/assets/streetlightSummary.json";
 
+const baseUrl = `/streetlight`;
 const showMarkerList = ref(false);
 const tab = ref("list");
 const zoom = ref(15);
 const center = ref([35.79112, 139.27753]);
 
-const routenameDropdownItems = ref([
-  "（特４１６）古川橋二子玉川線",
-  "（一１３９）真光寺長津田線",
-  "（一１３７）上麻生連光寺線",
-  "（一１１１）大田神奈川線",
-]);
 const officeDropdownItems = ref([
-  "第一建設事務所",
-  "第二建設事務所",
-  "第三建設事務所",
-  "第四建設事務所",
-  "西多摩建設事務所",
+	"第一建設事務所", "第二建設事務所", "第三建設事務所", "第四建設事務所", "第五建設事務所",
+	"第六建設事務所", "西多摩建設事務所", "南多摩東部建設事務所", "南多摩西部建設事務所",
+	"北多摩南部建設事務所", "北多摩北部建設事務所", "大島支庁", "三宅支庁", "八丈支庁", "小笠原支庁"
 ]);
 const areaDropdownItems = ref([
-  "奥多摩出張所",
-  "檜原工区",
-  "あきる野工区",
-  "福生工区",
-  "青梅工区",
+	"港工区", "中央工区", "千代田工区", "品川工区", "大田工区", "世田谷工区", "目黒工区",
+	"中野工区", "新宿工区", "杉並工区", "豊島工区", "板橋工区", "練馬工区", "石神井工区",
+	"江戸川南工区", "墨田工区", "江東工区", "葛飾東工区", "葛飾西工区", "江戸川北工区",
+	"港湾局管理", "荒川工区", "足立東工区", "足立西工区", "台東工区", "文京工区",
+	"北工区", "青梅工区", "福生工区", "あきる野工区", "檜原工区", "奥多摩工区",
+	"町田西工区", "多摩工区", "町田東工区", "八王子東工区", "八王子西工区",
+	"日野工区", "調布工区", "西東京工区", "小金井工区", "小平工区",
+	"東村山工区", "立川工区", "大島支庁", "三宅支庁", "八丈支庁", "小笠原支庁"
 ]);
-const municipalityItems = ref([
-  "檜原村",
-  "奥多摩町",
-  "日の出町",
-  "青梅市",
-  "福生市",
-  "あきる野市",
-]);
-
-let columns = [
+let _columns = [
   {
     label: "施設番号",
     field: "formattedid",
     sortable: false,
     filterOptions: {
       enabled: true,
-      placeholder: "管理番号入力",
+     placeholder: '施設番号入力',
     },
   },
   {
@@ -220,8 +151,7 @@ let columns = [
     sortable: false,
     filterOptions: {
       enabled: true,
-      placeholder: "-選択-",
-      filterDropdownItems: [],
+      placeholder: '路線名入力',
     },
   },
   {
@@ -230,8 +160,7 @@ let columns = [
     sortable: false,
     filterOptions: {
       enabled: true,
-      placeholder: "-選択-",
-      filterDropdownItems: [],
+      placeholder: '区市町村名入力',
     },
   },
   {
@@ -248,7 +177,7 @@ let columns = [
   },
 ];
 
-let columnsOverlay = [
+const _columnsOverlay = [
   {
     label: "施設番号",
     field: "formattedid",
@@ -264,8 +193,7 @@ let columnsOverlay = [
     sortable: false,
     filterOptions: {
       enabled: true,
-      placeholder: "-選択-",
-      filterOptions: [],
+      placeholder: '路線名入力',            
     },
   },
 ];
@@ -276,44 +204,46 @@ const showFind = ref(false);
 //let rows =reactive();
 const authState = useAuthUser();
 
-const map2OfficeDropDown = (c) => {
+let map2DropDown = (c) => {
   let modified = c;
-  if (modified.field == "office") {
-    modified.filterOptions.filterDropdownItems = officeDropdownItems;
-  } else if (modified.field == "route_name") {
-    modified.filterOptions.filterDropdownItems = routenameDropdownItems;
+	if (modified.field == 'officename') {
+		modified.filterOptions.filterDropdownItems = officeDropdownItems
   }
-  return modified;
+	else if (modified.field == 'areaname') {
+		modified.filterOptions.filterDropdownItems = areaDropdownItems
+	}
+	return modified
 };
+const columns = ref(_columns.map(map2DropDown));
+const columnsOverlay = ref(_columnsOverlay.map(map2DropDown));
 
-const streetlights = ref(new Array<AtfSummary>);
+const facilities = ref(new Array<AtfSummary>);
 
 onMounted(() => {
   console.log("123");
-  // if (authState.state.value.isLogin) {
-  //   console.log("aaaa");
-  //   streetlightervice
-  //     .getList(authState.state.value.currentUser.officeid)
-  //     .then((apiData) => {
-  //       streetlights.value = apiData.data;
-  //       console.log(streetlights);
-  //     });
-  // } else {
-    streetlights.value = streetlightJson as Array<AtfSummary>;
-  // }
+  if (authState.state.value.isLogin) {
+    let officeid = 8; // TODO: 0東京都で初期化する
+    if (authState.state.value.currentUser.office) {
+      officeid = authState.state.value.currentUser.office.userofficeid;
+    }
+    console.info("login officeid ", officeid, authState.state.value.currentUser.office);
+    streetlightervice
+//      .getList(officeid)
+      .getByAreaID(27)    //TODO： officeid=8で、15161件でブラウザーでワーニングがでる。表示の問題でareaで絞る
+      .then((apiData) => {
+        facilities.value = apiData.data;
+        console.log(facilities);
+      });
+
+  } else {
+    facilities.value = streetlightJson as Array<AtfSummary>;
+  }
 });
 
-columns = columns.map(map2OfficeDropDown);
-columnsOverlay = columnsOverlay.map(map2OfficeDropDown);
-
-const onAdvancedSearchClick = () => {
-  console.info("onAdvancedSearchClick");
-  showFind.value = !showFind;
-};
 
 const onMarkerClick = (m) => {
   console.info("onClickMarker", m);
-  navigateTo(`/streetlight/${m.id}/ledger`, m);
+  navigateTo(`/${baseUrl}/${m.id}/ledger`, m);
 };
 
 const onExportForBatchClick = () => {
@@ -322,6 +252,11 @@ const onExportForBatchClick = () => {
 
 const onBatchImportClick = () => {
   console.debug("clickBatchImport");
+};
+
+const onAdvancedSearchClick = () => {
+  console.info("onAdvancedSearchClick");
+  showFind.value = !showFind;
 };
 
 const onExportButtonClick = () => {
@@ -336,8 +271,7 @@ const onDeleteRowClick = () => {
   console.debug("clickDelete");
 };
 
-const onMarkerListRowClick = (e) => {
-  const switchboard = e.row;
-  console.debug("onMarkerListRowclick", switchboard);
+const onMarkerListRowclick = (e) => {
+	console.debug('onMarkerListRowclick', e.row);
 };
 </script>

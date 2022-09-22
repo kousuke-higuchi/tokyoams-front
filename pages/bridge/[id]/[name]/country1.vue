@@ -91,7 +91,7 @@
                 <td></td>
               </tr>
               <tr>
-                <th>床版等</th>
+                <th>床版</th>
                 <td class="text-center">Ⅰ</td>
                 <td></td>
                 <td></td>
@@ -127,7 +127,7 @@
           <v-table class="mt-3 ledger" density="compact">
             <thead>
               <tr>
-                <th colspan="2">橋毎の健全性の診断（対策区分Ⅰ～Ⅳ）</th>
+                <th colspan="2">道路橋毎の健全性の診断（対策区分Ⅰ～Ⅳ）</th>
               </tr>
               <tr>
                 <th colspan="2">定期点検時に記録</th>

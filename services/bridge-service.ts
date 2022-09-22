@@ -1,5 +1,6 @@
 import Service from './service';
 import bridgesJson from "@/assets/bridge.json"
+import { BridgeSearchForm } from '~~/types/bridge';
 
 /**
  * 橋梁系のAPIを提供します。
@@ -7,6 +8,8 @@ import bridgesJson from "@/assets/bridge.json"
 class BridgeService extends Service {
     /**
      * 橋梁一覧を取得します。
+     * @param officeid 
+     * @returns 橋梁一覧L
      */
     public getList(officeid?: number): Promise<any> {
         if(officeid===undefined) { return 
@@ -16,10 +19,39 @@ class BridgeService extends Service {
         return this.http.get(`/api/Bridge/${officeid}`);
     }
 
+    public search(params: BridgeSearchForm) {
+        return this.http.get(`/api/Bridge`, { params: params} );
+    }
+
+    /**
+     * 工区(Area)一覧を取得します。
+     * @param officeid 
+     * @returns 橋梁一覧L
+     */
+     public getAreaList(officeid?: number): Promise<any> {
+        return this.http.get(`/api/Bridge/${officeid}/area`);
+    }
+
     public getList4Mock() {
-        return new Promise<any[]>((resolve)=>{
-            resolve(bridgesJson)
-        })         
+        return bridgesJson;
+        // return new Promise<any[]>((resolve)=>{
+        //     resolve(bridgesJson)
+        // })         
+    }
+
+    /**
+     * 橋梁径間情報を取得します。  
+     * //TODO: 現在未使用。今後も使わない場合削除する。
+     */
+    public getSpanList(bridgeId: number): Promise<any> {
+        return this.http.get(`/api/Bridge/${bridgeId}/span`)
+    }
+
+    /**
+     * 橋梁台帳(径間)を取得します。
+     */
+    public getLeaderSpanList(bridgeId: number): Promise<any> {
+        return this.http.get(`/api/Bridge/${bridgeId}/leaderSpan`)
     }
 
     /**
@@ -39,5 +71,6 @@ class BridgeService extends Service {
     public getImageUrl(bridgeId: number, kindId: number, dataId: number) {
         return this.downloadImageToUrl(`/api/Bridge/${bridgeId}/image/${kindId}/${dataId}`)
     }
+    
 }
 export default new BridgeService();

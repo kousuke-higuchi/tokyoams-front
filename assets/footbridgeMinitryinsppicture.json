@@ -1,0 +1,42 @@
+[
+  {
+    "bridgeid": 2,
+    "minitryid": 2,
+    "id": 1,
+    "photonumber": "1",
+    "partname": "下部構造",
+    "partnamesub": "根巻きコンクリート",
+    "judgeinspect": "Ⅱ",
+    "createParts": "下部構造（根巻きコンクリート）"
+  },
+  {
+    "bridgeid": 2,
+    "minitryid": 2,
+    "id": 2,
+    "photonumber": "2",
+    "partname": "階段部",
+    "partnamesub": "主桁",
+    "judgeinspect": "Ⅱ",
+    "createParts": "階段部（主桁）"
+  },
+  {
+    "bridgeid": 2,
+    "minitryid": 2,
+    "id": 3,
+    "photonumber": "3",
+    "partname": "階段部",
+    "partnamesub": "主桁との接合部",
+    "judgeinspect": "Ⅱ",
+    "createParts": "階段部（主桁との接合部）"
+  },
+  {
+    "bridgeid": 2,
+    "minitryid": 2,
+    "id": 4,
+    "photonumber": "4",
+    "partname": "階段部",
+    "partnamesub": "橋台",
+    "judgeinspect": "Ⅱ",
+    "createParts": "階段部（橋台）"
+  }
+]

@@ -12,9 +12,6 @@
         <v-window-item value="list">
           <v-col>
             <v-row justify="end">
-              <v-label>
-                {{bridges.length}}件　
-              </v-label>
               <v-btn v-on:click="onAdvancedSearchClick()"
                 color= "primary"
                 size="small"
@@ -28,14 +25,15 @@
                 一覧出力
               </v-btn>
             </v-row>
+            <v-row class="d-flex ml-1">
+              {{ bridges.length }} 件
+            </v-row>
           </v-col>
             <div class="mt-2">
                 <vue-good-table
                 :columns="columns"
                 :rows="bridges"
-                :pagination-options="{
-                  enabled: false
-                }">
+                >
                     <template #table-row="props">
                     <span v-if="props.column.field == 'OutLedgerBtn'">
                         <v-btn class="btn" color="primary" dark size="small" v-on:click="onOutputLedgerClick()">
@@ -139,195 +137,249 @@
 </template>
 
 <script lang="ts">
-import bridgesJson from "@/assets/bridge.json";
 import bridgeService from "@/services/bridge-service"
-import { BridgeSummary } from "~~/types/bridge";
+import { BridgeSummary, BridgeSearchForm } from "~~/types/bridge";
+import SideCardDetails from "~~/components/utilitytunnel/SideCardDetails.vue";
 
 export default defineComponent({
-  setup() {
-    const selectFacilityValue = ref('');
-    provide('selectFacility', selectFacilityValue);
-  },
-  data() {
-    return {
-      showMarkerList: false,
-      tab: 'list',
-      zoom: 15,
-      center: [35.79112, 139.27753],
-      bridges: [] as Array<BridgeSummary>,
-      officeDropdwonItem: ['第一建設事務所','第二建設事務所','第三建設事務所','第四建設事務所','西多摩建設事務所'],
-      routeDropdownItem:['一般都道十里木御岳停車場線201号','主要地方道青梅おきる野線31号','一般国道411号','一般都道川野上川乗線206号','主要地方道杉並あきる野線7号'],
-      areaDropdownItem:['奥多摩出張所', '奥多摩工区', '青梅工区', '福生工区', 'あきる野工区', '檜原工区'],
-       // 一覧の列情報
-      columns: [
-        {
-          label: '施設名',
-          field: 'bridge_name',
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '施設名入力',
-          },
-        },
-        {
-          label: '事務所',
-          field: 'office',
-          width: '14em',          
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '-選択-',
-            filterDropdownItems: [],
-         },
-        },
-        {
-          label: '工区',
-          field: 'area',
-          width: '10em',          
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '-選択-',
-            filterDropdownItems: [],
-         },
-        },
-        {
-          label: '路線名',
-          field: 'route_name',
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '路線名入力',
-         },
-        },
-        {
-          label: '区市町村名',
-          field: 'formattedAddress',
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '区市町村名入力',
-         },
-        },
-        {
-          label: '台帳出力',
-          field: 'OutLedgerBtn',
-          filterable: false,
-          sortable: false,
-        },
-        {
-          label: '調書出力',
-          field: 'OutRecodeBtn',
-          filterable: false,
-          sortable: false,
-        },
-        {
-          label: '国様式',
-          field: 'OutNationalBtn',
-          filterable: false,
-          sortable: false,
-        },
-        {
-          label: '耐震台帳',
-          field: 'OutSeismicBtn',
-          filterable: false,
-          sortable: false,
-        },
-        {
-          label: '3Dシステム',
-          field: 'Connect3dSystem',
-          filterable: false,
-          sortable: false,
-        },
-        {
-          label: '成果品',
-          field: 'ConnectDocSystem',
-          filterable: false,
-          sortable: false,
-        },
-      ],
-      // 施設一覧の列情報
-      columnsOverlay: [
-        {
-          label: '施設番号',
-          field: 'code',
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '施設番号入力',
-          },
-        },
-        {
-          label: '路線名',
-          field: 'route_name',
-          sortable: false,
-          filterOptions: {
-        	  enabled: true,
-            placeholder: '--選択--',
-            filterDropdownItems: [],
-         },
-        },
-      ],
-      showFind: false,
-      showTable: false,
-    };
-  },
-  mounted: async function() {
+    setup() {
+        const selectFacilityValue = ref("");
+        provide("selectFacility", selectFacilityValue);
+    },
+    data() {
+        return {
+            showMarkerList: false,
+            tab: "list",
+            zoom: 15,
+            center: [35.79112, 139.27753],
+            bridges: [] as Array<BridgeSummary>,
+            currentOfficeid: 0,
+            tableFiltervalue: "",
+            // FIXME: 配列名は複数形にしてください
+            officeDropdwonItem: [
+               "第一建設事務所", "第二建設事務所", "第三建設事務所", "第四建設事務所",
+               "第五建設事務所", "第六建設事務所", "西多摩建設事務所", "南多摩東部建設事務所",
+               "南多摩西部建設事務所", "北多摩南部建設事務所", "北多摩北部建設事務所",
+               "大島支庁", "三宅支庁", "八丈支庁", "小笠原支庁"
+           ],
+           areaDropdownItems:[
+            "港工区", "中央工区", "千代田工区", "品川工区", "大田工区", "世田谷工区", "目黒工区",
+            "中野工区", "新宿工区", "杉並工区", "豊島工区", "板橋工区", "練馬工区", "石神井工区",
+            "江戸川南工区", "墨田工区", "江東工区", "葛飾東工区", "葛飾西工区", "江戸川北工区",
+            "港湾局管理", "荒川工区", "足立東工区", "足立西工区", "台東工区", "文京工区",
+            "北工区", "青梅工区", "福生工区", "あきる野工区", "檜原工区", "奥多摩工区",
+            "町田西工区", "多摩工区", "町田東工区", "八王子東工区", "八王子西工区",
+            "日野工区", "調布工区", "西東京工区", "小金井工区", "小平工区",
+            "東村山工区", "立川工区", "大島支庁", "三宅支庁", "八丈支庁", "小笠原支庁"
+          ],
+            // 一覧の列情報
+            columns: [
+                {
+                    label: "施設名",
+                    field: "bridge_name",
+                    sortable: false,
+                    filterOptions: {
+                        enabled: true,
+                        placeholder: "施設名入力",
+                    },
+                },
+                {
+                    label: "事務所",
+                    field: "office",
+                    width: "14em",
+                    sortable: false,
+                    filterOptions: {
+                        enabled: true,
+                        placeholder: "-選択-",
+                        filterValue: this.tableFiltervalue,
+                        filterDropdownItems: [],
+                    },
+                },
+                {
+                    label: "工区",
+                    field: "area",
+                    width: "10em",
+                    sortable: false,
+                    filterOptions: {
+                        enabled: true,
+                        placeholder: "-選択-",
+                        filterValue: this.tableFiltervalue,
+                        filterDropdownItems: [],
+                    },
+                },
+                {
+                    label: "路線名",
+                    field: "route_name",
+                    sortable: false,
+                    filterOptions: {
+                        enabled: true,
+                        placeholder: "路線名入力",
+                    },
+                },
+                {
+                    label: "区市町村名",
+                    field: "formattedAddress",
+                    sortable: false,
+                    filterOptions: {
+                        enabled: true,
+                        placeholder: "区市町村名入力",
+                    },
+                },
+                {
+                    label: "台帳出力",
+                    field: "OutLedgerBtn",
+                    filterable: false,
+                    sortable: false,
+                },
+                {
+                    label: "調書出力",
+                    field: "OutRecodeBtn",
+                    filterable: false,
+                    sortable: false,
+                },
+                {
+                    label: "国様式",
+                    field: "OutNationalBtn",
+                    filterable: false,
+                    sortable: false,
+                },
+		        {
+		          label: '耐震台帳',
+		          field: 'OutSeismicBtn',
+		          filterable: false,
+		          sortable: false,
+		        },
+                {
+                    label: "3Dシステム",
+                    field: "Connect3dSystem",
+                    filterable: false,
+                    sortable: false,
+                },
+                {
+                    label: "成果品",
+                    field: "ConnectDocSystem",
+                    filterable: false,
+                    sortable: false,
+                },
+            ],
+            // 施設一覧の列情報
+            columnsOverlay: [
+              {
+                label: '施設番号',
+                field: 'code',
+                sortable: false,
+                filterOptions: {
+                  enabled: true,
+                  placeholder: '施設番号入力',
+                },
+              },
+              {
+                label: '路線名',
+                field: 'route_name',
+                sortable: false,
+                filterOptions: {
+                    enabled: true,
+                    placeholder: "路線名入力",
+                },
+             },
+            ],
+            showFind: false,
+            showTable: false,
+        };
+    },
+    mounted: async function () {
+      const map2OfficeDropDown = (c) => {
+            let modified = c;
+            if (modified.field == "office") {
+                modified.filterOptions.filterDropdownItems = this.officeDropdwonItem;
+                modified.filterOptions.filterValue = this.tableFiltervalue;
+            }
+             else if (modified.field == "area") {
+                modified.filterOptions.filterDropdownItems = this.areaDropdownItem;
+                modified.filterOptions.filterValue = this.tableFiltervalue;
+            }
+            return modified;
+        };
+        //TODO:モック終了後、ログイン状態の判定は削除。    
+        const authState = useAuthUser();
+        if (authState.state.value.isLogin) {
+            //TODO: git 9de41913af4d7669e43063cc43226890620fedbf の変更でoffice.userofficeid取得になったが、loginでセットされていないためとりあえず
+            //NOTE: ishida でloginすると officeid = 1, これは、東京都全体とする。 issue #82
+            let officeid = 0;
+            if (authState.state.value.currentUser.office) {
+              officeid = authState.state.value.currentUser.office.userofficeid;
+            }
+            console.debug("login officeid ", officeid, authState.state.value.currentUser.office);
+            // 工区リスト取得
+            bridgeService.getAreaList(officeid).then(ret => {
+              this.areaDropdownItem = ret.data.map((r)=>r.name);
+              
+              // FIXME: この判定文は〇〇〇service.tsに移動してください。
+              // FIXME: 17未満の数値は判定から除外してください。（特に指定が無ければ）
+              if ((officeid < 2) || (17 < officeid)) {
+                this.tableFiltervalue = ""; // 東京都全体  
+              }
+              else
+              {
+                this.tableFiltervalue = this.officeDropdwonItem[officeid - 2]                
+              }
+              console.debug("工区リスト取得");
+              this.columns = this.columns.map(map2OfficeDropDown);
+              this.columnsOverlay = this.columnsOverlay.map(map2OfficeDropDown);
+            });
 
-    //TODO:モック終了後、ログイン状態の判定は削除。    
-    //TODO: 現在は、地図の中心を設定していない。officeid=10のuserでloginする
-    const authState = useAuthUser();
-    this.bridges = bridgesJson;
-    
+            let searchForm: BridgeSearchForm = {
 
-    const map2OfficeDropDown = (c)=>{
-      let modified = c;
-      if(modified.field == 'office') {
-        modified.filterOptions.filterDropdownItems = this.officeDropdwonItem
-      }
-      else if(modified.field == 'route_name'){
-        modified.filterOptions.filterDropdownItems = this.routeDropdownItem
-      }
-      else if(modified.field == 'area'){
-        modified.filterOptions.filterDropdownItems = this.areaDropdownItem
-      }
-      return modified
-    };
-    this.columns = this.columns.map(map2OfficeDropDown);
-    this.columnsOverlay = this.columnsOverlay.map(map2OfficeDropDown);
-  },
-  computed: {
-      makeDateRangeText () {
-        return this.makedates.join(' ~ ')
-      },    
-  },
-  methods: {
-    onMarkerClick(m) {
-      console.info('onMarkerClick', m);
-      navigateTo(`/bridge/${m.id}/${m.bridge_name + " " + m.code}/ledger1`);
+            }
+            bridgeService.search(searchForm).then(s => {
+                this.bridges = s.data;
+                console.info("橋梁リスト取得");
+            });
+        }
+        else {
+        
+            this.bridges = bridgeService.getList4Mock();
+            this.columns = this.columns.map(map2OfficeDropDown);
+            this.columnsOverlay = this.columnsOverlay.map(map2OfficeDropDown);
+        }
     },
-    onAdvancedSearchClick(){
-      console.debug('onAdvancedSearchClick');
-      this.showFind = !this.showFind;
+    computed: {
+        makeDateRangeText() {
+            return this.makedates.join(" ~ ");
+        },
     },
-    onExportButtonClick(){
-      console.info('CSV出力ボタンをクリックしました');
-      bridgeService.downloadExcelList();
+    methods: {
+        onColumnFilter(params) {
+          console.info("onColumnFilter", params);
+
+        },
+        onMarkerClick(m) {
+            console.info("onMarkerClick", m);
+            navigateTo(`/bridge/${m.id}/${m.bridge_name + " " + m.code}/ledger1`);
+        },
+        onAdvancedSearchClick() {
+            console.debug("onAdvancedSearchClick");
+            this.showFind = !this.showFind;
+        },
+        onExportButtonClick() {
+            console.info("CSV出力ボタンをクリックしました");
+            bridgeService.downloadExcelList();
+        },
+        onOutputLedgerClick() {
+            console.debug("onOutputLedgerClick");
+        },
+        onOutputRecodeClick() {
+            console.debug("onOutputRecodeClick");
+        },
+        onOutputNationalClick() {
+            console.debug("onOutputNationalClick");
+        },
+        onMarkerListRowClick(e) {
+            const bridge = e.row;
+            console.debug("onMarkerListRowClick", bridge);
+            this.moveLedger(bridge.id, bridge.bridge_name, bridge.code);
+        },
     },
-    onOutputLedgerClick(){
-      console.debug('onOutputLedgerClick');
-    },
-    onOutputRecodeClick(){
-      console.debug('onOutputRecodeClick');
-    },
-    onOutputNationalClick(){
-      console.debug('onOutputNationalClick');
-    },
-    onMarkerListRowClick(e) {
-      const bridge = e.row;
-      console.debug('onMarkerListRowClick',bridge);
-      this.moveLedger(bridge.id, bridge.bridge_name, bridge.code);
-    },
-  },
+    components: { SideCardDetails }
 });
 </script>

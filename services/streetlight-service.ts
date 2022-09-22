@@ -7,15 +7,19 @@ import { AtfSummary } from "~~/types";
  */
  class StreetlightService extends Service {
 
-   　/**
+   /**
      * 道路照明一覧を取得します。
      */
     public getList(officeid: number): Promise<any> {
-      
-      let paves = this.http.get(`/api/AtfStreetlight/${officeid}`)
-      console.log(paves)
       return this.http.get(`/api/AtfStreetlight/${officeid}`);
+    }
+
+    /**
+     * 道路照明一覧を取得します。
+     */
+    public getByAreaID(areaid: number): Promise<any> {
+      return this.http.get(`/api/AtfStreetlight/byAreaId/${areaid}`);
+    }
   }
   
-}
 export default new StreetlightService();

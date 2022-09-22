@@ -12,8 +12,11 @@
 </template>
 
 <script lang="ts" setup>
+
 import { RfaRepair } from '~~/types';
 import rfaRepairJson from '~~/assets/rfaRepair.json';
+
+console.log("rtnwall ledger1 ", rfaRepairJson);
 
 const rfaRepairs = ref(rfaRepairJson as Array<RfaRepair>);
 </script>

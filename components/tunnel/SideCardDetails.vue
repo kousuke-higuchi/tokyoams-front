@@ -1,16 +1,21 @@
 <template>
-
   <v-expansion-panels v-model="isExtend" multiple v-bind:class="panelIsExtended ? 'panel_extend' : 'panel_nonextend'">
     <v-expansion-panel @click="onPanelIsExtendedChanged">
       <v-expansion-panel-title>
-        トンネル名 : 権田トンネル
+        トンネル名 : {{ selectFacility }}
+        <template v-slot:actions>
+          <v-icon> {{ panelIsExtended ? 'mdi-arrow-left' : 'mdi-arrow-right' }}</v-icon>
+        </template>
+        <v-row justify="end" class="mr-2">
+          <v-btn color="primary" size="small" variant="contained-flat" href="/tunnel">
+            一覧に戻る
+          </v-btn>
+        </v-row>
       </v-expansion-panel-title>
       <v-expansion-panel-text>
-
         <v-card height="820px" elevation="3">
           <v-card height="484px">
             <v-card-title>
-              <v-row class="justify-start mt-1 ml-3 font-weight-bold" style="font-size:medium">トンネル名 : 権田トンネル</v-row>
             </v-card-title>
             <v-container fluid>
               <v-tabs v-model="tabSide" color="primary">
@@ -72,9 +77,7 @@
           </v-card>
         </v-card>
       </v-expansion-panel-text>
-
     </v-expansion-panel>
-
   </v-expansion-panels>
 
   <!--台帳メモ登録画面-->
@@ -123,6 +126,7 @@ import moment from 'moment';
 */
 const route = useRoute();
 const baseUrl = `/tunnel/${route.params.id}`
+const selectFacility = ref("権田トンネル");
 
 const items = ref(1);
 const isOpen = ref(false);
@@ -243,6 +247,6 @@ const onPanelIsExtendedChanged = () => {
 }
 
 .panel_nonextend {
-  width: 300px;
+  width: 500px;
 }
 </style>

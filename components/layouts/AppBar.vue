@@ -55,6 +55,7 @@
                 { name:'Home', icon:'mdi-home', url:'/' , newTab: false},
                 { name:'マニュアル', icon:'mdi-book', url:'/assets/pdf/manual.pdf', newTab: true },
                 { name:'問い合わせはこちら', icon:'mdi-email', url:`mailto:${contactTo}?subject=${subject}&body=${body}`, newTab: false },
+                { name:'推奨閲覧設定', icon:'mdi-settings', url:'/recommendSetting' , newTab: false},
             ]
             return {
                 drawerComputed,

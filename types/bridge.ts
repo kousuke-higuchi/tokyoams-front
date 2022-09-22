@@ -2,7 +2,7 @@ import { Coordinate } from ".";
 /**
  * 橋梁一覧
  */
- export interface BridgeSummary {
+export interface BridgeSummary {
     id: Number;
     code: String;
     bridge_name: String;
@@ -20,9 +20,119 @@ import { Coordinate } from ".";
 }
 
 /**
+ * 径間
+ *  //TODO: 現在未使用。今後も使わない場合削除する。
+ */
+export interface BridgeSpan{
+    id: number;
+    bridgeid?: number;
+    spanno: number;
+    spanlen?: string;
+    spandivid?: number;
+    pierstrid?: number;
+    pierendid?: number;
+    roadwaywid?: string;
+    sidewalkwid?: string;
+    totalwid?: string;
+    roadwaykindid?: number;
+    riverexist?: number;
+    roadexist?: number;
+    trainexist?: number;
+    parkexist?: number;
+    otherexist?: number;
+    waterexist?: number;
+    spanmainsubid?: number;
+    distancefromwl?: string;
+    delta_d?: string;
+    delta_e?: string;
+    delta_el?: string;
+    place?: string;
+    spandivnum?: string;
+}
+
+/**
+ * 施設詳細_橋梁_橋梁台帳（径間）
+ */
+export interface LeaderSpan {
+    spanId: number;
+    spanNo?: number;
+    spanDiv?: string;
+    spanKind?: string;
+    place?: string;
+    spanDivNum?: string;
+    //タワミ
+    deltaD?: number;
+    deltaE?: number;
+    deltaEL?: number;
+    
+    supType_S?: string;
+    supType_E?: string;
+    subType_S?: string;
+    subType_E?: string;
+    subName_S?: string;
+    subName_E?: string;
+
+    basType_S?: string;
+    basType_E?: string;
+    basName_S?: string;
+    basName_E?: string;
+
+    roadPos?: string;
+    
+    undCon_Riv?: number;
+    undCon_Rod?: number;
+    undCon_Trn?: number;
+    undCon_Pak?: number;
+    undCon_WaY?: number;
+    undCon_WaN?: number;
+
+    distFrWL?: number;
+    length?: number;
+    
+    wid_Road?: number;
+    wid_Walk?: number;
+    wid_Total?: number;
+    
+    gdrNum?: string;
+    gdrHight?: string;
+    gdrBtwn?: string;
+    gdrMaterial?: string;
+
+    crsNum?: string;
+    crsHight?: string;
+    crsBtwn?: string;
+    crsMaterial?: string;
+
+    verNum?: string;
+    verHight?: string;
+    verBtwn?: string;
+    verMaterial?: string;
+
+    expTypeFix?: string;
+    expMatFix?: string;
+    expTypeMove?: string;
+    expMatMove?: string;
+
+    bearTypeFix?: string;
+    bearMatFix?: string;
+    bearTypeMove?: string;
+    bearMatMove?: string;
+
+    decRodThk?: string;
+    decRodMat?: string;
+    decWlkThk?: string;
+    decWlkMat?: string;
+
+    pavRodThk?: string;
+    pavRodMat?: string;
+    pavWlkThk?: string;
+    pavWlkMat?: string;
+}
+
+/**
  * 橋梁補修履歴
  */
- export interface BridgeRepairHistory {
+export interface BridgeRepairHistory {
     repairid: Number;
     parentid: Number;
     kindid: Number;
@@ -36,7 +146,7 @@ import { Coordinate } from ".";
 /**
  * 橋梁塗装履歴
  */
- export interface PaintingBridgeHistory {
+export interface PaintingBridgeHistory {
     createDate?: string;
     lower1mat?: string;
     lower1color?: string;
@@ -54,7 +164,7 @@ import { Coordinate } from ".";
 /**
  * 橋梁 現場写真
  */
- export interface BridgePicture {
+export interface BridgePicture {
     no: Number;
     description: String;
     createDate: String;
@@ -65,10 +175,25 @@ import { Coordinate } from ".";
 /**
  * 橋梁 写真情報
  */
- export interface BridgePhoto {
+export interface BridgePhoto {
     dataid: number;
     item1: string;
     takedate: Date;
     url?: string;
 };
 
+/**
+ * 橋梁 検索フォーム
+ */
+export interface BridgeSearchForm {
+    facilityName?:string,
+    lengthFrom?: number,
+    lengthTo?: number,
+    completionYearFrom?: number,
+    completionYearTo?: number,
+    inspectionYearFrom?: number,
+    inspectionYearTo?: number,
+    lastInspectionYearFrom?: number,
+    lastInspectionYearTo?: number,
+    soundnesses?: number[],
+}

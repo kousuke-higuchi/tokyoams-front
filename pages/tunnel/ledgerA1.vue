@@ -131,7 +131,7 @@
                   <td>  ㎡</td>
                   <th>延長</th>
                   <td>0.65 ｍ</td>
-                  <th colspan="2">施設</th>
+                  <th colspan="2" class="text-center">施設</th>
                   <th>種別・方式</th>
                   <th>個数</th>
                   <th>更新年次</th>
@@ -159,7 +159,7 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <th rowspan="4">幅員</th>
+                  <th rowspan="4" class="text-center" style="writing-mode: vertical-rl;">幅員</th>
                   <th colspan="2">道路幅</th>
                   <td>  7.5 ｍ</td>
                   <th>延長</th>
@@ -216,8 +216,8 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <th rowspan="3">高さ</th>
-                  <th colspan="2">建設限界高</th>
+                  <th rowspan="3" class="text-center" style="writing-mode: vertical-rl;">高さ</th>
+                  <th colspan="2">建築限界高</th>
                   <td> 4.5 ｍ</td>
                   <th colspan="2">インバート</th>
                   <td>  20 ㎝</td>
@@ -260,7 +260,7 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <th rowspan="6">線形</th>
+                  <th rowspan="6" class="text-center" style="writing-mode: vertical-rl;">線形</th>
                   <th colspan="2">縦断勾配</th>
                   <td> 上り 1.8 %</td>
                   <th colspan="2">インバート</th>

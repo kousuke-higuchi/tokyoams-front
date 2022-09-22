@@ -20,64 +20,64 @@
             <v-table density="compact" class="ledger">
               <tbody>
                 <tr>
-                  <th colspan="11"></th>
+                  <th colspan="12"></th>
                   <th>径間区分</th>
                   <td>本線</td>
                   <th>径間番号</th>
-                  <td>1</td>
+                  <td colspan="2">1</td>
                 </tr>
                 <tr>
-                  <th colspan="2">フリガナ</th>
+                  <th colspan="3">フリガナ</th>
                   <td>カマクラバシ</td>
                   <th>橋梁番号</th>
                   <td>01110010-0</td>
                   <th>橋長</th>
                   <td>22.98 ｍ</td>
                   <th>路線名</th>
-                  <td>特例都道町有楽町線402号</td>
+                  <td colspan="2">特例都道町有楽町線402号</td>
                   <th>通称名</th>
                   <td>極楽道路</td>
                   <th rowspan="2">所在地</th>
                   <td>自: 千代田区 内神田 1丁目 地内</td>
                   <th>事務所名</th>
-                  <td>西多摩建設事務所</td>
+                  <td colspan="2">西多摩建設事務所</td>
                 </tr>
                 <tr>
-                  <th colspan="2">橋梁名</th>
+                  <th colspan="3">橋梁名</th>
                   <td>鎌倉橋</td>
                   <th rowspan="2">分割番号</th>
                   <td rowspan="2">1</td>
                   <th rowspan="2">点検種類</th>
                   <td rowspan="2">定期点検</td>
                   <th rowspan="2">点検期間</th>
-                  <td>自2022-08-13</td>
-                  <th rowspan="2">点検請負業者</th>
+                  <td colspan="2">自: 2022-08-13</td>
+                  <th rowspan="2">点検<br>請負業者</th>
                   <td>キチント建設</td>
                   <td>至: 千代田区 大手町 1丁目 地内</td>
                   <th rowspan="2">診査員点検員</th>
-                  <td>出木杉英才</td>
+                  <td colspan="2">出木杉英才</td>
                 </tr>
                 <tr>
                   <th rowspan="4" class="text-center" style="writing-mode: vertical-rl;">交通条件</th>
-                  <th>調査年月日</th>
+                  <th colspan="2">調査年月日</th>
                   <td>2022-08-15</td>
-                  <td>至2022-08-15</td>
+                  <td colspan="2">至: 2022-08-15</td>
                   <td>ヤリマス設備</td>
                   <th colspan="3"> </th>
-                  <td>源静夫</td>
+                  <td colspan="2">源静夫</td>
                 </tr>
                 <tr>
-                  <th rowspan="2">交通量</th>
+                  <th rowspan="2" colspan="2">交通量</th>
                   <td>21,013 台</td>
                   <th>上部工構造形式</th>
                   <td colspan="4">T桁橋(コン)</td>
-                  <th rowspan="3">幅員</th>
+                  <th rowspan="3" class="text-center" style="writing-mode: vertical-rl;">幅員</th>
                   <th>車道</th>
                   <td> 41.24 ｍ</td>
                   <th>路面位置</th>
                   <td>上路</td>
-                  <th>荷重制限</th>
-                  <td></td>
+                  <th colspan="1">荷重制限</th>
+                  <td colspan="2"></td>
                 </tr>
                 <tr>
                   <td> 8 時間</td>
@@ -88,10 +88,10 @@
                   <td> 7.75 ｍ</td>
                   <th>線形</th>
                   <td>2841.02</td>
-                  <th colspan="2">総合評価</th>
+                  <th colspan="3">総合評価</th>
                 </tr>
                 <tr>
-                  <th>大型交通量</th>
+                  <th colspan="2">大型車交通量</th>
                   <td>4,537 台 / 日</td>
                   <th>基礎形式</th>
                   <td colspan="2">壁式橋脚</td>
@@ -100,20 +100,20 @@
                   <td> 48.99 ｍ</td>
                   <th>支間長</th>
                   <td>18.40 ｍ</td>
-                  <th colspan="2">径間別評価</th>
+                  <th colspan="3">径間別評価</th>
                 </tr>
                 <tr>
                   <th colspan="3" class="text-center">部材</th>
                   <th class="text-center">有無</th>
                   <th class="text-center">材質</th>
                   <th class="text-center">形式・厚さ</th>
-                  <th>前々回点検</th>
+                  <th class="text-center">前々回<br>点検</th>
                   <th colspan="2" class="text-center">損傷内容</th>
-                  <th>前回点検</th>
+                  <th class="text-center">前回<br>点検</th>
                   <th colspan="2" class="text-center">損傷内容</th>
-                  <th>今回点検</th>
+                  <th class="text-center">今回<br>点検</th>
                   <th colspan="2" class="text-center">損傷内容</th>
-                  <th class="text-center">措置</th>
+                  <th colspan="2"  class="text-center">措置</th>
                 </tr>
                 <tr>
                   <th rowspan="23" class="text-center" style="writing-mode: vertical-rl;">主桁(構)</th>
@@ -186,7 +186,7 @@
                 </tr>
                 <tr>
                   <th rowspan="8" class="text-center" style="writing-mode: vertical-rl;">斜張橋・吊り橋</th>
-                  <th class="text-center">補鋼桁</th>
+                  <th class="text-center">土桁(補鋼桁)</th>
                   <td class="text-center"></td>
                   <td></td>
                   <td></td>

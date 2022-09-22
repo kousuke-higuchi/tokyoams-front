@@ -32,7 +32,7 @@
                             <td class="text-center">{{ photoInfo.time }}</td>
                           </tr>
                           <tr>
-                            <th class="text-center">部材</th>
+                            <th class="text-center">部材名</th>
                             <td class="text-center">{{ photoInfo.materialName }}</td>
                             <th class="text-center">要素番号</th>
                             <td class="text-center">{{ photoInfo.no }}</td>

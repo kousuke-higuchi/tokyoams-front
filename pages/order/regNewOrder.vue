@@ -56,6 +56,22 @@
                 </div>
             </v-col>
         </v-row>
+        <v-row>
+            <v-col cols="12" class="py-2">
+                <p>■委託担当者の情報を入力してください。</p>
+
+            </v-col>
+        </v-row>
+        <v-row>
+            <v-col cols="4" class="py-2">
+                <div>職員名<v-text-field></v-text-field>
+                </div>
+            </v-col>
+            <v-col cols="4" class="py-2">
+                <div>メールアドレス<v-text-field></v-text-field>
+                </div>
+            </v-col>
+        </v-row>
 
         <v-row>
             <v-col cols="12" class="py-2">

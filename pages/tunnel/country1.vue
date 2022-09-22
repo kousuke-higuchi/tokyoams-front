@@ -15,15 +15,15 @@
           <v-table density="compact">
             <thead>
               <tr>
-                <th rowspan="2">施設名</th>
-                <th rowspan="2">路線名</th>
-                <th rowspan="2" colspan="2">所在地</th>
-                <th rowspan="2">起点側</th>
-                <th>緯度</th>
+                <th rowspan="2" class="text-center">施設名</th>
+                <th rowspan="2" class="text-center">路線名</th>
+                <th rowspan="2" colspan="2" class="text-center">所在地</th>
+                <th rowspan="2" class="text-center">起点側</th>
+                <th class="text-center">緯度</th>
                 <td>{{  '35°67’32.1”'  }}</td>
               </tr>
               <tr>
-                <th>経度</th>
+                <th class="text-center">経度</th>
                 <td>{{  '139°76’21.9”'  }}</td>
               </tr>
             </thead>
@@ -39,12 +39,12 @@
             </tbody>
             <thead>
               <tr>
-                <th>管理者名</th>
-                <th>点検実施年月日</th>
-                <th>代替路の有無</th>
-                <th>自専道or一般道</th>
-                <th colspan="2">緊急輸送道路</th>
-                <th>占用物件</th>
+                <th class="text-center">管理者名</th>
+                <th class="text-center">点検実施年月日</th>
+                <th class="text-center">代替路の有無</th>
+                <th class="text-center">自専道or一般道</th>
+                <th colspan="2" class="text-center">緊急輸送道路</th>
+                <th class="text-center">占用物件(名称)</th>
               </tr>
             </thead>
             <tbody>
@@ -58,14 +58,12 @@
               </tr>
             </tbody>
           </v-table>
-        </v-container>
-        <v-container>
-          <v-card-text>部材単位の診断(各部材ごとに最悪値を記入)</v-card-text>
+          <div>部材単位の診断(各部材ごとに最悪値を記入)</div>
           <div class="d-flex">
             <v-sheet class="ml-auto border bg-grey-lighten-3">点検者</v-sheet>
-            <v-sheet class="border" style="min-width: 5em;"></v-sheet>
+            <v-sheet class="border" style="min-width: 5em;">源静夫</v-sheet>
             <v-sheet class="border bg-grey-lighten-3">点検責任者</v-sheet>
-            <v-sheet class="border" style="min-width: 5em;"></v-sheet>
+            <v-sheet class="border" style="min-width: 5em;">出木杉英寿</v-sheet>
           </div>
           <v-table density="compact">
             <thead>
@@ -74,30 +72,28 @@
                 <th colspan="3" class="text-center">措置後に記録</th>
               </tr>
               <tr>
-                <th>部材名</th>
-                <th>判定区分<br />(Ⅰ~Ⅳ)</th>
-                <th>変状の種類<br />(Ⅱ以上の場合に記載)</th>
-                <th>備考(写真番<br />号、位置等が分<br />かるように記載)</th>
-                <th>措置後の<br />判定区分</th>
-                <th>変状の種類</th>
-                <th>措置及び判定<br />実施年月日</th>
+                <th class="text-center">部材名</th>
+                <th class="text-center">判定区分<br />(Ⅰ~Ⅳ)</th>
+                <th class="text-center">変状の種類<br />(Ⅱ以上の場合に記載)</th>
+                <th class="text-center">備考(写真番<br />号、位置等が分<br />かるように記載)</th>
+                <th class="text-center">措置後の<br />判定区分</th>
+                <th class="text-center">変状の種類</th>
+                <th class="text-center">措置及び判定<br />実施年月日</th>
               </tr>
             </thead>
             <tbody>
               <tr v-for="item in parts" :key="item.partName">
-                <th>{{ item.partName }}</th>
-                <td>{{ item.judge }}</td>
+                <th class="text-center">{{ item.partName }}</th>
+                <td class="text-center">{{ item.judge }}</td>
                 <td>{{ item.accident }}</td>
-                <td>{{ item.note }}</td>
+                <td class="text-center">{{ item.note }}</td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
             </tbody>
           </v-table>
-        </v-container>
-        <v-container>
-          <v-card-text>施設毎の健全性の診断(対策区分Ⅰ~Ⅳ)</v-card-text>
+          <div class="mt-4">施設毎の健全性の診断(対策区分Ⅰ~Ⅳ)</div>
           <v-table density="compact">
             <thead>
               <tr>
@@ -114,24 +110,22 @@
               </tr>
             </tbody>
           </v-table>
-        </v-container>
-        <v-container>
-          <v-card-text>全景写真(起点側、終点側を記載すること)</v-card-text>
+          <div class="mt-4">全景写真(起点側、終点側を記載すること)</div>
           <v-row no-gutters class="border">
             <v-col cols="4">
               <v-table density="compact">
                 <thead>
                   <tr>
-                    <th>建設年次</th>
-                    <th>延長</th>
-                    <th>幅員</th>
+                    <th class="text-center">建設年次</th>
+                    <th class="text-center">延長</th>
+                    <th class="text-center">幅員</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>{{'S43'}}</td>
-                    <td>{{'407m'}}</td>
-                    <td>{{'5.80m'}}</td>
+                    <td class="text-center">{{'S43'}}</td>
+                    <td class="text-center">{{'407m'}}</td>
+                    <td class="text-center">{{'5.80m'}}</td>
                   </tr>
                 </tbody>
               </v-table>

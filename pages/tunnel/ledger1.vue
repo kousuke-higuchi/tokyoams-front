@@ -122,14 +122,14 @@
                     <td colspan="3">{{ null }}ｍ</td>
                   </tr>
                   <tr>
-                    <th rowspan="4">内空<br>道路</th>
+                    <th rowspan="4" class="text-center vertical">内空道路</th>
                     <th>全幅員/有効幅員/車道幅員</th>
                     <td>{{ null }}ｍ</td>
                     <td>{{ null }}ｍ</td>
                     <td>{{ '5.80' }}ｍ</td>
                   </tr>
                   <tr>
-                    <td colspan="4">車道幅/車線数/歩道幅/地覆幅</td>
+                    <th colspan="4">車道幅/車線数/歩道幅/地覆幅</th>
                   </tr>
                   <tr>
                     <th>上り線側</th>
@@ -212,7 +212,7 @@
                     <td colspan="2">{{ null }}</td>
                   </tr>
                   <tr>
-                    <th colspan="2">基礎地盤N値土質条件）</th>
+                    <th colspan="2">基礎地盤N値(土質条件）</th>
                     <td colspan="2">{{ null }}</td>
                   </tr>
                   <tr>
@@ -289,7 +289,7 @@
                     <td>{{ '無' }}</td>
                   </tr>
                   <tr>
-                    <th style="white-space:normal">点検履歴(特記事項は備考欄に記載)</th>
+                    <th style="white-space:normal">点検履歴<br>(特記事項は備<br>考欄に記載)</th>
                     <td style="white-space:normal">
                       {{ 'H20.11 トンネル定期点検' }}<br>
                       {{ 'H24.12 トンネル設備等詳細点検（緊急点検）' }}<br>
@@ -297,7 +297,7 @@
                     </td>
                   </tr>
                   <tr>
-                    <th style="white-space:normal">補修履歴(特記事項は備考欄に記載)</th>
+                    <th style="white-space:normal">補修履歴<br>(特記事項は備<br>考欄に記載)</th>
                     <td class="editcell">
                       <v-textarea v-model="repairNote" :placeholder="repairNote" variant="plain" hint="補修履歴を入力してください"
                         persistent-hint></v-textarea>
@@ -308,7 +308,7 @@
             </v-col>
             <v-col class="border" md="4" cols="12">
               <v-card class=" elevation-0 rounded-0">
-                <v-card-text>現地写真　全景</v-card-text>
+                <v-card-text class="text-center">現地写真　全景</v-card-text>
                 <v-container>
                   <v-img :src="panoramicphoto" style="height:275px" />
                 </v-container>
@@ -316,7 +316,7 @@
             </v-col>
             <v-col class="border" md="4" cols="12">
               <v-card class=" elevation-0 rounded-0">
-                <v-card-text>現地写真　近影</v-card-text>
+                <v-card-text class="text-center">現地写真　近影</v-card-text>
                 <v-container>
                   <v-img :src="recentphoto" style="height:275px" />
                 </v-container>
@@ -324,7 +324,7 @@
             </v-col>
             <v-col class="border" md="4" cols="12">
               <v-card class=" elevation-0 rounded-0">
-                <v-card-text>位置図</v-card-text>
+                <v-card-text class="text-center">位置図</v-card-text>
                 <v-container>
                   <v-img :src="locationImg" style="height:200px" />
                 </v-container>

@@ -11,6 +11,7 @@
         density="compact"
         return-object />
     </div>
+    {{selectedTile}}
 
     <ol-map ref="mapObject" :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 95%" @moveend="onViewMoved">
         <ol-view ref="viewObject" 
@@ -62,13 +63,22 @@
                     </v-card-text>
                     -->
                     <v-card-actions>
+                        <v-row>
                         <v-btn color="primary" @click="onClickMarker(selectedMarker)">
                             詳細
                         </v-btn>
+                    </v-row>
+                    <v-row>
                         <v-btn :href="`https://www.google.com/maps?q=${selectedMarker.wgsCoordinate.latitude},${selectedMarker.wgsCoordinate.longitude}`"
                                 target="_blank">
                             Google Maps<v-icon aria-hidden="true" size="x-small" icon="mdi-open-in-new" />
                         </v-btn>
+                    </v-row>
+                    <v-row>
+                        <v-btn>
+                            位置情報を修正する
+                        </v-btn>
+                    </v-row>
                     </v-card-actions>
                 </v-card>
             </template>
@@ -206,7 +216,7 @@
         name: 'OpenStreetMap',
         attribution:
             '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-        url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        url: 'https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         maxZoom:20,
         minZoom:7,
         },
@@ -253,12 +263,15 @@
     if (authState.state.value.isLogin) {
         // NOTE: hitしないときは、東京都全体
         let loc = officeCenters[0].location;
-        // let defaultOffice = officeCenters.find((c)=>c.id == authState.state.value.currentUser.office.userofficeid);
+        // NOTE: authState.state.value.currentUser.officeが定義、かつnullではない
+        if (authState.state.value.currentUser.office) {
+            let defaultOffice = officeCenters.find((c)=>c.id == authState.state.value.currentUser.office.userofficeid);
 
-        // if(defaultOffice) {
-        //     loc = defaultOffice.location;
-        // }
-        // center.value = [loc[1], loc[0]];
+            if(defaultOffice) {
+            loc = defaultOffice.location;
+            }
+        }
+        center.value = [loc[1], loc[0]];
     }
 
     const onTileChange = () => {

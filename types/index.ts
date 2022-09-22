@@ -116,21 +116,18 @@ export interface Coordinate {
 }
 
 /**
- * 歩道橋一覧情報
+ * 舗装一覧
  */
-export interface Fbg2Summary {
-    id: number;
-    code: string;
-    name: string;
-    office: string;
-    area: string;
-    placestart: string;
-    placeend: string;
-    latitude: number;
-    longitude: number;
-    routeName: string;
+export interface PavSummary{
+    id: String;
+    officename: String;
+    areaname: String;
+    routename: String;
+    spotpoint: Number;
+    MNI: Number;
+    latitude: Number;
+    longitude: Number;
     wgsCoordinate: Coordinate;
-    formattedAddress: string;
 }
 
 /**

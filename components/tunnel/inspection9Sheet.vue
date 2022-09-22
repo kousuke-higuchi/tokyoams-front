@@ -9,10 +9,10 @@
           <th colspan="3" class="text-center">部材種別</th>
           <th class="text-center">今回定期点検</th>
           <th class="text-center">点検日</th>
-          <td>{{ null }}</td>
+          <td>{{ "2019年 1月 18日" }}</td>
           <th class="text-center">前回定期点検</th>
           <th class="text-center">点検日</th>
-          <td>{{ null }}</td>
+          <td>{{ "2013年 2月 14日" }}</td>
         </tr>
         <tr>
           <th class="text-center">名称</th>

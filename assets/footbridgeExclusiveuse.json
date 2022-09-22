@@ -1,0 +1,24 @@
+[
+  {
+    "bridgeid": 1,
+    "id": 2,
+    "approvedate": 0,
+    "owner": "麹町警察署",
+    "kindsize": "交通標識板１枚",
+    "weight": null,
+    "unitname": "kg/m",
+    "contact": "麹町警察署",
+    "createDate": null
+  },
+  {
+    "bridgeid": 1,
+    "id": 1,
+    "approvedate": -1,
+    "owner": "麹町警察署",
+    "kindsize": "交通標識板1枚",
+    "weight": null,
+    "unitname": null,
+    "contact": "麹町警察署",
+    "createDate": null
+  }
+]

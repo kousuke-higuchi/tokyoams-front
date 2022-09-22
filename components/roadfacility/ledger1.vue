@@ -525,7 +525,7 @@
               </tr>
               <tr>
                 <td class="pa-0">
-                  <vue-good-table :columns="columns" :rows="rfaRepairList" :pagination-options="{
+                  <vue-good-table :columns="columns" :rows="RepairList" :pagination-options="{
                     enabled: true
                   }">
                     <template #table-row="props">
@@ -731,6 +731,11 @@ export default defineComponent({
           field: 'delete',
           sortable: false,
         },
+      ],
+      // TODO: 擁壁のみ(共同溝..はOK) 上位からjsonをパラメータで渡すとvue-good-tableでエラーになる。
+      // mockなのでとりあえず前進
+      RepairList: [
+      { "repairid": 1, "parentid":1, "date": "2020/08", "note": "テスト" }
       ],
     }
   },

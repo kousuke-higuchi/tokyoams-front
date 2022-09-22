@@ -1,10 +1,21 @@
 <template>
-  <v-card height="820px" elevation="3">
-    <v-card height="468px">
-      <v-card-title>
-        <v-row class="justify-start mt-1 ml-3 font-weight-bold" style="font-size:medium">
-          道路施設詳細　施設名: さんぷる施設 <!--TODO:施設名は仮値-->
+  <v-expansion-panels v-model="isExtend" multiple v-bind:class="panelIsExtended ? 'panel_extend' : 'panel_nonextend'">
+    <v-expansion-panel @click="onPanelIsExtendedChanged">
+      <v-expansion-panel-title>
+        道路施設詳細　施設番号: {{ selectFacility }}
+        <template v-slot:actions>
+          <v-icon> {{ panelIsExtended ? 'mdi-arrow-left' : 'mdi-arrow-right' }}</v-icon>
+        </template>
+        <v-row justify="end" class="mr-2">
+          <v-btn color="primary" size="small" variant="contained-flat" href="/rockshed">
+            一覧に戻る
+          </v-btn>
         </v-row>
+      </v-expansion-panel-title>
+      <v-expansion-panel-text>
+  <v-card height="820px" elevation="3">
+          <v-card height="484px">
+      <v-card-title>
       </v-card-title>
       <v-container fluid>
         <v-tabs v-model="tabSide" color="primary">
@@ -18,7 +29,7 @@
               <v-list :items="buttons01" color="primary"></v-list>
             </v-window-item>
             <v-window-item value="protocol">
-              <v-list :items="buttons02" color="primary"></v-list>
+                    <v-list :items="buttons02" color="primary" max-height="340"></v-list>
             </v-window-item>
             <v-window-item value="nation">
               <v-list :items="buttons03"></v-list>
@@ -27,11 +38,11 @@
         </v-card-text>
       </v-container>
     </v-card>
-    <v-card>
+          <v-card height="336px">
       <v-card-title>
-        <v-row class="justify-start mt-1 ml-1">台帳メモ一覧</v-row>
+              <v-row class="justify-start mt-1 ml-1" style="font-size:medium!important">台帳メモ一覧</v-row>
         <v-row class="justify-end mt-1 mr-1">
-          <v-btn v-on:click="clickNew()" color="primary">
+                <v-btn v-on:click="onNewClick()" color="primary" size="small">
             新規登録
           </v-btn>
         </v-row>
@@ -42,17 +53,34 @@
             :pagination-options="{
               enabled: true,
               mode: 'records',
-              perPage: 10,
+                    perPage: 2,
               nextLabel: '次',
               prevLabel: '前',
               perPageDropdownEnabled: false,
             }">
+                  <template #table-row="props">
+                    <span v-if="props.column.field == 'update'">
+                      <v-btn class="btn" color="primary" dark size="x-small" v-on:click="onUpdateClick(props.row)">更新
+                      </v-btn>
+                    </span>
+                    <span v-if="props.column.field == 'remove'">
+                      <v-btn class="btn" color="error" dark size="x-small" v-on:click="onRemoveClick(props.row)">削除
+                      </v-btn>
+                    </span>
+                    <span v-else>
+                      {{ props.formattedRow[props.column.field] }}
+                    </span>
+                  </template>
           </vue-good-table>
         </div>
       </v-card-text>
     </v-card>
-
+        </v-card>
+      </v-expansion-panel-text>
+    </v-expansion-panel>
+  </v-expansion-panels>
     <!--台帳メモ登録画面-->
+  <div>
     <v-dialog v-model="isOpen" persistent max-width="450px">
       <v-card>
         <v-toolbar dense>
@@ -68,125 +96,144 @@
               登録日
             </v-col>
             <v-col cols="12" sm="9">
-              <Datepicker v-model="saveDateMemo" locale="jp" :enableTimePicker="false" :format="formatDate"
+              <Datepicker v-model="dialogDate" locale="jp" :enableTimePicker="false" :format="formatDate"
                 :clearable="false" />
             </v-col>
             <v-col cols="12" sm="3" class="mt-2">
               メモ
             </v-col>
             <v-col cols="12" sm="9">
-              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" :hide-details="false"></v-textarea>
+              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" :hide-details="false"
+                v-model="dialogMemo"></v-textarea>
             </v-col>
           </v-row>
         </v-card-text>
         <v-divider></v-divider>
         <div class="d-flex">
-          <v-btn variant="outlined" class="mr-auto ma-3" @click="clickCloseBtn()">閉じる</v-btn>
-          <v-btn color="primary ma-3" class="ml-auto" @click="clickResistBtn()">登録</v-btn>
+          <v-btn variant="outlined" class="mr-auto ma-3" @click="onCloseClick()">閉じる</v-btn>
+          <v-btn color="primary ma-3" class="ml-auto" @click="onSaveClick()">登録</v-btn>
         </div>
       </v-card>
     </v-dialog>
-  </v-card>
+  </div>
+
 
 </template>
 
-<script lang="ts">
-import Datepicker from '@vuepic/vue-datepicker';
-import '@vuepic/vue-datepicker/dist/main.css'
+<script lang="ts" setup>
+import moment from 'moment';
+const route = useRoute();
+const baseUrl = `/rockshed/${route.params.id}`
+const selectFacility = ref("0001");
+const isOpen = ref(false);
+const buttons01 = [
+    { title: 'その1', props: { to: `${baseUrl}/ledger1` } },
+    { title: 'その2', props: { to: `${baseUrl}/ledger2` } },
+    { title: 'その3', props: { to: `${baseUrl}/ledger3` } },
+    { title: 'その4', props: { to: `${baseUrl}/ledger4` } },
+];
+const buttons02 = [
+    { title: 'その5', props: { to: `${baseUrl}/inspection5` } },
+    { title: 'その6', props: { to: `${baseUrl}/inspection6` } },
+    { title: 'その7', props: { to: `${baseUrl}/inspection7` } },
+    { title: 'その8', props: { to: `${baseUrl}/inspection8` } },
+    { title: 'その9', props: { to: `${baseUrl}/inspection9` } },
+    { title: 'その10', props: { to: `${baseUrl}/inspection10` } },
+    { title: 'その11', props: { to: `${baseUrl}/inspection11` } },
+];
 
+const buttons03 = [
+    { title: '様式・国1', props: { to: `${baseUrl}/nation1` } },
+    { title: '様式・国2', props: { to: `${baseUrl}/nation2` } },
+    { title: '様式・国3', props: { to: `${baseUrl}/nation3` } },
+    { title: '様式・国4', props: { to: `${baseUrl}/nation4` } },
+    { title: '様式・国5(A)', props: { to: `${baseUrl}/nation5A` } },
+    { title: '様式・国5(B)', props: { to: `${baseUrl}/nation5B` } },
+    { title: '様式・国5(C)', props: { to: `${baseUrl}/nation5C` } },
+];
+const noteColumns = [
+  {
+    label: '登録日', field: 'date', width: '8em', sortable: false,
+  },
+  {
+    label: '内容', field: 'contents', sortable: false,
+  },
+  {
+    label: '', field: 'update', sortable: false,
+  },
+  {
+    label: '', field: 'remove', sortable: false,
+  },
+];
+const noteContents = [
+  { id: '1', date: '2022-07-05', contents: 'ボルトの交換を行った', },
+  { id: '2', date: '2022-07-06', contents: 'ナットの交換を行った', },
+  { id: '3', date: '2022-07-07', contents: 'バネワッシャーの交換を行った', },
+];
 
-export default defineComponent({
-  components: {
-    Datepicker,
-  },
-  props: {
-    selectTab: { type: String, default: "ledger" },
-  },
-  setup(prop, context) {
-    console.log("setup ideCardDetails : ", prop.selectTab);
-    const route = useRoute()
-    return{
-      route
-    }
-  },
-  data() {
-    return {
-      isOpen: false,
-      saveDateMemo: null,
-      tabSide: 'note',
-      buttons01: [
-        { title: 'その1', props: { to: `/rockshed/${this.$route.params.id}/ledger1` } },
-        { title: 'その2', props: { to: `/rockshed/${this.$route.params.id}/ledger2` } },
-        { title: 'その3', props: { to: `/rockshed/${this.$route.params.id}/ledger3` } },
-        { title: 'その4', props: { to: `/rockshed/${this.$route.params.id}/ledger4` } },
-      ],
-      buttons02: [
-        { title: 'その5', props: { to: `/rockshed/${this.$route.params.id}/inspection5` } },
-        { title: 'その6', props: { to: `/rockshed/${this.$route.params.id}/inspection6` } },
-        { title: 'その7', props: { to: `/rockshed/${this.$route.params.id}/inspection7` } },
-        { title: 'その8', props: { to: `/rockshed/${this.$route.params.id}/inspection8` } },
-        { title: 'その9', props: { to: `/rockshed/${this.$route.params.id}/inspection9` } },
-        { title: 'その10', props: { to: `/rockshed/${this.$route.params.id}/inspection10` } },
-        { title: 'その11', props: { to: `/rockshed/${this.$route.params.id}/inspection11` } },
-      ],
-      buttons03: [
-        { title: '様式・国1', props: { to: `/rockshed/${this.$route.params.id}/nation1` } },
-        { title: '様式・国2', props: { to: `/rockshed/${this.$route.params.id}/nation2` } },
-        { title: '様式・国3', props: { to: `/rockshed/${this.$route.params.id}/nation3` } },
-        { title: '様式・国4', props: { to: `/rockshed/${this.$route.params.id}/nation4` } },
-        { title: '様式・国5(A)', props: { to: `/rockshed/${this.$route.params.id}/nation5A` } },
-        { title: '様式・国5(B)', props: { to: `/rockshed/${this.$route.params.id}/nation5B` } },
-        { title: '様式・国5(C)', props: { to: `/rockshed/${this.$route.params.id}/nation5C` } },
-      ],
-      noteColumns: [
-        {
-          label: 'No', field: 'id', width: '80px', sortable: false,
-          filterOptions: { enabled: true, placeholder: 'No入力', },
-        },
-        {
-          label: '登録日', field: 'date', width: '120px', sortable: false,
-          filterOptions: { enabled: true, placeholder: '日付入力', },
-        },
-        {
-          label: '内容', field: 'contents', sortable: false, filterOptions: {
-            enabled: true, placeholder: '内容入力',
-          },
-        },
-      ],
-      noteContents: [
-        { id: '1', date: '2022-07-05', contents: 'ボルトの交換を行った', },
-        { id: '2', date: '2022-07-06', contents: 'ナットの交換を行った', },
-        { id: '3', date: '2022-07-07', contents: 'バネワッシャーの交換を行った', },
-      ],
-    }
-  },
-  mounted: function () {
-    this.tabSide = this.selectTab;
-    console.log("mounted SideCardDetails : ", this.tabSide);
-    this.saveDateMemo = this.getDate();
-  },
-  methods: {
-    clickNew() {
-      console.info("新規登録を押下しました");
-      this.isOpen = true;
-      this.saveDateMemo = this.getDate();
-    },
-    getDate() {
-      var today = new Date();
-      return today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
-    },
-    clickCloseBtn() {
-      this.isOpen = false;
-      console.debug("clickCloseBtn");
-    },
-    clickResistBtn() {
-      this.isOpen = false;
-      console.debug("clickResisterBtn");
-    },
-    formatDate(args) {
-      console.log(args);
-      return `${args.getFullYear()}年${args.getMonth() + 1}月${args.getDate()}日`
-    },
-  },
+interface Props {
+  selectTab?: string
+}
+const _props = withDefaults(defineProps<Props>(), {
+  selectTab: 'ledger',
+})
+console.log("setup ideCardDetails : ", _props.selectTab);
+
+const tabSide = ref(_props.selectTab);
+const dialogDate = ref(moment().format("yyyy-MM-DD"));
+const dialogMemo = ref("");
+
+const onNewClick = () => {
+  console.info("新規登録を押下しました");
+  dialogDate.value = moment().format("yyyy-MM-DD");
+  isOpen.value = true;
+};
+
+const onUpdateClick = (row) => {
+  console.info("onUpdateClick ", row);
+  dialogDate.value = row.date;
+  dialogMemo.value = row.contents;
+  isOpen.value = true;
+};
+
+const onRemoveClick = (row) => {
+  console.info("onRemoveClick", row);
+};
+const onCloseClick = () => {
+  isOpen.value = false;
+  console.info("onCloseClick");
+};
+const onSaveClick = () => {
+  isOpen.value = false;
+  console.info("onSaveClick");
+};
+const formatDate = (args) => {
+  console.log(args);
+  return moment(args).format("yyyy年M月d日");
+};
+
+const isExtend = ref([0]);
+const panelIsExtended = computed(() => {
+  let extend = isExtend.value;
+  return (extend != null && extend.length == 1 && extend[0] == 0);
 });
+
+interface Emits {
+  (e: 'isExtend', isExtend: boolean): void,
+}
+const emits = defineEmits<Emits>();
+
+const onPanelIsExtendedChanged = () => {
+  emits("isExtend", panelIsExtended.value)
+}
 </script>
+
+<style scoped>
+.panel_extend {
+  width: 100%;
+}
+
+.panel_nonextend {
+  width: 500px;
+}
+</style>

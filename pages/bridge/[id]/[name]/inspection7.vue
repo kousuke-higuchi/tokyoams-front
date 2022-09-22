@@ -15,7 +15,8 @@
               density="compact" hide-details="false"></v-select>
           </v-card-actions>
        </div>
-        <v-card-text>
+        
+       <v-card-text>
           <v-row no-gutters>
             <v-col v-for="(picture, index) in pictures" :key="picture.img" md="4" cols="12">
               <v-card class="rounded-0">
@@ -36,17 +37,16 @@
                       <td class="cell text-center" >{{ picture.material }}</td>
                       <th rowspan="2" class="cell text-center" style="width: 50px;">判定</th>
                       <th class="cell text-center" style="width: 80px;">今回</th>
-                      <td class="cell text-center">良</td>
+                      <td class="cell text-center">b</td>
                     </tr>
                     <tr>
                       <th class="cell text-center" >損傷の種類</th>
                       <td class="cell text-center" >無し</td>
                       <th class="cell text-center">前回</th>
-                      <td class="cell text-center">良</td>
+                      <td class="cell text-center">c</td>
                     </tr>
                   </tbody>
                 </v-table>
-                <!-- TODO: 入力エリアBackgroundをピンクに塗る -->
                 <v-table density="compact">
                   <tbody>
                     <tr>
@@ -64,7 +64,9 @@
                     </tr>
                   </tbody>
                 </v-table>
-                <v-img :src="picture.img"></v-img>
+                <v-container>
+                  <v-img :src="picture.img"></v-img>
+                </v-container>
               </v-card>
             </v-col>
           </v-row>
@@ -84,7 +86,16 @@ export default defineComponent({
       select: '全て',
       histItems: ['全て', '1', '2', '3'],
       isOpen: false,
+      index:0,
       memo: ['許容できる範囲のひび割れ',  '許容できるサビ', '水漏れシミ有(許容)', '塗装中', '多少のひび割れ', '多少のひび割れ' ],
+      images:[
+        { thumbnail: '../../../../assets/img/dmg/bridgeDetail2_7_1.jpg',
+        source: new URL('../../../../assets/img/dmg/bridgeDetail2_7_1.jpg',import.meta.url).href
+      },{ thumbnail: '../../../../assets/img/dmg/bridgeDetail2_7_1.jpg',
+        source: new URL('../../../../assets/img/dmg/bridgeDetail2_7_1.jpg',import.meta.url).href
+      },       
+        
+      ],      
       pictures: [
         {
           img: new URL('../../../../assets/img/dmg/bridgeDetail2_7_1.jpg',import.meta.url).href,
@@ -115,7 +126,7 @@ export default defineComponent({
           memo: '塗装中',
         },
         {
-          img: new URL('../../../../assets/img/dmg/bridgeDetail2_3_2.jpg',import.meta.url).href,
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_7_1.jpg',import.meta.url).href,
          
           no: 5,
           material: '石',
@@ -123,7 +134,7 @@ export default defineComponent({
           memo: '多少のひび割れ',
         },
         {
-          img: new URL('../../../../assets/img/dmg/bridgeDetail2_3_2.jpg',import.meta.url).href,
+          img: new URL('../../../../assets/img/dmg/bridgeDetail2_7_2.jpg',import.meta.url).href,
          
           no: 6,
           material: '石',

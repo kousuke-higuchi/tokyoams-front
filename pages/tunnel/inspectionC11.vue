@@ -62,8 +62,8 @@
                     <th class="text-center">健全性</th>
                     <th class="text-center">調査<br>の<br>要否</th>
                     <th class="text-center vertical" style="width:3em">実施</th>
-                    <th class="text-center">対策区分<br>の<br>判定</th>
-                    <th class="text-center">措置の要否</th>
+                    <th class="text-center">対策区<br>分の<br>判定</th>
+                    <th class="text-center">措置の<br>要否</th>
                     <th class="text-center vertical" style="width:3em">実施</th>
                     <th class="text-center">健全性<br>（措置後）</th>
                   </tr>

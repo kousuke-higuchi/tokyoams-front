@@ -10,20 +10,21 @@
       <v-window v-model="tab">
         <!-- 一覧 tab -->
         <v-window-item value="list">
-          <v-container>
+          <v-col>
             <v-row justify="end">
-              <v-btn v-on:click="onFAdvancedSearchClick()" color="primary">
+              <v-btn v-on:click="onFAdvancedSearchClick()" color="primary" size="small">
                 詳細検索
               </v-btn>
-              <v-btn class="ml-2" v-on:click="onExportButtonClick()" color="primary">
+              <v-btn class="ml-2" v-on:click="onExportButtonClick()" color="primary" size="small">
                 一覧出力
               </v-btn>
             </v-row>
-          </v-container>
+            <v-row class="d-flex ml-1">
+              {{ footbridges.length }} 件
+            </v-row>
+          </v-col>
           <div>
-            <vue-good-table :columns="columns" :rows="rows" :pagination-options="{
-              enabled: false
-            }">
+            <vue-good-table :columns="columns" :rows="footbridges">
               <template #table-row="props">
                 <span v-if="props.column.field == 'OutLedgerBtn'">
                   <v-btn class="btn" color="primary" dark size="small" v-on:click="onOutputLedgerClick()">
@@ -46,7 +47,8 @@
                   </v-btn>
                 </span>
                 <span v-else-if="props.column.field == 'name'">
-                  <nuxt-link :to="`/footbridge/${props.row.id}/ledger1`">{{ props.formattedRow[props.column.field] }}
+                  <nuxt-link :to="`/footbridge/${props.row.id}/${props.row.name} ${props.row.code}/ledger1`">
+                    {{ props.formattedRow[props.column.field] }}
                   </nuxt-link>
                 </span>
                 <span v-else>
@@ -99,7 +101,7 @@
 <script lang="ts" setup>
 import footbridgesJson from "@/assets/footbridge.json";
 import footbridgeService from "~~/services/footbridge-service";
-import { Fbg2Summary } from "~~/types";
+import { Fbg2Summary } from "~~/types/footbridge";
 
 const showMarkerList = ref(false);
 const tab = ref('list');
@@ -107,13 +109,10 @@ const zoom = ref(15);
 const center = ref([35.79112, 139.27753]);
 //TODO:仮データ表示の為一時的にletとする
 //const footbridges = ref<Fbg2Summary[]>();
-let footbridges = ref<Fbg2Summary[]>();
+let footbridges = ref(new Array<Fbg2Summary>);
 const officeDropdwonItem = ref(['第一建設事務所', '第二建設事務所', '第三建設事務所', '第四建設事務所', '西多摩建設事務所']);
 const routeDropdownItem = ref(['一般都道十里木御岳停車場線201号', '主要地方道青梅おきる野線31号', '一般国道411号', '一般都道川野上川乗線206号', '主要地方道杉並あきる野線7号']);
 const areaDropdownItem = ref(['奥多摩出張所', '奥多摩工区', '青梅工区', '福生工区', 'あきる野工区', '檜原工区']);
-
-//TODO:ユーザーによって決める
-const officeid = 8;
 
 // 一覧の列情報
 let _columns = [
@@ -173,7 +172,7 @@ let _columns = [
     filterOptions: {
       enabled: true,
       placeholder: '-選択-',
-      filterDropdownItems: ["人道橋","歩道橋"],
+      filterDropdownItems: ["人道橋", "歩道橋"],
     },
   },
   {
@@ -241,14 +240,13 @@ const map2OfficeDropDown = (c) => {
   }
   else if (modified.field == 'areaName') {
     modified.filterOptions.filterDropdownItems = areaDropdownItem
-  }  
+  }
 
   return modified
 };
 
 const columns = ref(_columns.map(map2OfficeDropDown));
 const columnsOverly = ref(_columnsOverly.map(map2OfficeDropDown));
-const rows = footbridgesJson;
 
 /**
  * 一覧を取得
@@ -256,14 +254,23 @@ const rows = footbridgesJson;
  */
 function getSummary() {
   const authState = useAuthUser();
-  if (!authState.state.value.isLogin) {
-    footbridges.value = footbridgesJson;
-    return;
+  if (authState.state.value.isLogin) {
+    console.info("ログイン済");
+    //TODO:ユーザーによって決める
+    let officeid = 1;
+    if (authState.state.value.currentUser.office) {
+      officeid = authState.state.value.currentUser.office.userofficeid;
+    }
+
+    console.info("login officeid ", officeid, authState.state.value.currentUser.office);
+    footbridgeService.getList(officeid).then(s => {
+      footbridges.value = s.data;
+      console.log(footbridges);
+    })
   }
-  footbridgeService.getList(officeid).then(s => {
-    footbridges.value = s.data;
-    console.log(footbridges);
-  })
+  else {
+    footbridges.value = footbridgesJson as Array<Fbg2Summary>;;
+  }
 };
 
 const onMarkerClick = (m) => {

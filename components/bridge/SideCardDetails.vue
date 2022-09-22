@@ -1,12 +1,14 @@
 <template>
-  <v-expansion-panels v-model="isExtend" multiple v-bind:class=" panelIsExtended ? 'panel_extend':'panel_nonextend'">
+  <v-expansion-panels v-model="isExtend" multiple v-bind:class="panelIsExtended ? 'panel_extend':'panel_nonextend'">
     <v-expansion-panel @click="onPanelIsExtendedChanged">
-      <v-expansion-panel-title   disable-icon-rotate>
+      <v-expansion-panel-title>
         橋梁名 : {{ selectFacility }}
-
+        <template v-slot:actions>
+          <v-icon> {{ panelIsExtended ? 'mdi-arrow-left' : 'mdi-arrow-right' }}</v-icon>
+        </template>
         <v-row justify="end" class="mr-2">
-        <v-btn color="primary" variant="contained-flat" href="/bridge" @click="onReturnClick">
-          一覧に戻る
+          <v-btn color="primary" size="small" variant="contained-flat" href="/bridge">
+            一覧に戻る
           </v-btn>
         </v-row>
       </v-expansion-panel-title>
@@ -36,6 +38,10 @@
               </v-card-text>
             </v-container>
           </v-card>
+                    <v-expansion-panels v-model="isMemoExtend" multiple v-bind:class="memoIsExtended ? 'memo_extend':'memo_not_extend'">
+            <v-expansion-panel>
+              <v-expansion-panel-title>台帳メモ</v-expansion-panel-title>
+              <v-expansion-panel-text>
           <v-card height="336px">
             <v-card-title>
               <v-row class="justify-start mt-1 ml-1" style="font-size:medium!important">台帳メモ一覧</v-row>
@@ -66,14 +72,17 @@
                       </v-btn>
                     </span>
                     <span v-else>
-                      {{props.formattedRow[props.column.field]}}
+                      {{ props.formattedRow[props.column.field] }}
                     </span>
                   </template>
                 </vue-good-table>
               </div>
             </v-card-text>
-          </v-card>
-        </v-card>
+          </v-card>         
+              </v-expansion-panel-text>
+            </v-expansion-panel>
+          </v-expansion-panels>
+                  </v-card>
       </v-expansion-panel-text>
     </v-expansion-panel>
   </v-expansion-panels>
@@ -115,124 +124,125 @@
       </v-card>
     </v-dialog>
   </div>
-
 </template>
 
 <script lang="ts" setup>
-  import moment from 'moment';
-  const route = useRoute();
-  console.info("route", route);
-  const baseUrl = `/bridge/${route.params.id}/${route.params.name}`
-  const selectFacility = ref(route.params.name);
+import moment from 'moment';
+const route = useRoute();
+console.info("route", route);
+const baseUrl = `/bridge/${route.params.id}/${route.params.name}`
+const selectFacility = ref(route.params.name);
 
-  const items = ref(1);
-  const isOpen = ref(false);
-  const buttons01 = [
-        { title: '橋梁台帳(1)', props:{ to:`${baseUrl}/ledger1` } },
-        { title: '橋梁台帳(2)', props:{ to:`${baseUrl}/ledger2` } },
-        { title: '橋梁台帳(3)', props:{ to:`${baseUrl}/ledger3` } },
-        { title: '橋梁台帳(径間)', props:{ to:`${baseUrl}/ledgerSpan` } },
-        { title: '一般図', props:{ to:`${baseUrl}/general` } },
-        { title: '径間別一般図', props:{ to:`${baseUrl}/generalSpan` } },
-        { title: '写真台帳', props:{ to:`${baseUrl}/ledgerPicture` } },
-        { title: '現地状況写真', props:{ to:`${baseUrl}/picture` } },
-        { title: '高欄図', props:{ to:`${baseUrl}/handrail` } },
-      ];
+const items = ref(1);
+const isOpen = ref(false);
+const buttons01 = [
+  { title: '橋梁台帳(1)', props: { to: `${baseUrl}/ledger1` } },
+  { title: '橋梁台帳(2)', props: { to: `${baseUrl}/ledger2` } },
+  { title: '橋梁台帳(3)', props: { to: `${baseUrl}/ledger3` } },
+  { title: '橋梁台帳(径間)', props: { to: `${baseUrl}/ledgerSpan` } },
+  { title: '一般図', props: { to: `${baseUrl}/general` } },
+  { title: '径間別一般図', props: { to: `${baseUrl}/generalSpan` } },
+  { title: '写真台帳', props: { to: `${baseUrl}/ledgerPicture` } },
+  { title: '現地状況写真', props: { to: `${baseUrl}/picture` } },
+  { title: '高欄図', props: { to: `${baseUrl}/handrail` } },
+];
 
-  const buttons02 = [
-        { title: '様式3（点検総括）', props: { to: `${baseUrl}/inspection3` } },
-        { title: '様式4-1（部材ごと評価）', props: { to: `${baseUrl}/inspection41` } },
-        { title: '様式4-2（主桁評価）', props: { to: `${baseUrl}/inspection42` } },
-        { title: '様式5（一般図）', props: { to: `${baseUrl}/inspection5` } },
-        { title: '様式6（写真台帳）', props: { to: `${baseUrl}/inspection6` } },
-        { title: '様式7（損傷写真）', props: { to: `${baseUrl}/inspection7` } },
-        { title: '様式8（損傷図）', props: { to: `${baseUrl}/inspection8` } },
-  ];
+const buttons02 = [
+  { title: '様式3（点検総括）', props: { to: `${baseUrl}/inspection3` } },
+  { title: '様式4-1（部材ごと評価）', props: { to: `${baseUrl}/inspection41` } },
+  { title: '様式4-2（主桁評価）', props: { to: `${baseUrl}/inspection42` } },
+  { title: '様式5（一般図）', props: { to: `${baseUrl}/inspection5` } },
+  { title: '様式6（写真台帳）', props: { to: `${baseUrl}/inspection6` } },
+  { title: '様式7（損傷写真）', props: { to: `${baseUrl}/inspection7` } },
+  { title: '様式8（損傷図）', props: { to: `${baseUrl}/inspection8` } },
+];
 
-  const buttons03 = [
-        { title: '道路橋様式1P001', props:{ to: `${baseUrl}/country1` } },
-        { title: '道路橋様式2P001', props:{ to: `${baseUrl}/country2` } },
-      ];
-  
-  const noteColumns = [
-        {
-          label: '登録日', field: 'date', width: '8em', sortable: false, 
-        },
-        {
-          label: '内容', field: 'contents', sortable: false, 
-        },
-        {
-          label: '', field: 'update', sortable: false, 
-        },
-        {
-          label: '', field: 'remove', sortable: false, 
-        },
-  ];
-  const noteContents = [
-        { id: '1', date: '2022-07-05', contents: 'ボルトの交換を行った',   },
-        { id: '2', date: '2022-07-06', contents: 'ナットの交換を行った',   },
-        { id: '3', date: '2022-07-07', contents: 'バネワッシャーの交換を行った', },
-  ];
+const buttons03 = [
+  { title: '道路橋様式1P001', props: { to: `${baseUrl}/country1` } },
+  { title: '道路橋様式2P001', props: { to: `${baseUrl}/country2` } },
+];
+const noteColumns = [
+  {
+    label: '登録日', field: 'date', width: '8em', sortable: false,
+  },
+  {
+    label: '内容', field: 'contents', sortable: false,
+  },
+  {
+    label: '', field: 'update', sortable: false,
+  },
+  {
+    label: '', field: 'remove', sortable: false,
+  },
+];
+const noteContents = [
+  { id: '1', date: '2022-07-05', contents: 'ボルトの交換を行った', },
+  { id: '2', date: '2022-07-06', contents: 'ナットの交換を行った', },
+  { id: '3', date: '2022-07-07', contents: 'バネワッシャーの交換を行った', },
+];
 
-  interface Props {
-      selectTab?: string
-  }
-  const _props = withDefaults(defineProps<Props>(), {
-      selectTab: 'ledger',
-  })
-  console.log("setup ideCardDetails : ", _props.selectTab);
+interface Props {
+  selectTab?: string
+}
+const _props = withDefaults(defineProps<Props>(), {
+  selectTab: 'ledger',
+})
+console.log("setup ideCardDetails : ", _props.selectTab);
 
-  const tabSide = ref(_props.selectTab);
-  const dialogDate = ref(moment().format("yyyy-MM-DD"));
-  const dialogMemo = ref("");
+const tabSide = ref(_props.selectTab);
+const dialogDate = ref(moment().format("yyyy-MM-DD"));
+const dialogMemo = ref("");
 
-  const onNewClick = () => {
-    console.info("新規登録を押下しました");
-    dialogDate.value = moment().format("yyyy-MM-DD");
-    isOpen.value = true;
-  };
+const onNewClick = () => {
+  console.info("新規登録を押下しました");
+  dialogDate.value = moment().format("yyyy-MM-DD");
+  isOpen.value = true;
+};
 
-  const onUpdateClick = (row) => {
-    console.info("onUpdateClick ", row);
-    dialogDate.value = row.date;
-    dialogMemo.value = row.contents;
-    isOpen.value = true;
-  };
+const onUpdateClick = (row) => {
+  console.info("onUpdateClick ", row);
+  dialogDate.value = row.date;
+  dialogMemo.value = row.contents;
+  isOpen.value = true;
+};
 
-  const onRemoveClick = (row)=>{
-      console.info("onRemoveClick", row);
-  };
-  const onCloseClick = () => {
-    isOpen.value = false;
-    console.info("onCloseClick");
-  };
-  const onSaveClick = ()=>{
-    isOpen.value = false;
-    console.info("onSaveClick");
-  };
-  const formatDate = (args) => {
-    console.log(args);
-    return moment(args).format("yyyy年M月d日");
-  };
-  const onReturnClick = ()=>{
+const onRemoveClick = (row) => {
+  console.info("onRemoveClick", row);
+};
+const onCloseClick = () => {
+  isOpen.value = false;
+  console.info("onCloseClick");
+};
+const onSaveClick = () => {
+  isOpen.value = false;
+  console.info("onSaveClick");
+};
+const formatDate = (args) => {
+  console.log(args);
+  return moment(args).format("yyyy年M月d日");
+};
 
-  }
+const isExtend = ref([0]);
+const isMemoExtend = ref([1]);
+const panelIsExtended = computed(() => {
+  let extend = isExtend.value;
+  return (extend != null && extend.length == 1 && extend[0] == 0);
+});
+const memoIsExtended = computed(() => {
+  let extend = isMemoExtend.value;
+  return (extend != null && extend.length == 1 && extend[0] == 0);
+});
 
-  const isExtend = ref([0]);
-  const panelIsExtended = computed(()=>{
-    let extend = isExtend.value;
-    return (extend != null && extend.length == 1 && extend[0] == 0);
-  });
 
-  interface Emits {
-    (e: 'isExtend', isExtend: boolean): void,
-  }
-  const emits = defineEmits<Emits>();
+interface Emits {
+  (e: 'isExtend', isExtend: boolean): void,
+}
+const emits = defineEmits<Emits>();
 
-  const onPanelIsExtendedChanged = ()=>{
-    console.info("onPanelIsExtendedChanged");
-    emits("isExtend", panelIsExtended.value)
-  }
+const onPanelIsExtendedChanged = () => {
+  console.info("onPanelIsExtendedChanged");
+  emits("isExtend", panelIsExtended.value)
+}
 </script>
 
 <style scoped>
@@ -242,5 +252,12 @@
 
 .panel_nonextend {
   width: 500px;
+}
+
+.memo_extend{
+  width: 800px;
+}
+.memo_not_extend{
+  width: 80px;
 }
 </style>

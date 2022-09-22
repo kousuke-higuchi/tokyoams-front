@@ -2,10 +2,17 @@
   <v-expansion-panels v-model="isExtend" multiple v-bind:class="panelIsExtended ? 'panel_extend' : 'panel_nonextend'">
     <v-expansion-panel @click="onPanelIsExtendedChanged">
       <v-expansion-panel-title>
-        歩道橋名 : 青葉歩道橋 01130010
+        歩道橋名 : {{ selectFacility }}
+        <template v-slot:actions>
+          <v-icon> {{ panelIsExtended ? 'mdi-arrow-left' : 'mdi-arrow-right' }}</v-icon>
+        </template>
+        <v-row justify="end" class="mr-2">
+          <v-btn color="primary" size="small" variant="contained-flat" href="/footbridge">
+            一覧に戻る
+          </v-btn>
+        </v-row>
       </v-expansion-panel-title>
       <v-expansion-panel-text>
-
         <v-card height="820px" elevation="3">
           <v-card height="484px">
             <v-card-title>
@@ -31,43 +38,53 @@
               </v-card-text>
             </v-container>
           </v-card>
-          <v-card height="336px">
-            <v-card-title>
-              <v-row class="justify-start mt-1 ml-1" style="font-size:medium!important">台帳メモ一覧</v-row>
-              <v-row class="justify-end mt-1 mr-1">
-                <v-btn v-on:click="onNewClick()" color="primary" size="small">
-                  新規登録
-                </v-btn>
-              </v-row>
-            </v-card-title>
-            <v-card-text>
-              <div>
-                <vue-good-table :columns="noteColumns" :rows="noteContents" style-class="vgt-table striped"
-                  :pagination-options="{
-                    enabled: true,
-                    mode: 'records',
-                    perPage: 10,
-                    nextLabel: '次',
-                    prevLabel: '前',
-                    perPageDropdownEnabled: false,
-                  }">
-                  <template #table-row="props">
-                    <span v-if="props.column.field == 'update'">
-                      <v-btn class="btn" color="primary" dark size="x-small" v-on:click="onUpdateClick(props.row)">更新
+          <v-expansion-panels v-model="isMemoExtend" multiple
+            v-bind:class="memoIsExtended ? 'memo_extend':'memo_not_extend'">
+            <v-expansion-panel>
+              <v-expansion-panel-title>台帳メモ</v-expansion-panel-title>
+              <v-expansion-panel-text>
+                <v-card height="336px">
+                  <v-card-title>
+                    <v-row class="justify-start mt-1 ml-1" style="font-size:medium!important">台帳メモ一覧</v-row>
+                    <v-row class="justify-end mt-1 mr-1">
+                      <v-btn v-on:click="onNewClick()" color="primary" size="small">
+                        新規登録
                       </v-btn>
-                    </span>
-                    <span v-if="props.column.field == 'remove'">
-                      <v-btn class="btn" color="error" dark size="x-small" v-on:click="onRemoveClick(props.row)">削除
-                      </v-btn>
-                    </span>
-                    <span v-else>
-                      {{ props.formattedRow[props.column.field] }}
-                    </span>
-                  </template>
-                </vue-good-table>
-              </div>
-            </v-card-text>
-          </v-card>
+                    </v-row>
+                  </v-card-title>
+                  <v-card-text>
+                    <div>
+                      <vue-good-table :columns="noteColumns" :rows="noteContents" style-class="vgt-table striped"
+                        :pagination-options="{
+                          enabled: true,
+                          mode: 'records',
+                          perPage: 10,
+                          nextLabel: '次',
+                          prevLabel: '前',
+                          perPageDropdownEnabled: false,
+                        }">
+                        <template #table-row="props">
+                          <span v-if="props.column.field == 'update'">
+                            <v-btn class="btn" color="primary" dark size="x-small"
+                              v-on:click="onUpdateClick(props.row)">更新
+                            </v-btn>
+                          </span>
+                          <span v-if="props.column.field == 'remove'">
+                            <v-btn class="btn" color="error" dark size="x-small" v-on:click="onRemoveClick(props.row)">
+                              削除
+                            </v-btn>
+                          </span>
+                          <span v-else>
+                            {{ props.formattedRow[props.column.field] }}
+                          </span>
+                        </template>
+                      </vue-good-table>
+                    </div>
+                  </v-card-text>
+                </v-card>
+              </v-expansion-panel-text>
+            </v-expansion-panel>
+          </v-expansion-panels>
         </v-card>
       </v-expansion-panel-text>
     </v-expansion-panel>
@@ -97,7 +114,7 @@
               メモ
             </v-col>
             <v-col cols="12" sm="9">
-              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" hidedetails="false"
+              <v-textarea label="メモを入力してください" rows="1" auto-grow density="compact" :hide-details="false"
                 v-model="dialogMemo"></v-textarea>
             </v-col>
           </v-row>
@@ -130,7 +147,9 @@ const _props = withDefaults(defineProps<Props>(), {
 console.log("setup SideCardDetails : ", _props.selectTab);
 
 const route = useRoute();
-const baseUrl = `/footbridge/${route.params.id}`
+console.info("route", route);
+const baseUrl = `/footbridge/${route.params.id}/${route.params.name}`
+const selectFacility = ref(route.params.name);
 
 const isOpen = ref(false);
 const buttons01 = [
@@ -204,8 +223,14 @@ const formatDate = (args) => {
 };
 
 const isExtend = ref([0]);
+const isMemoExtend = ref([1]);
 const panelIsExtended = computed(() => {
   let extend = isExtend.value;
+  return (extend != null && extend.length == 1 && extend[0] == 0);
+});
+
+const memoIsExtended = computed(() => {
+  let extend = isMemoExtend.value;
   return (extend != null && extend.length == 1 && extend[0] == 0);
 });
 
@@ -225,6 +250,14 @@ const onPanelIsExtendedChanged = () => {
 }
 
 .panel_nonextend {
-  width: 300px;
+  width: 500px;
+}
+
+.memo_extend {
+  width: 800px;
+}
+
+.memo_not_extend {
+  width: 80px;
 }
 </style>

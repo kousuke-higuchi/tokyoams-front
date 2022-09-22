@@ -24,7 +24,7 @@
                   <td colspan="2" class="text-center">不明 台／日</td>
                   <td colspan="2" class="text-center">不明 人／日</td>
                   <th rowspan="2" colspan="2" class="text-center">許可年月</th>
-                  <th rowspan="2" class="text-center">占有者</th>
+                  <th rowspan="2" class="text-center">占用者</th>
                   <th rowspan="2" class="text-center">種類及び数量</th>
                   <th rowspan="2" class="text-center">重量kg／ｍ</th>
                   <th rowspan="2" colspan="2" class="text-center">連絡先</th>
@@ -254,7 +254,7 @@
                   <td colspan="2"></td>
                   <th colspan="2" class="text-center">調査年月</th>
                   <th colspan="2" class="text-center">耐荷荷重</th>
-                  <th colspan="2" class="text-center">材限荷重</th>
+                  <th colspan="2" class="text-center">制限荷重</th>
                   <th colspan="2" class="text-center">調査記事</th>
                 </tr>
                 <tr>
@@ -390,7 +390,16 @@
                   <td colspan="2" class="text-center">1993 年 3月</td>
                   <td colspan="2">橋梁上下部工</td>
                   <td colspan="2">定期点検(総合評価 Bランク)</td>
-                  <th colspan="7" class="text-center">塗装経歴</th>
+                  <th colspan="7">
+                    <v-row class="d-flex">
+                      <v-col md="4" cols="12"></v-col>
+                      <!-- TODO: vertical-alignで上下均等配置試みたができず -->
+                      <v-col md="4" cols="12" class="text-center">塗装経歴</v-col>
+                      <v-col md="4" cols="12" class="text-right">
+                        <v-btn class="btn " color="primary" dark size="small" v-on:click="onCreateClick()">新規登録</v-btn>
+                      </v-col>
+                    </v-row>
+                  </th>
                   <td colspan="2"></td>
                   <td colspan="2"></td>
                   <td colspan="2"></td>
@@ -400,38 +409,30 @@
                   <td colspan="2" class="text-center">1998 年 2月</td>
                   <td colspan="2">橋梁上下部工</td>
                   <td colspan="2">定期点検(総合評価 Cランク)</td>
-                  <td rowspan="20" colspan="7">
-                    <v-col>
-                      <!--                 <v-row class="justify-center ml-3"  style="font-size: medium !important;">塗装経歴</v-row> -->
-                      <v-row class="justify-end ml-3">
-                        <v-btn class="btn " color="primary" dark size="small" v-on:click="onCreateClick()">新規登録</v-btn>
-                      </v-row>
-                    </v-col>
-                    <div class="mt-3">
-                      <vue-good-table :columns="columns" :rows="bidgePaint" style-class="vgt-table striped"
-                        :pagination-options="{
-                          enabled: true,
-                          mode: 'records',
-                          perPage: 10,
-                          nextLabel: '次',
-                          prevLabel: '前',
-                          perPageDropdownEnabled: false,
-                        }">
-                        <template #table-row="props">
-                          <span v-if="props.column.field == 'update'">
-                            <v-btn class="btn" color="primary" dark size="small" v-on:click="onUpdateClick(props.row)">
-                              更新</v-btn>
-                          </span>
-                          <span v-if="props.column.field == 'delete'">
-                            <v-btn class="btn" color="error" dark size="small" v-on:click="onDeleteClick(props.row)">削除
-                            </v-btn>
-                          </span>
-                          <span v-else>
-                            {{ props.formattedRow[props.column.field] }}
-                          </span>
-                        </template>
-                      </vue-good-table>
-                    </div>
+                  <td rowspan="16" colspan="7" class="pa-0">
+                    <vue-good-table :columns="columns" :rows="bidgePaint" style-class="vgt-table striped" max-height="480px" 
+                      :pagination-options="{
+                        enabled: true,
+                        mode: 'records',
+                        perPage: 10,
+                        nextLabel: '次',
+                        prevLabel: '前',
+                        perPageDropdownEnabled: false,
+                      }">
+                      <template #table-row="props">
+                        <span v-if="props.column.field == 'update'">
+                          <v-btn class="btn" color="primary" dark size="small" v-on:click="onUpdateClick(props.row)">
+                            更新</v-btn>
+                        </span>
+                        <span v-if="props.column.field == 'delete'">
+                          <v-btn class="btn" color="error" dark size="small" v-on:click="onDeleteClick(props.row)">削除
+                          </v-btn>
+                        </span>
+                        <span v-else>
+                          {{ props.formattedRow[props.column.field] }}
+                        </span>
+                      </template>
+                    </vue-good-table>
                   </td>
                   <th colspan="8" class="text-center">橋灯調書</th>
                 </tr>
@@ -517,12 +518,6 @@
                   <td colspan="2" class="text-center"></td>
                   <td colspan="2"></td>
                   <td colspan="2"></td>
-                  <td colspan="8"></td>
-                </tr>
-                <tr>
-                  <td colspan="2" class="text-center"></td>
-                  <td colspan="2"></td>
-                  <td colspan="2"></td>
                   <th colspan="8" class="text-center">その他調書</th>
                 </tr>
                 <tr>
@@ -575,12 +570,6 @@
                   <th colspan="2">排水管延長</th>
                   <td colspan="2" class="text_right">ｌ＝ ｍ</td>
                 </tr>
-                <tr>
-                  <td colspan="2" class="text-center"></td>
-                  <td colspan="2"></td>
-                  <td colspan="2"></td>
-                  <th rouspan="2" colspan="8"></th>
-                </tr>
               </tbody>
             </v-table>
           </v-card-text>
@@ -616,109 +605,61 @@ export default defineComponent({
           dateInputFormat: "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
           dateOutputFormat: 'yyyy-MM-dd',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '年月入力',
-          },
         },
         {
           label: '下塗材料',
           field: 'lower1mat',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '下塗材料入力',
-          },
         },
         {
           label: '下塗色',
           field: 'lower1color',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '下塗色入力',
-          },
         },
         {
           label: '下塗材料',
           field: 'lower2mat',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '下塗材料入力',
-          },
         },
         {
           label: '下塗色',
           field: 'lower2color',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '下塗色入力',
-          },
         },
         {
           label: '中塗材料',
           field: 'middlemat',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '中塗材料入力',
-          },
         },
         {
           label: '中塗色',
           field: 'middlecolor',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '中塗色入力',
-          },
         },
         {
           label: '上塗材料',
           field: 'uppermat',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '上塗材料入力',
-          },
         },
         {
           label: '上塗色',
           field: 'uppercolor',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '上塗色入力',
-          },
         },
         {
           label: '面積  ㎡',
           field: 'area',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '面積入力',
-          },
         },
         {
           label: '工費',
           field: 'cost',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '面積入力',
-          },
         },
         {
           label: '塗装業者',
           field: 'companyname',
           sortable: false,
-          filterOptions: {
-            enabled: true,
-            placeholder: '工費入力',
-          },
         },
         {
           label: '',
@@ -770,3 +711,9 @@ export default defineComponent({
   },
 });
 </script>
+<style scoped>
+.adjusttext {
+    vertical-align: middle !important;
+}
+   
+  </style>

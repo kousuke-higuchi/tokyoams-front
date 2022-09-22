@@ -56,7 +56,7 @@
                 <th>VI計</th>
                 <th>CO計</th>
                 <th>風向<br>風速計</th>
-                <th>特記事項</th>
+                <th class="text-center">特記<br>事項</th>
               </tr>
               <tr v-for="item in items" :key="item.c1">
                 <td class="text-center">{{item.c1}}</td>
