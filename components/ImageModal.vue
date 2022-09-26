@@ -13,7 +13,7 @@
 
 <style scoped>
 .modal {
-  width: 90%;
+  width: 100%;
   height: 100%;
   padding: 30px;
   display: flex;
@@ -21,7 +21,7 @@
   justify-content: center;
   position: fixed;
   top: 0;
-  left: 300px;
+  left: 0;
   overflow-y: auto;
   background: rgba(0, 0, 0, 0.8);
 }

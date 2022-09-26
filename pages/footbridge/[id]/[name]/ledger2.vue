@@ -7,7 +7,6 @@
       <v-col v-bind:md="child_extend ? 9 : 12" cols="12">
         <v-card elevation="3">
           <v-card-title>
-            <v-row class="justify-start mt-1 ml-3">青葉歩道橋 No.01130010</v-row>
             <v-row class="justify-end mt-1 mr-3">様式-2</v-row>
           </v-card-title>
           <v-card-text>
@@ -194,13 +193,13 @@
                     <tbody>
                       <tr>
                         <th class="text-center">塗装面積</th>
-                        <td>{{ fbgPaintData.supergeneral }}㎡</td>
-                        <td>{{ fbgPaintData.superspecial }}㎡</td>
-                        <td>{{ fbgPaintData.subgeneral }}㎡</td>
-                        <td>{{ fbgPaintData.subspecial }}㎡</td>
-                        <td>{{ fbgPaintData.railing }}㎡</td>
-                        <td>{{ fbgPaintData.light }}㎡</td>
-                        <td>{{ fbgPaintData.total }}㎡</td>
+                        <td>{{ fbgPaintData?.supergeneral }}㎡</td>
+                        <td>{{ fbgPaintData?.superspecial }}㎡</td>
+                        <td>{{ fbgPaintData?.subgeneral }}㎡</td>
+                        <td>{{ fbgPaintData?.subspecial }}㎡</td>
+                        <td>{{ fbgPaintData?.railing }}㎡</td>
+                        <td>{{ fbgPaintData?.light }}㎡</td>
+                        <td>{{ fbgPaintData?.total }}㎡</td>
                       </tr>
                     </tbody>
                   </v-table>
@@ -334,6 +333,7 @@ let fbgDamageList = ref<Fbg2Damage[]>();
 let fbgTrafficcensusList = ref<Fbg2Trafficcensus[]>();
 //敷地調書情報
 let fbgGroundList = ref<Fbg2Ground[]>();
+  fbgGroundList.value = fbgGroundJson;
 //占用・添架物件調書情報
 let fbgExclusiveuseList = ref<Fbg2Exclusiveuse[]>();
 //塗装調書情報

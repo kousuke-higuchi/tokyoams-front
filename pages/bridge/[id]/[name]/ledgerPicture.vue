@@ -1,10 +1,10 @@
 <template>
   <v-row>
-    <v-col v-bind:md="child_extend?3:0" cols="12">
-    <!-- <p> {{ child_extend }}</p> -->
-      <bridge-side-card-details @isExtend='child_extend = $event' />
+    <v-col v-bind:md="child_extend ? 3 : 0" cols="12">
+      <!-- <p> {{ child_extend }}</p> -->
+      <bridge-side-card-details @isExtend="child_extend = $event" />
     </v-col>
-    <v-col v-bind:md="child_extend?9:12" cols="12">
+    <v-col v-bind:md="child_extend ? 9 : 12" cols="12">
       <v-card elevation="3">
         <div class="d-flex">
           <v-card-title>
@@ -17,25 +17,28 @@
             <v-col
               md="6"
               cols="12"
-              class="detailCard"
-              v-for="(photo,index) in photos"
+              class="brgDetailCard"
+              v-for="(photo, index) in photos"
               :key="photo.dataid"
             >
               <v-sheet>
-                <div class="pa-4">
-                  <v-img :src="imagePaths[index]" max-height="350" aspect-ratio="1">
-                  </v-img>
-                </div>
                 <v-table density="compact">
                   <tbody>
                     <tr>
-                      <th class="cell" style="width: 60px">備考</th>
-                      <td class="cell">{{ photo.item1 }}</td>
-                      <th class="cell text-center" style="width: 80px">
-                        撮影日
-                      </th>
-                      <td class="cell text-center" style="width: 180px">
-                        {{ moment(photo.takedate).format("yyyy年M月D日") }}
+                      <td colspan="7">
+                        <v-img
+                          :src="photo.url"
+                          max-height="350"
+                          aspect-ratio="1"
+                        ></v-img>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th style="width: 60px">備考</th>
+                      <td>{{ photo.item1 }}</td>
+                      <th class="text-center" style="width: 80px">撮影日</th>
+                      <td class="text-center" style="width: 180px">
+                        {{ moment(photo.createdate).format("yyyy年M月D日") }}
                       </td>
                     </tr>
                   </tbody>
@@ -51,64 +54,65 @@
 
 <script lang="ts" setup>
 import _moment from "moment";
+import Service from "~~/services/service";
+import { list } from "postcss";
 import bridgeService from "~~/services/bridge-service";
-import { BridgePhoto } from "~~/types/bridge";
+import { BridgePhoto, BRG_TB_BRIDGEPHOTO } from "~~/types/bridge";
 
+// メニューの開閉処理
 const child_extend = ref(true);
-
-const route = useRoute();
-const bridgeId = parseInt(route.params.id as string);
-
-const photos = ref<BridgePhoto[]>([
-  {
-    dataid: 1,
-    item1: "全景写真",
-    takedate: new Date(2017, 9, 25),
-    url: new URL('../../../../assets/img/dmg/leaderPicture1.jpg',import.meta.url).href,
-  },
-  {
-    dataid: 2,
-    item1: "正面写真(起点側)",
-    takedate: new Date(2017, 10, 25),
-    url: new URL('../../../../assets/img/dmg/leaderPicture2.jpg',import.meta.url).href,
-  },
-  {
-    dataid: 4,
-    item1: "正面写真(終点側)",
-    takedate: new Date(2017, 10, 25),
-    url: new URL('../../../../assets/img/dmg/leaderPicture3.jpg',import.meta.url).href,
-  },
-]);
-const imagePaths = ref<string[]>(
-[ new URL('../../../../assets/img/dmg/leaderPicture1.jpg',import.meta.url).href,
-new URL('../../../../assets/img/dmg/leaderPicture2.jpg',import.meta.url).href,
-new URL('../../../../assets/img/dmg/leaderPicture3.jpg',import.meta.url).href,
-
-]);
-
-photos.value.forEach((element, index) => {
-  //TODO:モック終了後、ログイン状態の判定は削除。
-
-  const authState = useAuthUser();
-  if (authState.state.value.isLogin) {
-    bridgeService.getImageUrl(bridgeId, 7, element.dataid).then((url) => {
-      photos.value[index].url = url;
-    });
-  }
-});
 
 const moment = (d) => {
   return _moment(d);
 };
+let service = new Service();
+
+// 写真台帳は写真種別ID(7:現地写真)
+const photokindid = BRG_TB_BRIDGEPHOTO.PHOTOLEADER;
+const route = useRoute();
+const bridgeId = parseInt(route.params.id as string);
+
+const photos = ref(new Array<BridgePhoto>());
+
+const loadingState = useLoading();
+loadingState.setLoading(true);
+
+onMounted(() => {
+  bridgeService
+    .getImageInfo(bridgeId, photokindid)
+    .then((apiData) => {
+      photos.value = apiData.data;
+
+      if (photos.value.length == 0) {
+        useToast().showToast("データがありませんでした。");
+        return;
+      }
+
+      //取得したデータを基にURLをセット
+      photos.value.forEach((element, index) => {
+        bridgeService
+          .getImageUrl(bridgeId, photokindid, element.dataid)
+          .then((url) => {
+            photos.value[index].url = url;
+
+            // item1が取得できない場合3を取得して設定する。
+            if (
+              photos.value[index].item1 == null ||
+              photos.value[index].item1 == ""
+            ) {
+              photos.value[index].memo = photos.value[index].item3;
+            } else {
+              photos.value[index].memo = photos.value[index].item1;
+            }
+
+            photos.value[index].createdate = service.getDateFromNumber(
+              photos.value[index].takedate
+            );
+          });
+      });
+    })
+    .finally(() => {
+      loadingState.setLoading(false);
+    });
+});
 </script>
-
-<style scoped>
-.detailCard {
-  padding: 0;
-  border: 1px solid black;
-}
-
-.cell {
-  border: 0.5px solid black;
-}
-</style>

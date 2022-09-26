@@ -928,8 +928,8 @@ const streetlight: Streetlight = reactive({
   distance: 26.8, //地点標
   setposition: "植栽帯", //設置位置
   updownkind: "下", //上下線別
-  latitude: 354711.07, //緯度
-  longitude: 1391552.53, //経度
+  latitude: "35°47′28.3″", //緯度
+  longitude: "139°45′16.0″", //経度
   createdate: null, //台帳作成日
   setpatternid: -1, //設置パターンID
   maplinkcode: "", //リンクコード

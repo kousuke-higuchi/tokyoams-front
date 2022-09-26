@@ -1,5 +1,6 @@
 import axios, { AxiosInstance } from "axios";
 import { TOKEN_HEADER_NAME } from "~~/types";
+import moment from "moment";
 
 // axiosの共通設定
 
@@ -94,5 +95,18 @@ export default class Service {
 
     return fileName;
 }
-
+  /**
+   * 日付が設定されているnumberを渡し、date型にして返します。
+   * @param datenumber YYYYMMDDで日付設定されているnumber型
+   * @returns 日付型
+   */
+   public getDateFromNumber(datenumber : number) {
+    
+    if (datenumber == null) {
+      return null
+    }
+    else {
+      return  moment(datenumber, 'YYYYMMDD').toDate();
+    }
+  }
 }

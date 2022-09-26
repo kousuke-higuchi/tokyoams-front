@@ -42,6 +42,14 @@ table.vgt-table select
   bottom: 1.2em;
 }
 
+.brgDetailCard {
+  padding: 0;
+  border: 1px solid black;
+  td,th {
+    border: 0.5px solid black;
+  }
+}
+
 .atfTable table{
  th{
   text-align: center !important;

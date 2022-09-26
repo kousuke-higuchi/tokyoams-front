@@ -7,27 +7,26 @@
       <v-col v-bind:md="child_extend ? 9 : 12" cols="12">
         <v-card elevation="3">
           <v-card-title>
-            <v-row class="justify-start mt-1 ml-3">横断歩道橋（人道橋）定期点検表</v-row>
+            <v-sheet>
+              <v-container>径間番号</v-container>
+            </v-sheet>
+            <v-sheet class="ma-1">
+              <v-select v-model="select" :items="getPageNumber()" item-title="page" variant="outlined"
+                density="compact" hide-details>
+              </v-select>
+            </v-sheet>
             <v-row class="justify-end mt-1 mr-3">様式-3</v-row>
           </v-card-title>
-          <v-row>
-            <v-card-text>
-              <v-btn color="primary" style="float:right">
-                更新
-              </v-btn>
-            </v-card-text>
-          </v-row>
           <v-card-text>
             <v-row no-gutters>
               <v-col md="12" cols="12">
                 <div>
                   <v-table density="compact" class="ledger">
                     <tbody>
-                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
                       <tr>
-                        <th class="text-center">
-                      <tr>ﾌﾘｶﾞﾅ</tr>
-                      <tr>橋名</tr>
+                        <th colspan="2" class="text-center">
+                          ﾌﾘｶﾞﾅ<br>
+                          橋名
                       </th>
                       <td class="text-center">
                         ｱｵﾊﾞ<br>
@@ -35,32 +34,28 @@
                       </td>
                       <th>橋梁<br>番号</th>
                       <td>01130010</td>
-                      <th>所在地</th>
+                      <th style="width:16em">所在地</th>
                       <td>
                         自）千代田区三番町6番14号<br>
                         至）千代田区九段南二丁目1番32号
                       </td>
                       <th class="text-center">※１）路線名<br>（通称名）</th>
-                      <td class="text-center">
+                        <td colspan="2" class="text-center">
                         特例都道401号線<br>
                         麹町竹平<br>
                         内堀通り
                       </td>
                       <th class="text-center">事務所名</th>
                       <td class="text-center">第一建設事務所</td>
+                      <th class="text-center">適用</th>
                       </tr>
-                    </tbody>
-                  </v-table>
-                  <v-table density="compact" class="ledger">
-                    <tbody>
-                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
                       <tr>
-                        <th rowspan="4" class="text-center" style="width:4em">交通条件</th>
+                        <th rowspan="4" class="text-center vertical" style="width:4em">交通条件</th>
                         <th>調査年月</th>
                         <td>
                           <v-text-field variant="underlined" density="compact" :placeholder=trafficcensusDate />
                         </td>
-                        <th rowspan="4" class="text-center" style="width:4em">利用状況</th>
+                        <th rowspan="4" class="text-center vertical" style="width:4em">利用状況</th>
                         <th>調査年月</th>
                         <td>
                           <v-text-field variant="underlined" density="compact" placeholder="2020年12月" />
@@ -70,12 +65,22 @@
                           <v-text-field variant="underlined" density="compact" placeholder="44.085ｍ" />
                         </td>
                         <th style="width:8em">上部形式</th>
-                        <td style="width:20em">
+                        <td style="width:50em">
                           <v-text-field variant="underlined" density="compact" placeholder="中路式純銅Ⅰ桁橋" />
                         </td>
                         <th style="width:10em">点検年月</th>
                         <td>
                           <v-text-field variant="underlined" density="compact" placeholder="2020年07月" />
+                        </td>
+                        <td rowspan="36" style="vertical-align: top">
+                          ※１）路線名は主要路線とする。<br /><br />
+                          ※２）昇降方式は以下より選定する。<br />
+                          &emsp; 1.階段<br />
+                          &emsp; 2.押上式<br />
+                          &emsp; 3.スロープ(勾配12%以下)<br />
+                          &emsp; 4.エスカレーター<br />
+                          &emsp; 5.エレベーター<br />
+                          &emsp; 6.複合(&emsp; &emsp;)<br /><br />
                         </td>
                       </tr>
                       <tr>
@@ -138,10 +143,6 @@
                           <v-text-field variant="underlined" density="compact" placeholder="カラーチップ" />
                         </td>
                       </tr>
-                    </tbody>
-                  </v-table>
-                  <v-table density="compact" class="ledger">
-                    <thead>
                       <th colspan="2" class="text-center">部材</th>
                       <th class="text-center" style="width:6em">有・無</th>
                       <th class="text-center" style="width:10em">材質</th>
@@ -149,11 +150,8 @@
                       <th class="text-center" style="width:8em">損傷ランク<br>（前回）</th>
                       <th class="text-center" style="width:26em">損傷内容<br>（前回）</th>
                       <th class="text-center" style="width:8em">損傷ランク<br>（今回）</th>
-                      <th class="text-center" style="width:26em">損傷内容<br>（今回）</th>
-                      <th class="text-center">措置</th>
-                    </thead>
-                    <tbody>
-                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
+                      <th colspan="2" class="text-center">損傷内容<br>（今回）</th>
+                      <th colspan="2" class="text-center">措置</th>
                       <tr>
                         <th rowspan="5" class="text-center" style="writing-mode: tb-rl; width: 5em">上部工
                         </th>
@@ -172,10 +170,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="b" />
                         </td>
-                        <td>
+                        <td  colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="腐食（b）" />
                         </td>
-                        <td class="text-center">
+                        <td  colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -195,10 +193,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="b" />
                         </td>
-                        <td>
+                        <td  colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="腐食（b）、塗装劣化（b）" />
                         </td>
-                        <td class="text-center">
+                        <td  colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -218,10 +216,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -241,10 +239,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="b" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="塗装劣化（b）" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -264,10 +262,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="d" />
                         </td>
-                        <td>
+                        <td colspan="2" >
                           <v-text-field variant="underlined" density="compact" placeholder="腐食（d）、塗装劣化（b）" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -289,10 +287,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="a" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -312,10 +310,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="不明" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -335,10 +333,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="b" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="腐食（b）、塗装劣化（b）" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -358,10 +356,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="不明" />
                         </td>
-                        <td>
+                        <td colspan="2" >
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -383,10 +381,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -406,10 +404,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -429,10 +427,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -452,10 +450,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -475,10 +473,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -498,10 +496,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -523,10 +521,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="a" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -546,10 +544,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="b" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="腐食（b）" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -569,10 +567,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -592,10 +590,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -615,10 +613,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -638,10 +636,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="a" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -661,10 +659,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td  colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -684,10 +682,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="c" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="漏水・滞水（b）、欠損（c）" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -707,10 +705,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="a" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -730,10 +728,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="d" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="腐食（b）、脱落（d）" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -753,10 +751,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="a" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -772,10 +770,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -791,10 +789,10 @@
                         <td class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="C" />
                         </td>
-                        <td>
+                        <td colspan="2">
                           <v-text-field variant="underlined" density="compact" placeholder="1.27E+30 （C）" />
                         </td>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           <v-text-field variant="underlined" density="compact" placeholder="" />
                         </td>
                       </tr>
@@ -804,6 +802,11 @@
               </v-col>
             </v-row>
           </v-card-text>
+          <div class="float-bottom">
+            <v-btn color="primary" elevation="6" @click="onSaveButtonClick">
+              <v-icon color="white">mdi-check</v-icon>保存
+            </v-btn>
+          </div>
         </v-card>
       </v-col>
     </v-row>
@@ -812,9 +815,19 @@
 
 <script lang="ts" setup>
 const trafficcensusDate = ref('2015年11月');
+//セレクトボックス初期値
+const select = ref('全て');
 
 const child_extend = ref(true);
-const onDownloadLedgerClick = () => {
-  console.debug('downloadLedger');
+const onSaveButtonClick = () => {
+  console.debug('onSaveButtonClick');
 };
+const getPageNumber = () => {
+  let nums = new Array<String>;
+  nums.push('全て')
+  nums.push('1')
+  nums.push('2')
+  return nums;
+};
+
 </script>

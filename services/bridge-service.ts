@@ -41,7 +41,6 @@ class BridgeService extends Service {
 
     /**
      * 橋梁径間情報を取得します。  
-     * //TODO: 現在未使用。今後も使わない場合削除する。
      */
     public getSpanList(bridgeId: number): Promise<any> {
         return this.http.get(`/api/Bridge/${bridgeId}/span`)
@@ -61,6 +60,16 @@ class BridgeService extends Service {
         this.downloadToSave("/api/Bridge/exportexcel");
     }
 
+    /**
+     * 橋梁の写真情報を取得します。
+     * @param bridgeId 橋梁ID
+     * @param kindId 写真種別ID
+     * @returns 
+     */
+     public getImageInfo(bridgeId: number, kindId: number) {
+        return this.http.get(`/api/Bridge/${bridgeId}/imageInfo/${kindId}`)
+    }
+    
     /**
      * 橋梁の画像を取得します。
      * @param bridgeId 

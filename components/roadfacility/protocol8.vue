@@ -6,7 +6,7 @@
       <v-sheet class="d-flex">
         <div>
           <v-sheet>【様式-8】</v-sheet>
-          <v-sheet>道路管理者({{ null }})</v-sheet>
+          <v-sheet>道路管理者({{ "" + "事務所" }})</v-sheet>
         </div>
         <v-sheet class="ml-auto">
           <v-table density="compact" >
@@ -14,11 +14,11 @@
               <tr>
                 <th rowspan="2">点検年月</th>
                 <th>前回</th>
-                <td>{{ null }}</td>
+                <td>{{ '2013年8月15日' }}</td>
               </tr>
               <tr>
                 <th>今回</th>
-                <td>{{ null }}</td>
+                <td>{{ '2019年9月11日' }}</td>
               </tr>
             </tbody>
           </v-table>
@@ -66,7 +66,7 @@
               <tbody>
                 <tr>
                   <th>詳細点検</th>
-                  <td>{{ null }}</td>
+                  <td>{{ '要・不要' }}</td>
                 </tr>
                 <tr>
                   <th>路線特性評価</th>

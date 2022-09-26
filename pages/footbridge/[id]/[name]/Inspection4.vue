@@ -6,14 +6,7 @@
       </v-col>
       <v-col v-bind:md="child_extend ? 9 : 12" cols="12">
         <v-card>
-          <div class="d-flex">
-            <v-row>
-              <v-col>
-                <v-card-title>橋梁名：サンプル橋　管理事務所：A事務所 管理工区：B工区</v-card-title>
-              </v-col>
-            </v-row>
-          </div>
-          <div class="d-flex">
+          <div class="d-flex ml-2">
             <v-sheet>
               <v-container>径間番号</v-container>
             </v-sheet>

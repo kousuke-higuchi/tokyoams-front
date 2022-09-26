@@ -7,7 +7,6 @@
       <v-col v-bind:md="child_extend ? 9 : 12" cols="12">
         <v-card elevation="3">
           <v-card-title>
-            <v-row class="justify-start mt-1 ml-3">青葉歩道橋 No.01130010</v-row>
             <v-row class="justify-end mt-1 mr-3">様式-3</v-row>
           </v-card-title>
           <v-card-text>
@@ -21,29 +20,30 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
                       <tr>
                         <th class="text-center">横断歩道橋の形状パターン</th>
                         <th class="text-center">設置個所</th>
                         <th colspan="3" class="text-center">単路部</th>
                         <th rowspan="2" class="text-center">路線・項目</th>
-                        <th rowspan="2" class="text-center">車道幅員<br>（中央分離帯を除く）</th>
+                        <th rowspan="2" class="text-center">車道幅員<br>（中央分離帯<br />を除く）</th>
                         <th rowspan="2" class="text-center">自動車交通量</th>
                         <th colspan="2" class="text-center">中央分離帯</th>
-                        <th class="text-center">中央分離帯柵</th>
+                        <th class="text-center">中央分離<br />帯柵</th>
                         <th colspan="2" class="text-center">中央分離帯柵設置要因</th>
                       </tr>
                       <tr>
                         <td rowspan="5">
-                          <img src="../../../../assets/img/dmg/fbg3view1.jpg">
+                          <v-componet>
+                            <img src="../../../../assets/img/dmg/fbg3view1.jpg">
+                          </v-componet>
                         </td>
                         <th>近接横断歩道離れ</th>
                         <td>無し ｍ</td>
                         <th>信号機の<br>有無</th>
                         <td>無</td>
-                        <th>有・無</th>
-                        <th>幅</th>
-                        <th>有・無</th>
+                        <th class="text-center">有・無</th>
+                        <th class="text-center">幅</th>
+                        <th class="text-center">有・無</th>
                         <th>通学路</th>
                         <td></td>
                       </tr>
@@ -128,7 +128,7 @@
                         <td>隣接</td>
                         <th>走行車両の視距を妨げない（階段、橋脚）</th>
                         <td>○</td>
-                        <th>美又路または複雑な交差点で危険</th>
+                        <th>三又路または複雑な交差点で危険</th>
                         <td>×</td>
                         <th>踏切内</th>
                         <td>×</td>
@@ -337,7 +337,7 @@
                         <th>住宅</th>
                         <td>公務員三番町住宅</td>
                         <th>手すり</th>
-                        <th>東京都福祉のまちづくり条例施設設備マニュアルに適合する設置の有無</th>
+                        <th>東京都福祉のまちづくり条例施設設備<br />マニュアルに適合する設置の有無</th>
                         <td>無</td>
                       </tr>
                       <tr>
@@ -345,8 +345,8 @@
                         <td>靖國神社<br>九段坂公園、千鳥ヶ淵戦没者墓苑</td>
                         <th>公共施設</th>
                         <td>無し</td>
-                        <th>視覚障碍者誘導用ブロック</th>
-                        <th>東京都福祉のまちづくり条例施設設備マニュアルに適合する設置の有無</th>
+                        <th>視覚障碍者誘<br />導用ブロック</th>
+                        <th>東京都福祉のまちづくり条例施設設備<br />マニュアルに適合する設置の有無</th>
                         <td>無</td>
                       </tr>
                       <tr>
@@ -354,7 +354,7 @@
                         <td>宮内庁分室、宮内庁長官公邸、ｲﾀﾘｱ文化会館</td>
                         <th>空地</th>
                         <td>無し</td>
-                        <th>高力ボルト使用区分</th>
+                        <th>高力ボルト<br />検出区分</th>
                         <td colspan="2">F9T</td>
                       </tr>
                       <tr>

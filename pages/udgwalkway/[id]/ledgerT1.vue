@@ -345,7 +345,7 @@
                       <td colspan="3">{{ elements.invert }}</td>
                     </tr>
                     <tr>
-                      <th>舗装厚さ・種類</th>
+                      <th rowspan="2">舗装厚さ・種類</th>
                       <th>厚さ:</th>
                       <td colspan="2">{{ elements.paveThick }}</td>
                     </tr>
@@ -529,7 +529,7 @@ export default defineComponent({
         backCondition: '道路　山地　耕地　宅地　その他',
         frontContition: '道路　山地　耕地　宅地　その他',
         spring: '有　無　その他',
-        groundwater: null,
+        groundwater: 'DLまたはGL  ｍ',
         landFogged: null,
       },
       resistantEarthquakes: {

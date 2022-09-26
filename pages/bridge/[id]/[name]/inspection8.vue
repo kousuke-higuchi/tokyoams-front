@@ -27,7 +27,7 @@
 </template>
 
 <script lang="ts" setup>
-  import Viewer from "v-viewer";
+  // import Viewer from "v-viewer";
   const child_extend = ref(true);
   const select = ref('全て');
   const histItems = ref<String[]>([

@@ -162,16 +162,8 @@ export default defineComponent({
                "南多摩西部建設事務所", "北多摩南部建設事務所", "北多摩北部建設事務所",
                "大島支庁", "三宅支庁", "八丈支庁", "小笠原支庁"
            ],
-           areaDropdownItems:[
-            "港工区", "中央工区", "千代田工区", "品川工区", "大田工区", "世田谷工区", "目黒工区",
-            "中野工区", "新宿工区", "杉並工区", "豊島工区", "板橋工区", "練馬工区", "石神井工区",
-            "江戸川南工区", "墨田工区", "江東工区", "葛飾東工区", "葛飾西工区", "江戸川北工区",
-            "港湾局管理", "荒川工区", "足立東工区", "足立西工区", "台東工区", "文京工区",
-            "北工区", "青梅工区", "福生工区", "あきる野工区", "檜原工区", "奥多摩工区",
-            "町田西工区", "多摩工区", "町田東工区", "八王子東工区", "八王子西工区",
-            "日野工区", "調布工区", "西東京工区", "小金井工区", "小平工区",
-            "東村山工区", "立川工区", "大島支庁", "三宅支庁", "八丈支庁", "小笠原支庁"
-          ],
+            // FIXME: 配列名は複数形にしてください
+            areaDropdownItem: [] as Array<String>,
             // 一覧の列情報
             columns: [
                 {
@@ -203,8 +195,6 @@ export default defineComponent({
                     filterOptions: {
                         enabled: true,
                         placeholder: "-選択-",
-                        filterValue: this.tableFiltervalue,
-                        filterDropdownItems: [],
                     },
                 },
                 {
@@ -296,7 +286,6 @@ export default defineComponent({
             }
              else if (modified.field == "area") {
                 modified.filterOptions.filterDropdownItems = this.areaDropdownItem;
-                modified.filterOptions.filterValue = this.tableFiltervalue;
             }
             return modified;
         };
@@ -377,7 +366,6 @@ export default defineComponent({
         onMarkerListRowClick(e) {
             const bridge = e.row;
             console.debug("onMarkerListRowClick", bridge);
-            this.moveLedger(bridge.id, bridge.bridge_name, bridge.code);
         },
     },
     components: { SideCardDetails }

@@ -3,19 +3,19 @@
     <v-table density="compact">
       <thead>
         <tr>
-          <th rowspan="5">工種</th>
-          <th rowspan="5">材料</th>
+          <th rowspan="5" class="vertical">工種</th>
+          <th rowspan="5" class="vertical">材料</th>
           <th colspan="3">部材種別</th>
           <th colspan="2">変状の程度</th>
           <th colspan="10">対策区分</th>
           <th colspan="4">診断結果</th>
         </tr>
         <tr>
-          <th rowspan="4">名称</th>
-          <th rowspan="4">記号</th>
-          <th rowspan="4" style="writing-mode: vertical-rl;">部材番号</th>
-          <th rowspan="4">最大</th>
-          <th rowspan="4">最小</th>
+          <th rowspan="4" class="vertical">名称</th>
+          <th rowspan="4" class="vertical">記号</th>
+          <th rowspan="4" class="vertical">部材番号</th>
+          <th rowspan="4" class="vertical">最大</th>
+          <th rowspan="4" class="vertical">最小</th>
           <th colspan="4">補修等の必要性</th>
           <th>維持工事<br />で対応する<br />必要性</th>
           <th colspan="3">緊急対応の必要性</th>
@@ -42,8 +42,8 @@
           <th rowspan="2">区分<br />E2<br />の変状</th>
         </tr>
         <tr>
-          <th>更新</th>
-          <th>更新</th>
+          <th class="vertical">更新</th>
+          <th class="vertical">更新</th>
         </tr>
       </thead>
       <!--TODO:DBから取得したデータを表示する-->

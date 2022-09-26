@@ -80,6 +80,16 @@
                       </td>
                     </tr>
                     <tr>
+                      <th>設置位置</th>
+                      <td colspan="3">
+                        <v-text-field hide-details="auto" density="compact" v-model="switchboard.setposition" />
+                      </td>
+                      <th colspan="2">上下種別</th>
+                      <td colspan="3">
+                        <v-text-field hide-details="auto" density="compact" v-model="switchboard.updownkind" />
+                      </td>
+                    </tr>
+                    <tr>
                       <th>緯度</th>
                       <td colspan="2">
                         <v-text-field hide-details="auto" density="compact" v-model="switchboard.latitude" />

@@ -62,6 +62,6 @@ onMounted(() => {
 }
 
 .panel_nonextend {
-  width: 300px;
+  width: 500px;
 }
 </style>

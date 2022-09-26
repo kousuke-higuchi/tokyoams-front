@@ -803,8 +803,8 @@ const blinker: Blinker = reactive({
   distance: 42.0, //地点標
   setposition: "", //設置位置
   updownkind: "0", //上下線別
-  latitude: 354736.73, //緯度
-  longitude: 1390420.97, //経度
+  latitude: "35°47′28.3″", //緯度
+  longitude: "139°45′16.0″", //経度
   createdate: 20110919, //台帳作成日
   setpatternid: 23, //設置パターンID
   maplinkcode: "101-S00001258", //リンクコード

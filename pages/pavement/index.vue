@@ -229,6 +229,5 @@ const onOutputLedgerClick = () => {
 const clickMarkerListRow = (e) => {
   const pavement = e.row;
   console.debug('clickMarkerList', pavement,'id:',e.row.id);
-  navigateTo(`/pavement/${e.row.id}/${e.row.routename + e.row.spotpoint}/ledger`);
 };
 </script>

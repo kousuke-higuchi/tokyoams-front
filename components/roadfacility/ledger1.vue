@@ -467,7 +467,7 @@
                 <th colspan="5" class="text-center">占用物件調書</th>
               </tr>
               <tr>
-                <th>塗装面積</th>
+                <th>許可年月日</th>
                 <th>占有者</th>
                 <th>種類及び数量</th>
                 <th>重量</th>

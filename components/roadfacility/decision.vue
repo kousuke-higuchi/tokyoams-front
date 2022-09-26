@@ -15,13 +15,13 @@
       </v-container>
       <v-sheet class="d-flex tbTitle">
         <v-sheet class="ml-auto title">作成年月日</v-sheet>
-        <v-sheet class="text-caption">{{ null }}</v-sheet>
+        <v-sheet class="text-caption">{{ "平成31年11月11日" }}</v-sheet>
       </v-sheet>
       <v-table density="compact" class="text-center">
         <thead>
           <tr>
             <th rowspan="3" class="text-center">要因</th>
-            <th rowspan="3" class="text-center">区分番号</th>
+            <th rowspan="3" class="text-center vertical">区分番号</th>
             <th rowspan="3" class="text-center">小区分</th>
             <th colspan="5" class="text-center">配点</th>
             <th rowspan="3" colspan="3" class="text-center">備考</th>
@@ -302,7 +302,7 @@ export default defineComponent({
           },
           {
             id: 2,
-            subdivName: '有利石灰',
+            subdivName: '遊離石灰',
             rankA: '0',
             rankB: '10',
             rankC: '-',
@@ -487,7 +487,7 @@ export default defineComponent({
           },
           {
             id: 3,
-            subdivName: '擁壁全面地盤の隆起',
+            subdivName: '擁壁前面地盤の隆起',
             rankA: '0',
             rankB: '-',
             rankC: '30',

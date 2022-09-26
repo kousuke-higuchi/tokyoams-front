@@ -210,7 +210,7 @@
                     </tr>
                     <tr>
                       <th rowspan="2">
-                        適用<br />評価基準
+                        適用<br />設計基準
                       </th>
                       <th>上部工</th>
                       <td colspan="6">{{  null  }}</td>
@@ -220,7 +220,7 @@
                       <td colspan="6">{{  null  }}</td>
                     </tr>
                     <tr>
-                      <th colspan="2">落石耐久(落石重量/落下工/衝撃力)</th>
+                      <th colspan="2">落石耐久(落石重量/落下高/衝撃力)</th>
                       <td colspan="2">{{  null  }}kN</td>
                       <td colspan="2">{{  null  }}m</td>
                       <td colspan="2">垂直{{  null  }}kN/個</td>
@@ -304,6 +304,10 @@
                     </tr>
                     <tr>
                       <th nowrap>災害履歴の有無</th>
+                      <td nowrap>{{  null  }}</td>
+                    </tr>
+                    <tr>
+                      <th nowrap>最新の補修履歴</th>
                       <td nowrap>{{  null  }}</td>
                     </tr>
                     <tr>

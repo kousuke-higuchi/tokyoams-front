@@ -21,7 +21,6 @@ export interface BridgeSummary {
 
 /**
  * 径間
- *  //TODO: 現在未使用。今後も使わない場合削除する。
  */
 export interface BridgeSpan{
     id: number;
@@ -171,16 +170,31 @@ export interface BridgePicture {
     img: String;
 };
 
-
 /**
  * 橋梁 写真情報
  */
-export interface BridgePhoto {
+ export interface BridgePhoto {
+
+    bridgeid: number;
+    photokindid: number;
     dataid: number;
-    item1: string;
-    takedate: Date;
+    photoname?: string;
+    item1?: string;
+    item2?: string;
+    item3?: string;
+    item4?: string;
+    item5?: string;
+    photodate?: number;
+    takedate?: number;
+    photodata?: string;
+
+    //フロントのプログラムで設定
+    spanno: string;
     url?: string;
+    memo?: string;
+    createdate?: Date;
 };
+
 
 /**
  * 橋梁 検索フォーム
@@ -197,3 +211,14 @@ export interface BridgeSearchForm {
     lastInspectionYearTo?: number,
     soundnesses?: number[],
 }
+
+/**
+ * 橋梁 写真種別の定義
+ */
+ export const BRG_TB_BRIDGEPHOTO = {
+    PHOTOLEADER: 1, //写真台帳
+    GENTERAL: 2,    //一般図
+    HANDRAIL: 3,    //高欄図
+    SPANGENERAL: 6, //径間全体図
+    LOCAL: 7        //現地写真
+  } as const;

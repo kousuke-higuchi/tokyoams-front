@@ -65,7 +65,7 @@
                 位置図
               </v-card-text>
               <v-container>
-                <v-img :src="paveCavityphoto?.positionFigUrl"></v-img>
+                <v-img :src="paveCavityphoto?.positionFigUrl" @click="previewImage(0)"></v-img>
               </v-container>
             </v-card>
           </v-col>
@@ -75,7 +75,7 @@
                 空洞の広がり
               </v-card-text>
               <v-container>
-                <v-img :src="paveCavityphoto?.caveExpansePhotoUrl"></v-img>
+                <v-img :src="paveCavityphoto?.caveExpansePhotoUrl" @click="previewImage(1)"></v-img>
               </v-container>
             </v-card>
           </v-col>
@@ -85,7 +85,7 @@
                 ドーロスコープ撮影記録
               </v-card-text>
               <v-container>
-                <v-img :src="paveCavityphoto?.scopeRecordPhotoUrl"></v-img>
+                <v-img :src="paveCavityphoto?.scopeRecordPhotoUrl" @click="previewImage(2)"></v-img>
               </v-container>
             </v-card>
           </v-col>
@@ -118,6 +118,7 @@
           </v-col>
         </v-row>
       </v-card>
+      <VueEasyLightbox :visible="showModal" :imgs="imagePaths" :index="selectedIndex" @hide="onHide"></VueEasyLightbox>
     </v-col>
   </v-row>
 </template>
@@ -135,6 +136,19 @@ const paveCavityphoto = ref(new PaveCavityPhoto);
 
 const loading = useLoading();
 loading.setLoading(true);
+
+const showModal = ref(false);
+const selectImagePath = ref("");
+const selectedIndex = ref(0);
+const onHide=()=>{showModal.value = false}
+const imagePaths = new Array(3);
+//画像のプレビュー
+const previewImage = ( index:number) => {
+  console.log("previewImage ", index);
+  //画像が存在していたらモーダルあげる
+  showModal.value = true;
+  selectedIndex.value =index;
+};
 
 onMounted(() => {
   pavementService.getPaveCavity(route.params.id.toString()).then(s => {
@@ -156,12 +170,15 @@ onMounted(() => {
 const getPhotos = () => {
   pavementService.getImageUrl(route.params.id.toString(), CavityPhotoType.POSITIONFIG).then((url) => {
     paveCavityphoto.value.positionFigUrl = url;
+    imagePaths[0] = url;
   });
   pavementService.getImageUrl(route.params.id.toString(), CavityPhotoType.CAVEEXPANSEPHOTO).then((url) => {
     paveCavityphoto.value.caveExpansePhotoUrl = url;
+    imagePaths[1] = url;
   });
   pavementService.getImageUrl(route.params.id.toString(), CavityPhotoType.SCOPERECORDPHOTO).then((url) => {
     paveCavityphoto.value.scopeRecordPhotoUrl = url;
+    imagePaths[2] = url;
   });
 }
 

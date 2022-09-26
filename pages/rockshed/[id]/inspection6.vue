@@ -32,7 +32,7 @@
                             <td>{{ null }}</td>
                           </tr>
                           <tr>
-                            <th>部材</th>
+                            <th>部材名</th>
                             <td>{{ null }}</td>
                             <th>要素番号</th>
                             <td>{{ null }}</td>

@@ -4,7 +4,7 @@
     <v-card-text class="text-center text-h6">写真台帳</v-card-text>
     <v-sheet class="d-flex">
       <v-sheet>【様式-3】</v-sheet>
-      <v-sheet class="ml-auto">(作成年月日:{{ null }})</v-sheet>
+      <v-sheet class="ml-auto">(撮影年月日:{{ null }})</v-sheet>
     </v-sheet>
     <v-container>
       <div class="border">

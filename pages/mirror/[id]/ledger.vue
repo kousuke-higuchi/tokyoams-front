@@ -179,13 +179,14 @@
                     </tr>
                     <tr>
                       <th rowspan="3">柱</th>
-                      <th>規格寸法:支柱</th>
+                      <th rowspan="2">規格寸法:支柱</th>
+                      <th>支柱</th> 
                       <td colspan="6">
                         <v-text-field variant="underlined" density="compact" v-model="mirror.polestandardsize" />
                       </td>
                     </tr>
                     <tr>
-                      <th></th>
+                      <th></th> 
                       <td colspan="6">
                         <v-text-field variant="underlined" density="compact" readonly />
                       </td>

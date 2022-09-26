@@ -14,13 +14,13 @@
       </v-container>
       <v-sheet class="d-flex tbTitle">
         <v-sheet class=" ml-auto title">作成年月日</v-sheet>
-        <v-sheet>{{ null }}</v-sheet>
+        <v-sheet>{{ '平成11年11月11日' }}</v-sheet>
       </v-sheet>
       <v-table density="compact">
         <thead>
           <tr>
             <th class=" text-center" rowspan="3">原因</th>
-            <th class=" text-center" rowspan="3">区分番号</th>
+            <th class=" text-center vertical" rowspan="3">区分番号</th>
             <th class=" text-center" rowspan="3">小区分</th>
             <th class=" text-center" colspan="5">配点</th>
             <th class=" text-center" rowspan="3" colspan="3">備考</th>

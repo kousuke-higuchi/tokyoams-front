@@ -7,14 +7,11 @@
       <v-col v-bind:md="child_extend ? 9 : 12" cols="12">
         <v-card elevation="3">
           <v-card-title>
-            <v-row class="justify-start mt-1 ml-3">横断歩道橋（人道橋）定期点検表</v-row>
+            <v-row class="justify-start mt-1 ml-3">横断歩道橋　定期点検表</v-row>
             <v-row class="justify-end mt-1 mr-3">様式-2</v-row>
           </v-card-title>
           <v-row>
             <v-card-text>
-              <v-btn color="primary" style="float:right">
-                更新
-              </v-btn>
             </v-card-text>
           </v-row>
           <v-card-text>
@@ -23,9 +20,8 @@
                 <div>
                   <v-table density="compact" class="ledger">
                     <tbody>
-                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
                       <tr>
-                        <th class="text-center">
+                        <th colspan="2" class="text-center">
                           ﾌﾘｶﾞﾅ<br>
                           橋名
                         </th>
@@ -41,26 +37,22 @@
                           至）千代田区九段南二丁目1番32号
                         </td>
                         <th class="text-center">※１）路線名<br>（通称名）</th>
-                        <td class="text-center">
+                        <td colspan="2" class="text-center">
                           特例都道401号線<br>
                           麹町竹平<br>
                           内堀通り
                         </td>
                         <th class="text-center">事務所名</th>
                         <td class="text-center">第一建設事務所</td>
+                        <th class="text-center">適用</th>
                       </tr>
-                    </tbody>
-                  </v-table>
-                  <v-table density="compact" class="ledger">
-                    <tbody>
-                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
                       <tr>
-                        <th rowspan="4" class="text-center" style="width:4em">交通条件</th>
+                        <th rowspan="4" class="text-center vertical" style="width:4em">交通条件</th>
                         <th>調査年月</th>
                         <td>
                           <v-text-field variant="underlined" density="compact" :placeholder=trafficcensusDate />
                         </td>
-                        <th rowspan="4" class="text-center" style="width:4em">利用状況</th>
+                        <th rowspan="4" class="text-center vertical" style="width:4em">利用状況</th>
                         <th>調査年月</th>
                         <td>
                           <v-text-field variant="underlined" density="compact" placeholder="2020年12月" />
@@ -76,6 +68,22 @@
                         <th style="width:10em">点検年月</th>
                         <td>
                           <v-text-field variant="underlined" density="compact" placeholder="2020年07月" />
+                        </td>
+                        <td rowspan="36" style="vertical-align: top">
+                          ※１）路線名は主要路線とする。<br /><br />
+                          ※２）昇降方式は以下より選定する。<br />
+                          &emsp; 1.階段<br />
+                          &emsp; 2.押上式<br />
+                          &emsp; 3.スロープ(勾配12%以下)<br />
+                          &emsp; 4.エスカレーター<br />
+                          &emsp; 5.エレベーター<br />
+                          &emsp; 6.複合(&emsp; &emsp;)<br /><br />
+                          ※３）径間区分<br /><br />
+                          ※４）種別は以下より選定する。<br />
+                          &emsp; 1.通路部<br />
+                          &emsp; 2.階段部<br />
+                          &emsp; 3.スロープ部<br /><br />
+                          ※５）蹴上を含む。<br />
                         </td>
                       </tr>
                       <tr>
@@ -138,11 +146,6 @@
                           <v-text-field variant="underlined" density="compact" placeholder="カラーチップ" />
                         </td>
                       </tr>
-                    </tbody>
-                  </v-table>
-                  <v-table density="compact" class="ledger">
-                    <tbody>
-                      <!-- TODO: 採用されるかわからないのでリテラルで実装 -->
                       <tr>
                         <th rowspan="3">部材</th>
                         <th>※３）径間番号</th>
@@ -158,7 +161,7 @@
                         <td class="text-center"></td>
                       </tr>
                       <tr>
-                        <th>※２）〔種別〕</th>
+                        <th>※４）〔種別〕</th>
                         <td class="text-center"></td>
                         <td class="text-center"></td>
                         <td class="text-center"></td>
@@ -184,7 +187,7 @@
                         <td class="text-center"></td>
                       </tr>
                       <tr>
-                        <th rowspan="5" class="text-center" style="writing-mode: tb-rl; width: 5em">
+                        <th rowspan="5" class="text-center vertical" style="width: 5em">
                           上部工</th>
                         <th class="text-center">主桁</th>
                         <td class="text-center">b</td>
@@ -574,6 +577,11 @@
               </v-col>
             </v-row>
           </v-card-text>
+          <div class="float-bottom">
+            <v-btn color="primary" elevation="6" @click="onSaveButtonClick">
+              <v-icon color="white">mdi-check</v-icon>保存
+            </v-btn>
+          </div>
         </v-card>
       </v-col>
     </v-row>
@@ -584,7 +592,7 @@
 const trafficcensusDate = ref('2015年11月');
 
 const child_extend = ref(true);
-const onDownloadLedgerClick = () => {
-  console.debug('downloadLedger');
+const onSaveButtonClick = () => {
+  console.debug('onSaveButtonClick');
 };
 </script>

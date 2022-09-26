@@ -3,18 +3,18 @@
     <v-table density="compact">
       <thead>
         <tr>
-          <th rowspan="4">工種</th>
-          <th rowspan="4">材料</th>
+          <th rowspan="4" class="vertical">工種</th>
+          <th rowspan="4" class="vertical">材料</th>
           <th colspan="2">部材種別</th>
           <th colspan="2">変状の程度</th>
           <th colspan="9">対策区分</th>
           <th>検査結果</th>
         </tr>
         <tr>
-          <th rowspan="3">名称</th>
-          <th rowspan="3">記号</th>
-          <th rowspan="3">最大</th>
-          <th rowspan="3">最小</th>
+          <th rowspan="3" class="vertical">名称</th>
+          <th rowspan="3" class="vertical">記号</th>
+          <th rowspan="3" class="vertical">最大</th>
+          <th rowspan="3" class="vertical">最小</th>
           <th colspan="3">補修等の必要性</th>
           <th>維持工事<br />で対応す<br />る必要性</th>
           <th colspan="2">緊急対応の<br />必要性</th>

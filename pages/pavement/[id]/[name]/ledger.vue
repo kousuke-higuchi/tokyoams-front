@@ -87,7 +87,7 @@
                 <td class="text-center">{{ subgradesoilcbr?.cbrval4 }}</td>
               </tr>
               <tr>
-                <th rowspan="2" colspan="2" class="text-center">交通量(下り)</th>
+                <th rowspan="2" colspan="2" class="text-center">交通量<br />(下り)</th>
                 <th colspan="2" class="text-center">調査年月日</th>
                 <th class="text-center">観測<br>地点標</th>
                 <th class="text-center">調査区分</th>
@@ -535,7 +535,7 @@
               </tr>
 
               <tr>
-                <th class="text-center">車線番号</th>
+                <th class="text-center">車線<br />番号</th>
                 <th class="text-center">自 地点標<br>至 地点標</th>
                 <th class="text-center">施工年度</th>
                 <th class="text-center">工事種別</th>
@@ -588,11 +588,11 @@
               </tr>
               <tr>
                 <th rowspan="4" class="text-center" style="writing-mode: vertical-rl;">路面性状</th>
-                <th rowspan="2" class="text-center">舗装種別</th>
+                <th rowspan="2" class="text-center">舗装<br />種別</th>
                 <th rowspan="2" colspan="3" class="text-center">調査年月日<br>4年後予測値</th>
                 <th colspan="3" class="text-center">ひび割れ(%、CM/m2、mm)</th>
                 <th colspan="2" class="text-center">わだち掘れ(mm)</th>
-                <th rowspan="2" class="text-center">平坦性(mm)</th>
+                <th rowspan="2" class="text-center">平坦性<br />(mm)</th>
                 <th rowspan="2" class="text-center">MNI</th>
                 <th rowspan="2" class="text-center">MCI</th>
                 <th rowspan="4" colspan="2"></th>

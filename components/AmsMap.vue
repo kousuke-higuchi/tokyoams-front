@@ -1,34 +1,27 @@
 <template>
     
-    <div style="text-align: right;">
-        <v-select v-model="selectedTile"
-         :items="tileProviders" 
-         style="width: 20em;" 
-        @update:model-value="onTileChange"
-        item-title="name" 
-        item-value = "url"
-        hide-details
-        density="compact"
-        return-object />
-    </div>
-    {{selectedTile}}
-
-    <ol-map ref="mapObject" :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 95%" @moveend="onViewMoved">
+    <ol-map ref="mapObject" :loadTilesWhileAnimating="true" :loadTilesWhileInteracting="true" style="height: 98%" @moveend="onViewMoved">
         <ol-view ref="viewObject" 
             :center="center"
             :zoom="zoom"
             projection="EPSG:4326"
-            :max-zoom="selectedTile.maxZoom"
-            :min-zoom="selectedTile.minZoom"
+            :max-zoom="18"
+            :min-zoom="7"
           />
 
-        <ol-tile-layer v-for="tile in tileProviders" :title="tile.name" :visible="(selectedTile.url == tile.url)" >
-            <ol-source-xyz :url="tile.url" :attributions="tile.attribution" />
+        <ol-tile-layer v-for="(t, index) in tileProviders.reverse()" :key="index" 
+            :title="t.name" 
+            :visible="index==0"
+            :base-layer="true">
+                <ol-source-xyz :url="t.url" :attributions="t.attribution" />
         </ol-tile-layer>
+
 
         <ol-zoom-control />
         <ol-zoomslider-control />
         <ol-scaleline-control />
+
+        <ol-layerswitcher-control :reordering="false"/>
 
         <ol-attribution-control />
         <ol-interaction-select @select="featureSelected">
@@ -37,7 +30,7 @@
             </ol-style>
         </ol-interaction-select>
 
-        <ol-vector-layer v-if="innerMarkers!=null">
+        <ol-vector-layer v-if="innerMarkers!=null" name="施設の位置">
             <ol-source-vector>
                 <ol-feature ref="m" v-for="(m,index) in innerMarkers" >
                     <ol-geom-point :coordinates="[m.wgsCoordinate.longitude, m.wgsCoordinate.latitude]" ></ol-geom-point>
@@ -63,22 +56,16 @@
                     </v-card-text>
                     -->
                     <v-card-actions>
-                        <v-row>
-                        <v-btn color="primary" @click="onClickMarker(selectedMarker)">
+                        <v-btn color="primary" @click="onMarkerClick(selectedMarker)">
                             詳細
                         </v-btn>
-                    </v-row>
-                    <v-row>
                         <v-btn :href="`https://www.google.com/maps?q=${selectedMarker.wgsCoordinate.latitude},${selectedMarker.wgsCoordinate.longitude}`"
                                 target="_blank">
                             Google Maps<v-icon aria-hidden="true" size="x-small" icon="mdi-open-in-new" />
                         </v-btn>
-                    </v-row>
-                    <v-row>
                         <v-btn>
                             位置情報を修正する
                         </v-btn>
-                    </v-row>
                     </v-card-actions>
                 </v-card>
             </template>
@@ -123,7 +110,7 @@
         },
     });
 
-    const onClickMarker = (marker) => {
+    const onMarkerClick = (marker) => {
         emits("click-marker", marker);
     };
 
@@ -222,9 +209,6 @@
         },
     ];
 
-    // TODO: タイルを選択できるようにする
-    const selectedTile = ref(tileProviders[0]);
-
     /**
      * 地図の可視範囲が変更された場合（中心位置の移動・ズームの変更）のイベントハンドラ
      */
@@ -273,9 +257,10 @@
         }
         center.value = [loc[1], loc[0]];
     }
-
-    const onTileChange = () => {
-        // TODO: タイル表示の更新
-        // コンボボックスで選択できるようにはできたが、やり方が合ってないのかOpenlayersのタイルが切り替わらない。。。このイベントハンドラは不要？？？
-    }
 </script>
+<style lang="css">
+    /* レイヤ選択画面のスライダーを非表示にする */
+    .layerswitcher-opacity {
+        display: none;
+    }
+</style>
